@@ -2,10 +2,30 @@
 layout: default
 title: BIRDS Open Source Release
 ---
-# Delta Lab
-Is a research laboratory located at the Electromechanical Engineering Faculty at Tecnológico de Costa Rica, Cartago Campus. Its objective is to provide a space where researchers from Tecnológico de Costa Rica can work on their projects within a multidisciplinary environment.
+# BIRDS Project
+The Joint Global Multi-Nations Birds Satellite project, or BIRDS project, was created by the Kyushu Institute of Technology ([_KyuTech_](https://www.kyutech.ac.jp/english/)) to help countries build their first satellite. So far, there have been 4 BIRDS generations completed:
 
-Fields currently being worked on include IoT, Industry 4.0, Automation, Additive Manufacturing, Plasma and Material Sciences.
+1. BIRDS-1: Bangladesh, Japan, Mongolia, Ghana and Nigeria.
+2. BIRDS-2: Buthan, The Philipines and Malaysia.
+3. BIRDS-3: Japan, Sri Lanka and Nepal
+4. BIRDS-4: Japan, The Philipines, Paraguay.
+
+And there is a new generation currently in development, BIRDS-5, with Japan, Uganda and Zimbabwe being the participating countries.
+
+The project itself has to main driving points:
+
+1. Experience the entire cycle of a satellite project, from mission definition to operation, in a hands-on manner.
+2. Have a strategy for sustainability after the training ends.
+
+It should be emphasized that the primary goal is not the building of a satellite, but to have a long-term and sustainable space program established in each member country.
+
+Kyutech initiated a long-term fellowship program, DNST/PNST (Doctorate in NanoSatellite Technology/ Postgraduate study in NanoSatellite Technology), in 2011 in collaboration with the United Nations Office of Outer Space Affairs (UNOOSA) to promote the space capacity building of non-space-faring nations. It also started the Space Engineering International Course (SEIC) in 2013 as a postgraduate curriculum to provide a program. Two or three young engineers are sent from each participating country to Kyutech as full-time graduate students to learn space engineering using 1U CubeSat development work. The BIRDS program is designed so that each generation of satellites can be finished in two years, from mission definition to operation. Including operation in two years is critical to fit the entire satellite project into a master’s degree course study timeline, which is two years.
+
+# The BIRDSBus
+
+One of the main contributions from the BIRDS Project to the working teams is the BIRDSBus. It is a hardware platform consisting mainly of an EPS, a C&DHS and COMMS to satisfy the needs of a standard bus. This is an exploded view of the entire bus:
+
+![BIRDSbus Exploded View](./images/BIRDSBus-exploded.png)
 
 ## Active projects:
 ### Three-phase compressor monitoring and cloud uploading firmware with ESP32 (Erick Quirós Gómez)
