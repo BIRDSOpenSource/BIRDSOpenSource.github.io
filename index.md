@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Delta Lab
+title: BIRDS Open Source Release
 ---
 # Delta Lab
 Is a research laboratory located at the Electromechanical Engineering Faculty at Tecnológico de Costa Rica, Cartago Campus. Its objective is to provide a space where researchers from Tecnológico de Costa Rica can work on their projects within a multidisciplinary environment.
