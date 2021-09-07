@@ -33,31 +33,31 @@ The boards that comprise the bus are the following:
 
 ### Backplane Board (BPB):
 The backplane is the board that links all the other ones together. It has basically no other components as its only function is to  connect all the boards together.
-[_More information_](./another-page.html)
+[_More information_](./bpb-page.html)
 
 ### Front Access Board (FAB):
 The FAB has two main functions. It is the Electrical Power System (EPS), collecting and monitoring electrical power information and managing a kill switch. Also, it contains the external interfaces, such as the remove before flight pins and programming ports. This board is of proprietary design by Sagami Tsushin. As such, only the schematic for this board is included in this documentation, in pdf format.
-[_More information_](./another-page.html)
+[_More information_](./fab-page.html)
 
 ### On Board Computer (OBC):
 This board has three of the four bus's microcontrollers, being the Main PIC, the Reset PIC and the Communications PIC. Also, apart from command and data handling, this board also has the function of electrical power distribution, regulating the battery inputs. This board is of proprietary design by Sagami Tsushin. As such, only the schematic for this board is included in this documentation, in pdf format.
-[_More information_](./another-page.html)
+[_More information_](./obc-page.html)
 
 ### Communications Board (COM):
 The COM board has the transceiver module for radio communications. It works on the UHF amateur radio band, in half duplex mode and GMSK modulation, following the AX.25 protocol. This board is also proprietary, provided by Addnics. Another communications board has flown with the bus and has worked. The documentation for this board is included in this release.
-[_More information_](./another-page.html)
+[_More information_](./com-page.html)
 
 ### Rear Acces Board (RAB):
 Similarly to the FAB, the RAB offers connections to several of the bus's interfaces.
-[_More information_](./another-page.html)
+[_More information_](./rab-page.html)
 
 ### Antenna board:
 This board carries the COM, APRS and GPS antennas as well as their release mechanism.
-[_More information_](./another-page.html)
+[_More information_](./antenna-page.html)
 
 ### Solar Panel board:
 These boards hold the solar panels that power the satellite.
-[_More information_](./another-page.html)
+[_More information_](./solar-page.html)
 
 <!-- ## Members
 ### Faculty
