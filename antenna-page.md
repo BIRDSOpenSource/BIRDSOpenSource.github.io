@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Welcome to another page
+## Antenna Board
 
-_yay_
+WIP
 
 [back](./)

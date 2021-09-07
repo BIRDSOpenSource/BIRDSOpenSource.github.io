@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Welcome to another page
+## Solar Panel Board
 
-_yay_
+WIP
 
 [back](./)

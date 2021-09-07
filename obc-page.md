@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Welcome to another page
+## On Board Computer Board
 
-_yay_
+WIP
 
 [back](./)
