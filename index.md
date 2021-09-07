@@ -19,8 +19,6 @@ The project itself has to main driving points:
 
 It should be emphasized that the primary goal is not the building of a satellite, but to have a long-term and sustainable space program established in each member country.
 
-***No sé si dejar esto de abajo, muy largo?***
-
 Kyutech initiated a long-term fellowship program, DNST/PNST (Doctorate in NanoSatellite Technology/ Postgraduate study in NanoSatellite Technology), in 2011 in collaboration with the United Nations Office of Outer Space Affairs (UNOOSA) to promote the space capacity building of non-space-faring nations. It also started the Space Engineering International Course (SEIC) in 2013 as a postgraduate curriculum to provide a program.
 
 Two or three young engineers are sent from each participating country to Kyutech as full-time graduate students to learn space engineering using 1U CubeSat development work. The BIRDS program is designed so that each generation of satellites can be finished in two years, from mission definition to operation. Including operation in two years is critical to fit the entire satellite project into a master’s degree course study timeline, which is two years.
@@ -31,29 +29,37 @@ One of the main contributions from the BIRDS Project to the working teams is the
 
 ![BIRDSbus Exploded View](./images/BIRDSBus-exploded.png)
 
-## Active projects:
-### Three-phase compressor monitoring and cloud uploading firmware with ESP32 (Erick Quirós Gómez)
-Falta la descripción
-[_More information_](./another-page.html)
-### LoRa based control and logging IoT system for acueduct ASADA-Sámara (Sergio Solórzano Alfaro)
+The boards that comprise the bus are the following:
 
-This project presents the implementation of Internet of Things (IoT) technologies as a key tool in the compilation of water data that will be input for the management of water resources for the main aqueduct of ASADA. The intercommunication of Arad Octave hydro metering devices, liquid level sensors on main tank and the electrical control for pump station was proposed, through the use of a LoRaWAN network and the MQTT communication protocol for remote operation and data publication on the IoT Adafruit IO platform.
-
-[_More information_](./ProyectoSergio.html)
-### ESP32 based embedded logger and cloud uploader for wind turbine efficiency data for LIENE (Nestor Martinez Soto)
-Development of a low-cost system for wind turbine efficiency data gathering and logging. It shall allow the Wind Energy Research Lab (LIENE) log and visualize operation data, which increases it's capabilities for future projects.
-[_More information_](./ProyectoNestor.html)
-### Modification of a CubePro Trio to implement a Duet Wifi 2 and Dyzedesign extruders (Jairo Rodríguez Blanco & Jeroen van Hoof Gómez)
-Falta la descripción
-[_More information_](./another-page.html)
-### Modular support structure for superconductor coils | Phase II (Carlos Otárola Zúñiga)
-Falta la descripción
-[_More information_](./another-page.html)
-### Acetona Maite
-Falta la descripción
+### Backplane Board (BPB):
+The backplane is the board that links all the other ones together. It has basically no other components as its only function is to  connect all the boards together.
 [_More information_](./another-page.html)
 
-## Members
+### Front Access Board (FAB):
+The FAB has two main functions. It is the Electrical Power System (EPS), collecting and monitoring electrical power information and managing a kill switch. Also, it contains the external interfaces, such as the remove before flight pins and programming ports. This board is of proprietary design by Sagami Tsushin. As such, only the schematic for this board is included in this documentation, in pdf format.
+[_More information_](./another-page.html)
+
+### On Board Computer (OBC):
+This board has three of the four bus's microcontrollers, being the Main PIC, the Reset PIC and the Communications PIC. Also, apart from command and data handling, this board also has the function of electrical power distribution, regulating the battery inputs. This board is of proprietary design by Sagami Tsushin. As such, only the schematic for this board is included in this documentation, in pdf format.
+[_More information_](./another-page.html)
+
+### Communications Board (COM):
+The COM board has the transceiver module for radio communications. It works on the UHF amateur radio band, in half duplex mode and GMSK modulation, following the AX.25 protocol. This board is also proprietary, provided by Addnics. Another communications board has flown with the bus and has worked. The documentation for this board is included in this release.
+[_More information_](./another-page.html)
+
+### Rear Acces Board (RAB):
+Similarly to the FAB, the RAB offers connections to several of the bus's interfaces.
+[_More information_](./another-page.html)
+
+### Antenna board:
+This board carries the COM, APRS and GPS antennas as well as their release mechanism.
+[_More information_](./another-page.html)
+
+### Solar Panel board:
+These boards hold the solar panels that power the satellite.
+[_More information_](./another-page.html)
+
+<!-- ## Members
 ### Faculty
 
 | ![Otarola](./images/otarola.jpg)                  | ![JuanJosé](./images/juanjotec.jpg)                   |
@@ -195,4 +201,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ```
 The final element.
-```
+``` -->
