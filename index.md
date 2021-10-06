@@ -28,7 +28,10 @@ One of the main contributions from the BIRDS Project to the working teams is the
 
 ![BIRDSbus Exploded View](./images/BIRDSBus-exploded.png)
 
-The boards that comprise the bus are the following:
+### General documentation:
+While this website does contain information regarding the program and the BIRDSBus, the main explanations and documentation is contained in the Program Textbook and the Interface Control Document, which can be found [_here_](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation).
+
+##The boards that comprise the bus are the following:
 
 ### Backplane Board (BPB):
 The backplane is the board that links all the other ones together. It has basically no other components as its only function is to  connect all the boards together.
@@ -58,6 +61,8 @@ This board carries the COM, APRS and GPS antennas as well as their release mecha
 These boards hold the solar panels that power the satellite.
 [_More information_](./solar-page.html)
 
+### Bus 3D Models:
+The 3D models for the bus and the stand can be found [_here_](https://github.com/BIRDSOpenSource/BIRDS3-CAD).
 <!-- ## Members
 ### Faculty
 
