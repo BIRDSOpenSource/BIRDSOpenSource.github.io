@@ -31,7 +31,7 @@ One of the main contributions from the BIRDS Project to the working teams is the
 ### General documentation:
 While this website does contain information regarding the program and the BIRDSBus, the main explanations and documentation is contained in the Program Textbook and the Interface Control Document, which can be found [_here_](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation).
 
-##The boards that comprise the bus are the following:
+## The boards that comprise the bus are the following:
 
 ### Backplane Board (BPB):
 The backplane is the board that links all the other ones together. It has basically no other components as its only function is to  connect all the boards together.
@@ -63,146 +63,25 @@ These boards hold the solar panels that power the satellite.
 
 ### Bus 3D Models:
 The 3D models for the bus and the stand can be found [_here_](https://github.com/BIRDSOpenSource/BIRDS3-CAD).
-<!-- ## Members
-### Faculty
 
-| ![Otarola](./images/otarola.jpg)                  | ![JuanJosé](./images/juanjotec.jpg)                   |
-| :-----------:                                     | :-----------:                                         |
-| M Eng. Carlos Otárola Zúñiga                      | PhD. Eng. Juan José Rojas Hernández                   |
-| Coordinator                                       | Researcher                                            |
-| _Modern Manufacturing_                            | _Power Systems and IoT_                               |
-| [cotarola@tec.ac.cr](mailto:cotarola@tec.ac.cr)   | [juan.rojas@tec.ac.cr](mailto:juan.rojas@tec.ac.cr)   |
+## Documentation Project Team
 
-### Assistants
+The effort to release and maintain this documentation to the public is done for Kyutech University by a small team from Costa Rica. The supervising professor, Juan José Rojas, obtained his PhD from the BIRDS Program detailed in the Textbook.
 
-| Name                              | Degree                            | Email                     |
-|:-------------                     |:------------------                |:------                    |
-| Jairo Rodríguez Blanco            | Mecatronics Engineering           | jairo.rb8@estudiantec.cr  |
-| Sergio Solórzano Alfaro           | Industrial Maintenance Engineering| solorzanos117@gmail.com   |
-| Erick Quirós Gómez                | Industrial Maintenance Engineering| erickquigo@estudiantec.cr |
-| Nestor Martínez Soto              | Industrial Maintenance Engineering| nesmar@estudiantec.cr     |
-| Jervis Villalobos Villegas        | Mechatronics Engineering          |                           |
+| ![JuanJosé](./images/juanjotec.jpg)                   |
+| :-----------:                                         |
+| PhD. Eng. Juan José Rojas Hernández                   |
+| Researcher                                            |
+| _Power Systems and IoT_                               |
+| [juan.rojas@tec.ac.cr](mailto:juan.rojas@tec.ac.cr)   |
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+The documentation, creation of the repositories and this website is done by two assistant students:
 
-[Link to another page](./another-page.html).
+| Name                              | Degree                            | Email                             |
+|:-------------                     |:------------------                |:------                            |
+| Jairo Rodríguez Blanco            | Mecatronics Engineering           | jairo.rb8@estudiantec.cr          |
+| Kevin Sánchez Ramírez             | Industrial Engineering            | kevin.sanchezramirez@ucr.ac.cr    |
 
-There should be whitespace between paragraphs.
+## Community Telegram Group
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-### Image hosted in this repo
-
-![GenericImage](./images/prob3.jpg).
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-``` -->
+Juan José Rojas, the supervising professor, is putting together a Telegram group chat in order to discuss issues or questions regarding the project. If you have an interest in joining, please contact him in the email provided above.
