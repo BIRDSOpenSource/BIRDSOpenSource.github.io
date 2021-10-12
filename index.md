@@ -18,7 +18,7 @@ The project has two main objectives:
 
 It should be emphasized that the primary goal is not the building of a satellite, but to have a long-term and sustainable space program established in each member country.
 
-Kyutech initiated a long-term fellowship program, DNST/PNST (Doctorate in NanoSatellite Technology/ Postgraduate study in NanoSatellite Technology), in 2011 in collaboration with the United Nations Office of Outer Space Affairs (UNOOSA) to promote the space capacity building of non-space-faring nations. It also started the Space Engineering International Course (SEIC) in 2013 as a postgraduate curriculum _to provide a program_ nani?.
+Kyutech initiated a long-term fellowship program, DNST/PNST (Doctorate in NanoSatellite Technology/ Postgraduate study in NanoSatellite Technology), in 2011 in collaboration with the United Nations Office of Outer Space Affairs (UNOOSA) to promote the space capacity building of non-space-faring nations. It also started the Space Engineering International Course (SEIC) in 2013 as a postgraduate program.
 
 Two or three young engineers are sent from each participating country to Kyutech as full-time graduate students to learn space engineering using 1U CubeSat development work. The BIRDS program is designed so that each generation of satellites can be finished in two years, from mission definition to operation. Including operation in two years is critical to fit the entire satellite project into a master’s degree course study timeline, which is two years.
 
@@ -68,8 +68,8 @@ The 3D models for the bus and the stand can be found [_here_](https://github.com
 
 The effort to release and maintain this documentation to the public is done for Kyutech University by a small team from Costa Rica. The supervising professor, Juan José Rojas, obtained his PhD from the BIRDS Program detailed in the Textbook.
 
-| ![JuanJosé](./images/juanjotec.jpg)                   |
-| :-----------:                                         |
+<!-- | ![JuanJosé](./images/juanjotec.jpg)                   |
+| :-----------:                                         | -->
 | PhD. Eng. Juan José Rojas Hernández                   |
 | Researcher                                            |
 | _Power Systems and IoT_                               |
@@ -84,4 +84,4 @@ The documentation, creation of the repositories and this website is done by two 
 
 ## Community Telegram Group
 
-Juan José Rojas, the supervising professor, is putting together a Telegram group chat in order to discuss issues or questions regarding the project. If you have an interest in joining, please contact him in the email provided above.
+A community Telegram group is being formed to discuss questions and other aspects of the BIRDSBus. If you have an interest in joining, please contact Juan José in the email provided above.
