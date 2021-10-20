@@ -41,7 +41,7 @@ The backplane is the board that links all the other ones together. It has basica
 The FAB has two main functions. It is the Electrical Power System (EPS), collecting and monitoring electrical power information and managing a kill switch. Also, it contains the external interfaces, such as the remove before flight pins and programming ports. This board is of proprietary design by Sagami Tsushin. As such, only the schematic for this board is included in this documentation, in pdf format.
 [_More information_](./fab-page.html)
 
-### On Board Computer (OBC):
+### On Board Computer / Electrical Power System (OBC/EPS):
 This board has three of the four bus's microcontrollers, being the Main PIC, the Reset PIC and the Communications PIC. Also, apart from command and data handling, this board also has the function of electrical power distribution, regulating the battery inputs. This board is of proprietary design by Sagami Tsushin. As such, only the schematic for this board is included in this documentation, in pdf format.
 [_More information_](./obc-page.html)
 

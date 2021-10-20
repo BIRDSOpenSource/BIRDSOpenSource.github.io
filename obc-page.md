@@ -14,4 +14,7 @@ An in depth explanation of the functions of this board can be found in the gener
 
 For the documentation and files related to the OBC itself, please see [***this repo***](https://github.com/BIRDSOpenSource/BIRDS3-OBC). Inside you can find the schematic (not the PCB since it's a proprietary design from Sagami Tsushin), firmware for the three microcontrollers and other files.
 
+If you want to purchase the commercial version of FAB/OBC/EPS, please contact SAGAMI Electronics Industry Ltd.
+The contact address is takei@sagami-net.co.jp
+
 [Back](./)
