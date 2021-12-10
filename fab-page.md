@@ -11,6 +11,7 @@ The Front Access Board (FAB) has two main functions. It is part of the Electrica
 If you want to purchase the commercial version of FAB/OBC/EPS, please contact SAGAMI Electronics Industry Ltd.
 The contact address is takei@sagami-net.co.jp
 
-The repository can be found [***here***](https://github.com/BIRDSOpenSource/BIRDS3-FAB).
+The documentation for the BIRDS**3** version of this board can be found  [***here***](https://github.com/BIRDSOpenSource/BIRDS3-FAB).
+The documentation for the BIRDS**4** version of this board can be found  [***here***](https://github.com/BIRDSOpenSource/BIRDS4-FAB).
 
 [Back](./)

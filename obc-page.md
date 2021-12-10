@@ -12,7 +12,7 @@ In short, all PICs (including the one in the FAB) are connected to the main PIC 
 
 An in depth explanation of the functions of this board can be found in the general documentation repo, [***here***](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation).
 
-For the documentation and files related to the OBC itself, please see [***this repo***](https://github.com/BIRDSOpenSource/BIRDS3-OBC). Inside you can find the schematic (not the PCB since it's a proprietary design from Sagami Tsushin), firmware for the three microcontrollers and other files.
+For the documentation and files related to the OBC itself, please see [**this repo**](https://github.com/BIRDSOpenSource/BIRDS3-OBC) for **BIRDS3** and [**this repo**](https://github.com/BIRDSOpenSource/BIRDS4-OBC) for BIRDS4. Inside you can find the schematic (not the PCB since it's a proprietary design from Sagami Tsushin), firmware for the three microcontrollers and other files.
 
 If you want to purchase the commercial version of FAB/OBC/EPS, please contact SAGAMI Electronics Industry Ltd.
 The contact address is takei@sagami-net.co.jp

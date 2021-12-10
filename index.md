@@ -24,6 +24,8 @@ Two or three young engineers are sent from each participating country to Kyutech
 
 # The BIRDSBus
 
+### **New**: BIRDS4 has been implemented! Check the subsystem pages for links to the new versions of the documentation.
+
 One of the main contributions from the BIRDS Project to the working teams is the BIRDSBus. It is a hardware platform consisting mainly of an EPS, a C&DHS and COMMS to satisfy the needs of a standard bus. This is an exploded view of the entire bus:
 
 ![BIRDSbus Exploded View](./images/BIRDSBus-exploded.png)
