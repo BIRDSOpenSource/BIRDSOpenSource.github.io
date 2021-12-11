@@ -64,7 +64,8 @@ These boards hold the solar panels that power the satellite.
 [_More information_](./solar-page.html)
 
 ### Bus 3D Models:
-The 3D models for the bus and the stand can be found [_here_](https://github.com/BIRDSOpenSource/BIRDS3-CAD).
+The 3D models for the BIRDS3 bus and the stand can be found [_here_](https://github.com/BIRDSOpenSource/BIRDS3-CAD).
+For the BIRDS4 version, plase find it [_here_](https://github.com/BIRDSOpenSource/BIRDS4-CAD)
 
 ## Documentation Project Team
 
