@@ -3,7 +3,7 @@ layout: default
 title: BIRDS Open Source Release
 ---
 # BIRDS Project
-The Joint Global Multi-Nations Birds Satellite project, or BIRDS project, was created by the Kyushu Institute of Technology ([_KyuTech_](https://www.kyutech.ac.jp/english/)) to help countries build their first satellite. So far, there have been 4 completed and one ongoing BIRDS missions:
+The Joint Global Multi-Nations Birds Satellite project, or BIRDS project, was created by the Kyushu Institute of Technology ([_Kyutech_](https://www.kyutech.ac.jp/english/)) to help countries build their first satellite. So far, there have been 4 completed and one ongoing BIRDS missions:
 
 1. BIRDS-1: Bangladesh, Japan, Mongolia, Ghana and Nigeria.
 2. BIRDS-2: Buthan, The Philipines and Malaysia.
@@ -87,4 +87,4 @@ The documentation, creation of the repositories and this website is done by two 
 
 ## Community Telegram Group
 
-A community Telegram group is being formed to discuss questions and other aspects of the BIRDSBus. If you have an interest in joining, please contact Juan José in the email provided above.
+A community Telegram group is being formed to discuss questions and other aspects of the BIRDSBus. If you have an interest in joining, use [this link.](https://t.me/+D3BCqCmceQ41ZGFl)
