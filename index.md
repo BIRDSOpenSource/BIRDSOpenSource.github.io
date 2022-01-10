@@ -6,7 +6,7 @@ title: BIRDS Open Source Release
 The Joint Global Multi-Nations Birds Satellite project, or BIRDS project, was created by the Kyushu Institute of Technology ([_Kyutech_](https://www.kyutech.ac.jp/english/)) to help countries build their first satellite. So far, there have been 4 completed and one ongoing BIRDS missions:
 
 1. BIRDS-1: Bangladesh, Japan, Mongolia, Ghana and Nigeria.
-2. BIRDS-2: Buthan, The Philipines and Malaysia.
+2. BIRDS-2: Bhutan, The Philipines and Malaysia.
 3. BIRDS-3: Japan, Sri Lanka and Nepal
 4. BIRDS-4: Japan, The Philipines, Paraguay.
 5. BIRDS-5: Japan, Uganda and Zimbabwe.
@@ -71,9 +71,8 @@ For the BIRDS4 version, plase find it [_here_](https://github.com/BIRDSOpenSourc
 
 The effort to release and maintain this documentation to the public is done for Kyutech University by a small team from Costa Rica. The supervising professor, Juan José Rojas, obtained his PhD from the BIRDS Program detailed in the Textbook.
 
-<!-- | ![JuanJosé](./images/juanjotec.jpg)                   |
-| :-----------:                                         | -->
 | PhD. Eng. Juan José Rojas Hernández                   |
+| :-----------:                                         |
 | Researcher                                            |
 | _Power Systems and IoT_                               |
 | [juan.rojas@tec.ac.cr](mailto:juan.rojas@tec.ac.cr)   |
