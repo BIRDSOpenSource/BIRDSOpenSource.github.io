@@ -24,7 +24,7 @@ Two or three young engineers are sent from each participating country to Kyutech
 
 # The BIRDSBus
 
-### **New**: BIRDS4 has been included! Check the subsystem pages for links to the new versions of the documentation.
+### **New**: Ground station software has been included! Check the system page for link to the documentation.
 
 One of the main contributions from the BIRDS Project to the working teams is the BIRDSBus. It is a hardware platform consisting mainly of an EPS, a C&DHS and COMMS to satisfy the needs of a standard bus. This is an exploded view of the entire bus:
 
@@ -65,7 +65,10 @@ These boards hold the solar panels that power the satellite.
 
 ### Bus 3D Models:
 The 3D models for the BIRDS3 bus and the stand can be found [_here_](https://github.com/BIRDSOpenSource/BIRDS3-CAD).
-For the BIRDS4 version, plase find it [_here_](https://github.com/BIRDSOpenSource/BIRDS4-CAD)
+For the BIRDS4 version, please find it [_here_](https://github.com/BIRDSOpenSource/BIRDS4-CAD)
+
+### Ground Station Software
+Information and links to the documentation of the ground station software for the BIRDS satellites can be found [_here_](./GS-software.html).
 
 ## Documentation Project Team
 
