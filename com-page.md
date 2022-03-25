@@ -19,4 +19,6 @@ And the ones for the BIRDS**4** satellite can be found [***here***](https://gith
 
 While they are the same, we are keeping them separate to maintain order.
 
+In the March 2022 BIRDS Meeting a team presented their use of the Radiometrix HX1 COMs module with the BIRDS platform. Its datasheet has been added to the repositories.
+
 [Back](./)

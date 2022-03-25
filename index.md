@@ -24,7 +24,7 @@ Two or three young engineers are sent from each participating country to Kyutech
 
 # The BIRDSBus
 
-### **New**: Ground station software has been included! Check the system page for link to the documentation.
+### **New**: A team presented on the March 2022 BIRDS meeting their use of the Radiometrix HX1 COMS module with the BIRDS platform. The module's datasheet has been added to the COMS repos! Also, detailed battery testing and screening procedures have been added to the procedures repo. Please check these new documents.
 
 One of the main contributions from the BIRDS Project to the working teams is the BIRDSBus. It is a hardware platform consisting mainly of an EPS, a C&DHS and COMMS to satisfy the needs of a standard bus. This is an exploded view of the entire bus:
 
