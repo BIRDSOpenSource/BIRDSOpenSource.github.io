@@ -1,5 +1,5 @@
-theme: jekyll-theme-minimal
-title: Birds Open Source Release
-description: Kyushu Institute of Technology
+theme: jekyll-theme-modernist
+title: Birds Open Source
+description: The aim of this project is to help low-budget teams in non-space faring nations by providing a more solid basis for satellite development. We know from experience that starting from scratch is too much work.
 logo: ./images/logo_2018_07.png
 show_downloads: false
