@@ -1,4 +1,7 @@
 theme: jekyll-theme-modernist
+remote_theme: pages-themes/modernist@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Birds Open Source
 description: The aim of this project is to help low-budget teams in non-space faring nations by providing a more solid basis for satellite development. We know from experience that starting from scratch is too much work.
 logo: ./images/logo_2018_07.png
