@@ -1,5 +1,6 @@
 ---
-layout: default
-title: BIRDS Open Source Release
+layout          : default
+title           : BIRDS Open Source Release
+permalink       : /about/
 ---
 # BIRDS Project
