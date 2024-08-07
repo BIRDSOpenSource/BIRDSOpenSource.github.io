@@ -3,16 +3,15 @@
       <div class="center-on-mobiles">
         <h1>
           <a href="{{ '/' | relative_url }}" class="logo">
-            <span class="sr-only">BIRDS Project</span>
             <img src="{{ 'images/logo_2018_07.png' | relative_url }}" width="140" height="65" alt="BIRDS Project Logo">
-          </a>es
+          </a>
         </h1>
       </div>
       <nav class="main-nav hide-on-mobiles">
-        {% include primary-nav-items.html -%}
+        {% include primary-nav-items.html %}
       </nav>
       <div class="search hide-on-mobiles">
-        {% include search/input.html -%}
+        {% include search/input.html %}
       </div>
       <div class="meta hide-on-mobiles">
         <ul>
@@ -21,6 +20,6 @@
       </div>
     </div>
     <nav class="mobile-nav show-on-mobiles">
-      {% include mobile-nav-items.html -%}
+      {% include mobile-nav-items.html %}
     </nav>
   </header>

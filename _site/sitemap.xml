@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/GS-software.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/antenna-page.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bpb-page.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/com-page.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/fab-page.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/newsletter.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/obc-page.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/rab-page.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/solar-page.html</loc>
+</url>
+</urlset>
