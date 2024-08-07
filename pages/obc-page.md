@@ -1,5 +1,5 @@
 ---
-layout: default
+layout          : page
 ---
 
 ## On Board Computer Board

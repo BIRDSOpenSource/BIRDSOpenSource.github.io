@@ -1,6 +1,6 @@
 ---
 title: BIRDS Project
-layout: default
+layout          : page
 ---
 
 # {{ page.title }}
