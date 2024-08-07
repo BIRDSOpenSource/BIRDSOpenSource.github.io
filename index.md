@@ -1,6 +1,5 @@
 ---
-title: BIRDS Project
-layout          : page
+title           : BIRDS Project
 ---
 
 # {{ page.title }}

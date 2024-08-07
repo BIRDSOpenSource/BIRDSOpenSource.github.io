@@ -269,6 +269,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (~> 3.5)
+  jekyll-theme-modernist (~> 0.2.0)
   webrick (~> 1.8)
 
 BUNDLED WITH

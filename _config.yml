@@ -3,9 +3,14 @@ description     : Helping low-budget teams in non-space faring nations by provid
 logo            : '/images/logo_2018_07.png'
 theme           : jekyll-theme-modernist
 url             : https://birdsopensource.github.io/
-remote_theme    : pages-themes/modernist@v0.2.0
 show_downloads  : false
 plugins         :
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 - jekyll-seo-tag
 - jekyll-sitemap
+
+defaults        :
+ - 
+  scope         :
+    path        : pages
+  values        :
+      layout    : page
