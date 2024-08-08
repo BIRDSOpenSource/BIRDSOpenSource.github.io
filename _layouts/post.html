@@ -1,0 +1,26 @@
+{%- include top.html -%}
+
+<body class="wrap">
+  {%- include header.html -%}
+
+  <H1>This is a post</H1>
+<br>
+
+  {{- content -}}
+
+  {%- include footer.html -%}
+  {%- include search/script.html -%}
+  
+  <script>
+  {% comment %}
+  // This function is called when the user selects an option from a <select> element.
+  // If the selected option has a valid URL, it changes the window location to that URL.
+  {% endcomment %}
+  
+  const navigateToUrl = (select) => {
+    const url = select.value;
+    url && (window.location.href = url);
+  };
+  </script>
+</body>
+</html>
