@@ -4,6 +4,8 @@ title           : BIRDS Project
 
 # {{ page.title }}
 
+# Explore the BIRDS series
+
 The Joint Global Multi-Nations Birds Satellite project, or BIRDS project, was created by the Kyushu Institute of Technology ([_Kyutech_](https://www.kyutech.ac.jp/english/)) to help countries build their first satellite. So far, there have been 4 completed and one ongoing BIRDS missions:
 
 1. BIRDS-1: Bangladesh, Japan, Mongolia, Ghana and Nigeria.
@@ -23,7 +25,7 @@ Kyutech initiated a long-term fellowship program, DNST/PNST (Doctorate in NanoSa
 
 Two or three young engineers are sent from each participating country to Kyutech as full-time graduate students to learn space engineering using 1U CubeSat development work. The BIRDS program is designed so that each generation of satellites can be finished in two years, from mission definition to operation. Including operation in two years is critical to fit the entire satellite project into a master’s degree course study timeline, which is two years.
 
-# The BIRDSBus
+# The BIRDS Bus
 
 ### **New**: A team presented on the March 2022 BIRDS meeting their use of the Radiometrix HX1 COMS module with the BIRDS platform. The module's datasheet has been added to the COMS repos! Also, detailed battery testing and screening procedures have been added to the procedures repo. Please check these new documents.
 
