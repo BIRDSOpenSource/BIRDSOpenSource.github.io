@@ -1,12 +1,12 @@
 name            : Birds Open Source
 description     : Helping low-budget teams in non-space faring nations by providing a more solid basis for satellite development.
 logo            : '/images/logo_2018_07.png'
-theme           : jekyll-theme-modernist
 url             : https://birdsopensource.github.io/
 show_downloads  : false
-plugins         :
-- jekyll-seo-tag
-- jekyll-sitemap
+theme           : jekyll-theme-glueckkanja
+# plugins         :
+# - jekyll-seo-tag
+# - jekyll-sitemap
 
 defaults        :
  - 
