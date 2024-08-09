@@ -1,0 +1,161 @@
+# Site settings
+title: "GK Jekyll Theme"
+description: "Description"
+keywords: "Keywords"
+excerpt: "Excerpt"
+timezone: Europe/Berlin
+baseurl: ""
+url: "https://glueckkanja.com"
+logo: "https://glueckkanja.com/assets/favicons/gk-logo.svg"
+socialimg: "/assets/favicons/100percentcloud.png"
+active_lang: EN
+debug: false
+docstitle: "Docs"
+
+# Contact
+twitter:
+  username: "@glueckkanja"
+
+github:
+  username: "@glueckkanja"
+
+phone: "+49 69 4005520"
+author: "Glück & Kanja Consulting AG"
+author-url: "http://www.glueckkanja.com"
+email: "info@glueckkanja.com"
+
+# Site parameter
+favicon_png : '/assets/favicons/gk-boxes.png'
+favicon_ico : '/assets/favicons/gk-boxes.ico'
+
+help-center:
+  title: "Tutorials"
+  subtitle: "Everything you always wanted to know about CloudFTP"
+
+docs:
+  show_full_navigation: false
+  
+changelog: 
+  code: "TBD"
+  url: cloudftp-platform-changelog
+
+uservoice:
+  code: "TBD"
+
+webmaster:
+  verification_code : 'TBD'
+
+analytics:
+  tracking_id : 'UA-TBD'
+  domain_name : 'cloud-ftp.de'
+  conversion_id: 0  
+
+zendesk:
+  active: false
+  link: 'https://glueckkanja.zendesk.com/hc/'
+
+hubspot:
+  active: true
+
+fullstory:
+  tracking_id: TBD
+
+bootstrap:
+  assets: true
+
+store:
+  link : 'https://www.cleverbridge.com/306/purl-tbd'
+
+types:
+  - Document
+  - Video
+  
+collections:
+  articles:
+    output: true
+    permalink: /hc-category/:categories/:path/
+  sets:
+  docs:
+    title: Documentation
+    permalink: /docs/:path/
+    output: true  
+
+jekyll-archives:
+  layout: hc-archive 
+  category:
+    - account-settings
+    - deployment
+    - themes
+    - billing
+    - getting-started
+    - plugins
+  permalinks:
+    category: '/hc-category/:name/'
+
+defaults:
+  -
+    scope:
+      path: "docs"
+    values:
+      layout: "docs-default"
+  -
+    scope:
+      path: "_docs"
+    values:
+      layout: "docs-default"
+  -
+    scope:
+      path: "_articles"
+    values:
+      layout: "hc-post"
+
+theme: jekyll-theme-glueckkanja
+markdown: kramdown
+permalink: /blog/:categories/:year/:month/:title/
+
+exclude:
+  - 'README.md'
+  - 'node_modules'
+  - 'build.sh'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'package.json'
+  - 'gulpfile.js'
+  - 'package-lock.json'
+  - 'todo.md'
+  - 'redirects.json'
+
+include:
+  - 'web.config'
+
+picture:
+  source: _img
+  output: img
+  markup: picture
+  presets:
+    default:
+      source_default: 
+        none: true
+    keyvisual:
+      ppi: [1, 1.5]
+      source_medium:
+        media: "(max-width: 768px)"
+        height: "540"
+      source_default: 
+        height: "540"
+
+image:
+  source: _img
+  output: img
+  presets:
+    # Proportional preset
+    users:
+      attr:
+        class: user-portrait
+        itemprop: image
+      width: 350
+    # Scaled and cropped preset
+    half:
+      width: 400
+      height: 400
+

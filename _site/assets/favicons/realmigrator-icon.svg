@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#4C4C4C;stroke-width:11.3386;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="Visual_App_Search">
+	<path class="st0" d="M245.02,101.74V31.99c0-9.63-7.48-17.44-16.72-17.44H27.7c-9.23,0-16.72,7.81-16.72,17.44v191.8
+		c0,9.63,7.48,17.44,16.72,17.44h66.87"/>
+	<line class="st0" x1="10.98" y1="66.87" x2="245.02" y2="66.87"/>
+	
+		<ellipse transform="matrix(0.9962 -0.0872 0.0872 0.9962 -13.538 13.6827)" class="st0" cx="149.92" cy="161.88" rx="58.51" ry="61.03"/>
+	<line class="st0" x1="240.79" y1="241.44" x2="194.9" y2="201.27"/>
+</g>
+</svg>

@@ -42,4 +42,16 @@
 <url>
 <loc>http://localhost:4000/pages/solar-page.html</loc>
 </url>
+<url>
+<loc>http://localhost:4000/assets/misc/general-glitch.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/misc/imprint.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/misc/privacy-policy.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/misc/terms-of-service.html</loc>
+</url>
 </urlset>

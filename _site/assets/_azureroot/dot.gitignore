@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-metadata
+.vscode
+.img-cache
+.img-assets
+.tweet-cache
+.DS_Store
+Gemfile.lock
+node_modules
+
