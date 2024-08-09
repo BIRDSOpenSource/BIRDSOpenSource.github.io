@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/pages/GS-software.html</loc>
-</url>
-<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/pages/antenna-page.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/pages/bpb-page.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/pages/com-page.html</loc>
-</url>
-<url>
 <loc>http://localhost:4000/docs/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/pages/fab-page.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/docs/faq/</loc>
@@ -28,19 +13,10 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/pages/obc-page.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/pages/rab-page.html</loc>
-</url>
-<url>
 <loc>http://localhost:4000/resources/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/showcase/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/pages/solar-page.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/assets/misc/general-glitch.html</loc>

@@ -1,7 +1,10 @@
 ---
-layout      : page
-permalink   : /resources/
+title           : Resources
+permalink       : /resources/
 ---
+
+# {{ page.title }}
+
 # Satellite Bus
 
 # The BIRDS Bus

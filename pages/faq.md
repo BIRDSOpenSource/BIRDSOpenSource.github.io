@@ -1,7 +1,9 @@
 ---
-layout      : page
-permalink   : /docs/faq/
+title           : FAQ
+permalink       : /docs/faq/
 ---
+
+# {{ page.title }}
 
 # General Questions
 

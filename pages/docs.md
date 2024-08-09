@@ -1,6 +1,6 @@
 ---
-layout      : page
-permalink   : /docs/
+title           : Documentation
+permalink       : /docs/
 ---
 
-Examples of how other people have used our BUS
+# {{ page.title }}

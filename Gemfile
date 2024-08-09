@@ -12,6 +12,6 @@ git_source(:github) {|repo_name| "https://github.com/#{birdsopensource}" }
 
 # gem "github-pages", group: :jekyll_plugins
 
-gem 'jekyll-theme-glueckkanja'
+gem 'jekyll-theme-glueckkanja', '~> 1.2', '>= 1.2.29'
 
 # gem 'jekyll-seo-tag'
