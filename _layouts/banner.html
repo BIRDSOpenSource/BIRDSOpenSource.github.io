@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{{site.active_lang}}" class="no-js">
+
+  {% include head.html %}
+  {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
+
+<style>
+  .video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+  }
+  .video-container video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  </style>
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
+
+    {% assign transparent = true %}
+    {% include navigation.html currentRequest=currentRequest transparent=transparent %}
+    
+    <div class="video-container">
+            <video poster="/assets/video/meerkat-404.jpg" autobuffer="" autoplay="" loop="">
+                <source src="/assets//video/meerkat-404.mp4" type="video/mp4">
+                <source src="/assets//video/meerkat-404.ogv" type="video/ogg">
+                <source src="/assets//video/meerkat-404.webm" type="video/webm">
+            </video>
+        </div>
+
+    <section class="blogtitlepic container-fluid" style="height: 0% !important;">
+        <h1>{{page.title}}</h1>
+    </section>
+            
+    {% include scripts.html %}
+
+  </body>
+</html>
+<!-- Page Info: Banner Layout -->

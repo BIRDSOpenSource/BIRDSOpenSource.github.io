@@ -1,0 +1,126 @@
+<!-- Scripts Start -->
+<!-- Google Fonts -->
+<!--link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"-->
+<!--link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,700" rel="stylesheet"-->
+<script type="text/javascript" charset="UTF-8" src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans:300,700', 'Open Sans Condensed:300,700', 'Material Icons']
+        }
+    });
+</script>
+<!-- jQuery -->
+<script type="text/javascript" charset="UTF-8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
+<script type="text/javascript" charset="UTF-8" src="{{site.baseurl}}/assets/javascripts/bootstrap.min.js"></script>
+
+<!-- Custom JavaScript -->
+<script type="text/javascript" charset="UTF-8" src="{{site.baseurl}}/assets/js/mandrill.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="{{site.baseurl}}/assets/js/rangeslider.js"></script>
+<script type="text/javascript" charset="UTF-8" src="{{site.baseurl}}/assets/js/guk.js"></script>
+
+<!-- HubSpot Embed Code -->
+{% if site.hubspot.active == true %}
+<script type="text/javascript" charset="UTF-8" id="hs-script-loader" async defer src="https://js.hs-scripts.com/2996671.js"></script>
+{% endif %}
+<!-- Zendesk Widget script -->
+{% if site.zendesk.active == true %}
+<script>
+    /*<![CDATA[*/
+    window.zEmbed || function(e, t) {
+        var n, o, d, i, s, a = [],
+            r = document.createElement("iframe");
+        window.zEmbed = function() {
+            a.push(arguments)
+        }, window.zE = window.zE || window.zEmbed, r.src = "javascript:false", r.title = "", r.role = "presentation", (r.frameElement || r).style.cssText = "display: none", d = document.getElementsByTagName("script"), d = d[d.length - 1], d.parentNode.insertBefore(r, d), i = r.contentWindow, s = i.document;
+        try {
+            o = s
+        } catch (e) {
+            n = document.domain, r.src = 'javascript:var d=document.open();d.domain="' + n + '";void(0);', o = s
+        }
+        o.open()._l = function() {
+            var e = this.createElement("script");
+            n && (this.domain = n), e.id = "js-iframe-async", e.src = "https://assets.zendesk.com/embeddable_framework/main.js", this.t = +new Date, this.zendeskHost = "glueckkanja.zendesk.com", this.zEQueue = a, this.body.appendChild(e)
+        }, o.write('<body onload="document._l();">'), o.close()
+    }();
+    /*]]>*/
+</script>
+{% endif %}
+<!-- Google Analytics -->
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '{{ site.analytics.tracking_id }}', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<!-- Google Code for Conversion Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = {{ site.analytics.conversion_id }};
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "NTNjCOCHmXEQjNfo-QM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1060776844/?label=NTNjCOCHmXEQjNfo-QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- Fullstory Analytics -->
+<script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = '{{ site.fullstory.tracking_id }}';
+    window['_fs_namespace'] = 'FS';
+    (function(m,n,e,t,l,o,g,y){
+        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+        d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+        ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+    })(window,document,window['_fs_namespace'],'script','user');
+</script>
+
+<!-- SEO Details -->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "{{site.author}}",
+        "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+        "description": "{% if page.excerpt %}{{page.excerpt | strip_html }}{% else %}{{site.excerpt | strip_html }}{% endif %}",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{site.logo}}"
+            }
+        },
+        "url": "{{site.url}}"
+    }
+</script>
+<!-- Scripts END -->

@@ -2,16 +2,9 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{birdsopensource}" }
+git_source(:github) {|repo_name| "https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io" }
 
-# gem "rails"
+gem 'jekyll-theme-glueckkanja'
 
-# gem "jekyll", "~> 3.5"
-
-# gem "webrick", "~> 1.8"
-
-# gem "github-pages", group: :jekyll_plugins
-
-gem 'jekyll-theme-glueckkanja', '~> 1.2', '>= 1.2.29'
-
-# gem 'jekyll-seo-tag'
+# cloudinary:
+#   cloud_name: <"Cloud name">

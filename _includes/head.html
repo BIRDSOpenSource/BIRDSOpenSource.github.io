@@ -1,0 +1,64 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Language" content="{{site.active_lang}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {% if jekyll.environment != "production" %}
+    <meta name="robots" content="noindex, nofollow">{% endif %}
+
+    <!-- Plain Description -->
+    <title>{{ site.title | escape }}{% if page.title %} | {{ page.title | escape }}{% endif %}</title>
+    <meta name="title" content="{{ site.title | escape }}{% if page.title %} | {{ page.title | escape }}{% endif %}">
+    <meta name="google-site-verification" content="{{ site.webmaster.verification_code }}" />
+    <meta name="keywords" content="{{ site.keywords }}, {{ page.keywords }}" />
+    <meta name="author" content="{{site.author}}">
+    <meta name="description" content="{% if page.excerpt %}{{page.excerpt | strip_html }}{% else %}{{site.excerpt | strip_html }}{% endif %}">
+    <link rel="canonical" href="{{page.url | replace:'index.html','' | prepend: site.baseurl}}">
+    <link rel="icon" type="image/png" href="/assets/images/favicon2.png">
+
+    <!-- Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}" />
+    <meta property="og:description" content="{% if page.excerpt %}{{page.excerpt | strip_html }}{% else %}{{site.excerpt | strip_html }}{% endif %}" />
+    <meta property="og:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    <meta property="og:site_name" content="{{ site.title }} " />
+    <meta property="og:locale" content="en_US">
+    <meta property="article:author" content="{{site.twitter.username}}}">    
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{ site.title }} {% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{page.excerpt | strip_html }}{% else %}{{site.excerpt | strip_html }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}">
+    <meta name="twitter:url" content="{{site.url}}{{page.url}}">
+    <meta name="twitter:creator" content="{{site.twitter.username}}}">
+    <meta name="twitter:site" content="{{site.twitter.username}}}">
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="{{site.baseurl}}/assets/css/app.css">   
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">     
+    
+</head>
+
+<header>
+    <div class="flexbox">
+      <div class="center-on-mobiles">
+        <h1>
+          <a href="{{ '/' | relative_url }}" class="logo">
+            <img src="{{ 'images/logo_2018_07.png' | relative_url }}" width="140" height="65" alt="BIRDS Project Logo">
+          </a>
+        </h1>
+      </div>
+      <nav class="main-nav hide-on-mobiles">
+        {% include navigation.html %}
+      </nav>
+      <div class="search hide-on-mobiles">
+        {% include search/input.html %}
+      </div>
+      <div class="meta hide-on-mobiles">
+        <ul>
+          <li><a href="{{ site.repository }}">View on GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
