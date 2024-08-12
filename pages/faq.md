@@ -1,9 +1,9 @@
 ---
+layout : banner
 title           : FAQ
 permalink       : /docs/faq/
 ---
 
-# {{ page.title }}
 
 # General Questions
 

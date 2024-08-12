@@ -37,28 +37,10 @@
     <!-- CSS -->
     <link type="text/css" rel="stylesheet" href="{{site.baseurl}}/assets/css/app.css">   
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">     
+
+    <!-- Logo -->
+    <a href="{{ '/' | relative_url }}" class="logo">
+      <img src="{{ 'images/logo_2018_07.png' | relative_url }}" width="140" height="65" alt="BIRDS Project Logo">
+    </a>
     
 </head>
-
-<header>
-    <div class="flexbox">
-      <div class="center-on-mobiles">
-        <h1>
-          <a href="{{ '/' | relative_url }}" class="logo">
-            <img src="{{ 'images/logo_2018_07.png' | relative_url }}" width="140" height="65" alt="BIRDS Project Logo">
-          </a>
-        </h1>
-      </div>
-      <nav class="main-nav hide-on-mobiles">
-        {% include navigation.html %}
-      </nav>
-      <div class="search hide-on-mobiles">
-        {% include search/input.html %}
-      </div>
-      <div class="meta hide-on-mobiles">
-        <ul>
-          <li><a href="{{ site.repository }}">View on GitHub</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>

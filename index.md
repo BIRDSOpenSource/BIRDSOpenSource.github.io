@@ -1,9 +1,8 @@
 ---
-layout          : page
+layout          : default-with-image
 title           : BIRDS Project
 ---
 
-# {{ page.title }}
 
 # Explore the BIRDS series
 

@@ -5,9 +5,9 @@ url             : https://birdsopensource.github.io/
 show_downloads  : false
 remote_theme           : jekyll-theme-glueckkanja
 
-defaults        :
- - 
-  scope         :
-    path        : pages
-  values        :
-      layout    : page
+# defaults        :
+#  - 
+#   scope         :
+#     path        : pages
+#   values        :
+#       layout    : page

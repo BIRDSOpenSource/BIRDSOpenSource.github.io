@@ -1,0 +1,57 @@
+---
+layout: hc-default
+---
+<section class="tutorial">
+	<section class="sidebar sticky">
+		<ul>
+			{% assign sub_navigation = content | extract_element: 'h2' %}
+			{% for item in sub_navigation %}
+				<li><a href="#{{ item.id }}">{{ item.text }}</a></li>
+			{% endfor %}
+		</ul>
+	</section>
+	<section class="tutorial-content">
+		<h1>{{ page.title }}</h1>
+
+		{% if page.type == "Video" %}
+			<div class="video_hc-wrapper">
+				<iframe src="https://www.youtube.com/embed/{{ page.video_id }}?rel=0&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>		
+
+			{% if page.resources %}
+				<div class="resources">
+					<ul>
+						{% for resource in page.resources %}
+							<li><a href="{{ resource.link }}">{{ resource.name }}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endif %}
+		{% endif %}
+		
+		<div class="tutorial-main">
+			{{ content }}
+		</div>
+	</section>
+</section>
+
+{% if page.set %}
+	{% assign set_file_name = "_sets/" | append: page.set | append: ".md" %}
+	{% assign set = site.sets | where: "path", set_file_name | first %}
+	{% assign series_articles = site.articles | where: "set", page.set %}
+	<div class="tutorial-series">
+		<h3>{{ set.title }} - Series</h3>
+		<p>{{ set.description }}</p>
+
+		{% include hc-listings.html hc-listings=series_articles numbered=true%}
+	</div>
+{% endif %}
+{% assign related_articles = site.related_articles %}
+{% assign related_articles_size = related_articless | size %}
+{% if related_articles_size > 0 %}
+	<div class="related">
+		<h3>Related tutorials</h3>
+
+		{% include hc-listings.html hc-listings=site.related_articles %}
+	</div>
+{% endif %}

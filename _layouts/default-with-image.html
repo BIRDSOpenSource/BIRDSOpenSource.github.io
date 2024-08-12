@@ -4,21 +4,22 @@
   {% include head.html %}
   {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151" class="blog-post">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
 
     {% assign transparent = true %}
     {% include navigation.html currentRequest=currentRequest transparent=transparent %}
     {% include blogtitlepic.html %}
 
-		<section id="start" class="container">
-      <h4>{{page.date | date: '%B %d, %Y'}} / by {{page.author}}</h4>
-      <br>
-			{{ content | markdownify }}
+		<section class="main" id="start">
+			  {{ content }}
     </section>
 
+    {% if page.nositelinks == nil %}
+  		{% include sitelinks.html %}
+    {% endif %}
     {% include footer.html %}
     {% include scripts.html %}
 
   </body>
 </html>
-<!-- Page Info: Blog Post Layout -->
+<!-- Page Info: DEFAULT Layout -->

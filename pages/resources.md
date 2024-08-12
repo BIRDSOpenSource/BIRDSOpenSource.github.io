@@ -1,9 +1,9 @@
 ---
+layout : banner
 title           : Resources
 permalink       : /resources/
 ---
 
-# {{ page.title }}
 
 # Satellite Bus
 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{site.active_lang}}" class="no-js">
+
+  {% include head.html %}
+  {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
+
+		{% include navigation.html currentRequest=currentRequest %}
+    {% include keyvisual.html %}
+
+		<section id="start">
+			  {{ content }}
+    </section>
+
+    {% if page.nositelinks == nil %}
+  		{% include sitelinks.html %}
+    {% endif %}
+    {% include footer.html %}
+    {% include scripts.html %}
+
+  </body>
+</html>
+<!-- Page Info: DEFAULT Layout -->

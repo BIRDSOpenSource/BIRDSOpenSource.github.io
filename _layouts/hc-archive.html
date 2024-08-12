@@ -1,0 +1,12 @@
+---
+layout: hc-default
+---
+
+<section class="articlelist">
+
+{% assign articles = site.articles | where: "categories", page.title | sort: "title" %}
+<h2 style="text-transform:capitalize">{{ page.title | replace: "-", " " }} <span class="count">({{ articles | size }})</span></h2>
+
+{% include hc-listings.html hc-listings=articles %}
+
+</section>

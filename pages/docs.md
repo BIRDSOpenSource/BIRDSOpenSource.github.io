@@ -1,6 +1,6 @@
 ---
+layout          : docs-default
 title           : Documentation
 permalink       : /docs/
 ---
 
-# {{ page.title }}
