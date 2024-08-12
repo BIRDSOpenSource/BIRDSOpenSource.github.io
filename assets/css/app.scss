@@ -164,7 +164,7 @@ $nav-col-width-lg: 1050px;
                     display: block;
                 }
                 @media(min-width:992px) {
-                    font-size: $font-size-base +2px;
+                    font-size: $font-size-base (+2px);
                     padding: 10px 15px;
                     margin-top: 11px;
                 }
@@ -340,7 +340,7 @@ $nav-col-width-lg: 1050px;
                     /* INDIVIDUAL MENU ITEMS */
                     &#technologien {
                         @media(min-width: 1200px) {
-                            padding-right: ($nav-col-width-lg / 5) +60px;
+                            padding-right: ($nav-col-width-lg / 5) (+60px);
                             background-image: url(/assets/nav/splash.png);
                             background-position: right -60px top 50px;
                         }
@@ -356,7 +356,7 @@ $nav-col-width-lg: 1050px;
                     }
                     &#szenarien {
                         @media(min-width: 1200px) {
-                            padding-right: ($nav-col-width-lg / 5) +60px;
+                            padding-right: ($nav-col-width-lg / 5) (+60px);
                             background-image: url(/assets/nav/splash.png);
                             background-position: right -60px top 50px;
                         }
@@ -371,7 +371,7 @@ $nav-col-width-lg: 1050px;
                     }
                     &#portfolio {
                         @media(min-width: 1200px) {
-                            padding-right: ($nav-col-width-lg / 5) +60px;
+                            padding-right: ($nav-col-width-lg / 5) + (60px);
                             background-image: url(/assets/nav/splash.png);
                             background-position: right -60px top 50px;
                         }
@@ -386,7 +386,7 @@ $nav-col-width-lg: 1050px;
                     }
                     &#unternehmen {
                         @media(min-width: 1200px) {
-                            padding-right: ($nav-col-width-lg / 5) +60px;
+                            padding-right: ($nav-col-width-lg / 5) + 60px;
                             background-image: url(/assets/nav/splash.png);
                             background-position: right -60px top 50px;
                         }
