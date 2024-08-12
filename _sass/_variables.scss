@@ -1,0 +1,89 @@
+// Variables
+$gk-blue: #0061aa;
+$gk-lightblue: #d6e2f0;
+$gk-midblue: #a5c2e0;
+$gk-lightshadedblue: #008DF6;
+$gk-darkshadedblue: #005290;
+$gk-green: #76770C;
+$gk-orange: #DD5516;
+$gk-red:#B71612;
+$gk-grey: #47525d;
+// INVENTED!
+$gk-lightergrey: #f5f5f5;
+$gk-lightgrey: #d1d1d1;
+$gk-midgrey: #949494;
+$gk-darkgrey: #4c4c4c;
+$gk-black: #000000;
+
+// Main color
+$primary-color: #fff;
+// Anchor color
+$secondary-color: $gk-blue;
+// Font color
+$font-color: $gk-darkgrey;
+$copytext-color: $font-color;
+// Misc vars
+$navbar-text-shadow: false;
+$header-text-shadow: false;
+$header-background-color: $primary-color;
+$intro-text-color: $font-color;
+$navbar-color: $gk-grey;
+
+
+// BOOTSTRAP
+// Base vars
+$font-size-base:16px;
+$line-height-base:1.5625;
+$font-size-h1:30px;
+$font-size-h2:22px;
+$font-size-h3:18px;
+$font-size-h4:17px;
+$font-size-h5:16px;
+$font-size-h6:15px;
+$headings-font-family:"Open Sans Condensed", sans-serif;
+$headings-font-weight:700;
+
+$gray-base:   	$gk-midgrey;
+$gray-darker:   $gk-grey;
+$gray-dark:     $gk-darkgrey;
+$gray:          $gk-grey;
+$gray-light:    $gk-lightgrey;
+$gray-lighter:  $gk-lightergrey;
+
+$brand-primary: $gk-blue;
+$brand-success: $gk-green;
+$brand-info:    lighten($gk-blue, 20%);
+$brand-warning: $gk-orange;
+$brand-danger: 	$gk-red;
+
+$state-success-text:    $brand-success;
+$state-success-bg:      lighten($brand-success, 20%);
+$state-success-border:  darken(adjust-hue($state-success-bg, -10), 5%);
+
+$state-info-text:       $brand-info;
+$state-info-bg:         lighten($brand-info, 20%);
+$state-info-border:     darken(adjust-hue($state-info-bg, -10), 7%);
+
+$state-warning-text:    $brand-warning;
+$state-warning-bg:      lighten($brand-warning, 20%);
+$state-warning-border:  darken(adjust-hue($state-warning-bg, -10), 5%);
+
+$state-danger-text:     $brand-danger;
+$state-danger-bg:       lighten($brand-danger, 20%);
+$state-danger-border: 	darken(adjust-hue($state-danger-bg, -10), 5%);
+
+// Tables
+$table-border-color:$gk-midgrey;
+$table-bg-active:$gk-lightgrey;
+$table-bg-accent:$gk-lightergrey;
+$table-bg-hover:$gk-lightgrey;
+
+// Buttons
+$btn-border-radius-base:0;
+$btn-border-radius-large:0;
+$btn-border-radius-small:0;
+// Forms
+$input-border-focus:$gk-blue;
+$input-border-radius:0;
+$input-border-radius-small:0;
+$input-border-radius-large:0;

@@ -1,0 +1,86 @@
+img {
+	max-width: 100%;
+}
+
+code, pre, tt {
+	font-family: Inconsolata,Consolas,Courier,"Courier New","Liberation Mono",monospace;
+	font-size: .85em;
+	white-space: pre-wrap;
+	border-radius: 2px;
+	line-height: 1.4;
+	font-weight: 400;
+	background-color: $gk-darkgrey;
+	color: $gk-lightergrey;
+	border-radius: 2px;
+	padding: 2px 5px;
+}
+.hc-wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+.count {
+	color: $gk-lightgrey;
+	font-size: .7em;
+	position: relative;
+	top: -2px;
+}
+
+dt, h2 {
+	a.header-link {
+		text-decoration: none;
+		color: #ccc;
+		opacity: 0;
+		transition: opacity ease .2s,color ease .2s;
+		vertical-align: bottom;
+		margin: 0 0 0 5px;
+
+		&:hover {
+			color: $gk-blue;
+		}
+	}
+
+	&:hover a {
+		opacity: 1;
+	}
+}
+
+.video_hc-wrapper {
+	position: relative;
+	padding-bottom: 59.5%;
+	padding-top: 25px;
+	height: 0;
+
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+#search-results {
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		h4 {
+			margin: 20px 0 10px 0;
+		}
+
+		p {
+			line-height: 1.5;
+			padding: 0;
+			margin: 0;
+		}
+	}
+}
+
+#search-query {
+	font-weight: bold;
+}

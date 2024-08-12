@@ -1,0 +1,104 @@
+header {
+	background: $gk-blue;
+	color: #fff;
+
+	form {
+		position: relative;
+
+		input[type=search] {
+			box-sizing: border-box;
+			width: 100%;
+		}
+	}
+
+	.top-bar {
+		@media(min-width:768px) {
+			display: flex;
+		}
+
+		.logo {
+			a {
+				display: block;
+				line-height: 0;
+			}
+
+			svg {
+				fill: #fff;
+				width: 100%;
+				height: 46px;
+				min-width: 100px;
+			}
+		}
+
+		form svg {
+			fill: #eee;
+		}
+	}
+
+}
+
+.hero_search {
+	text-align: center;
+	flex: 0 0 100%;
+	padding: 30px 0 30px 0;
+
+	form {
+		position: relative;
+		max-width: 650px;
+		@media(min-width:768px) {
+			max-width: 800px;
+		}		
+		margin-left: 25px;
+		padding: 20px 0;
+
+		svg {
+			fill: #eee;
+			position: absolute;
+			top: 31px;
+			right: 12px;
+			display: inline-block;
+			width: 36px;
+			height: 40px;
+			cursor: pointer;
+		}
+	}
+	
+	h1, p {
+		// font-size: 2.4em;
+		color: #fff;
+	}
+	input {
+		outline: none;
+	}
+
+	input[type=search] {
+		-webkit-appearance: textfield;
+		-webkit-box-sizing: content-box;
+		font-size: 100%;
+	}
+
+	input::-webkit-search-decoration,
+	input::-webkit-search-cancel-button {
+		display: none;
+	}
+
+
+	input[type=search] {
+		border: solid 1px #ccc;
+		padding: 14px 7px 14px 32px;
+
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		margin: 0;
+		color: #555;
+		font-size: 1.1em;		
+	}
+	input:-moz-placeholder {
+		color: #ccc;
+	}
+	input::-webkit-input-placeholder {
+		color: #ccc;
+	}
+
+}
