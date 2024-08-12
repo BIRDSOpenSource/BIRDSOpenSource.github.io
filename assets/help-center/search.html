@@ -1,0 +1,36 @@
+---
+layout: hc-default
+title: Search
+sitemap: false
+nolinks: true
+permalink: /help-center/search/index.html
+---
+
+<section class="articlelist">
+<p><br><span id="search-process">Loading</span> results <span id="search-query-container" style="display: none;">for "<strong id="search-query"></strong>"</span></p>
+<ul id="search-results"></ul>
+
+<script>
+	window.data = {
+		{% for article in site.articles %}
+			{% if article.title %}
+				{% unless article.excluded_in_search %}
+					{% if added %},{% endif %}
+					{% assign added = false %}
+					"{{ article.url | slugify }}": {
+						"id": "{{ article.url | slugify }}",
+						"title": "{{ article.title | xml_escape }}",
+						"categories": "{{ article.categories | join: ", " | xml_escape }}",
+						"url": " {{ article.url | xml_escape }}",
+						"content": {{ article.content | strip_html | replace_regex: "[\s/\n]+"," " | strip | jsonify }}
+					}
+					{% assign added = true %}
+				{% endunless %}
+			{% endif %}
+		{% endfor %}
+	};
+</script>
+</section>
+
+<script src="{{ site.baseurl }}/assets/js/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/search.js"></script>

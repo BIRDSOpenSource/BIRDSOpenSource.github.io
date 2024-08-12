@@ -1,0 +1,15 @@
+---
+layout: hc-default
+title: Videos
+nolinks: true
+permalink: /help-center/videos/index.html
+---
+
+<section class="articlelist">
+
+{% assign articles = site.articles | where: "type", "Video" | sort: "title" %}
+<h2 style="text-transform:capitalize">Videos <span class="count">({{ articles | size }})</span></h2>
+
+{% include hc-listings.html hc-listings=articles %}
+
+</section>

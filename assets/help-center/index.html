@@ -1,0 +1,54 @@
+---
+layout: hc-default
+title: "Help Center"
+nolinks: true
+permalink: /help-center/index.html
+---
+
+<section class="articlelist">
+
+		{% assign groups = site.articles | group_by: "categories" | sort: "name"   %}		
+		{% for group in groups %}
+			<section class="category">
+
+				{% assign tutorials = group.items | sort: "title" %}
+				{% assign size = tutorials | size %}
+
+				<h2 style="text-transform:capitalize">
+					<a href="{{ site.baseurl }}/hc-category/{{ group.name | replace: "-", " " | slugify }}/">
+						{{ group.name | slugify | replace: "-", " " }} <span class="count">({{ size }})</span></a>
+				</h2>
+
+				<ul class="listing">
+
+					{% for tutorial in tutorials limit: 4 %}
+					<li>
+						<a href="{{ site.baseurl }}{{ tutorial.url }}">
+						<div class="icon">{% include hc-document-icon.html icon=tutorial.type %}</div>
+						<article>
+							<div>
+								<h3>{% if include.numbered %}{{ forloop.index }}. {% endif %}{{ tutorial.title }}</h3>
+								<p class="description">{{ tutorial.description }}</p>
+							</div>
+						</article>
+					</a>
+					</li>
+					{% endfor %}
+					{% if size > 4 %}
+					<li>
+						<a href="{{ site.baseurl }}/hc-category/{{ group.name | replace: "-", " " | slugify }}/">
+							<div class="icon"></div>
+							<article>
+							<div>
+								<h3>{{ size | minus: 4 }} more...</h3>
+							</div>
+						</article>
+					</a>
+					</li>
+					{% endif %}
+				</ul>
+
+			</section>	
+		{% endfor %}
+
+</section>
