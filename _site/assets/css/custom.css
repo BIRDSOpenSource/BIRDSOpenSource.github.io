@@ -1,0 +1,106 @@
+
+/* Sticky Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: #333; /* Ensure the header has a background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+  }
+  
+  /* Adjust the padding to ensure content doesn’t overlap the header */
+  body {
+    padding-top: 60px; /* Adjust this value based on your header's height */
+  }
+  
+  /* Optional: Style the navigation within the sticky header */
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; /* Same background color as before */
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff; /* White text */
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; /* Slightly darker background on hover */
+    color: #fff; /* Blue text */
+  }
+
+  
+/* Change the background color of the navigation bar */
+nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Change the link colors */
+  a {
+    color: #22769c;
+  }
+  
+  a:hover {
+    color: #22769c;
+  }
+
+  .flexbox {
+    display: flex;
+    height: 50px;
+
+    & > * { margin: auto }
+  }
+
+  .logo {
+    display: block;
+    img { margin-top: 5px }
+  }
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center; /* Centered text */
+    font-size: 14px; /* Font size */
+  }
+  
+  footer a {
+    color: #fff; /* Footer link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  footer a:hover {
+    color: #22769c; /* Link color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  

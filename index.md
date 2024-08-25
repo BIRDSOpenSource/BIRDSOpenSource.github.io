@@ -1,5 +1,5 @@
 ---
-layout          : default-with-image
+layout          : default
 title           : BIRDS Project
 ---
 

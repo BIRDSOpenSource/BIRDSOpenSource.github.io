@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{site.active_lang}}" class="no-js">
 
-  {% include head.html %}
+  {% include top.html %}
+  {% include header.html %}
   {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151" class="blog-post">

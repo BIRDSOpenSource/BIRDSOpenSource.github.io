@@ -1,10 +1,11 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io" }
 
-gem 'jekyll-theme-glueckkanja'
+gem 'jekyll-theme-minimal'
 
-# cloudinary:
-#   cloud_name: <"Cloud name">
+group :jekyll_plugins do
+  gem "jekyll-sitemap"
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+end

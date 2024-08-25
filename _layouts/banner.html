@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{site.active_lang}}" class="no-js">
 
-  {% include head.html %}
-  {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
+{% include top.html %}
+{% include header.html %}
+{% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
 
 <style>
   .video-container {

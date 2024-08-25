@@ -1,5 +1,5 @@
 ---
-layout : banner
+layout : default
 title           : Resources
 permalink       : /resources/
 ---

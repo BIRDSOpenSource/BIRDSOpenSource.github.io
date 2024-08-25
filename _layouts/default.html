@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{site.active_lang}}" class="no-js">
 
-  {% include head.html %}
+  {% include top.html %}
   {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
+  {% include header.html %}
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
 
 		{% include navigation.html currentRequest=currentRequest %}
-    {% include keyvisual.html %}
 
 		<section id="start">
 			  {{ content }}
@@ -18,7 +18,6 @@
     {% endif %}
     {% include footer.html %}
     {% include scripts.html %}
-
   </body>
 </html>
 <!-- Page Info: DEFAULT Layout -->

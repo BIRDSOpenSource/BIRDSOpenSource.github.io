@@ -9,95 +9,47 @@
     <meta name="robots" content="noindex, nofollow">
 
     <!-- Plain Description -->
-    <title> | Resources</title>
-    <meta name="title" content=" | Resources">
+    <title>Birds Open Source Release | Resources</title>
+    <meta name="title" content="Birds Open Source Release | Resources">
     <meta name="google-site-verification" content="" />
     <meta name="keywords" content=", " />
     <meta name="author" content="">
     <meta name="description" content="">
     <link rel="canonical" href="/resources/">
-    <link rel="icon" type="image/png" href="/assets/images/favicon2.png">
-
-    <!-- Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Resources |  " />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="http://localhost:4000" />
-    <meta property="og:url" content="http://localhost:4000/resources/" />
-    <meta property="og:site_name" content=" " />
-    <meta property="og:locale" content="en_US">
-    <meta property="article:author" content="}">    
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Resources |  ">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="http://localhost:4000">
-    <meta name="twitter:url" content="http://localhost:4000/resources/">
-    <meta name="twitter:creator" content="}">
-    <meta name="twitter:site" content="}">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon2.png">
 
     <!-- CSS -->
-    <link type="text/css" rel="stylesheet" href="/assets/css/app.css">   
     <link rel="stylesheet" href="/assets/css/style.css">     
+    <link rel="stylesheet" href="/assets/css/custom.css">
+</head> 
 
-    <!-- Logo -->
-    <a href="/" class="logo">
-      <img src="/images/logo_2018_07.png" width="140" height="65" alt="BIRDS Project Logo">
-    </a>
-    
-</head>
   
-
-<style>
-  .video-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%; 
-    overflow: hidden;
-  }
-  .video-container video {
-    /* Make video to at least 100% wide and tall */
-    min-width: 100%; 
-    min-height: 100%; 
-  
-    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-    width: auto;
-    height: auto;
-  
-    /* Center the video */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
-  </style>
+      <!-- Logo -->
+<header>
+    <div class="flexbox">
+        <div class="center-on-mobiles">
+          <h1>
+            <a href="/" class="logo">
+              <img src="/assets/favicons/favicon-light-nobg.png" width="200" height="105" alt="BIRDS Logo">
+            </a>
+          </h1>
+        </div>
+</header>
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
 
-    
-    <!-- <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">About</a></li>
-    <li class="current"><a href="/resources/">Resources</a></li>
-    <li><a href="/docs/">Docs</a></li>
-    <li><a href="/showcase/">Showcase</a></li>
-    </ul> -->
-
+		
   <!-- Navigation Start -->
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+      <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
-      </button>
+      </button> -->
       
         <a class="navbar-brand" href="/">
       
           <div class="logo">
-            
           </div>
         </a>
     </div>
@@ -124,7 +76,7 @@
           </a>
         </li>
         <li class="firstlevel dropdown dropdown-large">
-          <a href="/help-center/videos" class="firstlevelanchor">
+          <a href="/showcase/" class="firstlevelanchor">
             Showcase
           </a>
         </li>
@@ -143,20 +95,131 @@
   </div>
 </nav>
 <!-- Navigation End -->
-    
-    <div class="video-container">
-            <video poster="/assets/video/meerkat-404.jpg" autobuffer="" autoplay="" loop="">
-                <source src="/assets//video/meerkat-404.mp4" type="video/mp4">
-                <source src="/assets//video/meerkat-404.ogv" type="video/ogg">
-                <source src="/assets//video/meerkat-404.webm" type="video/webm">
-            </video>
-        </div>
 
-    <section class="blogtitlepic container-fluid" style="height: 0% !important;">
-        <h1>Resources</h1>
+		<section id="start">
+			  <h1 id="satellite-bus">Satellite Bus</h1>
+
+<h1 id="the-birds-bus">The BIRDS Bus</h1>
+
+<h3 id="new-a-team-presented-on-the-march-2022-birds-meeting-their-use-of-the-radiometrix-hx1-coms-module-with-the-birds-platform-the-modules-datasheet-has-been-added-to-the-coms-repos-also-detailed-battery-testing-and-screening-procedures-have-been-added-to-the-procedures-repo-please-check-these-new-documents"><strong>New</strong>: A team presented on the March 2022 BIRDS meeting their use of the Radiometrix HX1 COMS module with the BIRDS platform. The module’s datasheet has been added to the COMS repos! Also, detailed battery testing and screening procedures have been added to the procedures repo. Please check these new documents.</h3>
+
+<p>One of the main contributions from the BIRDS Project to the working teams is the BIRDSBus. It is a hardware platform consisting mainly of an EPS, a C&amp;DHS and COMMS to satisfy the needs of a standard bus. This is an exploded view of the entire bus:</p>
+
+<p><img src="./images/BIRDSBus-exploded.png" alt="BIRDSbus Exploded View" /></p>
+
+<h3 id="general-documentation">General documentation:</h3>
+<p>While this website does contain information regarding the program and the BIRDSBus, the main explanations and documentation is contained in the Program Textbook and the Interface Control Document, which can be found <a href="https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation"><em>here</em></a>.</p>
+
+<h2 id="the-boards-that-comprise-the-bus-are-the-following">The boards that comprise the bus are the following:</h2>
+
+<h3 id="backplane-board-bpb">Backplane Board (BPB):</h3>
+<p>The backplane is the board that links all the other ones together. It has basically no other components as its only function is to  connect all the boards together.
+<a href="./bpb-page.html"><em>More information</em></a></p>
+
+<h3 id="front-access-board-fab">Front Access Board (FAB):</h3>
+<p>The FAB has two main functions. It is the Electrical Power System (EPS), collecting and monitoring electrical power information and managing a kill switch. Also, it contains the external interfaces, such as the remove before flight pins and programming ports. This board is of proprietary design by Sagami Tsushin. As such, only the schematic for this board is included in this documentation, in pdf format.
+<a href="./fab-page.html"><em>More information</em></a></p>
+
+<h3 id="on-board-computer--electrical-power-system-obceps">On Board Computer / Electrical Power System (OBC/EPS):</h3>
+<p>This board has three of the four bus’s microcontrollers, being the Main PIC, the Reset PIC and the Communications PIC. Also, apart from command and data handling, this board also has the function of electrical power distribution, regulating the battery inputs. This board is of proprietary design by Sagami Tsushin. As such, only the schematic for this board is included in this documentation, in pdf format.
+<a href="./obc-page.html"><em>More information</em></a></p>
+
+<h3 id="communications-board-com">Communications Board (COM):</h3>
+<p>The COM board has the transceiver module for radio communications. It works on the UHF amateur radio band, in half duplex mode and GMSK modulation, following the AX.25 protocol. This board is also proprietary, provided by Addnics. Another communications board has flown with the bus and has worked. The documentation for this board is included in this release.
+<a href="./com-page.html"><em>More information</em></a></p>
+
+<h3 id="rear-acces-board-rab">Rear Acces Board (RAB):</h3>
+<p>Similarly to the FAB, the RAB offers connections to several of the bus’s interfaces.
+<a href="./rab-page.html"><em>More information</em></a></p>
+
+<h3 id="antenna-board">Antenna board:</h3>
+<p>This board carries the COM, APRS and GPS antennas as well as their release mechanism.
+<a href="./antenna-page.html"><em>More information</em></a></p>
+
+<h3 id="solar-panel-board">Solar Panel board:</h3>
+<p>These boards hold the solar panels that power the satellite.
+<a href="./solar-page.html"><em>More information</em></a></p>
+
+<h3 id="bus-3d-models">Bus 3D Models:</h3>
+<p>The 3D models for the BIRDS3 bus and the stand can be found <a href="https://github.com/BIRDSOpenSource/BIRDS3-CAD"><em>here</em></a>.
+For the BIRDS4 version, please find it <a href="https://github.com/BIRDSOpenSource/BIRDS4-CAD"><em>here</em></a></p>
+
+
     </section>
-            
+
+    
+  		<!-- Linklist Start -->
+<section id="sitelinks">
+    <div class="container">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h5 class="exlink-heading">About the BIRDS Project</h5>
+        <p class="small">The BIRDS program, developed by Kyushu Institute of Technology, is an educational initiative focused on CubeSat development. 
+          The BIRDS Open Source project is committed to demonstrating lean satellite development that is well documented, easy to adapt and debug, and that caters to the needs of the entire satellite development workflow, from satellite design configurations to ground station data collection and analysis.</p>
+        <h5 class="exlink-heading">More Information?</h5>
+        <p class="small">Get the news directly to your inbox.</p>
+        <form class="footer-subscribe" id="realmjoin-subscribeform" method="post" action="javascript:subscribeform()">
+          <div class="input-group">
+            <input type="text" class="form-control input-sm" placeholder="E-Mail Address" name="email" id="email">
+            <span class="input-group-btn"><button class="btn btn-primary btn-sm" type="submit" id="subscribebtn">Subscribe</button></span>
+          </div>
+        </form>
+        <p class="small"><br>Made in Japan</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-1 recentposts">
+        <h5 class="exlink-heading">Link List</h5>
+        <ul>
+          <li><a href="/"><span>Features</span><br>See BIRDS Bus in Action.</a></li>
+          <!-- <li><a href=""><span>Help Center</span><br>Technical FAQ and Support.</a></li> -->
+          <li><a href="https://github.com/BIRDSOpenSource"><span>GitHub</span><br>Find us on GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-1">
+        <h5 class="exlink-heading">Headquarter</h5>
+        <p class="small">Kyutech<br>1-1 Sensuicho, Tobata Ward, Kitakyushu,<br>Fukuoka 804-8550<br>T +81 93-884-3000<br>info@mail.kyutech.jp
+        </p>
+        <!-- <h5 class="exlink-heading">Stay Connected</h5>
+        <ul>
+          <li>
+            <a href="https://twitter.com/realmjoin" target="_blank" data-original-title="Twitter">
+              <i class="fa fa-twitter-square fa-2x float" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/user/glueckkanja" data-original-title="YouTube">
+              <i class="fa fa-youtube-square fa-2x float" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/glueck-&-kanja-consulting-ag" target="_blank" data-original-title="LinkedIn">
+              <i class="fa fa-linkedin-square fa-2x float" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://www.xing.com/companies/gl%C3%BCck%26kanjaconsultingag" target="_blank" data-original-title="Xing">
+              <i class="fa fa-xing-square fa-2x float" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+  <span>
+          <a href="https://www.kununu.com/de/glueck-kanja-consulting" target="_blank" data-original-title="kununu">
+          </span> -->
+      </div>
+    </div>
+  </section>
+  <!-- Linklist End -->
+    
+    <footer>
+    <div class="grid">
+      <div class="unit one-third center-on-mobiles">
+        <p>The BIRDS Project is maintained by an <a href='/team'>ever-changing team</a> of students . </p>
+      </div>
+      <div class="unit two-thirds align-right center-on-mobiles">
+        
+        <p>&copy; 2024 Birds Open Source Release. All rights reserved.</p>
+        <p>
+          This project is licensed under the <a href="/LICENSE">MIT License</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
     <!-- Scripts Start -->
+ 
 <!-- Google Fonts -->
 <!--link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"-->
 <!--link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,700" rel="stylesheet"-->
@@ -176,13 +239,11 @@
 <script type="text/javascript" charset="UTF-8" src="/assets/javascripts/bootstrap.min.js"></script>
 
 <!-- Custom JavaScript -->
-<script type="text/javascript" charset="UTF-8" src="/assets/js/mandrill.min.js"></script>
+<!-- <script type="text/javascript" charset="UTF-8" src="/assets/js/mandrill.min.js"></script>
 <script type="text/javascript" charset="UTF-8" src="/assets/js/rangeslider.js"></script>
 <script type="text/javascript" charset="UTF-8" src="/assets/js/guk.js"></script>
+<script src="/assets/js/main.js"></script> -->
 
-<!-- HubSpot Embed Code -->
-
-<!-- Zendesk Widget script -->
 
 <!-- Google Analytics -->
 <script>
@@ -221,25 +282,6 @@ var google_remarketing_only = false;
 </div>
 </noscript>
 
-<!-- Fullstory Analytics -->
-<script>
-    window['_fs_debug'] = false;
-    window['_fs_host'] = 'fullstory.com';
-    window['_fs_org'] = '';
-    window['_fs_namespace'] = 'FS';
-    (function(m,n,e,t,l,o,g,y){
-        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
-        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
-        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
-        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-        g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
-        d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
-        ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
-    })(window,document,window['_fs_namespace'],'script','user');
-</script>
-
 <!-- SEO Details -->
 <script type="application/ld+json">
     {
@@ -252,14 +294,13 @@ var google_remarketing_only = false;
             "@type": "Organization",
             "logo": {
                 "@type": "ImageObject",
-                "url": "/assets/images/logo_2018_07.png"
+                "url": "./assets/images/logo_2018_07.png"
             }
         },
         "url": "http://localhost:4000"
     }
 </script>
 <!-- Scripts END -->
-
   </body>
 </html>
-<!-- Page Info: Banner Layout -->
+<!-- Page Info: DEFAULT Layout -->
