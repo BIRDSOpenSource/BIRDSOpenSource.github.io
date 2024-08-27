@@ -10,9 +10,17 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    ffi (1.17.0)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86_64-darwin)
     forwardable-extended (2.6.0)
+    google-protobuf (4.27.3)
+      bigdecimal
+      rake (>= 13)
     google-protobuf (4.27.3-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.3-x86_64-darwin)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -34,8 +42,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-feed (0.17.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
@@ -67,7 +73,20 @@ GEM
       strscan
     rouge (4.3.0)
     safe_yaml (1.0.5)
+    sass-embedded (1.77.8)
+      google-protobuf (~> 4.26)
+      rake (>= 13)
+    sass-embedded (1.77.8-aarch64-mingw-ucrt)
+      google-protobuf (~> 4.26)
     sass-embedded (1.77.8-arm64-darwin)
+      google-protobuf (~> 4.26)
+    sass-embedded (1.77.8-x86-cygwin)
+      google-protobuf (~> 4.26)
+    sass-embedded (1.77.8-x86-mingw-ucrt)
+      google-protobuf (~> 4.26)
+    sass-embedded (1.77.8-x86_64-cygwin)
+      google-protobuf (~> 4.26)
+    sass-embedded (1.77.8-x86_64-darwin)
       google-protobuf (~> 4.26)
     strscan (3.1.0)
     terminal-table (3.0.2)
@@ -85,7 +104,6 @@ PLATFORMS
   x86_64-darwin
 
 DEPENDENCIES
-  jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-theme-minimal

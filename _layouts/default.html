@@ -2,20 +2,17 @@
 <html lang="{{site.active_lang}}" class="no-js">
 
   {% include top.html %}
-  {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
-  {% include header.html %}
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
+    {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
 
-		{% include navigation.html currentRequest=currentRequest %}
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="151">
+  
+    {% include navigation.html currentRequest=currentRequest %}
 
 		<section id="start">
 			  {{ content }}
     </section>
 
-    {% if page.nositelinks == nil %}
-  		{% include sitelinks.html %}
-    {% endif %}
     {% include footer.html %}
     {% include scripts.html %}
   </body>
