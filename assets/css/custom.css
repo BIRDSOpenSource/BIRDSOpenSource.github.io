@@ -10,94 +10,26 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  line-height: 1;
 }
 
-/* Main Container */
 #container {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-/* Content Section */
 #content {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+  flex: 1;
+  padding: 20px;
 }
 
 #start {
   width: 100%;
-  height: 100%;
-  box-sizing: border-box; /* Ensure padding is included in the element's width and height */
-  padding: 20px; /* Optional: Add padding if needed */
+  box-sizing: border-box;
+  padding: 20px;
 }
 
-/* Header and Navigation */
-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* Ensure it stays above other content */
-  background-color: #333; /* Ensure the header has a background */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
-}
-
-.navbar-logo ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  background-color: #333; /* Same background color as before */
-}
-
-.navbar-logo ul li {
-  list-style: none;
-}
-
-.navbar-logo ul li a {
-  display: block;
-  padding: 15px 20px;
-  color: #fff; /* White text */
-  text-decoration: none;
-}
-
-.navbar-logo ul li a:hover {
-  background-color: #22769c; /* Slightly darker background on hover */
-  color: #fff; /* White text */
-}
-
-/* Navbar customization */
-.navbar-custom {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #333; /* Your navbar background color */
-  border-bottom: 1px solid #444; /* Optional: add a bottom border */
-}
-
-.navbar-left {
-  display: flex;
-  align-items: center; /* Vertically center the items */
-  justify-content: flex-end; /* Align items to the right */
-}
-
-/* HIGHLIGHT CURRENT PAGE */
-.navbar-nav > li > a {
-  color: #fff; /* Default link color */
-  text-decoration: none;
-}
-
-.navbar-nav > li > a:hover,
-.navbar-nav > li.active > a {
-  background-color: #22769c; /* Background color on hover and active state */
-  color: #fff; /* Text color on hover and active state */
-}
-
-/* General Text and Element Styles */
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 0 0 20px;
@@ -131,13 +63,6 @@ a {
 a:hover, a:focus {
   color: #069;
   font-weight: bold;
-}
-
-a small {
-  font-size: 11px;
-  color: #777;
-  margin-top: -0.3em;
-  display: block;
 }
 
 .wrapper {
@@ -203,23 +128,6 @@ kbd {
   vertical-align: middle;
 }
 
-.flexbox {
-  display: flex;
-  height: 50px;
-}
-
-.logo {
-  display: block;
-  margin-top: 5px;
-}
-
-.navbar-logo {
-  display: flex;
-  height: 50px;
-  margin: auto;
-}
-
-/* Downloads */
 .downloads li {
   width: 89px;
   float: left;
@@ -254,6 +162,11 @@ kbd {
   background-color: #f0f0f0;
 }
 
+strong {
+  color: #222;
+  font-weight: 700;
+}
+
 .downloads li + li + li {
   border-right: none;
   width: 89px;
@@ -265,7 +178,6 @@ kbd {
   color: #222;
 }
 
-/* Section */
 section {
   width: 500px;
   float: right;
@@ -283,23 +195,156 @@ hr {
   margin: 0 0 20px;
 }
 
-/* Footer */
+/* NAVIGATION Sticky Header */
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+}
+
+.navbar-logo ul li {
+  list-style: none;
+}
+
+.navbar-logo ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-logo ul li a:hover {
+  background-color: #22769c;
+  color: #fff;
+}
+
+nav {
+  background-color: #f31a1a;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  background-color: #22769c;
+}
+
+a {
+  color: #22769c;
+}
+
+a:hover {
+  color: #22769c;
+}
+
+.flexbox {
+  display: flex;
+  height: 50px;
+
+  & > * { margin: auto }
+}
+
+.logo {
+  display: block;
+  img { margin-top: 5px }
+}
+
+.navbar-logo {
+  display: flex;
+  height: 50px;
+
+  & > * { margin: auto }
+}
+
+/* NAV BAR HIGHLIGHT CURRENT PAGE */
+.navbar-nav > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #22769c;
+}
+
+.navbar-nav > li.active > a {
+  background-color: #22769c;
+  color: #fff;
+}
+
+/* FOOTER STYLING */
 footer {
   width: 100%;
-  background-color: #333; /* Dark background color */
-  color: #fff; /* White text color */
-  padding: 20px 0; /* Padding for spacing */
-  text-align: center; /* Centered text */
-  font-size: 14px; /* Font size */
-  position: relative;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  margin-top: auto; /* Pushes footer to the bottom */
 }
 
 footer a {
-  color: #fff; /* Footer link color */
-  text-decoration: none; /* Remove underline */
+  color: #fff;
+  text-decoration: none;
 }
 
 footer a:hover {
-  color: #22769c; /* Link color on hover */
-  text-decoration: underline; /* Underline on hover */
+  color: #22769c;
+  text-decoration: underline;
+}
+
+/* NAVBAR CUSTOMISATION */
+.navbar-custom {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #333;
+  border-bottom: 1px solid #444;
+}
+
+.navbar-logo {
+  max-height: 250px;
+  float: left;
+  margin-right: 5px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #22769c;
 }

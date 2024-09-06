@@ -17,11 +17,10 @@ The main goal is to provide a more solid basis for space programs in non-space f
 
 We have a monthly Webinar to discuss various issues related to the satellite bus. To obtain the information (Zoom connections etc.,) about the Webinars, [please click here](./mailing-list.html).. You can find the transcripts and recordings of past webinars on this page.
 
-```ruby
-Announcement of Next Webinar
+> **Announcement of Next Webinar**
+>
+> Next Webinar is KASHIWA by Chiba Institute of Technology team on 22:00 June 12, 2024
 
-Next Webinar is KASHIWA by Chiba Institute of Technology team on 22:00 June 12, 2024
-```
 
 #### Header 4
 

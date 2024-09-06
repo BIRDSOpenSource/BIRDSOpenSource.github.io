@@ -1,16 +1,15 @@
 - title: Home
   link: /
   show_on_mobile: true
-- title: About
-  link: /about/
-  show_on_mobile: true
-- title: Resources
-  link: /resources/
-  show_on_mobile: true
 - title: Docs
   link: /docs/
   show_on_mobile: true
+- title: About
+  link: /about/
   show_on_mobile: true
 - title: Showcase
   link: /showcase/
+  show_on_mobile: true
+- title: Webinars
+  link: /webinars/
   show_on_mobile: true
