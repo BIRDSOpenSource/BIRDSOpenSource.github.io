@@ -3,7 +3,7 @@ title: Birds Open Source Project
 description: The BIRDS program, developed by Kyushu Institute of Technology, is an educational initiative focused on CubeSat development. The BIRDS Open Source project is committed to demonstrating lean satellite development that is well documented, easy to adapt and debug, and that caters to the needs of the entire satellite development workflow, from satellite design configurations to ground station data collection and analysis.
 logo: ./assets/images/logo_2018_07.png
 show_downloads: false
-url: "https://birdsopensource.github.io"
+url: ""
 baseurl: "/"
 plugins:
   - jekyll-sitemap
