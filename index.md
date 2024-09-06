@@ -3,49 +3,109 @@ layout          : default
 title           : BIRDS Project
 ---
 
+# Welcome to BIRDS Bus Open Source
 
-# Explore the BIRDS series
+Kyushu Institute of Technology is promoting BIRDS Bus Open Source activities.
 
-The Joint Global Multi-Nations Birds Satellite project, or BIRDS project, was created by the Kyushu Institute of Technology ([_Kyutech_](https://www.kyutech.ac.jp/english/)) to help countries build their first satellite. So far, there have been 4 completed and one ongoing BIRDS missions:
+The aim is to share know-how and technical information regarding CubeSat development -- with a focus on the BIRDS Bus. This satellite bus was developed at Kyutech as a spin-off of the BIRDS Program (2015-2022).
 
-1. BIRDS-1: Bangladesh, Japan, Mongolia, Ghana and Nigeria.
-2. BIRDS-2: Bhutan, The Philipines and Malaysia.
-3. BIRDS-3: Japan, Sri Lanka and Nepal
-4. BIRDS-4: Japan, The Philipines, Paraguay.
-5. BIRDS-5: Japan, Uganda and Zimbabwe.
+## Mission
 
-The project has two main objectives:
+The main goal is to provide a more solid basis for space programs in non-space faring countries by making satellite development easier, quicker, and less expensive. Starting from scratch is too much work.
 
-1. Experience the entire cycle of a satellite project, from mission definition to operation, in a hands-on manner.
-2. Have a strategy for sustainability after the training ends.
+### Join our webinars
 
-It should be emphasized that the primary goal is not the building of a satellite, but to have a long-term and sustainable space program established in each member country.
+We have a monthly Webinar to discuss various issues related to the satellite bus. To obtain the information (Zoom connections etc.,) about the Webinars, [please click here](./mailing-list.html).. You can find the transcripts and recordings of past webinars on this page.
 
-Kyutech initiated a long-term fellowship program, DNST/PNST (Doctorate in NanoSatellite Technology/ Postgraduate study in NanoSatellite Technology), in 2011 in collaboration with the United Nations Office of Outer Space Affairs (UNOOSA) to promote the space capacity building of non-space-faring nations. It also started the Space Engineering International Course (SEIC) in 2013 as a postgraduate program.
+```ruby
+Announcement of Next Webinar
 
-Two or three young engineers are sent from each participating country to Kyutech as full-time graduate students to learn space engineering using 1U CubeSat development work. The BIRDS program is designed so that each generation of satellites can be finished in two years, from mission definition to operation. Including operation in two years is critical to fit the entire satellite project into a master’s degree course study timeline, which is two years.
+Next Webinar is KASHIWA by Chiba Institute of Technology team on 22:00 June 12, 2024
+```
+
+#### Header 4
+
+*   Circuit diagram, software, test report, etc, via GitHub.
+*   Flight data of BIRDS-3 and BIRDS-4
+*   Excel files, How to read the data
+*   Photo images captured by BIRDS-3 and BIRDS-4
+*   Baseline Flight Safety Assessment Report(SAR) for Safety Review Phase III.
+
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
-### Ground Station Software
-Information and links to the documentation of the ground station software for the BIRDS satellites can be found [_here_](./GS-software.html).
+### Definition lists can be used with HTML syntax.
 
-## Documentation Project Team
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
 
-The effort to release and maintain this documentation to the public is done for Kyutech University by a small team from Costa Rica. The supervising professor, Juan José Rojas, obtained his PhD from the BIRDS Program detailed in the Textbook.
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
 
-| PhD. Eng. Juan José Rojas Hernández                   |
-| :-----------:                                         |
-| Researcher                                            |
-| _Power Systems and IoT_                               |
-| [juan.rojas@tec.ac.cr](mailto:juan.rojas@tec.ac.cr)   |
-
-The documentation, creation of the repositories and this website is done by two assistant students:
-
-| Name                              | Degree                            | Email                             |
-|:-------------                     |:------------------                |:------                            |
-| Jairo Rodríguez Blanco            | Mecatronics Engineering           | jairo.rb8@estudiantec.cr          |
-| Kevin Sánchez Ramírez             | Industrial Engineering            | kevin.sanchezramirez@ucr.ac.cr    |
-
-## Community Telegram Group
-
-A community Telegram group is being formed to discuss questions and other aspects of the BIRDSBus. If you have an interest in joining, use [this link.](https://t.me/+D3BCqCmceQ41ZGFl)
+```
+The final element.
+```

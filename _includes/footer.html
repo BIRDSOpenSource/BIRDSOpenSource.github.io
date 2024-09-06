@@ -7,6 +7,7 @@
       <div class="unit two-thirds align-right center-on-mobiles">
         {% if site.github.is_project_page %}
         <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p>BIRDS <a href='{{ site.baseurl }}/'>Bus Open Source Powered</a> by: <a href="https://birds-project.com/">BIRDS Project</a></p>
       {% endif %}
         <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
         <p>
@@ -16,3 +17,4 @@
     </div>
   </div>
 </footer>
+{% include scripts.html %}

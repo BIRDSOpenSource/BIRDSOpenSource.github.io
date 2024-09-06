@@ -71,8 +71,8 @@
           </a>
         </li>
         <li class="firstlevel dropdown dropdown-large">
-          <a href="/docs/faq" class="firstlevelanchor">
-            FAQ
+          <a href="/webinars" class="firstlevelanchor">
+            Webinars
           </a>
         </li>
         <li class="firstlevel dropdown dropdown-large">
@@ -84,16 +84,28 @@
     </div>
   </div>
 </nav>
-<!-- Navigation End -->
-	<!-- <style>.logo { display: none !important;}</style> -->
-	
-	<div style="margin-top: 104px;padding: 0px;"></div>
 
+<!-- Navigation End -->
+
+
+	<style>.logo { display: none !important;}</style>
+	
+	<div style="margin-top: 104px;padding: 0px;">
+		<input type='checkbox' style='display: none' id="cb">
+		<label for="cb" id="button"></label>
+
+		<div id="menu">
+			<div id="anim-wrapper"><div id="anim">✪</div></div>
+			<div id="logo"><a href="?">vik.tf</a></div>
+			<a href="?">Accueil</a>
+      <a href="?p=boutique">Boutique</a>
+			<a href="?p=vikart">Kart electrique</a>
+		</div>
 		<header class="docsheader">
-			<!-- <h1>
+			<h1>
 				<a href="/docs" style="color:#fff;"></a>
 				<button type="button" class="open-nav" id="open-nav"></button>
-			</h1> -->
+			</h1>
 
 			<form action="/docs/search/" method="get">
 				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
@@ -299,7 +311,7 @@
 
 			</article>
 		</section>
-
+	</div>
 		<footer>
   <div class="container">
     <div class="grid">
@@ -316,11 +328,9 @@
     </div>
   </div>
 </footer>
-		<!-- Scripts Start -->
+<!-- Scripts Start -->
  
 <!-- Google Fonts -->
-<!--link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"-->
-<!--link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,700" rel="stylesheet"-->
 <script type="text/javascript" charset="UTF-8" src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 <script>
     WebFont.load({
@@ -329,20 +339,6 @@
         }
     });
 </script>
-<!-- jQuery -->
-<script type="text/javascript" charset="UTF-8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
-<script type="text/javascript" charset="UTF-8" src="/assets/javascripts/bootstrap.min.js"></script>
-
-<!-- Custom JavaScript -->
-<!-- <script type="text/javascript" charset="UTF-8" src="/assets/js/mandrill.min.js"></script>
-<script type="text/javascript" charset="UTF-8" src="/assets/js/rangeslider.js"></script>
-<script type="text/javascript" charset="UTF-8" src="/assets/js/guk.js"></script>
-<script src="/assets/js/main.js"></script> -->
-
-
 <!-- Google Analytics -->
 <script>
     (function(i, s, o, g, r, a, m) {
@@ -361,24 +357,53 @@
     ga('send', 'pageview');
 </script>
 
-<!-- Google Code for Conversion Conversion Page -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = ;
-var google_conversion_language = "en";
-var google_conversion_format = "3";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "NTNjCOCHmXEQjNfo-QM";
-var google_remarketing_only = false;
-/* ]]> */
+<!-- SEO Details -->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "",
+        "headline": "Documentation",
+        "description": "",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "./assets/images/logo_2018_07.png"
+            }
+        },
+        "url": "http://localhost:4000"
+    }
 </script>
-<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+<!-- Scripts END -->
+		<!-- Scripts Start -->
+ 
+<!-- Google Fonts -->
+<script type="text/javascript" charset="UTF-8" src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans:300,700', 'Open Sans Condensed:300,700', 'Material Icons']
+        }
+    });
 </script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1060776844/?label=NTNjCOCHmXEQjNfo-QM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
+<!-- Google Analytics -->
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+</script>
 
 <!-- SEO Details -->
 <script type="application/ld+json">

@@ -575,12 +575,17 @@ footer {
 /* PAGE BODY */
 body {
   background-color: #ffffff;
-  padding: 50px;
+  padding-top: 60px; /* Adjust this value based on your header's height. Adjust the padding to ensure content doesn’t overlap the header */
   display: flex;
   flex-direction: column;
   font: 14px/1.5 "Noto Sans", sans-serif;
   color: #727272;
   font-weight: 400;
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -759,19 +764,13 @@ hr {
   margin: 0 0 20px;
 }
 
-/* CUSTOMISATION STARTS HERE */
-/* Sticky Header */
+/* NAVIGATION Sticky Header */
 header {
   position: sticky;
   top: 0;
   z-index: 1000; /* Ensure it stays above other content */
   background-color: #333; /* Ensure the header has a background */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
-}
-
-/* Adjust the padding to ensure content doesn’t overlap the header */
-body {
-  padding-top: 60px; /* Adjust this value based on your header's height */
 }
 
 /* Optional: Style the navigation within the sticky header */
@@ -866,7 +865,25 @@ a:hover {
   }
 }
 
-/* Footer Styling */
+/* NAV BAR HIGHLIGHT CURRENT PAGE */
+/* Default link style */
+.navbar-nav > li > a {
+  color: #fff; /* Default link color */
+  text-decoration: none;
+}
+
+/* Hover state */
+.navbar-nav > li > a:hover {
+  background-color: #22769c; /* Hover background color */
+}
+
+/* Active link style */
+.navbar-nav > li.active > a {
+  background-color: #22769c; /* Same as hover color */
+  color: #fff; /* Text color on active state */
+}
+
+/* FOOTER STYLING */
 footer {
   width: 100%;
   background-color: #333; /* Dark background color */
@@ -875,6 +892,7 @@ footer {
   text-align: center; /* Centered text */
   font-size: 14px; /* Font size */
   position: relative;
+  padding-bottom: 50px;
 }
 
 footer a {
@@ -918,6 +936,103 @@ footer a:hover {
 /* Optional: Add some hover effects */
 .navbar-nav > li > a:hover {
   background-color: #22769c;
+}
+
+/* COPIED FROM A 1MB WEBSITE I LIKED THE LOOK OF */
+html {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+a, a:visited {
+  color: #3b9bc8;
+}
+
+b {
+  font-weight: bold;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+}
+
+#content {
+  margin-left: 260px; /* Adjust depending on the menu width */
+  padding: 20px;
+}
+
+#menu {
+  color: rgb(226, 35, 35);
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#menu a:visited {
+  color: #1e21e8;
+}
+
+#menu a {
+  color: #c90c0c;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  position: relative;
+  margin: 10px 0;
+  z-index: 2;
+}
+
+#menu a:hover {
+  background-color: #acda3a;
+}
+
+#angle {
+  border-right: 20px solid rgb(63, 193, 61);
+  border-bottom: 200px solid #b93636;
+  border-top: 60px solid #534ad2;
+}
+
+#button {
+  position: absolute;
+  font-size: 36px;
+  width: 42px;
+  height: 42px;
+  color: white;
+  background-color: #1f1f1f;
+  text-align: center;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#button:before {
+  content: "×";
+}
+
+#cb:checked ~ #menu, #cb:checked ~ #angle {
+  display: none;
+}
+
+#cb:checked ~ label:before {
+  content: "≡";
+}
+
+#cb:checked ~ #menu {
+  width: 30px;
+  height: 30px;
+}
+
+#cb:checked ~ #content {
+  margin: 60px 30px 30px 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

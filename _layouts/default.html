@@ -5,16 +5,25 @@
 
     {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
 
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="151">
+    <body>
   
     {% include navigation.html currentRequest=currentRequest %}
+  
+    <input type='checkbox' style='display: none' id="cb">
+    <label for="cb" id="button"></label>
 
-		<section id="start">
-			  {{ content }}
-    </section>
+    <div id="container">
+      <div id="menu"></div>     
+      <div id="angle"></div>
+      <div id="content">
+        <section id="start">
+            {{ content }}
+        </section>
+      </div>
+    </div>
+    </body>
 
     {% include footer.html %}
-    {% include scripts.html %}
-  </body>
 </html>
+
 <!-- Page Info: DEFAULT Layout -->

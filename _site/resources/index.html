@@ -26,7 +26,7 @@
 
     
 
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="151">
+    <body>
   
     
   <!-- Navigation Start -->
@@ -72,8 +72,8 @@
           </a>
         </li>
         <li class="firstlevel dropdown dropdown-large">
-          <a href="/docs/faq" class="firstlevelanchor">
-            FAQ
+          <a href="/webinars" class="firstlevelanchor">
+            Webinars
           </a>
         </li>
         <li class="firstlevel dropdown dropdown-large">
@@ -85,58 +85,25 @@
     </div>
   </div>
 </nav>
+
 <!-- Navigation End -->
 
-		<section id="start">
-			  <h1 id="satellite-bus">Satellite Bus</h1>
 
-<h1 id="the-birds-bus">The BIRDS Bus</h1>
+  
+    <input type='checkbox' style='display: none' id="cb">
+    <label for="cb" id="button"></label>
 
-<h3 id="new-a-team-presented-on-the-march-2022-birds-meeting-their-use-of-the-radiometrix-hx1-coms-module-with-the-birds-platform-the-modules-datasheet-has-been-added-to-the-coms-repos-also-detailed-battery-testing-and-screening-procedures-have-been-added-to-the-procedures-repo-please-check-these-new-documents"><strong>New</strong>: A team presented on the March 2022 BIRDS meeting their use of the Radiometrix HX1 COMS module with the BIRDS platform. The module’s datasheet has been added to the COMS repos! Also, detailed battery testing and screening procedures have been added to the procedures repo. Please check these new documents.</h3>
+    <div id="container">
+      <div id="menu"></div>     
+      <div id="angle"></div>
+      <div id="content">
+        <section id="start">
+            
 
-<p>One of the main contributions from the BIRDS Project to the working teams is the BIRDSBus. It is a hardware platform consisting mainly of an EPS, a C&amp;DHS and COMMS to satisfy the needs of a standard bus. This is an exploded view of the entire bus:</p>
-
-<p><img src="./images/BIRDSBus-exploded.png" alt="BIRDSbus Exploded View" /></p>
-
-<h3 id="general-documentation">General documentation:</h3>
-<p>While this website does contain information regarding the program and the BIRDSBus, the main explanations and documentation is contained in the Program Textbook and the Interface Control Document, which can be found <a href="https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation"><em>here</em></a>.</p>
-
-<h2 id="the-boards-that-comprise-the-bus-are-the-following">The boards that comprise the bus are the following:</h2>
-
-<h3 id="backplane-board-bpb">Backplane Board (BPB):</h3>
-<p>The backplane is the board that links all the other ones together. It has basically no other components as its only function is to  connect all the boards together.
-<a href="./bpb-page.html"><em>More information</em></a></p>
-
-<h3 id="front-access-board-fab">Front Access Board (FAB):</h3>
-<p>The FAB has two main functions. It is the Electrical Power System (EPS), collecting and monitoring electrical power information and managing a kill switch. Also, it contains the external interfaces, such as the remove before flight pins and programming ports. This board is of proprietary design by Sagami Tsushin. As such, only the schematic for this board is included in this documentation, in pdf format.
-<a href="./fab-page.html"><em>More information</em></a></p>
-
-<h3 id="on-board-computer--electrical-power-system-obceps">On Board Computer / Electrical Power System (OBC/EPS):</h3>
-<p>This board has three of the four bus’s microcontrollers, being the Main PIC, the Reset PIC and the Communications PIC. Also, apart from command and data handling, this board also has the function of electrical power distribution, regulating the battery inputs. This board is of proprietary design by Sagami Tsushin. As such, only the schematic for this board is included in this documentation, in pdf format.
-<a href="./obc-page.html"><em>More information</em></a></p>
-
-<h3 id="communications-board-com">Communications Board (COM):</h3>
-<p>The COM board has the transceiver module for radio communications. It works on the UHF amateur radio band, in half duplex mode and GMSK modulation, following the AX.25 protocol. This board is also proprietary, provided by Addnics. Another communications board has flown with the bus and has worked. The documentation for this board is included in this release.
-<a href="./com-page.html"><em>More information</em></a></p>
-
-<h3 id="rear-acces-board-rab">Rear Acces Board (RAB):</h3>
-<p>Similarly to the FAB, the RAB offers connections to several of the bus’s interfaces.
-<a href="./rab-page.html"><em>More information</em></a></p>
-
-<h3 id="antenna-board">Antenna board:</h3>
-<p>This board carries the COM, APRS and GPS antennas as well as their release mechanism.
-<a href="./antenna-page.html"><em>More information</em></a></p>
-
-<h3 id="solar-panel-board">Solar Panel board:</h3>
-<p>These boards hold the solar panels that power the satellite.
-<a href="./solar-page.html"><em>More information</em></a></p>
-
-<h3 id="bus-3d-models">Bus 3D Models:</h3>
-<p>The 3D models for the BIRDS3 bus and the stand can be found <a href="https://github.com/BIRDSOpenSource/BIRDS3-CAD"><em>here</em></a>.
-For the BIRDS4 version, please find it <a href="https://github.com/BIRDSOpenSource/BIRDS4-CAD"><em>here</em></a></p>
-
-
-    </section>
+        </section>
+      </div>
+    </div>
+    </body>
 
     <footer>
   <div class="container">
@@ -154,11 +121,9 @@ For the BIRDS4 version, please find it <a href="https://github.com/BIRDSOpenSour
     </div>
   </div>
 </footer>
-    <!-- Scripts Start -->
+<!-- Scripts Start -->
  
 <!-- Google Fonts -->
-<!--link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"-->
-<!--link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,700" rel="stylesheet"-->
 <script type="text/javascript" charset="UTF-8" src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 <script>
     WebFont.load({
@@ -167,20 +132,6 @@ For the BIRDS4 version, please find it <a href="https://github.com/BIRDSOpenSour
         }
     });
 </script>
-<!-- jQuery -->
-<script type="text/javascript" charset="UTF-8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
-<script type="text/javascript" charset="UTF-8" src="/assets/javascripts/bootstrap.min.js"></script>
-
-<!-- Custom JavaScript -->
-<!-- <script type="text/javascript" charset="UTF-8" src="/assets/js/mandrill.min.js"></script>
-<script type="text/javascript" charset="UTF-8" src="/assets/js/rangeslider.js"></script>
-<script type="text/javascript" charset="UTF-8" src="/assets/js/guk.js"></script>
-<script src="/assets/js/main.js"></script> -->
-
-
 <!-- Google Analytics -->
 <script>
     (function(i, s, o, g, r, a, m) {
@@ -198,25 +149,6 @@ For the BIRDS4 version, please find it <a href="https://github.com/BIRDSOpenSour
     ga('create', '', 'auto');
     ga('send', 'pageview');
 </script>
-
-<!-- Google Code for Conversion Conversion Page -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = ;
-var google_conversion_language = "en";
-var google_conversion_format = "3";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "NTNjCOCHmXEQjNfo-QM";
-var google_remarketing_only = false;
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1060776844/?label=NTNjCOCHmXEQjNfo-QM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
 
 <!-- SEO Details -->
 <script type="application/ld+json">
@@ -237,6 +169,6 @@ var google_remarketing_only = false;
     }
 </script>
 <!-- Scripts END -->
-  </body>
 </html>
+
 <!-- Page Info: DEFAULT Layout -->
