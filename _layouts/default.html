@@ -3,10 +3,10 @@
 
   {% include top.html %}
 
-    {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
+  {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
 
-    <body>
-  
+  <body>
+
     {% include navigation.html currentRequest=currentRequest %}
 
     <div id="container">
@@ -16,9 +16,7 @@
         </section>
       </div>
     </div>
-    </body>
 
     {% include footer.html %}
+  </body>
 </html>
-
-<!-- Page Info: DEFAULT Layout -->

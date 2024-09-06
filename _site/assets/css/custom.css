@@ -1,366 +1,305 @@
- 
- /* PAGE BODY */
-  body {
-    background-color: #ffffff;
-    padding-top: 60px; /* Adjust this value based on your header's height. Adjust the padding to ensure content doesn’t overlap the header */
-    display: flex;
-    flex-direction: column;
-    font: 14px/1.5 "Noto Sans", sans-serif;
-    color: #727272;
-    font-weight: 400;
-    width: 100%;
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: #222;
-    margin: 0 0 20px;
-  }
-  
-  p, ul, ol, table, pre, dl {
-    margin: 0 0 20px;
-  }
-  
-  h1, h2, h3 {
-    line-height: 1.1;
-  }
-  
-  h1 {
-    font-size: 28px;
-  }
-  
-  h2 {
-    color: #393939;
-  }
-  
-  h3, h4, h5, h6 {
-    color: #494949;
-  }
-  
-  a {
-    color: #267CB9;
-    text-decoration: none;
-  }
-  
-  a:hover, a:focus {
-    color: #069;
-    font-weight: bold;
-  }
-  
-  a small {
-    font-size: 11px;
-    color: #777;
-    margin-top: -0.3em;
-    display: block;
-  }
-  
-  a:hover small {
-    color: #777;
-  }
-  
-  .wrapper {
-    width: 860px;
-    margin: 0 auto;
-  }
-  
-  blockquote {
-    border-left: 1px solid #e5e5e5;
-    margin: 0;
-    padding: 0 0 0 20px;
-    font-style: italic;
-  }
-  
-  code, pre {
-    font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-    color: #333;
-  }
-  
-  pre {
-    padding: 8px 15px;
-    background: #f8f8f8;
-    border-radius: 5px;
-    border: 1px solid #e5e5e5;
-    overflow-x: auto;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  th, td {
-    text-align: left;
-    padding: 5px 10px;
-    border-bottom: 1px solid #e5e5e5;
-  }
-  
-  dt {
-    color: #444;
-    font-weight: 700;
-  }
-  
-  th {
-    color: #444;
-  }
-  
-  img {
-    max-width: 100%;
-  }
-  
-  kbd {
-    background-color: #fafbfc;
-    border: 1px solid #c6cbd1;
-    border-bottom-color: #959da5;
-    border-radius: 3px;
-    box-shadow: inset 0 -1px 0 #959da5;
-    color: #444d56;
-    display: inline-block;
-    font-size: 11px;
-    line-height: 10px;
-    padding: 3px 5px;
-    vertical-align: middle;
-  }
-  
-  .downloads li {
-    width: 89px;
-    float: left;
-    border-right: 1px solid #e0e0e0;
-    height: 40px;
-  }
-  
-  .downloads li:first-child a {
-    border-radius: 5px 0 0 5px;
-  }
-  
-  .downloads li:last-child a {
-    border-radius: 0 5px 5px 0;
-  }
-  
-  .downloads a {
-    line-height: 1;
-    font-size: 11px;
-    color: #676767;
-    display: block;
-    text-align: center;
-    padding-top: 6px;
-    height: 34px;
-  }
-  
-  .downloads a:hover, .downloads a:focus {
-    color: #675C5C;
-    font-weight: bold;
-  }
-  
-  .downloads ul a:active {
-    background-color: #f0f0f0;
-  }
-  
-  strong {
-    color: #222;
-    font-weight: 700;
-  }
-  
-  .downloads li + li + li {
-    border-right: none;
-    width: 89px;
-  }
-  
-  .downloads a strong {
-    font-size: 14px;
-    display: block;
-    color: #222;
-  }
-  
-  section {
-    width: 500px;
-    float: right;
-    padding-bottom: 50px;
-  }
-  
-  small {
-    font-size: 11px;
-  }
-  
-  hr {
-    border: 0;
-    background: #e5e5e5;
-    height: 1px;
-    margin: 0 0 20px;
-  }
+/* PAGE BODY */
+html, body {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font: 14px/1.5 "Noto Sans", sans-serif;
+  color: #727272;
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
 
+/* Main Container */
+#container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
-/* NAVIGATION Sticky Header */
+/* Content Section */
+#content {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#start {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the element's width and height */
+  padding: 20px; /* Optional: Add padding if needed */
+}
+
+/* Header and Navigation */
 header {
-    position: sticky;
-    top: 0;
-    z-index: 1000; /* Ensure it stays above other content */
-    background-color: #333; /* Ensure the header has a background */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
-  }
-  
-  /* Optional: Style the navigation within the sticky header */
-  .navbar-logo ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    background-color: #333; /* Same background color as before */
-  }
-  
-  .navbar-logo ul li {
-    list-style: none;
-  }
-  
-  .navbar-logo ul li a {
-    display: block;
-    padding: 15px 20px;
-    color: #fff; /* White text */
-    text-decoration: none;
-  }
-  
-  .navbar-logo ul li a:hover {
-    background-color: #22769c; /* Slightly darker background on hover */
-    color: #fff; /* White text */
-  }
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+  background-color: #333; /* Ensure the header has a background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}
 
-/* Optional: Style the navigation within the sticky header */
-/* Change the background color of the navigation bar */
-nav {
-    background-color: #f31a1a;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    background-color: #333; /* Same background color as before */
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 15px;
-    list-style: none;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    padding: 15px 20px;
-    color: #fff; /* White text */
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
-    background-color: #22769c; /* Slightly darker background on hover */
-    color: #fff; /* White text */
-  }
-  
-  /* Change the link colors */
-  a {
-    color: #22769c;
-  }
-  
-  a:hover {
-    color: #22769c;
-  }
+.navbar-logo ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333; /* Same background color as before */
+}
 
-  .flexbox {
-    display: flex;
-    height: 50px;
+.navbar-logo ul li {
+  list-style: none;
+}
 
-    & > * { margin: auto }
-  }
+.navbar-logo ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff; /* White text */
+  text-decoration: none;
+}
 
-  .logo {
-    display: block;
-    img { margin-top: 5px }
-  }
+.navbar-logo ul li a:hover {
+  background-color: #22769c; /* Slightly darker background on hover */
+  color: #fff; /* White text */
+}
 
-  .navbar-logo {
-    display: flex;
-    height: 50px;
-
-    & > * { margin: auto }
-  }
-  
-/* NAV BAR HIGHLIGHT CURRENT PAGE */
-
-/* Default link style */
-.navbar-nav > li > a {
-    color: #fff; /* Default link color */
-    text-decoration: none;
-  }
-  
-  /* Hover state */
-  .navbar-nav > li > a:hover {
-    background-color: #22769c; /* Hover background color */
-  }
-  
-  /* Active link style */
-  .navbar-nav > li.active > a {
-    background-color: #22769c; /* Same as hover color */
-    color: #fff; /* Text color on active state */
-  }
-  
-/* FOOTER STYLING */
-footer {
-    width: 100%;
-    background-color: #333; /* Dark background color */
-    color: #fff; /* White text color */
-    padding: 20px 0; /* Padding for spacing */
-    text-align: center; /* Centered text */
-    font-size: 14px; /* Font size */
-    position: relative;
-    padding-bottom: 50px
- 
-  }
-  
-  footer a {
-    color: #fff; /* Footer link color */
-    text-decoration: none; /* Remove underline */
-  }
-  
-  footer a:hover {
-    color: #22769c; /* Link color on hover */
-    text-decoration: underline; /* Underline on hover */
-  }
-
-  .content {
-    flex: 1;
-  }
-
-  /* NAVBAR CUSTOMISATION */
-
-  /* Ensure the navbar sticks to the top */
+/* Navbar customization */
 .navbar-custom {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: #333; /* Your navbar background color */
-    border-bottom: 1px solid #444; /* Optional: add a bottom border */
-  }
-  
-  /* Style for the logo */
-  .navbar-logo {
-    max-height: 250px; /* Adjust the logo size */
-    float: left; /* Aligns the logo to the right */
-    margin-right: 5px; /* Space between logo and navbar items */
-  }
-  
-  /* Ensure the navbar items are aligned properly */
-  .navbar-left {
-    display: flex;
-    align-items: center; /* Vertically center the items */
-    justify-content: flex-end; /* Align items to the right */
-  }
-  
-  /* Optional: Add some hover effects */
-  .navbar-nav > li > a:hover {
-    background-color: #22769c;
-  }
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #333; /* Your navbar background color */
+  border-bottom: 1px solid #444; /* Optional: add a bottom border */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  justify-content: flex-end; /* Align items to the right */
+}
+
+/* HIGHLIGHT CURRENT PAGE */
+.navbar-nav > li > a {
+  color: #fff; /* Default link color */
+  text-decoration: none;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a {
+  background-color: #22769c; /* Background color on hover and active state */
+  color: #fff; /* Text color on hover and active state */
+}
+
+/* General Text and Element Styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+  margin: 0 0 20px;
+}
+
+p, ul, ol, table, pre, dl {
+  margin: 0 0 20px;
+}
+
+h1, h2, h3 {
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  color: #393939;
+}
+
+h3, h4, h5, h6 {
+  color: #494949;
+}
+
+a {
+  color: #267CB9;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #069;
+  font-weight: bold;
+}
+
+a small {
+  font-size: 11px;
+  color: #777;
+  margin-top: -0.3em;
+  display: block;
+}
+
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+}
+
+blockquote {
+  border-left: 1px solid #e5e5e5;
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-style: italic;
+}
+
+code, pre {
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  color: #333;
+}
+
+pre {
+  padding: 8px 15px;
+  background: #f8f8f8;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+dt {
+  color: #444;
+  font-weight: 700;
+}
+
+th {
+  color: #444;
+}
+
+img {
+  max-width: 100%;
+}
+
+kbd {
+  background-color: #fafbfc;
+  border: 1px solid #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da5;
+  color: #444d56;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle;
+}
+
+.flexbox {
+  display: flex;
+  height: 50px;
+}
+
+.logo {
+  display: block;
+  margin-top: 5px;
+}
+
+.navbar-logo {
+  display: flex;
+  height: 50px;
+  margin: auto;
+}
+
+/* Downloads */
+.downloads li {
+  width: 89px;
+  float: left;
+  border-right: 1px solid #e0e0e0;
+  height: 40px;
+}
+
+.downloads li:first-child a {
+  border-radius: 5px 0 0 5px;
+}
+
+.downloads li:last-child a {
+  border-radius: 0 5px 5px 0;
+}
+
+.downloads a {
+  line-height: 1;
+  font-size: 11px;
+  color: #676767;
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  height: 34px;
+}
+
+.downloads a:hover, .downloads a:focus {
+  color: #675C5C;
+  font-weight: bold;
+}
+
+.downloads ul a:active {
+  background-color: #f0f0f0;
+}
+
+.downloads li + li + li {
+  border-right: none;
+  width: 89px;
+}
+
+.downloads a strong {
+  font-size: 14px;
+  display: block;
+  color: #222;
+}
+
+/* Section */
+section {
+  width: 500px;
+  float: right;
+  padding-bottom: 50px;
+}
+
+small {
+  font-size: 11px;
+}
+
+hr {
+  border: 0;
+  background: #e5e5e5;
+  height: 1px;
+  margin: 0 0 20px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Padding for spacing */
+  text-align: center; /* Centered text */
+  font-size: 14px; /* Font size */
+  position: relative;
+}
+
+footer a {
+  color: #fff; /* Footer link color */
+  text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+  color: #22769c; /* Link color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
