@@ -1,0 +1,19 @@
+<footer>
+  <div class="container">
+    <div class="grid">
+      <div class="unit one-third center-on-mobiles">
+        <p>BIRDS <a href='{{ site.baseurl }}/'>Bus Open Source Powered</a> by: <a href="https://birds-project.com/">BIRDS Project</a></p>
+      </div>
+      <div class="unit two-thirds align-right center-on-mobiles">
+        {% if site.github.is_project_page %}
+        <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        <p>
+          This project is licensed under the <a href="{{ site.baseurl }}/LICENSE">MIT License</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+{% include scripts.html %}

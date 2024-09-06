@@ -1,0 +1,48 @@
+<!-- Scripts Start -->
+ 
+<!-- Google Fonts -->
+<script type="text/javascript" charset="UTF-8" src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans:300,700', 'Open Sans Condensed:300,700', 'Material Icons']
+        }
+    });
+</script>
+<!-- Google Analytics -->
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '{{ site.analytics.tracking_id }}', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<!-- SEO Details -->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "{{site.author}}",
+        "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+        "description": "{% if page.excerpt %}{{page.excerpt | strip_html }}{% else %}{{site.excerpt | strip_html }}{% endif %}",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{site.logo}}"
+            }
+        },
+        "url": "{{site.url}}"
+    }
+</script>
+<!-- Scripts END -->
