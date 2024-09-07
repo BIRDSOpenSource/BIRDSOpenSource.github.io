@@ -1,0 +1,13 @@
+
+<div class="dropdown">
+    <a class="dropbtn" style="color: #111; cursor: pointer; padding: 3pt; border-radius: 3pt">Theme</a>
+    <div class="dropdown-content">
+      {% for theme in site.data.themes %}
+        {% if theme.name == "jekyll-theme-minimal" %}
+          <a href="/{{ theme.url }}"><b>{{ theme.name }}</b></a>
+        {% else %}
+          <a href="/{{ theme.url }}">{{ theme.name }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>

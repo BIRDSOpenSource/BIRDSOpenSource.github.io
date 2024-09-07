@@ -23,7 +23,7 @@ title: Birds Open Source Project
 description: >- # this means to ignore newlines until "baseurl:"
    The BIRDS program, developed by Kyushu Institute of Technology, is an educational initiative focused on CubeSat development. 
    The BIRDS Open Source project is committed to demonstrating lean satellite development that is well documented, easy to adapt and debug, and that caters to the needs of the entire satellite development workflow, from satellite design configurations to ground station data collection and analysis.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 logo: ./assets/images/logo_2018_07.png
 show_downloads: false
