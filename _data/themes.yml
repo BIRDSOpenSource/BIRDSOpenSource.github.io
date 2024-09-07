@@ -1,0 +1,4 @@
+- name: minima
+  url: ./
+- name: just-the-docs
+  url: ./docs
