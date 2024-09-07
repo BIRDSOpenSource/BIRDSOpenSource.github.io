@@ -1,4 +1,4 @@
-- name: minima
+- name: jekyll-theme-minimal
   url: ./
 - name: just-the-docs
   url: ./docs
