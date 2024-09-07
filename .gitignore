@@ -1,2 +1,15 @@
 
 *.pdf
+# Commiting contents of _site for themes
+# _site
+_site/404.html
+_site/about/
+_site/assets/
+_site/feed.xml
+_site/github/
+_site/index.html
+_site/jekyll/
+_site/gh-pages/
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
