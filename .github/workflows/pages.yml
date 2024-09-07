@@ -1,0 +1,31 @@
+
+# Set the default working-directory param for the build job.
+build:
+  runs-on: ubuntu-latest
+  defaults:
+    run:
+      working-directory: docs
+
+# Set the working-directory param for the Setup Ruby step.
+- name: Setup Ruby
+    uses: ruby/setup-ruby@v1
+    with:
+      ruby-version: '3.1'
+      bundler-cache: true
+      cache-version: 0
+      working-directory: '${{ github.workspace }}/docs'
+
+# Set the path param for the Upload artifact step:
+- name: Upload artifact
+    uses: actions/upload-pages-artifact@v1
+    with:
+      path: "docs/_site/"
+
+# Modify the trigger so that only changes within the docs directory start the workflow. 
+# Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "docs/**"
