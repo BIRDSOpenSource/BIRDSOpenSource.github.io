@@ -12,12 +12,16 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.0)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x64-mingw-ucrt)
     ffi (1.17.0-x86_64-darwin)
     forwardable-extended (2.6.0)
     google-protobuf (4.27.3)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.27.3-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.3-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.27.3-x86_64-darwin)
@@ -80,6 +84,8 @@ GEM
       google-protobuf (~> 4.26)
     sass-embedded (1.77.8-arm64-darwin)
       google-protobuf (~> 4.26)
+    sass-embedded (1.77.8-x64-mingw-ucrt)
+      google-protobuf (~> 4.26)
     sass-embedded (1.77.8-x86-cygwin)
       google-protobuf (~> 4.26)
     sass-embedded (1.77.8-x86-mingw-ucrt)
@@ -98,6 +104,7 @@ PLATFORMS
   aarch64-mingw-ucrt
   arm64-darwin
   ruby
+  x64-mingw-ucrt
   x86-cygwin
   x86-mingw-ucrt
   x86_64-cygwin
