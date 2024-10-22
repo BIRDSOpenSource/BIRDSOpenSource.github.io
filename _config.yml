@@ -46,8 +46,6 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - docs
-  - build_themes.sh
   - Gemfile
   - Gemfile.lock
   - LICENSE
