@@ -1,8 +1,0 @@
-    <!-- Logo -->
-<header>
-  {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
-    <div class="flexbox">
-      {% include navigation.html currentRequest=currentRequest %}
-    </div>
-  </body>
-</header>
