@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    border-bottom: 2px solid aqua;
+    background-color: black;
+}
+
+nav ul {
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    color: white;
+    padding: 0;
+    width: 60%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border-right: 2px solid aqua;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+nav ul li:has(button) {
+    border-right: none;
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: aqua;
+    font-weight: 500;
+}
+
+nav button {
+    background-color: transparent;
+    color: inherit;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    outline: none;
+    font-weight: inherit;
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.logo {
+    width: 50%;
+    padding: 48px 0;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid aqua;
+}
+
+.logo img {
+    display: none;
+}
+
+
+
+
+/* HERO */
+main {
+    margin-top: 96px;
+}
+
+h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+#start {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: 2px solid aqua;
+}
+
+#start article {
+    border-right: 2px solid aqua;
+    width: calc(56.41% );
+    box-sizing: border-box;
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* #start figure {
+    width: 60%;
+    display: flex;
+} */
+
+
+
+
+
+/* MISSION */
+.mission {
+    border-bottom: 2px solid aqua;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.mission figure {
+    width:  54%;
+}
+
+.mission article {
+    border-left: 2px solid aqua;
+    width: calc(46.3% );
+    box-sizing: border-box;
+    padding: 120px 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Webinars */
+.webinars {
+    border-bottom: 2px solid aqua;
+    display: flex;
+    padding: 64px 48px;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.webinars button {
+    width: max-content;
+    padding: 24px 32px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 1px black;
+    color: inherit;
+    font-family: inherit;
+    color: inherit;
+    outline: none;
+    font-weight: inherit;
+    font-size: inherit;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.webinars button:hover {
+    translate: -10px -10px;
+    box-shadow: 10px 10px 1px black;
+
+}
+
+
+
+/* footer */
+footer {
+    width: 100%;
+    padding: 48px;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 16px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
