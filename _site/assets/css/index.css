@@ -11,7 +11,7 @@ body {
 nav {
     display: flex;
     width: 100%;
-    position: relative;
+    position: fixed;
     box-sizing: border-box;
     border-bottom: 2px solid aqua;
     background-color: black;
@@ -86,6 +86,9 @@ a {
 
 
 /* HERO */
+main {
+    margin-top: 96px;
+}
 
 h1 {
     font-size: 64px;

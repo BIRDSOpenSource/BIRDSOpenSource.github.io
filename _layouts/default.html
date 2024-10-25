@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="{{site.active_lang}}" class="no-js">
 
-  {% include top.html %}
+{% include top.html %}
 
-  {% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
+{% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
 
-  <body>
+<body>
 
-    {% include navigation.html currentRequest=currentRequest %}
+  {% include navigation.html currentRequest=currentRequest %}
 
-    <div id="container">
-      <div id="content">
-        <section id="start">
-            {{ content }}
-        </section>
-      </div>
+  <div id="container">
+    <div id="content">
+      <section id="start">
+        {{ content }}
+      </section>
     </div>
+  </div>
 
-    {% include footer.html %}
-  </body>
+  <main>
+    <section id="start">
+      {{ content }}
+    </section>
+  </main>
+
+  {% include footer.html %}
+</body>
+
 </html>
