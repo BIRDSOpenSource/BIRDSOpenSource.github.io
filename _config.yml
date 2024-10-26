@@ -4,7 +4,7 @@ description: The BIRDS program, developed by Kyushu Institute of Technology, is 
 logo: ./assets/images/logo_2018_07.png
 show_downloads: false
 url: "/"
-# baseurl: "BIRDSOpenSource.github.io"
+baseurl: "BIRDSOpenSource.github.io"
 
 plugins:
   - jekyll-sitemap
