@@ -24,7 +24,7 @@ nav ul {
     display: flex;
     color: white;
     padding: 0;
-    width: 60%;
+    width: 50%;
     margin: 0;
     box-sizing: border-box;
 }
@@ -104,7 +104,7 @@ h1 {
 
 #start article {
     border-right: 2px solid aqua;
-    width: calc(56.41% );
+    width: calc(50% );
     box-sizing: border-box;
     padding: 64px 48px;
     display: flex;
@@ -134,12 +134,12 @@ h2 {
 }
 
 .mission figure {
-    width:  54%;
+    width:  50%;
 }
 
 .mission article {
     border-left: 2px solid aqua;
-    width: calc(46.3% );
+    width: calc(50% );
     box-sizing: border-box;
     padding: 120px 48px;
     display: flex;
