@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="" class="no-js">
-<body>
+{% include top.html %}
+
+{% assign currentRequest = page.url | remove_first: '/' | downcase | split: '/' %}
+  <body>
 
 
   <!-- Navigation Start -->
