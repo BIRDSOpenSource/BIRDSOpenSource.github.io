@@ -140,6 +140,7 @@ h2 {
 .mission article {
     border-left: 2px solid aqua;
     width: calc(50% );
+    max-width: calc(50% );
     box-sizing: border-box;
     padding: 120px 48px;
     display: flex;
@@ -156,6 +157,7 @@ h2 {
     box-sizing: border-box;
     flex-direction: column;
 }
+
 h3 {
     font-size: 32px;
     margin: 0;
