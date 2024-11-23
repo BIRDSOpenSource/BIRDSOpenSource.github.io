@@ -196,6 +196,7 @@ h3 {
     border: 2px solid black;
     box-shadow: 5px 5px 1px black;
     color: inherit;
+    background-color: wheat;
     font-family: inherit;
     color: inherit;
     outline: none;
@@ -218,11 +219,13 @@ footer {
     width: 100%;
     padding: 48px;
     display: flex;
+    position: relative;
+    z-index: 2;
     /* flex-direction: column; */
     gap: 16px;
     justify-content: space-between;
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.2);
     color: white;
 }
 
