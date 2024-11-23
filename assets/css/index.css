@@ -5,6 +5,8 @@ body {
     font-family: "Space Grotesk", sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    color: white;
 }
 
 /* Nav */
@@ -13,8 +15,12 @@ nav {
     width: 100%;
     position: fixed;
     box-sizing: border-box;
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid wheat;
     background-color: black;
+    background-image: url('../images/landing-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
 }
 
 nav ul {
@@ -33,7 +39,7 @@ nav ul li {
     height: 100%;
     width: 100%;
     display: flex;
-    border-right: 2px solid aqua;
+    border-right: 2px solid wheat;
     align-items: center;
     justify-content: center;
     transition: 0.3s;
@@ -46,7 +52,7 @@ nav ul li:has(button) {
 
 nav ul li:hover {
     background-color: white;
-    color: aqua;
+    color: wheat;
     font-weight: 500;
 }
 
@@ -75,7 +81,7 @@ a {
     padding: 48px 0;
     display: flex;
     align-items: center;
-    border-right: 2px solid aqua;
+    border-right: 2px solid wheat;
 }
 
 .logo img {
@@ -88,6 +94,20 @@ a {
 /* HERO */
 main {
     margin-top: 96px;
+    position: relative;
+    z-index: 2;
+    background: transparent;
+}
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-image: url('../images/landing-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -99,11 +119,11 @@ h1 {
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid wheat;
 }
 
 #start article {
-    border-right: 2px solid aqua;
+    border-right: 2px solid wheat;
     width: calc(50% );
     box-sizing: border-box;
     padding: 64px 48px;
@@ -122,7 +142,7 @@ h1 {
 
 /* MISSION */
 .mission {
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid wheat;
     display: flex;
     box-sizing: border-box;
     width: 100%;
@@ -144,7 +164,7 @@ h2 {
 } */
 
 .mission article {
-    border-left: 2px solid aqua;
+    border-left: 2px solid wheat;
     width: 50%;
     max-width: 50% ;
     box-sizing: border-box;
@@ -157,7 +177,7 @@ h2 {
 
 /* Webinars */
 .webinars {
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid wheat;
     display: flex;
     padding: 64px 48px;
     width: 100%;
