@@ -20,5 +20,5 @@ We are currently in the process of updating much of our training content referen
 
 
 <center>
-  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/eHbP0YvnUiI?si=lDnSzHd7lpJlMOno/0.jpg)](https://www.youtube.com/watch?v=eHbP0YvnUiI?si=lDnSzHd7lpJlMOno)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eHbP0YvnUiI?si=lDnSzHd7lpJlMOno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
