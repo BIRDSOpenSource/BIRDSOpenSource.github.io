@@ -1,10 +1,165 @@
-theme: jekyll-theme-minimal
-title: Birds Open Source Project
-description: The BIRDS program, developed by Kyushu Institute of Technology, is an educational initiative focused on CubeSat development. The BIRDS Open Source project is committed to demonstrating lean satellite development that is well documented, easy to adapt and debug, and that caters to the needs of the entire satellite development workflow, from satellite design configurations to ground station data collection and analysis.
-logo: ./assets/images/logo_2018_07.png
-show_downloads: false
-url: ""
-baseurl: "/"
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+# site settings
+
+title: Build-A-Satellite
+description: The BIRDS Build-A-Satellite Project is a comprehensive guide for designing, building, testing, and launching a small satellite. Whether you’re a beginner or an experienced developer, our documentation is structured to assist you at every stage of the satellite development process.
+email: null
+
+# theme
+
+theme: just-the-docs
+
+# urls
+
+repository: BIRDSOpenSource/Build-A-Satellite/ # for github-metadata
+url: https://birdsopensource.github.io/Build-A-Satellite
+logo: "/assets/images/birds-logo-light.png" # Set a path/url to a logo that will be displayed instead of the title
+favicon_ico: "/assets/images/favicon.ico" # Set a path/url to a favicon that will be displayed by the browser
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 2
+  # Maximum amount of previews per search result
+  # Default: 3
+  previews: 3
+  # Maximum amount of words to display before a matched word in the preview
+  # Default: 5
+  preview_words_before: 5
+  # Maximum amount of words to display after a matched word in the preview
+  # Default: 10
+  preview_words_after: 10
+  # Set the search token separator
+  # Default: /[\s\-/]+/
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  # Supports true (default) or false
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  # Supports true or false (default)
+  button: false
+  # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
+  focus_shortcut_key: 'k'
+
+# For copy button on code
+enable_copy_code_button: true
+
+# By default, consuming the theme as a gem leaves mermaid disabled; it is opt-in
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.4.0"
+  # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
+  # See also docs/ui-components/code
+  # To load mermaid from a local library, also use the `path` key to specify the location of the library; e.g.
+  # for (v10+):
+  path: "/assets/js/mermaid.esm.min.mjs"
+  # for (<v10):
+  # path: "/assets/js/mermaid.min.js"
+  # Note: copy both `mermaid.esm.min.mjs` (v10+) or `mermaid.min.js` (<v10) and the associated `.map` file from the specified version of `mermaid/dist` to `/assets/js/`.
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "BIRDS-OSP on GitHub":
+    - "https://github.com/BIRDSOpenSource"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+# Enable or disable the side/mobile menu globally
+# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
+nav_enabled: true
+
+# Footer content
+# appears at the bottom of every page's main content
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
+footer_content: "Copyright &copy; 2015-2025 Laboratory of Lean Satellite Enterprises and In-Orbit Experiment <a href=\"https://kyutech-laseine.net/english/\">(LaSeine), Kyutech.</a>"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/BIRDSOpenSource/Build-A-Satellite" # the github URL for your repo
+gh_edit_branch: "development" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: light
+
+# Define Jekyll collections
+collections:
+  resources:
+    permalink: "/:collection/:path/"
+    output: true
+  # adcs-members:
+  #   permalink: "/:collection/:path/"
+  #   output: true
+  # eps-members:
+  #   permalink: "/:collection/:path/"
+  #   output: true
+  # structure-members:
+  #   permalink: "/:collection/:path/"
+  #   output: true
+
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    resources:
+      name: Resources
+      nav_fold: true  
+    # # Reference the "eps-members" collection
+    # eps-members:
+    #   name: For EPS Team Members
+    #   nav_fold: true  
+    # # # Reference the "adcs-members" collection
+    # adcs-members:
+    #   name: For ADCS Team Members
+    #   nav_fold: true
+    # # Reference the "structure-members" collection
+    # structure-members:
+    #   name: For Structure Team Members
+    #   nav_fold: true  
+
+callouts_opacity: 0.3
+callouts:
+  warning:
+    title: Warning
+    color: red
+    opacity: 0.3
+  
+  caution:
+    title: Caution
+    color: yellow
+    opacity: 0.5
+
+  note:
+    title: Note
+    color: blue
+    opacity: 0.7
+
+# l10n
+
+languages: ["en", "jp"]
+default_lang: "en"
+exclude_from_localization: ["assets/diagrams", "assets/images"]
+parallel_localization: true
+language_labels:
+  en: English
+  jp: 日本語
+sass:
+  sourcemap: never
