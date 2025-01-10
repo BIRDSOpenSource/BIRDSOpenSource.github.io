@@ -6,6 +6,7 @@ gem "just-the-docs", "0.5.4" # pinned to the current release
 
 group :jekyll_plugins do
     gem "jekyll-polyglot"
+    gem "jekyll-seo-tag"
     gem "webrick" # required when using Ruby >= 3 and Jekyll <= 4.2.2
     gem "base64", "~> 0.2.0"
 end
