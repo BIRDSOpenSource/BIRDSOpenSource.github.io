@@ -75,11 +75,13 @@ GEM
 
 PLATFORMS
   arm64-darwin
+  x86_64-linux
 
 DEPENDENCIES
   base64 (~> 0.2.0)
   jekyll (~> 4.3.2)
   jekyll-polyglot
+  jekyll-seo-tag
   just-the-docs (= 0.5.4)
   webrick
 
