@@ -5,7 +5,7 @@
 <p align="center">
     <h1 align="center"> BIRDS Cubesat Bus Documentation Site</h1>
     <p align="center">A comprehensive guide for designing, building, testing, and launching a small satellite. Whether you’re a beginner or an experienced developer, our documentation is structured to assist you at every stage of the satellite development process.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.com/">See it in action!</a></strong></p>
+    <p align="center"><strong><a href="https://BIRDSOpenSource.github.io/">See it in action!</a></strong></p>
     <br><br><br>
 </p>
 
