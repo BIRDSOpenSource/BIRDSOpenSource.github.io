@@ -1,5 +1,5 @@
 <p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml"><img src="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://app.netlify.com/sites/just-the-docs/deploys"><img src="https://api.netlify.com/api/v1/badges/9dc0386d-c2a4-4077-ad83-f02c33a6c0ca/deploy-status" alt="Netlify Status"></a>
+    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/actions/workflows/ci.yml"><img src="https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://app.netlify.com/sites/just-the-docs/deploys">
 </p>
 <br><br>
 <p align="center">
@@ -9,10 +9,9 @@
     <br><br><br>
 </p>
 
-<p align="center">A video walkthrough of various Just the Docs features</p>
+<p align="center">A video walkthrough of various BIRDS Docs features</p>
 
-https://user-images.githubusercontent.com/85418632/211225192-7e5d1116-2f4f-4305-bb9b-437fe47df071.mp4
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eHbP0YvnUiI?si=lDnSzHd7lpJlMOno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Usage
