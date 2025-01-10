@@ -11,7 +11,7 @@
 
 <p align="center">A video walkthrough of various BIRDS Docs features</p>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/eHbP0YvnUiI?si=lDnSzHd7lpJlMOno/1.jpg)](https://www.youtube.com/watch?v=eHbP0YvnUiI?si=lDnSzHd7lpJlMOno)
+[IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=eHbP0YvnUiI?si=lDnSzHd7lpJlMOno)
 
 ## Usage
 
