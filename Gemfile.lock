@@ -17,10 +17,16 @@ GEM
       logger
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
+    faraday-retry (2.2.1)
+      faraday (~> 2.0)
     ffi (1.17.1-arm64-darwin)
+    ffi (1.17.1-x86_64-darwin)
     ffi (1.17.1-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     google-protobuf (4.29.3-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.3-x86_64-darwin)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.29.3-x86_64-linux)
@@ -93,8 +99,6 @@ GEM
     sass-embedded (1.83.1)
       google-protobuf (~> 4.29)
       rake (>= 13)
-    sass-embedded (1.83.1-arm64-darwin)
-      google-protobuf (~> 4.29)
     sawyer (0.9.2)
       addressable (>= 2.3.5)
       faraday (>= 0.17.3, < 3)
@@ -111,6 +115,7 @@ PLATFORMS
 
 DEPENDENCIES
   base64 (~> 0.2.0)
+  faraday-retry
   jekyll (~> 4.3.2)
   jekyll-github-metadata (>= 2.15)
   jekyll-include-cache
