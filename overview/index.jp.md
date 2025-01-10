@@ -1,6 +1,6 @@
 ---
 title: はじめに
-layout: ホーム
+layout: home
 permalink: "/"
 lang: jp
 ---
