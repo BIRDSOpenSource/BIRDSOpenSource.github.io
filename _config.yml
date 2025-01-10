@@ -11,7 +11,8 @@ theme: just-the-docs
 # urls
 
 repository: BIRDSOpenSource/BIRDSOpenSource.github.io/ # for github-metadata
-url: https://birdsopensource.github.io/
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://birdsopensource.github.io
 logo: "/assets/images/birds-logo-light.png" # Set a path/url to a logo that will be displayed instead of the title
 favicon_ico: "/assets/images/favicon.ico" # Set a path/url to a favicon that will be displayed by the browser
 
@@ -163,3 +164,10 @@ language_labels:
   jp: 日本語
 sass:
   sourcemap: never
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-sitemap
