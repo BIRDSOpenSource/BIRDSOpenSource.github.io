@@ -16,27 +16,6 @@ url: https://birdsopensource.github.io
 logo: "/assets/images/birds-logo-light.png" # Set a path/url to a logo that will be displayed instead of the title
 favicon_ico: "/assets/images/favicon.ico" # Set a path/url to a favicon that will be displayed by the browser
 
-exclude:
-  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  # specific to the theme website:
-  - bin/
-  - lib/
-  - "*.gemspec"
-  - "*.gem"
-  - LICENSE.txt
-  - README.md
-
-
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
