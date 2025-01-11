@@ -1,5 +1,5 @@
 ---
-title: What is BIRDS Open Source?
+title: What is BIRDS?
 nav_order: 1
 parent: Home
 has_children: true

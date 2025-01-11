@@ -89,6 +89,13 @@ These phases create a structured pathway from conceptualization to launch, with 
 
 ## [Getting Started]({{site.url}}/get-started){: .btn .btn-purple }
 
+## Other resources
+[Engineer Me This](https://www.youtube.com/@EngineerMeThis/videos)
+[Build A Cubesat](https://www.youtube.com/@buildacubesat)
+[RG Sat](https://www.youtube.com/@RGSAT)
+[Kyutech SEIC](https://www.youtube.com/@kyutechseic4187)
+
+
 ----
 
 [GitHub Issues.]: https://github.com/BIRDSOpenSource/Build-A-Satellite/issues

@@ -1,5 +1,5 @@
 ---
-title: Build-A-Satellite
+title: What is BIRDS Open Source Release?
 nav_order: 1
 parent: Home
 layout: default
@@ -8,12 +8,12 @@ lang: en
 
 # **Focus on making great missions**
 {: .lh-0 .text-purple-200}
-# Build-A-Satellite gives your satellite development team a jumpstart with robust documentation tailored to the customizable BIRDS cube satellite bus. 
+# BIRDS Open Source gives your satellite development team a jumpstart with robust documentation tailored to the customizable BIRDS cube satellite bus. 
 {: .lh-tight }
 
 
-## What is Build-A-Sat?
-Build-A-Sat is a library of resources that will cover the entire mission lifetime from start to finish. Build-A-Sat aims to provide the knowledge to help you create your own open source satellite mission, using workflows you're familiar with and open-source tools you can trust.
+## What is BIRDS Open Source?
+BIRDS Open Source is a library of resources that will cover the entire mission lifetime from start to finish. It aims to provide the knowledge to help you create your own open source satellite mission, using workflows you're familiar with and open-source tools you can trust.
 
 ---
 Out of the box, Backstage includes:

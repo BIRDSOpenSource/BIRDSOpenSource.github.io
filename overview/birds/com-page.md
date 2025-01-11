@@ -1,6 +1,6 @@
 ---
 title: Communications Board
-parent: What is BIRDS Open Source?
+parent: What is BIRDS?
 grand_parent: Home
 layout: default
 lang: en

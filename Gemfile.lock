@@ -23,9 +23,6 @@ GEM
     ffi (1.17.1-x86_64-darwin)
     ffi (1.17.1-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
-    google-protobuf (4.29.3)
-      bigdecimal
-      rake (>= 13)
     google-protobuf (4.29.3-arm64-darwin)
       bigdecimal
       rake (>= 13)
@@ -112,7 +109,6 @@ GEM
     webrick (1.9.1)
 
 PLATFORMS
-  aarch64-mingw-ucrt
   arm64-darwin
   x86_64-darwin
   x86_64-linux
