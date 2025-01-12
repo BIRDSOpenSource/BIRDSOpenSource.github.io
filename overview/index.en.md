@@ -7,10 +7,6 @@ permalink: "/"
 lang: en
 ---
 
-![original birds logo](/assets/images/logo_2018_07.png)
-
----
-
 # **Learn**
 {: .lh-0 .text-purple-200}
 # Everything you need to know about building a satellite with a guide to take you step-by-step.
