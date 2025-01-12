@@ -6,13 +6,12 @@ layout: default
 lang: en
 ---
 
-# **Focus on making great missions**
-{: .lh-0 .text-purple-200}
 # BIRDS Open Source gives your satellite development team a jumpstart with robust documentation tailored to the customizable BIRDS cube satellite bus. 
 {: .lh-tight }
 
 
 ## What is BIRDS Open Source?
+{: .text-purple-200}
 BIRDS Open Source is a library of resources that will cover the entire mission lifetime from start to finish. It aims to provide the knowledge to help you create your own open source satellite mission, using workflows you're familiar with and open-source tools you can trust.
 
 ---
@@ -27,6 +26,7 @@ Backstage TechDocs for making it easy to create, maintain, find, and use technic
 Plus, a growing ecosystem of open source plugins that further expand Backstage’s customizability and functionality
 
 # Benefits
+{: .text-purple-200}
 For engineering managers, it allows you to maintain standards and best practices across the organization, and can help you manage your whole tech ecosystem, from migrations to test certification.
 
 For end users (developers), it makes it fast and simple to build software components in a standardized way, and it provides a central place to manage all projects and documentation.

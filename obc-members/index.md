@@ -8,7 +8,7 @@ lang: en
 ---
 
 # Guide for OBC Team Members
-{: .no_toc }
+{: .no_toc .text-purple-200}
 
 <details markdown="block">
 <summary>Table of Contents</summary>
