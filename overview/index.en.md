@@ -11,10 +11,6 @@ lang: en
 
 ---
 
-Preview dark color scheme
-
-<script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); toggleDarkMode.textContent = 'Preview dark color scheme'; } else { jtd.setTheme('dark'); toggleDarkMode.textContent = 'Return to the light side'; } }); </script>
-
 # **Learn**
 {: .lh-0 .text-purple-200}
 # Everything you need to know about building a satellite with a guide to take you step-by-step.

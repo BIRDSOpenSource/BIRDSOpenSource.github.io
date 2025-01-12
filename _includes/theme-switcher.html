@@ -1,0 +1,12 @@
+{% if site.color_schemes %}
+    {% assign current_theme = site.active_theme | default: 'light' %}
+    <div class="theme-switcher">
+        {% for theme in site.color_schemes %}
+            {% if theme == current_theme %}
+                <span>{{ ☼ }}</span>
+            {% else %}
+                <a href="#" class="js-toggle-theme" data-theme="{{ theme }}">{{ ☾ }}</a>
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endif %}
