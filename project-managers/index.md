@@ -41,3 +41,7 @@ Some of the responsibilities of a project manager include:
 [Manage <br /> your team]({{site.url}}/project-managers/team/index.html){: .btn .btn-purple}
 [Prepare <br /> for milestones]({{site.url}}/project-managers/milestones/index.html){: .btn .btn-purple}
 [Testing <br /> and Integration]({{site.url}}/project-managers/testing/index.html){: .btn .btn-purple}
+
+---
+
+[![homepage](/assets/images/birds-textbook-cover.png)](https://birds-project.com/mext/pdf/Digital_Textbook_G_2021JUL06.pdf "BIRDS Digital Textbook")
