@@ -56,6 +56,7 @@ The documentation, creation of the repositories and this website is done by two 
 
 A community Telegram group is being formed to discuss questions and other aspects of the BIRDSBus. If you have an interest in joining, use [this link.](https://t.me/+D3BCqCmceQ41ZGFl)
 
-[Previous]({{site.url}}./){: .btn .btn-purple }
-[Next]({{site.url}}/overview/birds/bus-page.html){: .btn}
+
+[Previous <br /> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angles-left.svg" width="10" height="10"> Home]({{site.url}}){: .btn .btn-purple }
+[Next <br /> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angles-right.svg" width="10" height="10"> What is BIRDS?]({{site.url}}/overview/birds/bus-page.html){: .btn}
 

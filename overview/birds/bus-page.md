@@ -1,6 +1,7 @@
 ---
 title: BIRDS Bus
 parent: What is BIRDS?
+nav_order: 1
 grand_parent: Home
 layout: default
 lang: en

@@ -57,3 +57,5 @@ We are currently in the process of updating much of our training content referen
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eHbP0YvnUiI?si=lDnSzHd7lpJlMOno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
+
+[Next <br /> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angles-right.svg" width="10" height="10"> What is BIRDS?]({{site.url}}/get-started/reference.html){: .btn .btn-purple}

@@ -1,6 +1,6 @@
 ---
 title: What is BIRDS Open Source Release?
-nav_order: 1
+nav_order: 2
 parent: Home
 layout: default
 lang: en

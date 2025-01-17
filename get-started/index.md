@@ -44,3 +44,6 @@ Choose from a range of professional templates to kickstart your project. This op
 <span class="fs-2" align="center"> 
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/link.svg" width="50" height="50"> <br /> Backplane Integration]({{site.url}}/bpb/guide){: .btn .btn-outline .text-grey-dk-300 .bg-grey-lt-000}
 </span>
+
+[Previous]({{site.url}}/get-started){: .btn .btn-purple }
+[Next]({{site.url}}/get-started/reference.html){: .btn}

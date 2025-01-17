@@ -1,6 +1,7 @@
 ---
 title: Communications Board
 parent: What is BIRDS?
+nav_order: 3
 grand_parent: Home
 layout: default
 lang: en
