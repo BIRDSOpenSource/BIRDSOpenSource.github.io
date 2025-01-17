@@ -5,8 +5,10 @@ layout: default
 lang: en
 ---
 
-Webinar #6 recording (Power Budget, Ground Station Software) May 14, 2022
+# Webinar #6 
 
+## (Power Budget, Ground Station Software) May 14, 2022
+<br/>
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
   <!-- Video Section -->
@@ -17,24 +19,27 @@ Webinar #6 recording (Power Budget, Ground Station Software) May 14, 2022
     </video>
   </div>
 
-  <!-- PDF Section -->
+  <!-- Chat Section -->
   <div style="flex: 1; max-width: 33%;">
     <object 
       data="https://birds-project.com/open-source/pdf/BIRDS_BUS_Opensource_2022_05_14_chat.pdf" 
       type="application/pdf" 
       width="100%" 
-      height="200px">
-      <p>Your browser does not support PDFs. <a href="https://birds-project.com/open-source/pdf/220608_Clark_sat-1_project_presentation_IARU_COM_EPS_revB.pdf">Download the PDF</a>.</p>
+      height="275px">
+      <p>Your browser does not support PDFs.<a href="https://birds-project.com/open-source/pdf/BIRDS_BUS_Opensource_2022_05_14_chat.pdf">Download the PDF</a>.</p>
     </object>
   </div>
 </div>
 
-<object data="https://birds-project.com/open-source/pdf/Power-Budget-Analysis-for-1U-satellit20220514.pdf" width="200" height="300" type='application/pdf'></object>
+Hari Shretha in Kyutech (from Nepal) talked about BIRDS-4 in his presentation titled "Power Budget for 1U Satellite".
 
-<object data="https://birds-project.com/open-source/pdf/20220514_BIRDS-open-bus%20GS%20software.pdf" width="200" height="300" type='application/pdf'></object>
+Daisuke Nakayama in Kyutech talked about the user interface for the Kyutech ground station in his presentation titled "BIRDS open-source operation software".
+
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #6 presentation (Power Budget) May 14, 2022](https://birds-project.com/open-source/pdf/Power-Budget-Analysis-for-1U-satellit20220514.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #6 presentation (Ground Station Software) May 14, 2022](https://birds-project.com/open-source/pdf/20220514_BIRDS-open-bus%20GS%20software.pdf){: .btn .btn-outline .text-grey-dk-300}
 
 
-[Previous]({{site.url}}//resources/webinars){: .btn .btn-purple }
-[Next]({{site.url}}/resources/webinars/webinar-05/){: .btn}
+[Previous]({{site.url}}/resources/webinars/webinar-05/){: .btn .btn-purple }
+[Next]({{site.url}}/resources/webinars/webinar-07/){: .btn}
 
 
