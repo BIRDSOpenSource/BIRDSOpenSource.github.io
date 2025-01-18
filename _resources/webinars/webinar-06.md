@@ -6,9 +6,19 @@ lang: en
 ---
 
 # Webinar #6 
-
 ## (Power Budget, Ground Station Software) May 14, 2022
-<br/>
+
+{: .label .label-yellow .text-grey-dk-300}
+Power Budget
+
+{: .label .label-yellow .text-grey-dk-300}
+eps
+
+{: .label .label-yellow .text-grey-dk-300}
+BIRDS-4
+
+{: .label .label-yellow .text-grey-dk-300}
+Ground Station Software
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
   <!-- Video Section -->

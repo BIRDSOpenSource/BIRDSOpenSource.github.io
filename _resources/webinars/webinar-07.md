@@ -6,9 +6,16 @@ lang: en
 ---
 
 # Webinar #7
-
 ## (Clark sat-1 project presentation) June 8, 2022
-<br/>
+
+{: .label .label-yellow .text-grey-dk-300}
+bus changes
+
+{: .label .label-yellow .text-grey-dk-300}
+ArkEdgeSpace
+
+{: .label .label-yellow .text-grey-dk-300}
+Clark Sat-1
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
   <!-- Video Section -->
