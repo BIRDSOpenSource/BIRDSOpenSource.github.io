@@ -1,8 +1,7 @@
 ---
-title: Webinars
 layout: default
-has_children: true
-permalink: "/resources/webinars"
+permalink: "/resources/webinars/page/3"
+show_in_nav: false
 lang: en
 ---
 
@@ -22,27 +21,27 @@ To obtain the information (Zoom connections etc.,) about the Webinars, please [c
 Next Webinar is KASHIWA by Chiba Institute of Technology team on 22:00 June 12, 2024
 
 
-### Past Webinars {#past-webinars-page-1} 
+### Past Webinars {#past-webinars-page-3}
 ---
 
-March 12, <br/> 2022 | [Webinar #4 (Chiba Tech, BIRDS-4)]({{site.url}}/resources/webinars/webinar-04.hmtl)
+March 12, <br/> 2022 | [Webinar #4 (Chiba Tech, BIRDS-4)]({{site.url}}/resources/webinars/webinar-16.hmtl)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-05.hmtl)
+April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-17.hmtl)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-06.hmtl)
+April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-18.hmtl)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-07.hmtl)
+April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-19.hmtl)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-08.hmtl)
+April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-20.hmtl)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-09.hmtl)
+April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-21.hmtl)
 
-
+[Previous]({{site.url}}/resources/webinars#past-webinars-page-2){: .btn .btn-purple}
 [1]({{site.url}}/resources/webinars#past-webinars-page-1){: .btn .btn-purple}
 [2]({{site.url}}/resources/webinars/page/2#past-webinars-page-2){: .btn .btn-purple}
 [3]({{site.url}}/resources/webinars/page/3#past-webinars-page-3){: .btn .btn-purple}
 [4]({{site.url}}/resources/webinars/page/4#past-webinars-page-4){: .btn .btn-purple}
-[Next]({{site.url}}/resources/webinars/page/2#past-webinars-page-2){: .btn .btn-purple}
+[Next]({{site.url}}/resources/webinars/page/4#past-webinars-page-4){: .btn .btn-purple}
 
 ---
 [click here]: https://lean-sat.org/opensource/
