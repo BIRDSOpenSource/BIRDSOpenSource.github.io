@@ -8,14 +8,8 @@ lang: en
 # Webinar #23
 ## XXX
 
-{: .label .label-red .text-grey-lt-300}
-obc related
-
-{: .label .label-green}
-eps related
-
-{: .label}
-com related
+{: .label .label-yellow .text-grey-dk-300}
+bus changes
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
   <!-- Video Section -->
