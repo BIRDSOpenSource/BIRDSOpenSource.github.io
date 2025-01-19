@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: "/resources/webinars/page/4"
+is_visible: false
 show_in_nav: false
 lang: en
 ---
@@ -24,9 +25,9 @@ Next Webinar is KASHIWA by Chiba Institute of Technology team on 22:00 June 12, 
 ### Past Webinars {#past-webinars-page-3}
 ---
 
-March 12, <br/> 2022 | [Webinar #4 (Chiba Tech, BIRDS-4)]({{site.url}}/resources/webinars/webinar-22)
+June 12,  <br/> 2024 | [Webinar #22 (KASHIWA initial operation report)]({{site.url}}/resources/webinars/webinar-22)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-23)
+July 31, <br/> 2024 | [Webinar #23 (MicroOrbiter-1 Operation Report)]({{site.url}}/resources/webinars/webinar-23)
 
 
 [Previous]({{site.url}}/resources/webinars#past-webinars-page-2){: .btn .btn-purple}

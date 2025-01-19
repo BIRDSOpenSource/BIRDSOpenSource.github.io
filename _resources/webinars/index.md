@@ -30,13 +30,13 @@ March 12, <br/> 2022 | [Webinar #4 (Chiba Tech, BIRDS-4)]({{site.url}}/resources
 
 April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-05)
 
-May 14 <br/> 2022 | [Webinar #6 (Power Budget, Ground Station Software) ]({{site.url}}/resources/webinars/webinar-06)
+May 14 <br/> 2022 | [Webinar #6 (Power Budget, Ground Station Software)]({{site.url}}/resources/webinars/webinar-06)
 
 June 8, <br/> 2022 | [Webinar #7 (Clark sat-1 project presentation)]({{site.url}}/resources/webinars/webinar-07)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-08)
+July 13 <br/> 2022 | [Webinar #8 (Backplane) ]({{site.url}}/resources/webinars/webinar-08)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-09)
+Aug 10 <br/> 2022 | [Webinar #9 (BIRDS-5 OBC)]({{site.url}}/resources/webinars/webinar-09)
 
 
 [1]({{site.url}}/resources/webinars#past-webinars-page-1){: .btn .btn-purple}

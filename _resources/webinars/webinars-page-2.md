@@ -24,17 +24,17 @@ Next Webinar is KASHIWA by Chiba Institute of Technology team on 22:00 June 12, 
 ### Past Webinars {#past-webinars-page-2}
 ---
 
-March 12, <br/> 2022 | [Webinar #10 (Chiba Tech, BIRDS-4)]({{site.url}}/resources/webinars/webinar-10.hmtl)
+Sep 14, <br/> 2022 | [Webinar #10 (APRS Mission in BIRDS Satellites)]({{site.url}}/resources/webinars/webinar-10)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-11.hmtl)
+Oct 12, <br/> 2022 | [Webinar #11 (KITSUNE Satellite Bus System Overview)]({{site.url}}/resources/webinars/webinar-11)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-12.hmtl)
+Dec 07, <br/> 2022 | [Webinar #12 (MicroOrbiter-1 Satellite Bus System Overview)]({{site.url}}/resources/webinars/webinar-12)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-13.hmtl)
+Feb 08 <br/> 2023 | [Webinar #13 (BIRDS-X Project Overview) ]({{site.url}}/resources/webinars/webinar-13)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-14.hmtl)
+Mar 08, <br/> 2023 | [Webinar #14 (BIRDS5 Project FTA Overview)]({{site.url}}/resources/webinars/webinar-14)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-15.hmtl)
+May 10, <br/> 2023 | [Webinar #15 (Use of BIRDS Open-Source Standardized BUS in Munal, Danfe and Danfe-2)]({{site.url}}/resources/webinars/webinar-15)
 
 
 [Previous]({{site.url}}/resources/webinars#past-webinars-page-1/){: .btn .btn-purple}
