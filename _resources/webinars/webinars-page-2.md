@@ -2,6 +2,7 @@
 layout: default
 permalink: "/resources/webinars/page/2"
 show_in_nav: false
+is_visible: false
 lang: en
 ---
 
