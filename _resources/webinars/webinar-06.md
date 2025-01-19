@@ -41,15 +41,38 @@ Ground Station Software
   </div>
 </div>
 
-Hari Shretha in Kyutech (from Nepal) talked about BIRDS-4 in his presentation titled "Power Budget for 1U Satellite".
 
-Daisuke Nakayama in Kyutech talked about the user interface for the Kyutech ground station in his presentation titled "BIRDS open-source operation software".
-
+<!-- Download Presentation -->
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #6 presentation (Power Budget) May 14, 2022](https://birds-project.com/open-source/pdf/Power-Budget-Analysis-for-1U-satellit20220514.pdf){: .btn .btn-outline .text-grey-dk-300}
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #6 presentation (Ground Station Software) May 14, 2022](https://birds-project.com/open-source/pdf/20220514_BIRDS-open-bus%20GS%20software.pdf){: .btn .btn-outline .text-grey-dk-300}
 
+
+<details markdown="block">
+<summary>Speaker Information</summary>
+Hari Shretha in Kyutech (from Nepal) 
+
+Daisuke Nakayama in Kyutech 
+</details>
+
+Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
+
+<details markdown="block">
+<summary>Details</summary>
+Hari Shretha in Kyutech (from Nepal) talked about BIRDS-4 in his presentation titled "Power Budget for 1U Satellite".
+
+Daisuke Nakayama in Kyutech talked about the user interface for the Kyutech ground station in his presentation titled "BIRDS open-source operation software".
+</details>
 
 [Previous]({{site.url}}/resources/webinars/webinar-05/){: .btn .btn-purple }
 [Next]({{site.url}}/resources/webinars/webinar-07/){: .btn}
 
 
+### Contribute to Docs
+- [Learn more] about how to get involved.
+- [Edit this page] on GitHub to fix an error or make an improvement.
+- [Submit feedback] to let us know how we can improve Docs.
+
+
+[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
+[Learn more]: {{site.url}}/contribute.hmtl
+[Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

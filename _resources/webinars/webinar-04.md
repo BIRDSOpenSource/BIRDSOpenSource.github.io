@@ -38,18 +38,25 @@ BIRDS-4
   </div>
 </div>
 
+<!-- Download Presentation -->
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #4 presentation (Chiba Tech) March 12, 2022](XXX){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #4 presentation (BIRDS-4) March 12, 2022](XXX){: .btn .btn-outline .text-grey-dk-300}
+
+
 <details markdown="block">
 <summary>Speaker Information</summary>
-Tetsuro Harada from Chiba tech talked about his work at CIT and the Gardens program in his presentation titled "YOMOGI: A birds satellite".
+Tetsuro Harada from Chiba tech 
 
-Adolfo Jara in Kyutech (from Paraguay) talked about changes from BIRDS-3 to BIRDS-4 in his presentation titled "BIRDS-4 SAtellites: One Year Operation Results Utilizing the BIRDS Standardized Bus"
+Adolfo Jara in Kyutech (from Paraguay) 
 </details>
 
-Keywords: Culture Map, International Collaboration, Project Management, Small Space Project, Teamwork
+Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
 
 <details markdown="block">
 <summary>Details</summary>
+Tetsuro Harada from Chiba tech talked about his work at CIT and the Gardens program in his presentation titled "YOMOGI: A birds satellite".
 
+Adolfo Jara in Kyutech (from Paraguay) talked about changes from BIRDS-3 to BIRDS-4 in his presentation titled "BIRDS-4 SAtellites: One Year Operation Results Utilizing the BIRDS Standardized Bus"
 </details>
 
 [Previous]({{site.url}}//resources/webinars){: .btn .btn-purple }

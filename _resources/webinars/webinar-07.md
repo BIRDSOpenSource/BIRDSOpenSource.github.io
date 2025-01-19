@@ -39,14 +39,37 @@ Clark Sat-1
 </div>
 
 
-Masanobu Tsuji from ArkEdgeSpace talked about the changes from BIRDS to the Clark Sat-1 project in his presentation titled "Outline of Clark Sat-1 and changed from BIRDS original design".
-
-Kent Nakazawa from ArkEdgeSpace talked about the hardware PCB changes from BIRDS to the Clark Sat-1 project.
-
+<!-- Download Presentation -->
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #7 presentation (Clark sat-1 project IARU COM EPS) June 8, 2022](https://birds-project.com/open-source/pdf/220608_Clark_sat-1_project_presentation_IARU_COM_EPS_revB.pdf){: .btn .btn-outline .text-grey-dk-300}
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #7 presentation (Clark sat-1 project PCBdesign) June 8, 2022](https://birds-project.com/open-source/pdf/220608_Clark_sat-1_project_PCBdesign.pdf){: .btn .btn-outline .text-grey-dk-300}
 
 
+<details markdown="block">
+<summary>Speaker Information</summary>
+Masanobu Tsuji from ArkEdgeSpace 
+
+Kent Nakazawa from ArkEdgeSpace 
+</details>
+
+Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
+
+<details markdown="block">
+<summary>Details</summary>
+Masanobu Tsuji from ArkEdgeSpace talked about the changes from BIRDS to the Clark Sat-1 project in his presentation titled "Outline of Clark Sat-1 and changed from BIRDS original design".
+
+Kent Nakazawa from ArkEdgeSpace talked about the hardware PCB changes from BIRDS to the Clark Sat-1 project.
+</details>
+
 [Previous]({{site.url}}//resources/webinars/webinar-06){: .btn .btn-purple }
 [Next]({{site.url}}/resources/webinars/webinar-08/){: .btn}
 
+
+### Contribute to Docs
+- [Learn more] about how to get involved.
+- [Edit this page] on GitHub to fix an error or make an improvement.
+- [Submit feedback] to let us know how we can improve Docs.
+
+
+[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
+[Learn more]: {{site.url}}/contribute.hmtl
+[Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
