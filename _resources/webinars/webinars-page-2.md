@@ -44,5 +44,13 @@ April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/web
 [4]({{site.url}}/resources/webinars/page/4#past-webinars-page-4){: .btn .btn-purple}
 [Next]({{site.url}}/resources/webinars/page/3#past-webinars-page-3){: .btn .btn-purple}
 
----
+### Contribute to Docs
+- [Learn more] about how to get involved.
+- [Edit this page] on GitHub to fix an error or make an improvement.
+- [Submit feedback] to let us know how we can improve Docs.
+
+
 [click here]: https://lean-sat.org/opensource/
+[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
+[Learn more]: {{site.url}}/contribute.hmtl
+[Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

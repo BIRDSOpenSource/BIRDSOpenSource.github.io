@@ -38,12 +38,30 @@ BIRDS-4
   </div>
 </div>
 
+<details markdown="block">
+<summary>Speaker Information</summary>
 Tetsuro Harada from Chiba tech talked about his work at CIT and the Gardens program in his presentation titled "YOMOGI: A birds satellite".
 
 Adolfo Jara in Kyutech (from Paraguay) talked about changes from BIRDS-3 to BIRDS-4 in his presentation titled "BIRDS-4 SAtellites: One Year Operation Results Utilizing the BIRDS Standardized Bus"
+</details>
 
+Keywords: Culture Map, International Collaboration, Project Management, Small Space Project, Teamwork
+
+<details markdown="block">
+<summary>Details</summary>
+
+</details>
 
 [Previous]({{site.url}}//resources/webinars){: .btn .btn-purple }
 [Next]({{site.url}}/resources/webinars/webinar-05/){: .btn}
 
 
+### Contribute to Docs
+- [Learn more] about how to get involved.
+- [Edit this page] on GitHub to fix an error or make an improvement.
+- [Submit feedback] to let us know how we can improve Docs.
+
+
+[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
+[Learn more]: {{site.url}}/contribute.hmtl
+[Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

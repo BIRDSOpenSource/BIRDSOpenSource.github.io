@@ -24,17 +24,17 @@ Next Webinar is KASHIWA by Chiba Institute of Technology team on 22:00 June 12, 
 ### Past Webinars {#past-webinars-page-3}
 ---
 
-March 12, <br/> 2022 | [Webinar #4 (Chiba Tech, BIRDS-4)]({{site.url}}/resources/webinars/webinar-16.hmtl)
+March 12, <br/> 2022 | [Webinar #4 (Chiba Tech, BIRDS-4)]({{site.url}}/resources/webinars/webinar-16)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-17.hmtl)
+April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-17)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-18.hmtl)
+April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-18)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-19.hmtl)
+April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-19)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-20.hmtl)
+April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-20)
 
-April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-21.hmtl)
+April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/webinar-21)
 
 [Previous]({{site.url}}/resources/webinars#past-webinars-page-2){: .btn .btn-purple}
 [1]({{site.url}}/resources/webinars#past-webinars-page-1){: .btn .btn-purple}
@@ -43,5 +43,14 @@ April 9, <br/> 2022 | [Webinar #5 (BIRDS-5)]({{site.url}}/resources/webinars/web
 [4]({{site.url}}/resources/webinars/page/4#past-webinars-page-4){: .btn .btn-purple}
 [Next]({{site.url}}/resources/webinars/page/4#past-webinars-page-4){: .btn .btn-purple}
 
----
+
+### Contribute to Docs
+- [Learn more] about how to get involved.
+- [Edit this page] on GitHub to fix an error or make an improvement.
+- [Submit feedback] to let us know how we can improve Docs.
+
+
 [click here]: https://lean-sat.org/opensource/
+[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
+[Learn more]: {{site.url}}/contribute.hmtl
+[Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
