@@ -7,27 +7,27 @@ permalink: "/get-started"
 lang: en
 ---
 
-# Get started
-Build-A-Sat provides a seamless process for creating your cubesat. You can import your application by linking your Git repository, which allows you to bring in your existing codebase without hassle. This method ensures that all your code and configuration are preserved and deployed effectively on the Github platform.
-
-# Experience just how rewarding it is to create your own satellite!
-Import your application from a Git repository, share a link to an existing file archive, or start from scratch by selecting from our range of professional templates. Select the method that best fits your needs and start building your cubesat with BIRDS today.
-
-<span class="fs-3" align="center"> 
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/building.svg" width="10" height="10"> I want to start from scratch]({{site.url}}/pm/guide){: .btn .btn-outline .text-grey-lt-000 .bg-grey-dk-300}
-</span>
-<span class="fs-3" align="center"> 
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/git-alt.svg" width="15" height="15"> I already have a repository]({{site.url}}/pm/guide){: .btn .btn-outline .text-grey-dk-300}
-</span>
-<span class="fs-3" align="center"> 
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/file.svg" width="10" height="10"> I have some files uploaded]({{site.url}}/pm/guide){: .btn .btn-outline .text-grey-dk-300}
-</span>
-
+# Get Started
+Build-A-Sat makes satellite creation seamless. Import your application by linking your Git repository to preserve and deploy your codebase easily. You can also start from scratch or use professional templates to build your CubeSat.
 ---
-## Basics
-Learn about the basics of the Birds Bus with our **basic guides**. What is an on board computer, how do you create a mission, what is a link budget and how do you test your mission? Learn all about the ins and outs of the Birds Satellite Bus.
+# How will you start?
+Choose your path and begin building your CubeSat with BIRDS today:
 
-Choose from a range of professional templates to kickstart your project. This option is perfect if you are beginning a new application and need a solid foundation.
+<span class="fs-3" align="center"> 
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/building.svg" width="10" height="10"> Start from scratch]({{site.url}}/pm/guide){: .btn .btn-outline .text-grey-lt-000 .bg-grey-dk-300}
+</span>
+<span class="fs-3" align="center"> 
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/git-alt.svg" width="15" height="15"> I have technical experience]({{site.url}}/pm/guide){: .btn .btn-outline .text-grey-dk-300}
+</span>
+<span class="fs-3" align="center"> 
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/file.svg" width="10" height="10"> I've built a satellite before]({{site.url}}/pm/guide){: .btn .btn-outline .text-grey-dk-300}
+</span>
+---
+
+## Basics
+Start with the **basic guides** to understand core concepts like onboard computers, mission creation, link budgets, and mission testing.
+
+Use professional templates to quickly launch your project, perfect for starting a new application with a solid foundation.
 
 <span class="fs-2" align="center"> 
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/building.svg" width="30" height="30"> <br /> Project Management]({{site.url}}/pm/guide){: .btn .btn-outline .text-grey-dk-300 .bg-grey-lt-000}

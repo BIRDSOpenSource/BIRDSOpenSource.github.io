@@ -6,6 +6,92 @@ layout: default
 lang: en
 ---
 
+
+---
+title: Before You Start
+nav_order: 1
+has_children: true
+layout: default
+permalink: "/before-you-start"
+lang: en
+---
+
+# Before You Start
+To ensure a smooth journey in building your CubeSat, there are a few things you'll want to understand beforehand. This section outlines key knowledge areas you'll need, from using the platform and GitHub to understanding systems engineering principles.
+
+---
+
+## Platform Basics: GitHub and Git
+To work with Build-A-Sat, you'll need a GitHub account. This is where you'll manage your codebase and contribute to open-source satellite projects. Here’s a quick guide to get you started:
+
+### 1. **GitHub Account**
+   - Create a [GitHub account](https://github.com/) to access repositories, contribute to projects, and manage your code.
+   - Familiarize yourself with the platform’s layout, including repositories, commits, pull requests, and issues.
+
+### 2. **Using Git**
+   - **Git** is a version control system used to manage and track changes in your codebase.
+   - Learn how to use basic Git commands like:
+     - `git clone` – To download repositories.
+     - `git pull` – To update your local copy with the latest changes.
+     - `git commit` – To save your changes locally.
+     - `git push` – To upload your changes to GitHub.
+
+### 3. **Cloning a Repository**
+   - To start working on a project, you’ll first need to **clone** the relevant repository from GitHub to your local machine:
+     ```bash
+     git clone https://github.com/username/repository.git
+     ```
+   - Once cloned, you can make changes to the files locally and push them back to the repository when you’re ready.
+
+---
+
+## Systems Engineering Approach
+Building a satellite involves complex systems that need careful planning and integration. Here are some key concepts of systems engineering that will guide your CubeSat development:
+
+### 1. **Understanding Systems Engineering**
+   - Systems engineering is the interdisciplinary approach to designing and managing complex systems.
+   - It focuses on understanding the entire system, from design and development to testing and operation, ensuring that all parts work together to meet the mission goals.
+
+### 2. **Defining Requirements**
+   - Start by defining your satellite’s mission and operational goals.
+   - Understand the system's constraints, such as size, weight, power, and budget, and define technical requirements to meet them.
+
+### 3. **Subsystems Integration**
+   - Satellites consist of multiple subsystems such as power, communication, and attitude control. Systems engineering ensures that all subsystems integrate seamlessly.
+   - Learn how these subsystems interact and contribute to the overall mission’s success.
+
+### 4. **Risk Management**
+   - Identify potential risks early in the development process and implement strategies to mitigate them.
+   - Regular testing, reviews, and simulations help identify weak points and prevent system failures.
+
+---
+
+With this foundational knowledge, you’ll be better equipped to dive into the satellite-building process. The next step is to select the path that best fits your experience level and start building!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Before you start
 
 <details markdown="block">
