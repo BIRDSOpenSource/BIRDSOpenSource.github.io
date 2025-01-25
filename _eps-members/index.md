@@ -1,6 +1,7 @@
 ---
-title: Guide for EPS Team Members
+title: For EPS Team Members
 layout: default
+has_children: true
 permalink: "/eps/guide"
 lang: en
 ---

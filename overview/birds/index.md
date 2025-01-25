@@ -1,62 +1,67 @@
 ---
-title: What is BIRDS?
-nav_order: 1
-parent: Home
-has_children: true
-layout: default
-permalink: /about/
-lang: en
+title: What is BIRDS?  
+nav_order: 1  
+parent: Home  
+has_children: true  
+has_toc: false
+layout: default  
+permalink: /about/  
+lang: en  
 ---
 
-# Explore the BIRDS series
+# Explore the BIRDS Series  
+{: .text-purple-200}  
+
+![original birds logo](/assets/images/logo_2018_07.png)  
+
+---
+
+The BIRDS project, initiated by Kyushu Institute of Technology (Kyutech), helps countries build their first satellite. It has completed 4 missions and one is ongoing:
+
+1. BIRDS-1: Bangladesh, Japan, Mongolia, Ghana, Nigeria  
+2. BIRDS-2: Bhutan, Philippines, Malaysia  
+3. BIRDS-3: Japan, Sri Lanka, Nepal  
+4. BIRDS-4: Japan, Philippines, Paraguay  
+5. BIRDS-5: Japan, Uganda, Zimbabwe  
+
+The primary goal is not just building a satellite, but establishing a sustainable space program in each country. Kyutech's fellowship programs (PNST) and Space Engineering International Course (SEIC) provide hands-on space engineering training using CubeSat development, enabling each mission to be completed in two years. The goal of open sourcing the process is to enable teams from across the world to develop their own country-first satellites.
+
+---
+
+# BIRDS Open Source: Jumpstart Your Satellite Development  
+{: .lh-tight}  
+
+BIRDS Open Source offers a library of resources to guide your satellite mission from start to finish, with workflows and open-source tools you can trust.
+
+**Includes:**  
+- **Software Catalog:** Manage all your software (microservices, libraries, data pipelines, etc.)  
+- **Software Templates:** Quickly start projects and standardize tools with best practices  
+- **TechDocs:** Easily create and maintain technical documentation using a "docs like code" approach  
+
+---
+# Benefits  
 {: .text-purple-200}
+
+- **For Engineering Managers:** Maintain standards and manage your tech ecosystem  
+- **For Developers:** Quickly build standardized software components and manage projects  
+- **For Platform Engineers:** Easily integrate new tools and extend functionality  
+- **For Everyone:** A consistent experience that ties all resources and tools together
+
+[Get Started Now]({{site.url}}/get-started){: .btn .btn-purple}  
+
 ---
+## Documentation Team  
 
-![original birds logo](/assets/images/logo_2018_07.png)
+This documentation has been developed and managed by various members of Kyutech's BIRDS program teams. [Found out more about them here]({{site.url}}/overview/birds/teams.html).
 
 ---
+## Join the Community  
 
-The Joint Global Multi-Nations Birds Satellite project, or BIRDS project, was created by the Kyushu Institute of Technology ([_Kyutech_](https://www.kyutech.ac.jp/english/)) to help countries build their first satellite. So far, there have been 4 completed and one ongoing BIRDS missions:
+- [Chat With Us On Telegram](https://t.me/+D3BCqCmceQ41ZGFl)
+- [Watch Us On YouTube](https://www.youtube.com/@kyutechseic4187)
+- [Join Our Monthly Webinars](https://lean-sat.org/opensource/)
+- [Give Us Feedback on Github](https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue)
 
-1. BIRDS-1: Bangladesh, Japan, Mongolia, Ghana and Nigeria.
-2. BIRDS-2: Bhutan, The Philipines and Malaysia.
-3. BIRDS-3: Japan, Sri Lanka and Nepal
-4. BIRDS-4: Japan, The Philipines, Paraguay.
-5. BIRDS-5: Japan, Uganda and Zimbabwe.
-
-The project has two main objectives:
-
-1. Experience the entire cycle of a satellite project, from mission definition to operation, in a hands-on manner.
-2. Have a strategy for sustainability after the training ends.
-
-It should be emphasized that the primary goal is not the building of a satellite, but to have a long-term and sustainable space program established in each member country.
-
-Kyutech initiated a long-term fellowship program, DNST/PNST (Doctorate in NanoSatellite Technology/ Postgraduate study in NanoSatellite Technology), in 2011 in collaboration with the United Nations Office of Outer Space Affairs (UNOOSA) to promote the space capacity building of non-space-faring nations. It also started the Space Engineering International Course (SEIC) in 2013 as a postgraduate program.
-
-Two or three young engineers are sent from each participating country to Kyutech as full-time graduate students to learn space engineering using 1U CubeSat development work. The BIRDS program is designed so that each generation of satellites can be finished in two years, from mission definition to operation. Including operation in two years is critical to fit the entire satellite project into a master’s degree course study timeline, which is two years.
-
-## Documentation Project Team
-
-The effort to release and maintain this documentation to the public is done for Kyutech University by a small team from Costa Rica. The supervising professor, Juan José Rojas, obtained his PhD from the BIRDS Program detailed in the Textbook.
-
-| PhD. Eng. Juan José Rojas Hernández                   |
-| :-----------:                                         |
-| Researcher                                            |
-| _Power Systems and IoT_                               |
-| [juan.rojas@tec.ac.cr](mailto:juan.rojas@tec.ac.cr)   |
-
-The documentation, creation of the repositories and this website is done by two assistant students:
-
-| Name                              | Degree                            | Email                             |
-|:-------------                     |:------------------                |:------                            |
-| Jairo Rodríguez Blanco            | Mecatronics Engineering           | jairo.rb8@estudiantec.cr          |
-| Kevin Sánchez Ramírez             | Industrial Engineering            | kevin.sanchezramirez@ucr.ac.cr    |
-
-## Community Telegram Group
-
-A community Telegram group is being formed to discuss questions and other aspects of the BIRDSBus. If you have an interest in joining, use [this link.](https://t.me/+D3BCqCmceQ41ZGFl)
-
-
-[Previous <br /> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angles-left.svg" width="10" height="10"> Home]({{site.url}}){: .btn .btn-purple }
-[Next <br /> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angles-right.svg" width="10" height="10"> What is BIRDS?]({{site.url}}/overview/birds/bus-page.html){: .btn}
-
+---
+[Previous <br /> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angles-left.svg" width="10" height="10"> Home]({{site.url}}){: .btn .btn-purple .text-grey-lt-300} 
+[Next <br /> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angles-right.svg" width="10" height="10"> What is BIRDS?]({{site.url}}/overview/birds/bus-page.html){: .btn .btn-purple .text-grey-lt-300}

@@ -59,15 +59,5 @@ We are currently in the process of updating much of our training content referen
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eHbP0YvnUiI?si=lDnSzHd7lpJlMOno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
-[Next <br /> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angles-right.svg" width="10" height="10"> What is BIRDS?]({{site.url}}/get-started/reference.html){: .btn .btn-purple}
-
-### Contribute to Docs
-- [Learn more] about how to get involved.
-- [Edit this page] on GitHub to fix an error or make an improvement.
-- [Submit feedback] to let us know how we can improve Docs.
-
 
 [click here]: https://lean-sat.org/opensource/
-[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
-[Learn more]: {{site.url}}/contribute.hmtl
-[Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
