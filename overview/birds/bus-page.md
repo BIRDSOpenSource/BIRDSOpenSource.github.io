@@ -7,18 +7,16 @@ layout: default
 lang: en
 ---
 
-# The BIRDS Bus
+# **The BIRDS Bus**
 
-## **3. Components of the BIRDS bus**
+## **Components of the BIRDS bus**
 <p>
   <img alt="birdsx-frame" src="/assets/images/birdsx-ext-assembly.png" width="45%">
 &nbsp;
   <img alt="birdsx-board-frame" src="/assets/images/birdsx-board-layout.png" width="45%">
 </p>
 
-A satellite bus is the main body and structural component of a satellite, where the payload and all scientific instruments are held.
-
-The BIRDS bus includes the following key components:
+A satellite bus is the main body and structural component of a satellite, where the payload and all scientific instruments are held. The BIRDS bus includes the following key components:
 
 * **On-Board Computer (OBC)**: Handles the satellite’s core computing needs.
 
@@ -71,7 +69,7 @@ flowchart TD
 
 ## **The BIRDS Bus**
 
->**New**: A team presented during the March 2022 BIRDS meeting, their use of the Radiometrix HX1 COMS module with the BIRDS platform. The module's datasheet has been added to the COMS repository! Also, detailed battery testing and screening procedures have been added to the procedures repository. Please check these new documents.
+> **New**: During the March 2022 BIRDS meeting, a team presented their use of the Radiometrix HX1 COMS module with the BIRDS platform. The module's datasheet has been added to the COMS repository! Also, detailed battery testing and screening procedures have been added to the procedures repository. Please check these new documents.
 
 The BIRDS bus is one of the main contributions from the BIRDS Project to the working teams. It is a hardware platform that consists mainly of an EPS, a C&DHS and COMMS to satisfy the needs of a standard bus. Below is an exploded view of the entire bus:
 

@@ -30,7 +30,7 @@ Out of the box, Backstage includes:
 Here are some of the benefits of the BIRDS Open Source for people in different fields:
 * **For engineering managers:** It makes it easy to maintain standards and best practices across the organization. It also can help you manage your tech ecosystem, from migrations to test certifications.
 
-**For end users (developers):** It provides a central place to manage all projects and documentation and thus results in faster building of software components in standardized ways.
+* **For end users (developers):** It provides a central place to manage all projects and documentation and thus results in faster building of software components in standardized ways.
 
 * **For platform engineers:** The BIRDS Open Source enables extensibility and scalability by letting you easily integrate new tools and services (via plugins). It also allows for extending the functionality of existing ones.
 
@@ -39,7 +39,7 @@ And for every other person, it’s a single, consistent experience that ties all
 [Get Started Now]({{site.url}}/get-started){: .btn .btn-purple }
 
 ## Community
-The Birds community is there to help you as well. You can join by clicking any of the links below:
+The Birds community is there to keep you up to date on the BIRDS project. You can join by clicking any of the links below:
 
 <span class="fs-4" align="center"> 
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/building.svg" width="10" height="10"> Join Us On]({{site.url}}/pm/guide){: .btn .btn-outline .text-grey-dk-300}
