@@ -6,7 +6,7 @@ layout: default
 lang: en
 ---
 
-> The BIRDS Open Source gives your satellite development team a jumpstart, with robust documentation tailored to the customizable BIRDS cube satellite bus. 
+>The BIRDS Open Source gives your satellite development team a jumpstart, with robust documentation tailored to the customizable BIRDS cube satellite bus. 
 {: .lh-tight }
 
 
