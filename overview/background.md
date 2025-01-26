@@ -1,12 +1,12 @@
 ---
 title: Before you start
-nav_order: 3
+nav_order: 2
 parent: Home
 layout: default
 lang: en
 ---
 
-# Before you start
+# **Before you start**
 
 <details markdown="block">
 <summary>Table of Contents</summary>
@@ -14,27 +14,27 @@ lang: en
 {:toc}
 </details>
 
-## **1. Introduction**
-   This document outlines the purpose, structure, and practical steps for using the testing process and procedural guides for subsystems such as the 
-   - On-Board Computer (OBC), 
-   - Electrical Power System (EPS), 
-   - Attitude Determination and Control System (ADCS), 
-   - Communications (COM), 
-   - and the structural components of BIRDS satellites.
+## **Introduction**
+   This document includes the purpose, structure, and practical steps for using the testing process and procedural guides for most subsystems such as the following: 
+   - On-Board Computer (OBC)
+   - Electrical Power System (EPS)
+   - Attitude Determination and Control System (ADCS)
+   - Communications (COM)
+   - Structural components of BIRDS satellites
 
 ### We are creating an environment for sharing knowledge and ideas.
 {: .no_toc }
 
-If you would want to contribute to, or work with the [BIRDS] community in order to assist in developing this solution, please contibute to the [our Discussions channel on Github] or [get in touch with us.]
+If you would want to contribute to, or work with the [BIRDS] community to assist in developing this solution, check [our Discussions channel on Github] or [get in touch with us.]
 
-## **2. What are the phases of a satellite?**
+## **The phases of a satellite build**
   The development and deployment of a satellite involve a series of carefully structured phases to ensure the mission's success. From initial concept discussions to final pre-launch verifications, these phases guide teams through designing, building, and testing the satellite to meet stringent space industry standards. 
     
-  Each phase acts as a checkpoint to confirm that requirements are met and potential risks are mitigated. Understanding the phases - including the
-  - [Mission Definition Review (MDR)], 
-  - [Preliminary Design Review (PDR)], 
-  - [Critical Design Review (CDR)], and 
-  - [Flight Readiness Review (FRR)] 
+  Each phase acts as a checkpoint to confirm that requirements are met and potential risks are mitigated. The following are the phases of a satellite build:
+  1. [Mission Definition Review (MDR)] 
+  2. [Preliminary Design Review (PDR)] 
+  3. [Critical Design Review (CDR)] 
+  4. [Flight Readiness Review (FRR)] 
 
 
 ```mermaid
@@ -72,16 +72,16 @@ gantt
     section Disposal
 ```
 
-These phases create a structured pathway from conceptualization to launch, with each review and testing stage serving as a critical checkpoint. The **MDR** sets the scope, the **PDR** checks the initial design feasibility, the **CDR** finalizes the detailed design, and **FRR** ensures that the satellite is robust and mission-ready. This structured approach helps in mitigating risks, ensuring quality, and promoting mission success.
+The satellite phases create a structured pathway from conceptualization to launch, with each review and testing stage serving as a critical checkpoint. The **MDR** sets the scope, the **PDR** checks the initial design feasibility, the **CDR** finalizes the detailed design, and **FRR** ensures that the satellite is robust and mission-ready. This structured approach helps in mitigating risks, ensuring quality, and promoting mission success.
 
-## **3. What tools do we use in development?**
-   - **Software**:
+## **Tools used in development**
+   - **Software tools**:
      - **Computer Aided Design (CAD) tools for Design**: Fusion 360
      - **Simulation Tools**: Thermal desktop, STK for mission analysis
      - **Programming Languages**: C/C++, Python 
      - **Programming Environment**: CCS Compiler, MPLAB IDE
      - **Communication Protocols**: UART, SPI
-   - **Hardware**:
+   - **Hardware tools**:
      - **Microcontrollers/Boards**: PIC MCUs, custom PCBs
      - **Power Systems**: Solar panels, battery packs
      - **Sensing Devices**: Magnetometers, gyroscopes for ADCS

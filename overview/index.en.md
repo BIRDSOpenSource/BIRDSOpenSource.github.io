@@ -1,6 +1,6 @@
 ---
 title: Home
-nav_order: 1
+nav_order: 2
 layout: home
 has_children: true
 permalink: "/"
@@ -8,23 +8,28 @@ lang: en
 has_toc: false
 ---
 
-# **Learn**
+### Home
+### **A learning guide**
 {: .lh-0 .text-purple-200}
-# Everything you need to know about building a satellite with a guide to take you step-by-step.
+# **Everything you need to build a satellite: A step-by-step guide**
+This document covers how to build a satellite from scratch. Readers are expected to have a bachelors degree in space engineering or at least prerequisite knowledge on the basics of a satellite and how it works.
+This document doesn't cover 
 
-- [x] Introduction to the Birds Bus
-- [x] How to get up and running
+If you're new here, here's a list of what to expect in the next few pages:
+- [x] Introduction to the Birds bus and other core components
+- [x] How to get started
 - [x] Deep dives on technical topics
 
 {: .caution}
-We are currently in the process of updating much of our training content referencing documents from the BIRDS-X satellite.
+We are currently in the process of updating most of our training content especially those referencing documents from the BIRDS-X satellite.
 
 
+## Here are some quick links:
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
   <div style="flex: 1 1 calc(33.333% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
     <span class="fs-6"> Space for All </span> 
     <br /> <br /> 
-    <span class="fs-3"> Learn the BIRDS Bus basics, the platform's architecture, and what problems BIRDS Bus can solve for your team </span>
+    <span class="fs-3"> Learn the basics of the BIRDS Bus, the platform's architecture, and what problems the BIRDS Bus can solve for your team </span>
     <a href="{{site.url}}/about" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center; border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
       START
     </a>
@@ -62,12 +67,15 @@ We are currently in the process of updating much of our training content referen
 [Next <br /> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/angles-right.svg" width="10" height="10"> What is BIRDS?]({{site.url}}/get-started/reference.html){: .btn .btn-purple}
 
 ### Contribute to Docs
+Want to contribute? Here's how:
 - [Learn more] about how to get involved.
 - [Edit this page] on GitHub to fix an error or make an improvement.
-- [Submit feedback] to let us know how we can improve Docs.
+- [Submit feedback] to let us know how we can improve this documentation.
 
 
 [click here]: https://lean-sat.org/opensource/
 [Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
 [Learn more]: {{site.url}}/contribute.hmtl
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
+
+

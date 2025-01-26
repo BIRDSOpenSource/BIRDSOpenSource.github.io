@@ -8,8 +8,13 @@ lang: en
 ---
 
 ## On Board Computer Board
-![On Board Computer PCB](/assets/images/OBC-Board.png)
-This is the OBC used in BIRDS 3 and 4. It has three microcontrollers: Main, Reset and Com, all 8 bit PICs. The Main PIC is a PIC18F67J94 and the Reset and Com PICs are PIC16F1789. They are connected as showed in the following diagram:
+![On Board Computer PCB](/assets/images/OBC-Board.png)  
+
+The above image shows the OBC used in [BIRDS 3 and 4] projects. It has three microcontrollers which are all 8 bit PICs. They are: 
+* Main PIC
+* Reset PIC
+* Com PIC  
+The Main PIC is a PIC18F67J94 and the Reset and Com PICs are PIC16F1789. They are connected as showed in the following diagram:
 
 ![On Board Computer Interface Diagram](/assets/images/OBC-diagram.png)
 
