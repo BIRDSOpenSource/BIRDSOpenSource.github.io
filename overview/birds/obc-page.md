@@ -22,5 +22,5 @@ For the documentation and files related to the OBC itself, please see [**this re
 If you want to purchase the commercial version of FAB/OBC/EPS, please contact SAGAMI Electronics Industry Ltd.
 The contact address is takei@sagami-net.co.jp
 
-[Previous]({{site.url}}./){: .btn .btn-purple }
+[Previous]({{site.url}}/overview/birds/bus-page){: .btn .btn-purple }
 [Next]({{site.url}}/overview/birds/com-page){: .btn}

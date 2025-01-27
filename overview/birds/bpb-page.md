@@ -20,5 +20,5 @@ This is the backplane board used in BIRDS 3 and 4. As previously mentioned, this
 The documentation for the BIRDS**3** version of this board can be found [**here**](https://github.com/BIRDSOpenSource/BIRDS3-BPB)
 The documentation for the BIRDS**4** version of this board can be found [**here**](https://github.com/BIRDSOpenSource/BIRDS4-BPB)
 
-[Previous]({{site.url}}./){: .btn .btn-purple }
-[Next]({{site.url}}/get-started/reference.html){: .btn}
+[Previous]({{site.url}}/overview/birds/com-page){: .btn .btn-purple }
+[Next]({{site.url}}/overview/birds/fab-page){: .btn}

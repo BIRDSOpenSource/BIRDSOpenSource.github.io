@@ -121,5 +121,5 @@ Information and links to the documentation of the ground station software for th
 - [1U – 12U CubeSat Design Specifications](https://www3.nasa.gov/sites/default/files/atoms/files/cubesatdesignspecificationrev14_12022-02-09.pdf)
 
 
-[Previous]({{site.url}}./){: .btn .btn-purple }
+[Previous]({{site.url}}/about/){: .btn .btn-purple }
 [Next]({{site.url}}/overview/birds/obc-page){: .btn}

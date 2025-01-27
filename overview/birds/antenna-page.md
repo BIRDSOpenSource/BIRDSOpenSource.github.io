@@ -16,5 +16,5 @@ The documentation for the BIRDS**3** version of this board can be found [**here*
 The documentation for the BIRDS**4** version of this board can be found [**here**](https://github.com/BIRDSOpenSource/BIRDS4-AntennaPanel).
 
 
-[Previous]({{site.url}}./){: .btn .btn-purple }
-[Next]({{site.url}}/get-started/reference.html){: .btn}
+[Previous]({{site.url}}/overview/birds/fab-page){: .btn .btn-purple }
+[Next]({{site.url}}/overview/birds/GS-software){: .btn}
