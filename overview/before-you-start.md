@@ -56,54 +56,7 @@ Building a satellite involves complex systems that need careful planning and int
 
 ---
 
-With this foundational knowledge, you’ll be better equipped to dive into the satellite-building process. The next step is to select the path that best fits your experience level and start building!
-
-
-[Get Started]({{site.url}}/get-started){: .btn .btn-purple }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Before you start
-
-<details markdown="block">
-<summary>Table of Contents</summary>
-- Table of Contents
-{:toc}
-</details>
-
-## **1. Introduction**
-   This document outlines the purpose, structure, and practical steps for using the testing process and procedural guides for subsystems such as the 
-   - On-Board Computer (OBC), 
-   - Electrical Power System (EPS), 
-   - Attitude Determination and Control System (ADCS), 
-   - Communications (COM), 
-   - and the structural components of BIRDS satellites.
-
-### We are creating an environment for sharing knowledge and ideas.
-{: .no_toc }
-
-If you would want to contribute to, or work with the [BIRDS] community in order to assist in developing this solution, please contibute to the [our Discussions channel on Github] or [get in touch with us.]
-
-## **2. What are the phases of a satellite?**
+##  What are the phases of a satellite?
   The development and deployment of a satellite involve a series of carefully structured phases to ensure the mission's success. From initial concept discussions to final pre-launch verifications, these phases guide teams through designing, building, and testing the satellite to meet stringent space industry standards. 
     
   Each phase acts as a checkpoint to confirm that requirements are met and potential risks are mitigated. Understanding the phases - including the
@@ -111,7 +64,6 @@ If you would want to contribute to, or work with the [BIRDS] community in order 
   - [Preliminary Design Review (PDR)], 
   - [Critical Design Review (CDR)], and 
   - [Flight Readiness Review (FRR)] 
-
 
 ```mermaid
 gantt
@@ -163,7 +115,11 @@ These phases create a structured pathway from conceptualization to launch, with 
      - **Sensing Devices**: Magnetometers, gyroscopes for ADCS
    - **Version Control**: Git/ [GitHub] 
 
-## [Getting Started]({{site.url}}/get-started){: .btn .btn-purple }
+
+With this foundational knowledge, you’ll be better equipped to dive into the satellite-building process. The next step is to select the path that best fits your experience level and start building!
+
+
+[Get Started]({{site.url}}/get-started){: .btn .btn-purple }
 
 ## Other resources
 - [Engineer Me This](https://www.youtube.com/@EngineerMeThis/videos)
