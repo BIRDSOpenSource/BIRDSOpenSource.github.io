@@ -38,6 +38,12 @@ Follow these steps:
    - **PDR**: Validate preliminary designs, ensuring alignment with mission requirements.  
    - **CDR**: Finalize detailed designs for all subsystems.
 
+If you know your expected launch date or when you want the project to be completed, you can identfy the dates of the above milestones to fit to your completion date. You should try not to spend too much time in the ideation phase, as the aim is to devlop a hands-on project, once you start building things will still change.  
+
+Once you have your mission in mind, set out to start developing the subsystem requirements to make that mission successful. This will be inthe form of a requirements sheet (if you don't know how to do that, [you can find the tutorial here.]({{site.url}}/how-tos/req-sheet))
+
+Your MDR ideally shouldn't be more than 2 months after identifying your mission.
+
    **Result**: A high-level structure for the schedule is established.
 
 2. **List major project tasks.**  
@@ -106,13 +112,20 @@ Here is an example timeline for a CubeSat project:
 | Release & operation               | Month 14      |                           |
 | Disposal                          | Month 20+     |                           |
 
+![schedule-complete](/assets/images/schedule-complete.png)
+
 ### Sub-tasks
 
 If the schedule is complex, you can divide it into sub-tasks, such as:
 
 - Assigning responsibilities to subsystem teams.  
-- Creating detailed schedules for each subsystem.  
+- Creating detailed schedules for each subsystem.  Templates for subsystem schedules can be found here.
 - Periodic reviews and updates to the schedule based on progress.
+- each subsystem can have their own sheet that details the subsystems tasks under each section, 
+- you can also have sheets dedicated to the milestone tasks to have a clearer view of what is needed for each milestone.
+
+![schedule-sheets](/assets/images/schedule-sheets.png)
+
 
 ## See also
 
