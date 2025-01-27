@@ -27,4 +27,4 @@ While they are the same, we are keeping them separate to maintain order.
 In the March 2022 BIRDS Meeting a team presented their use of the Radiometrix HX1 COMs module with the BIRDS platform. Its datasheet has been added to the repositories.
 
 [Previous]({{site.url}}./){: .btn .btn-purple }
-[Next]({{site.url}}/get-started/reference.html){: .btn}
+[Next]({{site.url}}/overview/birds/bpb-page){: .btn}

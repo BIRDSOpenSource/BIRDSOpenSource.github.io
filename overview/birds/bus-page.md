@@ -116,5 +116,10 @@ For the BIRDS4 version, please find it [_here_](https://github.com/BIRDSOpenSour
 ### Ground Station Software
 Information and links to the documentation of the ground station software for the BIRDS satellites can be found [_here_]({{site.url}}/overview/birds/GS-software.html).
 
+## See also
+- [ Basic Concepts and Processes for First-Time CubeSat Developers](https://www3.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf)
+- [1U – 12U CubeSat Design Specifications](https://www3.nasa.gov/sites/default/files/atoms/files/cubesatdesignspecificationrev14_12022-02-09.pdf)
+
+
 [Previous]({{site.url}}./){: .btn .btn-purple }
-[Next]({{site.url}}/get-started/reference.html){: .btn}
+[Next]({{site.url}}/overview/birds/obc-page){: .btn}

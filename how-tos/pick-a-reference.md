@@ -1,7 +1,7 @@
 ---
 title: Pick a reference satellite
 nav_order: 3
-parent: Start your journey
+parent: How-to guides
 layout: default
 lang: en
 ---

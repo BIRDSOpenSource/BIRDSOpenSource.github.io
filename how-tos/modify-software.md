@@ -1,12 +1,12 @@
 ---
-title: Download Files
+title: How to modify the software
 nav_order: 5
-parent: Start your journey
+parent: How-to guides
 layout: default
 lang: en
 ---
 
-#  Download Files
+#  How to modify the software
 
 
 [Previous]({{site.url}}/get-started/clone-repo.html){: .btn .btn-purple }

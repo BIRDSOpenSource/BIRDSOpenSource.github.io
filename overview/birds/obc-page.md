@@ -23,4 +23,4 @@ If you want to purchase the commercial version of FAB/OBC/EPS, please contact SA
 The contact address is takei@sagami-net.co.jp
 
 [Previous]({{site.url}}./){: .btn .btn-purple }
-[Next]({{site.url}}/get-started/reference.html){: .btn}
+[Next]({{site.url}}/overview/birds/com-page){: .btn}

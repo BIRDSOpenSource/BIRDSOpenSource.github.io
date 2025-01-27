@@ -1,7 +1,6 @@
 ---
 title: Start your journey
 nav_order: 2
-has_children: true
 layout: default
 permalink: "/get-started"
 lang: en

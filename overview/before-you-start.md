@@ -6,16 +6,6 @@ layout: default
 lang: en
 ---
 
-
----
-title: Before You Start
-nav_order: 1
-has_children: true
-layout: default
-permalink: "/before-you-start"
-lang: en
----
-
 # Before You Start
 To ensure a smooth journey in building your CubeSat, there are a few things you'll want to understand beforehand. This section outlines key knowledge areas you'll need, from using the platform and GitHub to understanding systems engineering principles.
 
@@ -69,7 +59,7 @@ Building a satellite involves complex systems that need careful planning and int
 With this foundational knowledge, you’ll be better equipped to dive into the satellite-building process. The next step is to select the path that best fits your experience level and start building!
 
 
-
+[Get Started]({{site.url}}/get-started){: .btn .btn-purple }
 
 
 

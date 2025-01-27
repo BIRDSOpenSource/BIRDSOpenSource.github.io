@@ -3,6 +3,7 @@ title: Home
 nav_order: 1
 layout: home
 has_children: true
+has_toc: false
 permalink: "/"
 lang: en
 has_toc: false
@@ -32,9 +33,9 @@ We are currently in the process of updating much of our training content referen
 
 
   <div style="flex: 1 1 calc(33.333% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
-    <span class="fs-6"> Setting Up the Bus</span> 
+    <span class="fs-6"> Choose your path </span> 
     <br /> <br /> 
-    <span class="fs-3"> Learn how to set up and integrate your mission, how to test, and how to verify to your system.</span>
+    <span class="fs-3"> Learn how to set up and integrate the satellite bus based on your level of experience. Novice, hobbyist, or expert.</span>
     <br /> 
     <a href="{{site.url}}/get-started/" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center; border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
       START
@@ -46,7 +47,7 @@ We are currently in the process of updating much of our training content referen
     <span class="fs-6"> Adapting Software</span> 
     <br /> <br /> 
     <span class="fs-3"> Learn how to add your team's software components to the firmware with the Software Templates </span> 
-    <a href="{{site.url}}/obc/guide" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center;  border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
+    <a href="{{site.url}}/how-tos/modify-software" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center;  border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
       START
     </a>
   </div>
