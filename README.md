@@ -1,6 +1,22 @@
-# BIRDS Build-A-Satellite Documentation Site
+<p align="right">
+    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/actions/workflows/ci.yml"><img src="https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://app.netlify.com/sites/just-the-docs/deploys">
+</p>
+<br><br>
+<p align="center">
+    <h1 align="center"> BIRDS Cubesat Bus Documentation Site</h1>
+    <p align="center">A comprehensive guide for designing, building, testing, and launching a small satellite. Whether you’re a beginner or an experienced developer, our documentation is structured to assist you at every stage of the satellite development process.<br>Easily hosted on GitHub Pages with few dependencies.</p>
+    <p align="center"><strong><a href="https://BIRDSOpenSource.github.io/">See it in action!</a></strong></p>
+    <br><br><br>
+</p>
 
-Welcome to the BIRDS Build-A-Satellite Documentation Site! This platform provides a comprehensive guide for designing, building, testing, and launching a small satellite. Whether you’re a beginner or an experienced developer, our documentation is structured to assist you at every stage of the satellite development process.
+<p align="center">A video walkthrough of various BIRDS Docs features</p>
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/eHbP0YvnUiI?si=lDnSzHd7lpJlMOno/0.jpg)](https://www.youtube.com/watch?v=eHbP0YvnUiI?si=lDnSzHd7lpJlMOno)
+
+## Usage
+
+[View the documentation][Just the Docs] for usage information.
+
 
 ## About the Project
 

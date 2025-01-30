@@ -1,6 +1,6 @@
 ---
 title: Rear Access Board
-parent: What is BIRDS Open Source?
+parent: What is BIRDS?
 grand_parent: Home
 layout: default
 lang: en
@@ -14,5 +14,5 @@ The documentation for the BIRDS**3** version of this board can be found [**here*
 The documentation for the BIRDS**4** version of this board can be found [**here**](https://github.com/BIRDSOpenSource/BIRDS4-RAB).
 
 
-[Previous]({{site.url}}./){: .btn .btn-purple }
-[Next]({{site.url}}/get-started/reference.html){: .btn}
+[Previous]({{site.url}}/overview/birds/GS-software){: .btn .btn-purple }
+[Next]({{site.url}}/overview/birds/solar-page){: .btn}

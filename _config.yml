@@ -1,7 +1,7 @@
 # site settings
 
-title: Build-A-Satellite | BIRDS
-description: The BIRDS Build-A-Satellite Project is a comprehensive open source guide for designing, building, testing, and launching a small satellite. Whether you’re a beginner or an experienced developer, our documentation is structured to assist you at every stage of the satellite development process.
+title: BIRDS | Open Source Release
+description: The BIRDS Open Source Release is a comprehensive open source guide for designing, building, testing, and launching a small satellite. Whether you’re a beginner or an experienced developer, our documentation is structured to assist you at every stage of the satellite development process.
 email: null
 
 # theme
@@ -84,7 +84,14 @@ nav_enabled: true
 back_to_top: true
 back_to_top_text: "Back to top"
 # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
-footer_content: "Copyright &copy; 2015-2025 Laboratory of Lean Satellite Enterprises and In-Orbit Experiment <a href=\"https://kyutech-laseine.net/english/\">(LaSeine), Kyutech.</a>"
+footer_content: "Copyright &copy; 2015-2025 Laboratory of Lean Satellite Enterprises and In-Orbit Experiment <a href=\"https://kyutech-laseine.net/english/\">(LaSeine), Kyutech.</a> <br/> <br/>
+Contribute to Docs <br/>
+- <a href=\"https://birdsopensource.github.io/contribute\">Learn more</a> about how to get involved. <br/>
+- <a href=\"https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue\">Submit feedback</a> to let us know how we can improve BIRDS Docs. <br/> <br/>
+Join the Community <br/>
+- <a href=\"https://t.me/+D3BCqCmceQ41ZGFl\">Chat With Us On Telegram</a>  <br/>
+- <a href=\"https://www.youtube.com/@kyutechseic4187\">Watch Us On YouTube</a>  <br/>
+- <a href=\"https://lean-sat.org/opensource/\">Join Our Monthly Webinars</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -93,12 +100,16 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/BIRDSOpenSource/Build-A-Satellite" # the github URL for your repo
-gh_edit_branch: "development" # the branch that your docs is served from
+gh_edit_repository: "https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme supports "light" (default) and "dark"
+color_schemes:
+  - light
+  - dark
+  
 color_scheme: light
 
 # Define Jekyll collections

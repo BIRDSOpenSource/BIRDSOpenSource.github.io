@@ -1,6 +1,6 @@
 ---
 title: GS-Software
-parent: What is BIRDS Open Source?
+parent: What is BIRDS?
 grand_parent: Home
 layout: default
 lang: en
@@ -20,5 +20,5 @@ The repository for the Open Birds Operation (Ground Station) Software can be fou
 
 _Note: software is untested by repository authors._
 
-[Previous]({{site.url}}./){: .btn .btn-purple }
-[Next]({{site.url}}/get-started/reference.html){: .btn}
+[Previous]({{site.url}}/overview/birds/antenna-page){: .btn .btn-purple }
+[Next]({{site.url}}/overview/birds/rab-page){: .btn}

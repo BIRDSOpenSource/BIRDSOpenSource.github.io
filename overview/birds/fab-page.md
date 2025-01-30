@@ -1,6 +1,7 @@
 ---
 title: Front Access Board
-parent: What is BIRDS Open Source?
+parent: What is BIRDS?
+nav_order: 5
 grand_parent: Home
 layout: default
 lang: en
@@ -18,5 +19,5 @@ The contact address is takei@sagami-net.co.jp
 The documentation for the BIRDS**3** version of this board can be found  [***here***](https://github.com/BIRDSOpenSource/BIRDS3-FAB).
 The documentation for the BIRDS**4** version of this board can be found  [***here***](https://github.com/BIRDSOpenSource/BIRDS4-FAB).
 
-[Previous]({{site.url}}./){: .btn .btn-purple }
-[Next]({{site.url}}/get-started/reference.html){: .btn}
+[Previous]({{site.url}}/overview/birds/bpb-page){: .btn .btn-purple }
+[Next]({{site.url}}/overview/birds/antenna-page){: .btn}
