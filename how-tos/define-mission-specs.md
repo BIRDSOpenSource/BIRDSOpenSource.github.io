@@ -62,6 +62,7 @@ Before defining the mission specifications, ensure:
 
 This guide provides a structured approach to defining mission specifications for CubeSat teams. Customize it based on your specific mission needs.
 
+Now that you have a better idea of the mission your satellite wants to accomplish and the technical specifications of it, you need to create a [requirements allocation sheet]({{site.url}}/how-tos/requirement-allocation-sheet) for each subsytems depending on how they relate with your mission objectives. 
 
 [Previous]({{site.url}}/get-started/github-account.html){: .btn .btn-purple }
-[Next]({{site.url}}/get-started/clone-repo.html){: .btn}
+[Next]({{site.url}}/how-tos/requirement-allocation-sheet){: .btn}

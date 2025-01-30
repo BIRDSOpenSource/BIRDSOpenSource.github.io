@@ -13,7 +13,7 @@ Build-A-Sat makes satellite creation seamless. Import your application by linkin
 Choose your path and begin building your CubeSat with BIRDS today:
 
 <span class="fs-3" align="center"> 
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/file.svg" width="10" height="10"> I'm starting from scratch]({{site.url}}/how-tos/requirement-allocation-sheet){: .btn .btn-outline .text-grey-lt-000 .bg-grey-dk-100}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/file.svg" width="10" height="10"> I'm starting from scratch]({{site.url}}/how-tos/define-mission-specs){: .btn .btn-outline .text-grey-lt-000 .bg-grey-dk-100}
 </span>
 <span class="fs-3" align="center"> 
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/git-alt.svg" width="15" height="15"> I have technical experience]({{site.url}}/pm/guide){: .btn .btn-outline .text-grey-dk-300}
