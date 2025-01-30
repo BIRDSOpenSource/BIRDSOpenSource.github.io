@@ -1,11 +1,11 @@
 ---
-title: How to Make a Link Budget
+title: How to Find Funding for a CubeSat Mission  
 parent: How-to guides
 layout: default
 lang: en
 ---
 
-## Making a Link Budget
+##  How to Find Funding for a CubeSat Mission  
 {: .no_toc }
 
 <details markdown="block">
@@ -21,3 +21,8 @@ lang: en
 This introduction is an overview of the project, how it is organised, and how it works.
 
 This guide is intended for...
+
+
+
+[Previous]({{site.url}}/get-started){: .btn .btn-purple }
+[Next]({{site.url}}/get-started/reference.html){: .btn}

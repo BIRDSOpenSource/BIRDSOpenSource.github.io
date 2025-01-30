@@ -1,12 +1,10 @@
 ---
-title: How to identify a launch provider
+title: How to Identify a Launch Provider for a CubeSat Mission  
 nav_order: 5
 parent: How-to guides
 layout: default
 lang: en
 ---
-
-#  How to identify a launch provider
 
 # How to Identify a Launch Provider for a CubeSat Mission  
 

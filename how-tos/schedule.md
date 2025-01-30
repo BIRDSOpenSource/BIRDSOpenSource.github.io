@@ -40,9 +40,9 @@ Follow these steps:
 
 If you know your expected launch date or when you want the project to be completed, you can identfy the dates of the above milestones to fit to your completion date. You should try not to spend too much time in the ideation phase, as the aim is to devlop a hands-on project, once you start building things will still change.  
 
-Once you have your mission in mind, set out to start developing the subsystem requirements to make that mission successful. This will be in the form of a requirement allocation sheet (if you don't know how to do that, [you can find the how-to guide here.]({{site.url}}/how-tos/requirement-allocation-sheet.md))
+Once you have your mission in mind, set out to start developing the subsystem requirements to make that mission successful. This will be in the form of a requirement allocation sheet (if you don't know how to do that, [you can find the how-to guide here.]({{site.url}}/how-tos/requirement-allocation-sheet))
 
-If you have funding in place and have identified your launch provider, your MDR ideally shouldn't be more than 2 months after identifying your mission.
+If you [have funding in place]({{site.url}}/how-tos/find-funding) and have [identified your launch provider]({{site.url}}/how-tos/identify-launch-provider), your MDR ideally shouldn't be more than 2 months after identifying your mission.
 
    **Result**: A high-level structure for the schedule is established.
 
