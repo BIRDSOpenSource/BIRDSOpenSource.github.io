@@ -5,10 +5,10 @@ layout: default
 lang: en
 ---
 
-# Templates and Checklists 
+# Mission Definition and Specification Template
 {: .no_toc }
 
-> If you need more information about how to fill in this template, read the accompanying [guide]({{site.url}}/how-tos/define-mission-specs.md).
+> If you need more information about how to fill in this template, read the accompanying [guide]({{site.url}}/how-tos/define-mission-specs).
 >
 > This template includes writing instructions and boilerplate text that you can customize, use as-is, or completely replace with your own text. This text is indicated in {curly brackets}. Make sure you replace the placeholders with your own text.
 

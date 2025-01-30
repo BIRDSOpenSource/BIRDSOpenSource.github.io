@@ -6,7 +6,10 @@ layout: default
 lang: en
 ---
 
-# How to Define Mission Specifications
+# How to Define Mission Specifications (Template Included)
+
+> After reading this guide you can find the accompanying template to fill [here]({{site.url}}/resources/templates/define-mission-specs).
+>
 
 ## Overview
 
