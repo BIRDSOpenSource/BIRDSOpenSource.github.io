@@ -17,8 +17,8 @@ has_toc: false
 - [x] How to get up and running
 - [x] Deep dives on technical topics
 
-{: .caution}
-We are currently in the process of updating much of our training content referencing documents from the BIRDS-X satellite.
+> [!Note]
+> We are currently in the process of updating much of our training content referencing documents from the BIRDS-X satellite.
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
