@@ -27,7 +27,7 @@ lang: en
 | DLP feasibility |  | 
 | Satellite Beacon | | A satellite beacon is a distinct and identifiable signal transmitted by a satellite to indicate its presence or provide essential tracking information.
 | On-Board Computer |OBC| An On-Board Computer (OBC) is a satellite's central processing unit that runs the satellite's software and controls its vital functions. It is the brain of the satellite.
-| Electrical Power System |EPS| An electrical power system (EPS) is a satellite subsystem that manages the satellie and supplies other systems in the satellite with the necessary electrical power to operate effectively. The EPS is a critical component especially in small satelites such as theluding CubeSats
+| Electrical Power System |EPS| An electrical power system (EPS) is a satellite subsystem that manages the satellie and supplies other systems in the satellite with the necessary electrical power to operate effectively. The EPS is a critical component especially in small satelites including CubeSats
 | Preliminary Design Review | PDR |
 | Flight Model Testing | FMT | Flight Model testing ivolves subjecting the satellite, known as Flight Model to undergo several rogorous tests. It is done to verify that the satellite's design and construction meet all the functional and environmental requirements for flight.
 |Command and Data Handling System  | CDHS|  This is another name for the OBC based on the tasks the system performs. |
