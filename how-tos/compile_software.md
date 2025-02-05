@@ -72,8 +72,5 @@ Before compiling the software, ensure:
 * [PIC C CCS Documentation](https://www.ccsinfo.com/)
 
 
-
-
-
 [Previous]({{site.url}}/how-tos){: .btn .btn-purple }
-[Next]({{site.url}}/how-tos){: .btn}
+[Next]({{site.url}}/how-tos/flash_microcontroller.html){: .btn}
