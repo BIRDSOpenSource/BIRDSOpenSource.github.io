@@ -16,25 +16,25 @@ Welcome to the step-by-step guides for assembling hardware and setting up softwa
 
 Follow these guides to assemble the necessary hardware components:
 
-- [Assembling the Access Board](assembling_access_board.html)  
-- [Assembling the Programming Board](assembling_programming_board.html)  
-- [Assembling the Access Cable](assembling_access_cable.html)  
+- [Assembling the Access Board]({{site.url}}/how-tos/assemble_access_board.html)  
+- [Assembling the Programming Board]({{site.url}}/how-tos/assemble_programming_board.html)  
+- [Assembling the Access Cable]({{site.url}}/how-tos/assemble_access_cable.html)  
 
 ## Software Development Guides
 
 Learn how to configure, compile, and flash software onto the system:
 
-- [Writing the Board-Specific Software File](writing_board_specific_software.html)  
-- [Compiling the Software](compiling_software.html)  
-- [Flashing the Software onto the Microcontroller](flashing_microcontroller.html)  
+- [Writing the Board-Specific Software File]({{site.url}}/how-tos/write_board_specific_software.html)  
+- [Compiling the Software]({{site.url}}/how-tos/compile_software.html)  
+- [Flashing the Software onto the Microcontroller]({{site.url}}/how-tos/flash_microcontroller.html)  
 
 ## Troubleshooting Guides
 
 If you encounter issues, check the troubleshooting guides for solutions:
 
-- [Common Assembly Issues and Fixes](assembly_troubleshooting.html)  
-- [Software Compilation Errors and Debugging](compilation_troubleshooting.html)  
-- [Flashing and Microcontroller Connection Issues](flashing_troubleshooting.html)  
+- [Common Assembly Issues and Fixes]({{site.url}}/how-tos/assembly_troubleshooting.html)  
+- [Software Compilation Errors and Debugging]({{site.url}}/how-tos/compilation_troubleshooting.html)  
+- [Flashing and Microcontroller Connection Issues]({{site.url}}/how-tos/flashing_troubleshooting.html)  
 
 ## Additional Resources
 

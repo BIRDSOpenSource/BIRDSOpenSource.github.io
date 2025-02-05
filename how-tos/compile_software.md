@@ -67,7 +67,7 @@ Before compiling the software, ensure:
 
 ## See also
 
-* [Flashing the Software onto the Microcontroller](flashing_software.md)
+* [Flashing the Software onto the Microcontroller]({{site.url}}/how-tos/flash_microcontroller.html)  
 * [Writing the Board-Specific Software File](writing_board_software.md)
 * [PIC C CCS Documentation](https://www.ccsinfo.com/)
 
