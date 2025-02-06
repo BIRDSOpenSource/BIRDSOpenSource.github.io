@@ -7,64 +7,87 @@ layout: default
 lang: en
 ---
 
-# The BIRDS Bus
+# **The BIRDS Bus**
 
-The BIRDS (Birds Satellite) Bus is a comprehensive hardware platform designed to meet the needs of CubeSat missions. It provides a standardized framework for integrating key subsystems, enabling teams to focus on mission-specific payloads and objectives. The BIRDS Bus consists of several interconnected boards, each responsible for specific functions such as power management, communication, and data handling. This modular approach simplifies development and ensures reliability for CubeSat missions.
+The BIRDS (Birds Satellite) Bus is a comprehensive hardware platform designed to meet the needs of CubeSat missions. It provides a standardized framework for integrating key subsystems, which enables teams to focus on mission-specific payloads and objectives. 
+The BIRDS Bus consists of several interconnected boards; each responsible for specific functions such as power management, communication, and data handling. This modular approach simplifies development and ensures reliability for CubeSat missions.
 
 ---
 
-## What is in the BIRDS Bus?
+## Components of the BIRDS Bus
+
+<p>
+<figure>
+  <img alt="The BIRDS-X frame." src="/assets/images/birdsx-ext-assembly.png" width="45%">
+  <figcaption>The BIRDS-X external assembly.</figcaption>
+&nbsp;
+</figure>
+<figure>
+  <img alt="birdsx board frame." src="/assets/images/birdsx-board-layout.png" width="45%">
+  <figcaption>The BIRDS-X board layout.</figcaption>
+  </figure>
+</p>
+
+![BIRDSbus exploded view.](/assets/images/BIRDSBus-exploded.png)
+*Exploded view of the BIRDS bus.*
 
 The BIRDS Bus includes the following key components:
 
-<p>
-  <img alt="birdsx-frame" src="/assets/images/birdsx-ext-assembly.png" width="45%">
-&nbsp;
-  <img alt="birdsx-board-frame" src="/assets/images/birdsx-board-layout.png" width="45%">
-</p>
-
-![BIRDSbus Exploded View](/assets/images/BIRDSBus-exploded.png)
-
-### [On-Board Computer (OBC)]({{site.url}}/overview/birds/obc-page.html)
+* #### [On Board Computer (OBC)]({{site.url}}/overview/birds/obc-page.html)
 The OBC is the brain of the satellite, handling core computing tasks such as command execution, data management, and subsystem coordination. It uses a PIC microcontroller for reliable and efficient operation.
 
-### [Electrical Power System (EPS)]({{site.url}}/overview/birds/fab-page.html)
-The EPS manages power generation, storage, and distribution. It ensures that all subsystems receive adequate power and that the battery is charged efficiently. The main board that drives this is the FAB on a 1U and 2U configuration and the EPS board on a 3U+ confuguration. the [Rear Access Board (RAB)]({{site.url}}/overview/birds/rab-page.html) and the [Solar Panel board]({{site.url}}/overview/birds/solar-page.html) are also a part of this system in the BIRDS Bus. 
+* #### [Electrical Power System (EPS)]({{site.url}}/overview/birds/fab-page.html)
+The EPS manages power routing which includes power generation, storage, and distribution. It ensures that all subsystems receive adequate power and that the battery is charged efficiently.  
+On the 3U (and above) CubeSats, the EPS board does the power routing. However, on the 1U and 2U CubeSats, the Front Access Board (FAB) is in charge of the power routing.  
 
-### Attitude Determination and Control System (ADCS)
+The [Rear Access Board (RAB)]({{site.url}}/overview/birds/rab-page.html) and the [Solar Panel board]({{site.url}}/overview/birds/solar-page.html) are also a part of the EPS in the BIRDS Bus. 
+
+* #### Attitude Determination and Control System (ADCS)
 The ADCS controls the satellite's orientation and stability, ensuring that it maintains the correct position for mission operations.
 
-### [Communications (COM)]({{site.url}}/overview/birds/com-page.html)
+* #### [Communications (COM)]({{site.url}}/overview/birds/com-page.html)
 The COM subsystem oversees data transmission to and from the satellite. It uses UHF/VHF communication for reliable telemetry and command handling. The [antenna board]({{site.url}}/overview/birds/antenna-page.html) carries the COM, APRS and GPS antennas as well as their release mechanism.
 
 <center>  
   <p>
-    <img alt="birdsx-com" src="/assets/images/birdsx-com.png" width="25%">
+  <figure>
+    <img alt="birdsx-communication board." src="/assets/images/birdsx-com.png" width="25%">
+    <figcaption>The BIRDS-x communication board.</figcaption>
+  </figure>
   </p>  
 </center>
 
-### **Structure**
+* #### **Structure**
 The structure provides the physical framework for the satellite, ensuring durability and protection for all subsystems.
 <p>
+<figure>
   <img alt="birdsx-frame" src="/assets/images/birdsx-frame.png" width="45%">
+  <figcaption>BIRDS-x frame.</figcaption>
+</figure>
 &nbsp;
-  <img alt="birdsx-board-frame" src="/assets/images/birdsx-board-frame-assembly.png" width="45%">
+<figure>
+  <img alt="BIRDS-X board-frame." src="/assets/images/birdsx-board-frame-assembly.png" width="45%">
+  <figcaption>BIRDS-x board frame.</figcaption>
+</figure>
 </p>
 
-### **Payload**
+* #### **Payload**
 The payload includes mission-specific instruments or sensors, enabling the satellite to perform its primary objectives.
 
-### [Backplane Board (BPB)]({{site.url}}/overview/birds/bpb-page.html)
+* #### [Backplane Board (BPB)]({{site.url}}/overview/birds/bpb-page.html)
 The BPB integrates all subsystems, allowing the transfer of power and data between them. It serves as the central hub for the satellite's electrical and data connections.
 <center>         
   <p>
-    <img alt="birdsx-bpb" src="/assets/images/bpb-birdsx.png" width="15%">
+  <figure>
+    <img alt="BIRDS-x Backplane Board" src="/assets/images/bpb-birdsx.png" width="15%">
+    <figcaption>BIRDS-x Backplane Board.</figcaption>
+  </figure>
   </p>
 </center>
 
 ---
 
-## Organizational Chart
+## **The Organizational Chart**
 
 ```mermaid
 flowchart TD
@@ -82,39 +105,39 @@ flowchart TD
     E --> |Member 6| N[BPB]
 ```
 
-## Key Features of the BIRDS Bus**
-**Modular Design**
+## Key Features of the BIRDS Bus
+**Modular Design**  
 The BIRDS Bus is designed with modularity in mind, allowing teams to easily integrate and replace subsystems as needed. This flexibility is particularly useful for CubeSat missions with varying requirements.
 
-**Proven Reliability**
+**Proven Reliability**  
 The BIRDS Bus has been used in multiple missions, including BIRDS3 and BIRDS4, demonstrating its reliability and effectiveness in space.
 
-**Open-Source Documentation**
-The BIRDS Project provides extensive documentation, including schematics, firmware, and interface control documents (ICDs), to support teams in implementing the bus. The general documentation can be found here.
+**Open-Source Documentation**  
+The BIRDS Project provides extensive documentation to support teams in implementing the bus; including schematics, firmware, and interface control documents (ICDs). The general documentation can be found here.
 
 ## 3D Models and CAD Files
-The 3D models for the BIRDS3 and BIRDS4 buses, as well as the stand, are available for download:
+The 3D models and stand for the BIRDS3 and BIRDS4 buses are available for download:
 
-BIRDS3 CAD Models: [Download here](https://github.com/BIRDSOpenSource/BIRDS3-CAD)
+* BIRDS3 CAD Models: [Download here](https://github.com/BIRDSOpenSource/BIRDS3-CAD)
 
-BIRDS4 CAD Models: [Download here](https://github.com/BIRDSOpenSource/BIRDS4-CAD)
+* BIRDS4 CAD Models: [Download here](https://github.com/BIRDSOpenSource/BIRDS4-CAD)
 
-## [Ground Station Software]({{site.url}}/overview/birds/GS-software.html).
-The BIRDS Project provides ground station software for communicating with the satellite. Documentation and links to the software can be found here.
+## [Ground Station Software]({{site.url}}/overview/birds/GS-software.html)
+The BIRDS project provides ground station software for communicating with the satellite. Documentation and links to the software can be found here.
 
-## Recent Updates
-Radiometrix HX1 COMS Module: A team presented their use of the Radiometrix HX1 communication module with the BIRDS platform during the March 2022 BIRDS meeting. The module's datasheet has been added to the COMS repositories.
+## Recent updates
+**Radiometrix HX1 COMS Module:** A team presented their use of the Radiometrix HX1 communication module with the BIRDS platform during the March 2022 BIRDS meeting. The module's datasheet has been added to the COMS repositories.
 
-Battery Testing and Screening Procedures: Detailed procedures for battery testing and screening have been added to the procedures repository. Please check these new documents for updated guidelines.
+**Battery Testing and Screening Procedures:** Detailed procedures for battery testing and screening have been added to the procedures repository. Please check these new documents for updated guidelines.
 
-## [General documentation](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation):
-While this website does contain information regarding the program and the BIRDSBus, the main explanations and documentation is contained in the Program Textbook and the Interface Control Document.
-
-
-## See also
-- [ Basic Concepts and Processes for First-Time CubeSat Developers](https://www3.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf)
-- [1U – 12U CubeSat Design Specifications](https://www3.nasa.gov/sites/default/files/atoms/files/cubesatdesignspecificationrev14_12022-02-09.pdf)
+## [General documentation](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation)
+While this website does contain information regarding the program and the BIRDSBus, the main explanations and documentation is contained in the program textbook and the Interface Control Document.
 
 
-[Previous]({{site.url}}/about/){: .btn .btn-purple }
-[Next]({{site.url}}/overview/birds/obc-page){: .btn}
+#### See also:
+- [ Basic concepts and processes for first-time CubeSat developers](https://www3.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf)
+- [1U – 12U CubeSat design specifications](https://www3.nasa.gov/sites/default/files/atoms/files/cubesatdesignspecificationrev14_12022-02-09.pdf)
+
+
+[Previous: The BIRDS Page]({{site.url}}/about/){: .btn .btn-purple }
+[Next:OBC Page]({{site.url}}/overview/birds/obc-page){: .btn}

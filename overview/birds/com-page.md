@@ -7,11 +7,10 @@ layout: default
 lang: en
 ---
 
-## Communications Board
+## **The Communication Board (COM) in the BIRDS Bus**
 
-# Communication Board in the BIRDS Bus
-
-This article explains the basics of the Communication Board (COM) and its role in the BIRDS (Birds Satellite) bus for CubeSats. The Communication Board is a critical subsystem responsible for enabling communication between the satellite and ground stations. It ensures the transmission of telemetry data and the reception of commands, making it essential for the successful operation of any CubeSat mission.
+This article explains the basics of the Communication Board (COM) and its role in the BIRDS (Birds Satellite) bus for CubeSats.  
+The Communication Board is a critical subsystem responsible for enabling communication between the satellite and ground stations. It ensures the transmission of telemetry data and the reception of commands, making it essential for the successful operation of any CubeSat mission.
 
 The Communication Board in the BIRDS bus is designed to handle UHF/VHF communication, which is commonly used in CubeSat missions due to its reliability and simplicity. The board integrates a radio transceiver module and is managed by the On-Board Computer (OBC) through the Com PIC microcontroller. This setup ensures efficient and reliable communication, even in the challenging environment of space.
 
