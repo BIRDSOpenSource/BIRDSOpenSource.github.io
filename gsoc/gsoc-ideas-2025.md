@@ -1,13 +1,14 @@
 ---
-title: GSoC 2025 Idea List
-nav_order: 1
+title: GSoC 2025 Project Idea List
+nav_order: 
+parent: GSoC 
 layout: default
-permalink: "/gsoc"
+permalink: "/gsoc-ideas-2025"
 lang: en
 ---
 
 
-# 🚀 Google Summer of Code 2025 Project Ideas for BIRDS Open Source
+# 🚀 GSoC 2025 Project Ideas List
 
 ## 1. Documentation & Usability Improvements  
 ### 🔹 Project Title: *Enhancing Documentation for BIRDS Open Source Software*  
