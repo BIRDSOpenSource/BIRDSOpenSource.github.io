@@ -91,3 +91,25 @@ lang: en
 - C++  
 - Simulation frameworks  
 - Hardware-in-the-loop (HIL) testing  
+
+---
+
+## 6. Translation of BIRDS Open Source Website into Japanese  
+### 🔹 Project Title: *Expanding BIRDS Open Source Accessibility with Japanese Translation*  
+📌 **Description**: To better serve our global community, this project aims to **translate all pages on the BIRDS Open Source website into Japanese**. This will make our resources more accessible to Japanese students, researchers, and engineers interested in open-source CubeSat development.  
+
+🎯 **Goals**:  
+- Translate **all website content** (including project descriptions, documentation, and guides) into **Japanese**.  
+- Ensure translations are **technically accurate** and maintain clarity for non-native English speakers.  
+- Implement **a language-switching feature** on the website to allow seamless navigation between English and Japanese.  
+
+🛠 **Skills Required**:  
+- **Japanese Language Proficiency** (Native or Fluent)  
+- **Technical Translation** (English to Japanese)  
+- **Markdown/HTML for Website Content**  
+- **Basic Web Development** (for language-switching implementation)  
+
+📖 **Expected Outcome**:  
+- A fully translated and **bilingual website** for BIRDS Open Source.  
+- Improved engagement from **Japanese-speaking users** in CubeSat and open-source communities.  
+
