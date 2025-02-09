@@ -9,7 +9,6 @@ lang: en
 has_toc: false
 ---
 
-### Home
 ### **A learning guide**
 {: .lh-0 .text-purple-200}
 # Everything you need to build a satellite: A step-by-step guide  
@@ -21,11 +20,7 @@ If you're new here, here's a list of what to expect in the next few pages:
 - [x] How to get started
 - [x] Deep dives on technical topics
 
-> [!Note]
-> We are currently in the process of updating most of our training content especially those referencing documents from the BIRDS-X satellite.
 
-
-### Here are some quick links:
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
   <div style="flex: 1 1 calc(33.333% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
     <span class="fs-6"> Space for All </span> 
