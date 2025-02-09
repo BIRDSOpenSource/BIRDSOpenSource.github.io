@@ -1,7 +1,7 @@
 ---
 title: For COM Team Members
 has_children: true
-nav_order: 5
+nav_order: 7
 permalink: 'com/guide'
 layout: default
 lang: en
