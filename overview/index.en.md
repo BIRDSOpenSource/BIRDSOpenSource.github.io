@@ -37,7 +37,7 @@ If you're new here, here's a list of what to expect in the next few pages:
     <br /> <br /> 
     <span class="fs-3"> Learn how to set up and integrate the satellite bus based on your level of experience. Novice, hobbyist, or expert.</span>
     <br /> 
-    <a href="{{site.url}}/get-started/" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center; border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
+    <a href="{{site.url}}/get-started" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center; border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
       START
     </a>
   </div>
@@ -47,7 +47,7 @@ If you're new here, here's a list of what to expect in the next few pages:
     <span class="fs-6"> Adapting Software</span> 
     <br /> <br /> 
     <span class="fs-3"> Learn how to add your team's software components to the firmware with the Software Templates </span> 
-    <a href="{{site.url}}/how-tos/modify-software" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center;  border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
+    <a href="{{site.url}}/how-tos/write_board_specific_software.html" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center;  border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
       START
     </a>
   </div>
