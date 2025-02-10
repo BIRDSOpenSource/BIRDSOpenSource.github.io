@@ -125,22 +125,3 @@ lang: en
 
 📆 **Project Size**: **Medium (175 hours)**  
 🕒 **Duration**: **12 weeks**  
-
----
-
-## 7. Translate Website Content into Japanese  
-### 🔹 Project Title: *Making the BIRDS Open Source Website Multilingual (Japanese Translation)*  
-📌 **Description**: Translate all pages on the **BIRDS Open Source** website into Japanese to expand accessibility for **Japanese students, researchers, and space enthusiasts**.  
-
-🎯 **Goals**:  
-- Translate the **entire website** while maintaining technical accuracy.  
-- Ensure proper formatting and layout in Markdown/HTML.  
-- Work with native speakers to improve clarity and usability.  
-
-🛠 **Skills Required**:  
-- Japanese Language  
-- Technical Translation  
-- Web Development (Markdown/HTML)  
-
-📆 **Project Size**: **Small (90 hours)**  
-🕒 **Duration**: **12 weeks**  
