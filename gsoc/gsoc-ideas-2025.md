@@ -10,6 +10,11 @@ lang: en
 
 # 🚀 GSoC 2025 Project Ideas List
 
+📝 Note:
+The standard coding period for these projects is 12 weeks, but as per GSoC guidelines, the period can be extended to 14, 18, or 22 weeks if needed.
+{: .note .text-grey-dk-300}
+
+
 ## 1. Documentation & Usability Improvements  
 ### 🔹 Project Title: *Enhancing Documentation for BIRDS Open Source Software*  
 📌 **Description**: Improve and standardize documentation across different software components of the BIRDS Open Source project, making it easier for new users and contributors to understand and engage with the system.  
