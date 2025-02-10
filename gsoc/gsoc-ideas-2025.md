@@ -15,7 +15,7 @@ lang: en
 📌 **Description**: Improve and standardize documentation across different software components of the BIRDS Open Source project, making it easier for new users and contributors to understand and engage with the system.  
 
 🎯 **Goals**:  
-- Improve the  **documentation website** (using JustTheDocs).  
+- Improve the **documentation website** (using JustTheDocs).  
 - Create **tutorials** and **walkthroughs** for software installation, usage, and contributions.  
 - Improve function documentation and technical guides for developers.  
 
@@ -24,6 +24,9 @@ lang: en
 - Markdown  
 - Function documentation  
 - Git/GitHub  
+
+📆 **Project Size**: **Small (90 hours)**  
+🕒 **Duration**: **12 weeks** (Standard GSoC Coding Period)  
 
 ---
 
@@ -42,14 +45,17 @@ lang: en
 - Low-level firmware development  
 - Satellite communications  
 
+📆 **Project Size**: **Large (350 hours)**  
+🕒 **Duration**: **12 weeks**  
+
 ---
 
 ## 3. KiCad Design of an Open-Source CubeSat Onboard Computer (OBC)  
 ### 🔹 Project Title: *Developing an Open-Source CubeSat OBC PCB using KiCad*  
-📌 **Description**: Design and document a fully open-source **Onboard Computer (OBC) PCB** using **KiCad**, making it easy for CubeSat teams to adapt and use.  
+📌 **Description**: Design and document a fully open-source **Onboard Computer (OBC) PCB** using **KiCad**, making it easy for CubeSat teams to adapt and use. We currently get the board design and fabrication done with **[Sagami Tsushin](https://www.sagami-net.co.jp/)**, but users have said it is difficult to do from their country. We want to make a design that can be sent to **any PCB manufacturer** near users.  
 
 🎯 **Goals**:  
-- Develop a **schematic** and PCB layout for a CubeSat OBC.  
+- With the schematic already shared, design a PCB layout for a CubeSat OBC.  
 - Ensure the board meets **CubeSat standard interfaces** and can be easily integrated with BIRDS software.  
 - Generate **BOM (Bill of Materials)**, fabrication files, and a user manual for teams that want to replicate or improve the design.  
 
@@ -58,6 +64,9 @@ lang: en
 - PCB design  
 - Hardware development  
 - Embedded systems  
+
+📆 **Project Size**: **Medium (175 hours)**  
+🕒 **Duration**: **12 weeks**  
 
 ---
 
@@ -74,6 +83,9 @@ lang: en
 - Web development (React, Vue, or Django)  
 - Real-time data visualization  
 - Database management  
+
+📆 **Project Size**: **Large (350 hours)**  
+🕒 **Duration**: **12 weeks**  
 
 ---
 
@@ -92,24 +104,43 @@ lang: en
 - Simulation frameworks  
 - Hardware-in-the-loop (HIL) testing  
 
+📆 **Project Size**: **Large (350 hours)**  
+🕒 **Duration**: **12 weeks**  
+
 ---
 
-## 6. Translation of BIRDS Open Source Website into Japanese  
-### 🔹 Project Title: *Expanding BIRDS Open Source Accessibility with Japanese Translation*  
-📌 **Description**: To better serve our global community, this project aims to **translate all pages on the BIRDS Open Source website into Japanese**. This will make our resources more accessible to Japanese students, researchers, and engineers interested in open-source CubeSat development.  
+## 6. Port Firmware Code to an Open Compiler  
+### 🔹 Project Title: *Migrating BIRDS Firmware from CCS Compiler to an Open Compiler*  
+📌 **Description**: We currently use **CCS Compiler**, which is proprietary, so we want to make the firmware compatible with an **open compiler** like **Microchip XC8**.  
 
 🎯 **Goals**:  
-- Translate **all website content** (including project descriptions, documentation, and guides) into **Japanese**.  
-- Ensure translations are **technically accurate** and maintain clarity for non-native English speakers.  
-- Implement **a language-switching feature** on the website to allow seamless navigation between English and Japanese.  
+- Analyze the existing firmware and dependencies on CCS.  
+- Port the code to XC8 while ensuring compatibility and functionality.  
+- Perform validation tests to confirm proper operation.  
 
 🛠 **Skills Required**:  
-- **Japanese Language Proficiency** (Native or Fluent)  
-- **Technical Translation** (English to Japanese)  
-- **Markdown/HTML for Website Content**  
-- **Basic Web Development** (for language-switching implementation)  
+- C++  
+- Embedded Systems  
+- Compiler Migration  
 
-📖 **Expected Outcome**:  
-- A fully translated and **bilingual website** for BIRDS Open Source.  
-- Improved engagement from **Japanese-speaking users** in CubeSat and open-source communities.  
+📆 **Project Size**: **Medium (175 hours)**  
+🕒 **Duration**: **12 weeks**  
 
+---
+
+## 7. Translate Website Content into Japanese  
+### 🔹 Project Title: *Making the BIRDS Open Source Website Multilingual (Japanese Translation)*  
+📌 **Description**: Translate all pages on the **BIRDS Open Source** website into Japanese to expand accessibility for **Japanese students, researchers, and space enthusiasts**.  
+
+🎯 **Goals**:  
+- Translate the **entire website** while maintaining technical accuracy.  
+- Ensure proper formatting and layout in Markdown/HTML.  
+- Work with native speakers to improve clarity and usability.  
+
+🛠 **Skills Required**:  
+- Japanese Language  
+- Technical Translation  
+- Web Development (Markdown/HTML)  
+
+📆 **Project Size**: **Small (90 hours)**  
+🕒 **Duration**: **12 weeks**  
