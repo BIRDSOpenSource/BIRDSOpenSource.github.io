@@ -67,8 +67,9 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.9.1)
-    just-the-docs (0.5.4)
+    just-the-docs (0.10.1)
       jekyll (>= 3.8.5)
+      jekyll-include-cache
       jekyll-seo-tag (>= 2.0)
       rake (>= 12.3.1)
     kramdown (2.5.1)
@@ -99,6 +100,12 @@ GEM
     sass-embedded (1.83.4)
       google-protobuf (~> 4.29)
       rake (>= 13)
+    sass-embedded (1.83.4-arm64-darwin)
+      google-protobuf (~> 4.29)
+    sass-embedded (1.83.4-x86_64-darwin)
+      google-protobuf (~> 4.29)
+    sass-embedded (1.83.4-x86_64-linux-gnu)
+      google-protobuf (~> 4.29)
     sawyer (0.9.2)
       addressable (>= 2.3.5)
       faraday (>= 0.17.3, < 3)
@@ -122,7 +129,7 @@ DEPENDENCIES
   jekyll-polyglot
   jekyll-seo-tag
   jekyll-sitemap
-  just-the-docs (= 0.5.4)
+  just-the-docs (= 0.10.1)
   webrick
 
 BUNDLED WITH
