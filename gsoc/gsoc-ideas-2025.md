@@ -16,7 +16,7 @@ lang: en
 
 ## 1. Documentation & Usability Improvements  
 ### 🔹 Project Title: *Enhancing Documentation for BIRDS Open Source Software*  
-📌 **Description**: Improve and standardize documentation across different software components of the BIRDS Open Source project, making it easier for new users and contributors to understand and engage with the system.  
+📌 **Description**: Improve and standardize documentation across different software components of the BIRDS Open Source project, making it easier for existing and new users and contributors to understand and engage with the system.  
 
 🎯 **Goals**:  
 - Improve the **documentation website** (using JustTheDocs).  
