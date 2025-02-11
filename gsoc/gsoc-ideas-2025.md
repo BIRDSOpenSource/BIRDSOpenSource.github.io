@@ -10,8 +10,7 @@ lang: en
 
 # 🚀 GSoC 2025 Project Ideas List
 
-📝 Note:
-The standard coding period for these projects is 12 weeks, but as per GSoC guidelines, the period can be extended to 14, 18, or 22 weeks if needed.
+📝: The standard coding period for these projects is 12 weeks, but given the complexity and learning curve, we recommend 18 or 22 weeks depending on the background of the contributor.
 {: .note .text-grey-dk-300}
 
 
@@ -21,7 +20,8 @@ The standard coding period for these projects is 12 weeks, but as per GSoC guide
 
 🎯 **Goals**:  
 - Improve the **documentation website** (using JustTheDocs).  
-- Create **tutorials** and **walkthroughs** for software installation, usage, and contributions.  
+- Deliver **step-by-step tutorials** for compiling, installing, and using key software components.  
+- Document the **process for loading a new program onto the satellite**.  
 - Improve function documentation and technical guides for developers.  
 
 🛠 **Skills Required**:  
@@ -30,8 +30,8 @@ The standard coding period for these projects is 12 weeks, but as per GSoC guide
 - Function documentation  
 - Git/GitHub  
 
-📆 **Project Size**: **Small (90 hours)**  
-🕒 **Duration**: **12 weeks** (Standard GSoC Coding Period)  
+📆 **Project Size**: **Medium (175 hours)**  
+🕒 **Duration**: **12-18 weeks**  
 
 ---
 
@@ -46,12 +46,12 @@ The standard coding period for these projects is 12 weeks, but as per GSoC guide
 
 🛠 **Skills Required**:  
 - Embedded C  
-- RTOS  
+- Operating system fundamentals  
 - Low-level firmware development  
 - Satellite communications  
 
 📆 **Project Size**: **Large (350 hours)**  
-🕒 **Duration**: **12 weeks**  
+🕒 **Duration**: **18-22 weeks**  
 
 ---
 
@@ -71,7 +71,7 @@ The standard coding period for these projects is 12 weeks, but as per GSoC guide
 - Embedded systems  
 
 📆 **Project Size**: **Medium (175 hours)**  
-🕒 **Duration**: **12 weeks**  
+🕒 **Duration**: **12-18 weeks**  
 
 ---
 
@@ -90,33 +90,33 @@ The standard coding period for these projects is 12 weeks, but as per GSoC guide
 - Database management  
 
 📆 **Project Size**: **Large (350 hours)**  
-🕒 **Duration**: **12 weeks**  
+🕒 **Duration**: **18-22 weeks**  
 
 ---
 
-## 5. CubeSat Simulation Framework for Testing OBC Software  
-### 🔹 Project Title: *Developing a Software-in-the-Loop (SIL) CubeSat Simulation Framework*  
-📌 **Description**: Create a **simulation environment** where CubeSat software can be tested before deployment, reducing hardware testing costs and debugging time.  
+## 5. CubeSat Hardware-in-the-Loop (HIL) Testing Framework  
+### 🔹 Project Title: *Developing a Hardware-in-the-Loop (HIL) CubeSat Testing Framework*  
+📌 **Description**: Create a **HIL testing environment** where CubeSat software can be tested before deployment, reducing hardware testing costs and debugging time.  
 
 🎯 **Goals**:  
-- Develop a **software model** of a CubeSat, including sensors, actuators, and communication interfaces.  
-- Integrate with existing BIRDS software to test firmware behavior under simulated space conditions.  
+- Develop a **hardware testing framework** for validating CubeSat software.  
+- Integrate with existing BIRDS software to test firmware behavior under controlled conditions.  
 - Allow users to run **automated tests** to validate mission scenarios.  
 
 🛠 **Skills Required**:  
 - Python  
 - C++  
-- Simulation frameworks  
 - Hardware-in-the-loop (HIL) testing  
+- Embedded systems  
 
 📆 **Project Size**: **Large (350 hours)**  
-🕒 **Duration**: **12 weeks**  
+🕒 **Duration**: **18-22 weeks**  
 
 ---
 
 ## 6. Port Firmware Code to an Open Compiler  
 ### 🔹 Project Title: *Migrating BIRDS Firmware from CCS Compiler to an Open Compiler*  
-📌 **Description**: We currently use **CCS Compiler**, which is proprietary, so we want to make the firmware compatible with an **open compiler** like **Microchip XC8**.  
+📌 **Description**: We currently use **CCS Compiler**, which is proprietary, so we want to make the firmware compatible with an **open compiler** such as **Microchip XC8** (though XC8 is only free, not fully open).  
 
 🎯 **Goals**:  
 - Analyze the existing firmware and dependencies on CCS.  
@@ -129,4 +129,6 @@ The standard coding period for these projects is 12 weeks, but as per GSoC guide
 - Compiler Migration  
 
 📆 **Project Size**: **Medium (175 hours)**  
-🕒 **Duration**: **12 weeks**  
+🕒 **Duration**: **12-18 weeks**  
+
+
