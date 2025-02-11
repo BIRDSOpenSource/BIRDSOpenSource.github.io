@@ -120,7 +120,7 @@ lang: en
 
 🎯 **Goals**:  
 - Analyze the existing firmware and dependencies on CCS.  
-- Port the code to XC8 while ensuring compatibility and functionality.  
+- Port the code to an open compiler while ensuring compatibility and functionality.  
 - Perform validation tests to confirm proper operation.  
 
 🛠 **Skills Required**:  
