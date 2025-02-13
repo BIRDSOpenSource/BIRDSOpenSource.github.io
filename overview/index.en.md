@@ -9,9 +9,9 @@ lang: en
 has_toc: false
 ---
 
-### **A learning guide**
+### **{{site.title}}**
 {: .lh-0 .text-purple-200}
-# Everything you need to build a satellite: A step-by-step guide  
+# Everything you need to build a satellite 
 
 This document covers how to build a satellite from scratch. Readers are expected to have a bachelors degree in space engineering or at least prerequisite knowledge on the basics of a satellite and how it works.  
 
@@ -22,33 +22,54 @@ If you're new here, here's a list of what to expect in the next few pages:
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
-  <div style="flex: 1 1 calc(33.333% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
-    <span class="fs-6"> Space for All </span> 
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
+    <span class="fs-6"> Getting Started</span> 
     <br /> <br /> 
-    <span class="fs-3"> Learn the basics of the BIRDS Bus, the platform's architecture, and what problems the BIRDS Bus can solve for your team </span>
+    <span class="fs-3"> New to BIRDS? Check out the getting started guides. They contain an introduction to the BIRDS bus’ main concepts and links to additional tutorials. </span>
     <a href="{{site.url}}/about" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center; border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
-      START
+      go to getting started guides
     </a>
   </div>
 
 
-  <div style="flex: 1 1 calc(33.333% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
-    <span class="fs-6"> Choose your path </span> 
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
+    <span class="fs-6"> User Hardware Guide </span> 
     <br /> <br /> 
-    <span class="fs-3"> Learn how to set up and integrate the satellite bus based on your level of experience. Novice, hobbyist, or expert.</span>
+    <span class="fs-3"> The user hardware guide provides in-depth information on the key concepts of astropy with useful background information and explanation.
+</span>
     <br /> 
     <a href="{{site.url}}/get-started" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center; border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
-      START
+      to the user hardware guide
     </a>
   </div>
 
 
-  <div style="flex: 1 1 calc(33.333% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
-    <span class="fs-6"> Adapting Software</span> 
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
+    <span class="fs-6"> User Software Guide</span> 
     <br /> <br /> 
     <span class="fs-3"> Learn how to add your team's software components to the firmware with the Software Templates </span> 
     <a href="{{site.url}}/how-tos/write_board_specific_software.html" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center;  border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
-      START
+      to the user software guide
+    </a>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
+    <span class="fs-6"> Contributor’s Guide </span> 
+    <br /> <br /> 
+    <span class="fs-3"> Saw a typo in the documentation? Want to improve existing functionalities? The contributing guidelines will guide you through the process of improving BIRDSOpenSource.
+ </span> 
+    <a href="{{site.url}}/how-tos/write_board_specific_software.html" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center;  border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
+      to the contributor's guide
+    </a>
+  </div>
+
+  <div style="flex: 1 1 calc(100% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
+    <span class="fs-6"> Project Details </span> 
+    <br /> <br /> 
+    <span class="fs-3"> What’s new in the latest release, changelog, and other project details.
+   </span> 
+    <a href="{{site.url}}/how-tos/write_board_specific_software.html" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center;  border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
+      to the project details
     </a>
   </div>
 </div>
