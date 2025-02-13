@@ -2,6 +2,7 @@
 title: GSoC 
 nav_order: 1
 has_children: true
+has_toc: false
 layout: default
 permalink: "/gsoc"
 lang: en
@@ -53,14 +54,5 @@ BIRDS Open Source is a **collaborative CubeSat development community** that emer
 
 ---
 
-## 📩 Get in Touch!  
+## [📩 Get in Touch!](mailto:{{site.email}})
 Have questions? We're happy to help!  
-
-📌 **Join Our Community:** [Telegram]({{site.telegram}}) / [Forum Link]({{site.mailing_list}}) <br />
-📌 **Email Us:** {{site.email}} <br />
-📌 **GitHub:** [BIRDS Open Source]({{site.github_org}}) <br />
-
-
----
-
-🚀 **Ready to launch your open-source journey?** **Join us for GSoC 2025 and help shape the future of CubeSat development!**
