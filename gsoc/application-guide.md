@@ -82,6 +82,6 @@ A great GSoC proposal should:
 
 📨 **Need Help? [Contact Us!](https://t.me/+D3BCqCmceQ41ZGFl)**  
 📌 **GitHub Discussions:** [BIRDS Open Source](https://github.com/orgs/BIRDSOpenSource/discussions)  
-📌 **Email:** birds_opensource@lean-sat.org   
+📌 **Email:** {{site.email}} 
 
 🚀 **We look forward to your application! Good luck!**

@@ -58,7 +58,7 @@ Have questions? We're happy to help!
 
 📌 **Join Our Community:** Slack (coming soon) / [Forum Link](https://lean-sat.org/opensource/) <br />
 📌 **Email Us:** birds_opensource@lean-sat.org <br />
-📌 **GitHub:** [BIRDS Open Source](https://github.com/BIRDSOpenSource) <br />
+📌 **GitHub:** [BIRDS Open Source]({{site.email}}) <br />
 
 
 ---

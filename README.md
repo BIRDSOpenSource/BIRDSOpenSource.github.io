@@ -68,7 +68,7 @@ Please refer to our [Contribution Guide](#) for more details on coding standards
 
 ## Contact
 
-For questions, suggestions, or support, reach out to our team at [contact@projectemail.com](mailto:contact@projectemail.com) or join the [Community Forum](#).
+For questions, suggestions, or support, reach out to our team at [{{site.email}}]({{site.email}}) or join the [Community Forum](#).
 
 
 ## Licensing and Attribution
