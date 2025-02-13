@@ -2,7 +2,7 @@
 title: On Board Computer Board
 parent: What is BIRDS?
 nav_order: 2
-grand_parent: Home
+grand_parent: Getting Started
 layout: default
 lang: en
 ---

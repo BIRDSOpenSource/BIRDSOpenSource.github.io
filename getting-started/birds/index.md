@@ -1,7 +1,7 @@
 ---
 title: What is BIRDS?  
 nav_order: 1  
-parent: Home  
+parent: Getting Started
 has_children: true  
 has_toc: false
 layout: default  

@@ -1,7 +1,7 @@
 ---
 title: Solar Panel Board
 parent: What is BIRDS?
-grand_parent: Home
+grand_parent: Getting Started
 layout: default
 lang: en
 ---

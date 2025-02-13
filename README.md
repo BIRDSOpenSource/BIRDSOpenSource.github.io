@@ -20,7 +20,7 @@
 
 ## About the Project
 
-BIRDS-OSP is dedicated to empowering individuals, research groups, and educational institutions with limited resources to embark on satellite missions. This documentation is designed for those aiming to understand and develop a satellite from the ground up, focusing on open-source tools and affordable methods for accessible satellite technology.
+BIRDSOpenSource is dedicated to empowering individuals, research groups, and educational institutions with limited resources to embark on satellite missions. This documentation is designed for those aiming to understand and develop a satellite from the ground up, focusing on open-source tools and affordable methods for accessible satellite technology.
 
 ### Key Features
 

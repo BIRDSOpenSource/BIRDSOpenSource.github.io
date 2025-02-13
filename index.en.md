@@ -2,7 +2,6 @@
 title: Home
 nav_order: 2
 layout: home
-has_children: true
 has_toc: false
 permalink: "/"
 lang: en
@@ -12,28 +11,28 @@ lang: en
 {: .lh-0 .text-purple-200}
 # Everything you need to build a satellite 
 
-This document covers how to build a satellite from scratch. Readers are expected to have a bachelors degree in space engineering or at least prerequisite knowledge on the basics of a satellite and how it works.  
+{{site.description}}
 
-If you're new here, here's a list of what to expect in the next few pages:
-- [x] Introduction to the Birds bus and other core components
+Here's what you can expect:
+- [x] Introduction to the BIRDS bus and other core components
 - [x] How to get started
 - [x] Deep dives on technical topics
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; box-sizing: border-box; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
     <span class="fs-6" align="center"> 
     <img src="https://www.svgrepo.com/show/9108/running-stick-figure.svg" width="50" height="50">
     Getting Started </span> 
     <br /> 
     <span class="fs-3"> New to BIRDS? Check out the getting started guides. They contain an introduction to the BIRDS bus’ main concepts and links to additional tutorials. </span>
-    <a href="{{site.url}}/about" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center; border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
+    <a href="{{site.url}}/get-started" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center; border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
       go to getting started guides
     </a>
   </div>
 
 
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; box-sizing: border-box; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
     <span class="fs-6" align="center"> 
     <img src="https://www.svgrepo.com/show/326665/hardware-chip-outline.svg" width="50" height="50">
     Hardware Guide </span> 
@@ -47,7 +46,7 @@ If you're new here, here's a list of what to expect in the next few pages:
   </div>
 
 
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; box-sizing: border-box; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
     <span class="fs-6" align="center"> 
     <img src="https://www.svgrepo.com/show/525688/book-bookmark-minimalistic.svg" width="50" height="50">
     Software Guide</span> 
@@ -58,7 +57,7 @@ If you're new here, here's a list of what to expect in the next few pages:
     </a>
   </div>
 
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; box-sizing: border-box; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
     <span class="fs-6" align="center"> 
     <img src="https://www.svgrepo.com/show/525586/user-plus.svg" width="50" height="50">
     Contributor’s Guide </span> 
@@ -70,7 +69,7 @@ If you're new here, here's a list of what to expect in the next few pages:
     </a>
   </div>
 
-  <div style="flex: 1 1 calc(100% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; text-align: left; box-sizing: border-box;">
+  <div style="flex: 1 1 calc(100% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; box-sizing: border-box; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
     <span class="fs-6" align="center"> 
     <img src="https://www.svgrepo.com/show/486630/details.svg" width="50" height="50">
     Project Details </span> 

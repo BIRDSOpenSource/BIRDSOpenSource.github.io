@@ -2,7 +2,7 @@
 title: BIRDS Bus
 parent: What is BIRDS?
 nav_order: 1
-grand_parent: Home
+grand_parent: Getting Started
 layout: default
 lang: en
 ---

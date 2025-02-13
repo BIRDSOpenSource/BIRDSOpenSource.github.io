@@ -2,7 +2,7 @@
 title: Front Access Board
 parent: What is BIRDS?
 nav_order: 5
-grand_parent: Home
+grand_parent: Getting Started
 layout: default
 lang: en
 ---

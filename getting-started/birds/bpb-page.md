@@ -2,7 +2,7 @@
 title: Backplane Board
 parent: What is BIRDS?
 nav_order: 4
-grand_parent: Home
+grand_parent: Getting Started
 layout: default
 lang: en
 ---

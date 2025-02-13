@@ -2,7 +2,7 @@
 title: Communications Board
 parent: What is BIRDS?
 nav_order: 3
-grand_parent: Home
+grand_parent: Getting Started
 layout: default
 lang: en
 ---

@@ -1,18 +1,20 @@
 ---
-title: Before you start
+title: Getting Started
 nav_order: 3
-parent: Home
+has_children: true
 layout: default
+permalink: "/get-started"
 lang: en
 ---
 
-# Before You Start
+
+# Getting Started
 To ensure a smooth journey in building your CubeSat, there are a few things you'll want to understand beforehand. This section outlines key knowledge areas you'll need, from using the platform and GitHub to understanding systems engineering principles.
 
 ---
 
 ## Platform Basics: GitHub and Git
-To work with Build-A-Sat, you'll need a GitHub account. This is where you'll manage your codebase and contribute to open-source satellite projects. Here’s a quick guide to get you started:
+To work with BIRDS, you'll need a GitHub account. This is where you'll manage your codebase and contribute to open-source satellite projects. Here’s a quick guide to get you started:
 
 ### 1. **GitHub Account**
    - Create a [GitHub account](https://github.com/) to access repositories, contribute to projects, and manage your code.
@@ -136,3 +138,7 @@ With this foundational knowledge, you’ll be better equipped to dive into the s
 [Preliminary Design Review (PDR)]: {{site.url}}/project-managers/milestones/pm-pdr.html
 [Critical Design Review (CDR)]: {{site.url}}/project-managers/milestones/pm-cdr.html
 [Flight Readiness Review (FRR)]: {{site.url}}/project-managers/milestones/pm-frr.html
+
+
+[Previous]({{site.url}}/get-started){: .btn .btn-purple }
+[Next]({{site.url}}/get-started/reference.html){: .btn}
