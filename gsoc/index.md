@@ -56,9 +56,9 @@ BIRDS Open Source is a **collaborative CubeSat development community** that emer
 ## 📩 Get in Touch!  
 Have questions? We're happy to help!  
 
-📌 **Join Our Community:** [Telegram](https://t.me/+zxcJw7vGbi1lNGY9) / [Forum Link](https://lean-sat.org/opensource/) <br />
+📌 **Join Our Community:** [Telegram]({{site.telegram}}) / [Forum Link]({{site.mailing_list}}) <br />
 📌 **Email Us:** {{site.email}} <br />
-📌 **GitHub:** [BIRDS Open Source](https://github.com/BIRDSOpenSource) <br />
+📌 **GitHub:** [BIRDS Open Source]({{site.github_org}}) <br />
 
 
 ---

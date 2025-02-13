@@ -80,7 +80,7 @@ A great GSoC proposal should:
 📌 **Submit Early** – Avoid last-minute issues!  
 📌 **Follow Up** – Stay engaged and show your enthusiasm  
 
-📨 **Need Help? [Contact Us!](https://t.me/+D3BCqCmceQ41ZGFl)**  
+📨 **Need Help? [Contact Us!]({{site.telegram}})**  
 📌 **GitHub Discussions:** [BIRDS Open Source](https://github.com/orgs/BIRDSOpenSource/discussions)  
 📌 **Email:** {{site.email}} 
 
