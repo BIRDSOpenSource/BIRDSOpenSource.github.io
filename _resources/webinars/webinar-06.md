@@ -60,7 +60,7 @@ Keywords: International Collaboration, Project Management, Small Space Project, 
 <summary>Details</summary>
 Hari Shretha in Kyutech (from Nepal) talked about BIRDS-4 in his presentation titled "Power Budget for 1U Satellite".
 
-Daisuke Nakayama in Kyutech talked about the user interface for the Kyutech ground station in his presentation titled "BIRDS open-source operation software".
+Daisuke Nakayama in Kyutech talked about the user interface for the Kyutech ground station. His presentation was titled, "BIRDS open-source operation software".
 </details>
 
 [Previous]({{site.url}}/resources/webinars/webinar-05/){: .btn .btn-purple }
