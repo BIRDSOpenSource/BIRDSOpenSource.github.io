@@ -38,14 +38,16 @@ Backplane
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-Marloun Sejera is a ...
+1. Marloun Sejera in Kyushu Institute of Technology (Kyutech)
 </details>
 
 Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
 
 <details markdown="block">
 <summary>Details</summary>
-XXX  talked about XXX in his presentation titled "XXX".
+**Marloun Sejera** discussed the BIRDS 1U standard Bus in his presentation titled "Configurable Backplane"
+
+Note: The presentation starts at 09:15
 </details>
 
 [Previous]({{site.url}}/resources/webinars/webinar-07/){: .btn .btn-purple }

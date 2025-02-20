@@ -31,26 +31,26 @@ BIRDS-5
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-Victor Mukungunugwa in Kyutech (from Zimbabwe).  
+1. Victor Mukungunugwa in Kyutech (from Zimbabwe).  
 
-Otani Yukihisa, an OBC and BPB member of the BIRDS-5 project.  
+2. Otani Yukihisa, an OBC and BPB member of the BIRDS-5 project.  
 
-Derrick Tebusweke, an EPS member.  
+3. Derrick Tebusweke, an EPS member.  
 
-Edgar Mujuni, a COM member.
+4. Edgar Mujuni, a COM member.
 </details>
 
-Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
+Keywords: International collaboration, Project management, small space Project, teamwork, cubesat
 
 <details markdown="block">
 <summary>Details</summary>
-Victor Mukungunugwa in Kyutech (from Zimbabwe) talked about BIRDS-5 in his presentation as the project manager.
+* **Victor Mukungunugwa** talked about BIRDS-5 in his presentation as the project manager.
 
-Otani Yukihisa discussed his responsibilities as an OBC and BPB member of the BIRDS-5 project.
+* **Otani Yukihisa** discussed his responsibilities as an OBC and BPB member of the BIRDS-5 project.
 
-Derrick Tebusweke shared his work as an EPS member.
+* **Derrick Tebusweke** shared his work as an EPS member.
 
-Edgar Mujuni discussed his key roles as a COM member.
+* **Edgar Mujuni** discussed his key roles as a COM member.
 </details>
 
 [Previous]({{site.url}}/resources/webinars/webinar-04/){: .btn .btn-purple }

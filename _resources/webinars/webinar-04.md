@@ -45,14 +45,14 @@ BIRDS-4
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-* **Tetsuro Harada** from Chiba Institute of Technology (CIT)
+1. Tetsuro Harada from Chiba Institute of Technology (CIT)
 
-* **Adolfo Jara** from Kyushu Institute of Technology (Kyutech)
+2. Adolfo Jara from Kyushu Institute of Technology (Kyutech)
 </details>
 
 <details markdown="block">
 <summary>Details</summary>
-Tetsuro Harada's presentation was titled: "YOMOGI: A birds satellite"
+Tetsuro Harada's presentation was titled: **YOMOGI: A BIRDS satellite**
 
 **YOMOGI missions:**
 * Analyzing red tide at Tokyo bay using RGB camera and band pass filter.
@@ -64,7 +64,7 @@ Tetsuro Harada's presentation was titled: "YOMOGI: A birds satellite"
 * The OBC/EPS is of BIRDS-5  
 
 
-Adolfo Jara in Kyutech (from Paraguay) talked about changes from BIRDS-3 to BIRDS-4. His presentation title: "BIRDS-4 SAtellites: One Year Operation Results Utilizing the BIRDS Standardized Bus"
+**Adolfo Jara** in Kyutech (from Paraguay) talked about changes from BIRDS-3 to BIRDS-4. His presentation title: "BIRDS-4 SAtellites: One Year Operation Results Utilizing the BIRDS Standardized Bus"
 
 </details>
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

@@ -44,14 +44,16 @@ obc
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-XXX  talked about XXX in his presentation titled "XXX".
+Keeman Chatar in Kyushu Institute of Technology
+
 </details>
 
 Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
 
 <details markdown="block">
 <summary>Details</summary>
-XXX  talked about XXX in his presentation titled "XXX".
+Keeman Chatar gave a detailed prsentation on the OBC and the satellite operation of the BIRDS-5 project, in his presenta6tion titled **"BIRDS-5 OBC"**
+
 </details>
 
 [Previous]({{site.url}}/resources/webinars/webinar-08/){: .btn .btn-purple }

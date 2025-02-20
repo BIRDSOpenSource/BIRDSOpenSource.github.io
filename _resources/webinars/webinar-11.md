@@ -42,13 +42,21 @@ kitsune
 <details markdown="block">
 <summary>Speaker Information</summary>
 XXX  talked about XXX in his presentation titled "XXX".
+**Necmi Cihan ORGER**, an assistant Professor at Kyutech (from Turkey) and project manager for the KITSUNE satellite.
 </details>
 
-Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
+Keywords: International Collaboration, Project Management, Small Space Project, Teamwork, radio frequency
 
 <details markdown="block">
 <summary>Details</summary>
-XXX  talked about XXX in his presentation titled "XXX".
+**Necmi Cihan ORGER** discussed the KITSUNE Satellite Bus System and the payloads in his presentation titled **"KITSUNE Satellite Bus System Overview.""*
+
+The KITSUNE Satellite is a 6U satellite. It has two key segments:
+* Amateur radio frequency controlled segment
+* Non-amateur radio frequency controlled segment
+
+
+
 </details>
 
 [Previous]({{site.url}}/resources/webinars/webinar-10/){: .btn .btn-purple }
