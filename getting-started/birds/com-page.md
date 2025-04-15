@@ -11,11 +11,13 @@ lang: en
 
 # Communication Board in the BIRDS Bus
 
-This article explains the basics of the Communication Board (COM) and its role in the BIRDS (Birds Satellite) bus for CubeSats. The Communication Board is a critical subsystem responsible for enabling communication between the satellite and ground stations. It ensures the transmission of telemetry data and the reception of commands, making it essential for the successful operation of any CubeSat mission.
+This article explains the basics of the Communication Board (COM) and its role in the BIRDS (Birds Satellite) bus for CubeSats. 
 
-The Communication Board in the BIRDS bus is designed to handle UHF/VHF communication, which is commonly used in CubeSat missions due to its reliability and simplicity. The board integrates a radio transceiver module and is managed by the On-Board Computer (OBC) through the Com PIC microcontroller. This setup ensures efficient and reliable communication, even in the challenging environment of space.
+The COM board is a critical subsystem responsible for enabling communication between the satellite and ground stations. It ensures the transmission of telemetry data and the reception of commands, making it essential for the successful operation of any CubeSat mission.
 
-If you want to purchase the commercial version of the COM board from Addnics, please contact its agent as follows:
+The COM board in the BIRDS bus is designed to handle UHF/VHF communication, which is commonly used in CubeSat missions due to its reliability and simplicity. The board integrates a radio transceiver module and is managed by the On-Board Computer (OBC) through the Com PIC microcontroller. This setup ensures efficient and reliable communication, even in the challenging environment of space.
+
+To purchase the commercial version of the COM board from Addnics, contact its agent as follows:
 
 **Mr. Masashi Tsutsui**  
 HTL Co. Japan Ltd.  
@@ -28,13 +30,13 @@ Website: [http://www.htlco.co.jp](http://www.htlco.co.jp)
 
 ## Background
 
-The Communication Board in the BIRDS bus is designed to meet the specific needs of CubeSat missions, balancing performance, power consumption, and cost. Historically, CubeSats have relied on UHF/VHF communication systems due to their simplicity and ease of implementation. The BIRDS bus leverages this technology while incorporating robust design principles to ensure reliable communication in space.
+The COM board in the BIRDS bus is designed to meet the specific needs of CubeSat missions, balancing performance, power consumption, and cost. Historically, CubeSats have relied on UHF/VHF communication systems due to their simplicity and ease of implementation. The BIRDS bus leverages this technology while incorporating robust design principles to ensure reliable communication in space.
 
-The board is managed by the Com PIC microcontroller (PIC16F1789), which is part of the OBC subsystem. This microcontroller handles tasks such as modulating and demodulating signals, managing data packets, and coordinating with the Main PIC for mission execution. The integration of the Communication Board with the OBC ensures seamless operation and efficient use of resources.
+The board is managed by the **COM PIC microcontroller (PIC16F1789)**, which is part of the OBC subsystem. This microcontroller handles tasks such as modulating and demodulating signals, managing data packets, and coordinating with the Main PIC for mission execution. The integration of the Communication Board with the OBC ensures seamless operation and efficient use of resources.
 
 ---
 
-## Use Cases
+## Use cases
 
 The Communication Board in the BIRDS bus is designed to support a variety of CubeSat missions, including Earth observation, scientific experiments, and technology demonstrations. Some specific use cases include:
 
@@ -47,9 +49,10 @@ The Communication Board in the BIRDS bus is designed to support a variety of Cub
 
 ## Integration with the BIRDS Platform
 
-The Communication Board is tightly integrated with the BIRDS platform, ensuring compatibility and ease of use. The board connects to the OBC through UART, allowing the Com PIC to manage communication tasks efficiently. The following diagram illustrates the integration of the Communication Board with the BIRDS bus:
+The COM board is tightly integrated with the BIRDS platform, ensuring compatibility and ease of use. The board connects to the OBC through UART, allowing the COM PIC to manage communication tasks efficiently. The following diagram illustrates the integration of the Communication Board with the BIRDS bus:
 
 (Optional) Image/Figure: **Block Diagram of the Communication Board in the BIRDS Bus**  
+![Communication Board block diagram](/assets/images/birdsx-com-block-diagram.png)
 *A visual representation of the Communication Board's architecture, showing its connections to the OBC and other subsystems.*
 
 ---

@@ -42,6 +42,7 @@ MicroOrbiter-1
 <details markdown="block">
 <summary>Speaker Information</summary>
 XXX  talked about XXX in his presentation titled "XXX".
+**Moumni Fahd**, Chief Technical Officer of MicroOrbiter Operation
 </details>
 
 Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
@@ -49,6 +50,11 @@ Keywords: International Collaboration, Project Management, Small Space Project, 
 <details markdown="block">
 <summary>Details</summary>
 XXX  talked about XXX in his presentation titled "XXX".
+Moumni Fahd discussed MicroOrbiter-1, its missions and subsystems. His presentation title was **""MicroOrbiter-1 Satellite Bus System Overview.""**  
+
+MicroOrbiter Inc. was established in May, 2021 as a space startup that aims to use IoT communication satellites to access remote areas for various applications.
+
+Note: Actual presentation starts at 12 minutes
 </details>
 
 [Previous]({{site.url}}/resources/webinars/webinar-11/){: .btn .btn-purple }

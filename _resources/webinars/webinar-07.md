@@ -46,18 +46,18 @@ Clark Sat-1
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-Masanobu Tsuji from ArkEdgeSpace 
+1. Masanobu Tsuji from ArkEdgeSpace 
 
-Kent Nakazawa from ArkEdgeSpace 
+2. Kent Nakazawa from ArkEdgeSpace 
 </details>
 
 Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
 
 <details markdown="block">
 <summary>Details</summary>
-Masanobu Tsuji from ArkEdgeSpace talked about the changes from BIRDS to the Clark Sat-1 project in his presentation titled "Outline of Clark Sat-1 and changed from BIRDS original design".
+* **Masanobu Tsuji** talked about the changes from BIRDS to the Clark Sat-1 project in his presentation titled "Outline of Clark Sat-1 and changed from BIRDS original design".
 
-Kent Nakazawa from ArkEdgeSpace talked about the hardware PCB changes from BIRDS to the Clark Sat-1 project.
+* **Kent Nakazawa** discussed the hardware PCB changes from BIRDS to the Clark Sat-1 project.
 </details>
 
 [Previous]({{site.url}}//resources/webinars/webinar-06){: .btn .btn-purple }

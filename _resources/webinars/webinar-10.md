@@ -42,13 +42,23 @@ aprs
 <details markdown="block">
 <summary>Speaker Information</summary>
 XXX  talked about XXX in his presentation titled "XXX".
+
+Edgar Mujuni in Kyushu Institute of Technology (Kyutech)
+
+
+Kudakwashe Jeje
 </details>
 
-Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
+Keywords: International Collaboration, Project Management, Small Space Project, Teamwork, APRS
 
 <details markdown="block">
 <summary>Details</summary>
 XXX  talked about XXX in his presentation titled "XXX".
+**Edgar Mujuni** gave in-depth explanations on the APRS in his presentation titled **"APRS MIssion in BIRDS satellite.""**
+Automatic Packet Reporting System (APRS) was originally called Automatic Position Reporting System.  
+
+
+Note: Presentation starts at 11 minutes.
 </details>
 
 [Previous]({{site.url}}/resources/webinars/webinar-09/){: .btn .btn-purple }
