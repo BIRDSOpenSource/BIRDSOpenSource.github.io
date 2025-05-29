@@ -95,7 +95,6 @@ COM Radio Links
 
 |              | Uplink (Receive Mode)     | Downlink (Transmit Mode) | Beacon (CW Mode) |
 |:-------------|:------------------        |:------                   | :------|
-| Frequency    | 435.313 MHz               | 437.375 MHz              | 437.375 MHz |
 | Bandwidth    | 8.5 kHz                   |8.5 kHz                   | 500 Hz |
 | Modulation   | GMSK                      | GMSK                     | CW Morse Code |
 | Output Power | --                        | 800mW (29.03 dBm)        | 100mW (20 dBm) |
