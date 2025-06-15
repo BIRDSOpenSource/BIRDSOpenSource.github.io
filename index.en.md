@@ -9,75 +9,82 @@ lang: en
 
 ### **{{site.tagline}}**
 {: .lh-0 .text-purple-200}
+
 # Everything you need to build a satellite 
 
 {{site.description}}
 
-Here's what you can expect:
-- [x] Introduction to the BIRDS bus and other core components
-- [x] How to get started
-- [x] Deep dives on technical topics
+Explore the BIRDS bus and start building:
+- [x] Learn the basics and architecture
+- [x] Get started with guides and tools
+- [x] Deep-dive into hardware and software
+- [x] Contribute and collaborate
 
+---
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; box-sizing: border-box; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-    <span class="fs-6" align="center"> 
-    <img src="https://www.svgrepo.com/show/9108/running-stick-figure.svg" width="50" height="50">
-    Getting Started </span> 
-    <br /> 
-    <span class="fs-3"> New to BIRDS? Check out the getting started guides. They contain an introduction to the BIRDS bus’ main concepts and links to additional tutorials. </span>
-    <a href="{{site.url}}/get-started" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center; border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
-      go to getting started guides
+
+  <!-- Getting Started -->
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+    <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="https://www.svgrepo.com/show/9108/running-stick-figure.svg" width="40" height="40">
+    <h3 style="margin: 0;">Getting Started</h3>
+    </div> 
+    <p>New to BIRDS? These guides introduce you to the bus' core concepts and link you to further tutorials.</p>
+    <a href="{{site.url}}/get-started" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
+      Read the Getting Started Guide
     </a>
   </div>
 
-
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; box-sizing: border-box; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-    <span class="fs-6" align="center"> 
-    <img src="https://www.svgrepo.com/show/326665/hardware-chip-outline.svg" width="50" height="50">
-    Hardware Guide </span> 
-    <br />
-    <span class="fs-3"> The user hardware guide provides in-depth information on the key concepts of the physical components in the BIRDS bus with useful background information and explanation.
-</span>
-    <br />
-    <a href="{{site.url}}/get-started" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center; border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
-      to the user hardware guide
+  <!-- Hardware Guide -->
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <img src="https://www.svgrepo.com/show/326665/hardware-chip-outline.svg" width="40" height="40">
+      <h3 style="margin: 0;">Hardware Guide</h3>
+    </div>
+    <p>In-depth documentation of physical components in the BIRDS bus with technical background and usage tips.</p>
+    <a href="{{site.url}}/hardware-guide" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
+      Open the Hardware Guide
     </a>
   </div>
 
-
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; box-sizing: border-box; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-    <span class="fs-6" align="center"> 
-    <img src="https://www.svgrepo.com/show/525688/book-bookmark-minimalistic.svg" width="50" height="50">
-    Software Guide</span> 
-    <br />
-    <span class="fs-3"> The user software guide provides in-depth information on the key concepts of the BIRDS bus software with useful background information and explanation. </span> 
-    <a href="{{site.url}}/how-tos/write_board_specific_software.html" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center;  border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
-      to the user software guide
+  <!-- Software Guide -->
+ <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <img src="https://www.svgrepo.com/show/525688/book-bookmark-minimalistic.svg" width="40" height="40">
+      <h3 style="margin: 0;">Software Guide</h3>
+    </div>
+    <p>Understand the software powering the BIRDS system, including coding guidelines, examples, and architecture.</p>
+    <a href="{{site.url}}/software-guide" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
+      Explore the Software Guide
     </a>
   </div>
 
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; box-sizing: border-box; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-    <span class="fs-6" align="center"> 
-    <img src="https://www.svgrepo.com/show/525586/user-plus.svg" width="50" height="50">
-    Contributor’s Guide </span> 
-    <br />
-    <span class="fs-3"> Saw a typo in the documentation? Want to improve existing functionalities? The contributing guidelines will guide you through the process of improving BIRDSOpenSource.
- </span> 
-    <a href="{{site.url}}/how-tos/write_board_specific_software.html" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center;  border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
-      to the contributor's guide
+  <!-- Contributor Guide -->
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <img src="https://www.svgrepo.com/show/525586/user-plus.svg" width="40" height="40">
+      <h3 style="margin: 0;">Contributor's Guide</h3>
+    </div>
+    <p>Found a typo? Have ideas for improvement? Learn how to contribute to the BIRDS Open Source ecosystem.</p>
+    <a href="{{site.url}}/contributing" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
+      Contribute to the Project
     </a>
   </div>
 
-  <div style="flex: 1 1 calc(100% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; color: black; border-radius: 5px; box-sizing: border-box; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-    <span class="fs-6" align="center"> 
-    <img src="https://www.svgrepo.com/show/486630/details.svg" width="50" height="50">
-    Project Details </span> 
-    <br />
-    <span class="fs-3"> What’s new in the latest release, changelog, and other project details.
-   </span> 
-    <a href="{{site.url}}/how-tos/write_board_specific_software.html" style="display: block; margin-top: 5px; padding: 10px 0; background-color:rgb(0, 0, 0); color: white; text-decoration: none; text-align: center;  border-radius: 3px; font-size: 12px; width: 100%; box-sizing: border-box;">
-      to the project details
+  <!-- Project Details -->
+  <div style="flex: 1 1 100%; margin: 5px 0; padding: 10px; background-color: #f4f6fa; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <img src="https://www.svgrepo.com/show/486630/details.svg" width="40" height="40">
+      <h3 style="margin: 0;">Project Details</h3>
+    </div>
+    <p>See what's new in the latest release, track changelog updates, and view overall project roadmap.</p>
+    <a href="{{site.url}}/project-details" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
+      View Project Details
     </a>
   </div>
 </div>
+
+---
+
+Looking for something specific? Use the search bar at the top — or [open an issue](https://github.com/{{site.github_repo}}/issues) to let us know!

@@ -4,6 +4,7 @@ nav_order: 9
 has_children: true
 has_toc: false
 layout: default
+nav_exclude: true
 permalink: "/gsoc"
 lang: en
 ---

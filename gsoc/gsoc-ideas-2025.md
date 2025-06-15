@@ -1,14 +1,14 @@
 ---
-title: GSoC 2025 Project Idea List
+title: Contributor Project List
 nav_order: 
-parent: GSoC 
+parent: Contributing
 layout: default
-permalink: "/gsoc-ideas-2025"
+permalink: "/project-list"
 lang: en
 ---
 
 
-# 🚀 GSoC 2025 Project Ideas List
+# 🚀 Project Ideas List
 
 📝: The standard coding period for these projects is 12 weeks, but given the complexity and learning curve, we recommend 18 or 22 weeks depending on the background of the contributor.
 {: .note .text-grey-dk-300}
