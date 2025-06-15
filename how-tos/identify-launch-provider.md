@@ -1,7 +1,7 @@
 ---
 title: How to Identify a Launch Provider for a CubeSat Mission  
-nav_order: 5
-parent: How-to guides
+# nav_order: 5
+# parent: How-to guides
 layout: default
 lang: en
 ---

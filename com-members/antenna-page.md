@@ -1,7 +1,7 @@
 ---
 title: Antenna Board
-parent: What is BIRDS?
-grand_parent: Getting Started
+parent: For COM Team Members
+nav_fold: false
 layout: default
 lang: en
 ---

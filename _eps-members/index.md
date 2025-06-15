@@ -4,6 +4,7 @@ layout: default
 has_children: true
 permalink: "/eps/guide"
 lang: en
+nav_fold: false
 ---
 
 # Guide for EPS Team Members

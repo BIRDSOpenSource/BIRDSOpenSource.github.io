@@ -1,7 +1,7 @@
 ---
 title: How to make a requirement sheet
 nav_order: 4
-parent: How-to guides
+# parent: How-to guides
 layout: default
 lang: en
 ---

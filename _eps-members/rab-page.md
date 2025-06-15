@@ -1,7 +1,6 @@
 ---
 title: Rear Access Board
-parent: What is BIRDS?
-grand_parent: Getting Started
+parent: For EPS Team Members
 layout: default
 lang: en
 ---

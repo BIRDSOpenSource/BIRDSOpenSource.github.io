@@ -6,7 +6,7 @@ lang: en
 ---
 
 # Webinar #22
-## (KASHIWA initial operation report ) June 12, 2024
+## (KASHIWA initial operation report) June 12, 2024
 
 
 {: .label .label-yellow .text-grey-dk-300}

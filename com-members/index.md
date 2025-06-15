@@ -5,6 +5,7 @@ nav_order: 7
 permalink: 'com/guide'
 layout: default
 lang: en
+nav_fold: false
 ---
 
 # Guide for COM Team Members

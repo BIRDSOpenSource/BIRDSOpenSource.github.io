@@ -1,8 +1,7 @@
 ---
 title: Communications Board
-parent: What is BIRDS?
-nav_order: 3
-grand_parent: Getting Started
+parent: For COM Team Members
+nav_fold: false
 layout: default
 lang: en
 ---

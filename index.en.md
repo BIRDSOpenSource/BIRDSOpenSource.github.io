@@ -1,6 +1,6 @@
 ---
 title: Home
-nav_order: 2
+nav_order: 1
 layout: home
 has_toc: false
 permalink: "/"

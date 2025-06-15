@@ -1,7 +1,7 @@
 ---
 title: How to make a requirement allocation sheet
-nav_order: 4
-parent: How-to guides
+nav_order: 3
+# parent: How-to guides
 layout: default
 lang: en
 ---

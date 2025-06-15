@@ -1,8 +1,6 @@
 ---
 title: Front Access Board
-parent: What is BIRDS?
-nav_order: 5
-grand_parent: Getting Started
+parent: For EPS Team Members
 layout: default
 lang: en
 ---

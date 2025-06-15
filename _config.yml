@@ -1,5 +1,4 @@
 # site settings
-
 title: BIRDSOpenSource | Docs
 tagline: An Open Source Bus System for Academic Satellites
 description: The BIRDSOpenSource release is a comprehensive open source guide for designing, building, testing, and launching a small satellite. Whether you’re a beginner or an experienced developer, our resources are structured to assist you at every stage of the satellite development process.
@@ -10,11 +9,9 @@ youtube: https://www.youtube.com/@kyutechseic4187
 github_org: https://github.com/BIRDSOpenSource
 
 # theme
-
 theme: just-the-docs
 
 # urls
-
 repository: BIRDSOpenSource/BIRDSOpenSource.github.io/ # for github-metadata
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://birdsopensource.github.io
@@ -80,7 +77,7 @@ aux_links_new_tab: true
 
 # Enable or disable the side/mobile menu globally
 # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
-nav_enabled: false
+nav_enabled: true
 
 # Color scheme supports "light" (default) and "dark"
 color_schemes:
@@ -89,20 +86,17 @@ color_schemes:
   
 color_scheme: light
 
-# Define Jekyll collections
-collections:
-  resources:
-    permalink: "/:collection/:path/"
-    output: true
-    nav_fold: false
+# # Define Jekyll collections
+# collections:
+#   resources:
+#     permalink: "/:collection/:path/"
+#     output: true
 
-
-just_the_docs:
-  # Define which collections are used in just-the-docs
-  collections:
-    resources:
-      name: Resources
-      nav_fold: false
+# just_the_docs:
+#   # Define which collections are used in just-the-docs
+#   collections:
+#     resources:
+#       name: Resources
 
 callouts_opacity: 0.3
 callouts:
@@ -131,7 +125,6 @@ callouts:
 #   jp: 日本語
 # sass:
 #   sourcemap: never
-
 
 plugins:
   - jekyll-seo-tag

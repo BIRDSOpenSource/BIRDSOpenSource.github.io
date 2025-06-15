@@ -1,7 +1,7 @@
 ---
 title: How to desolder a 50-pin connector 
-nav_order: 5
-parent: How-to guides
+# nav_order: 
+# parent: How-to guides
 layout: default
 lang: en
 ---

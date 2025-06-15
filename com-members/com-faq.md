@@ -1,6 +1,7 @@
 ---
 title: COM FAQ
 parent: For COM Team Members
+nav_fold: false
 layout: default
 lang: en
 ---
