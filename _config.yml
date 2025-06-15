@@ -46,7 +46,7 @@ search:
   rel_url: true
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
-  button: false
+  button: true
   # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
   focus_shortcut_key: 'k'
 
@@ -80,35 +80,7 @@ aux_links_new_tab: true
 
 # Enable or disable the side/mobile menu globally
 # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
-nav_enabled: true
-
-# # Footer content
-# # appears at the bottom of every page's main content
-
-# # Back to top link
-# back_to_top: true
-# back_to_top_text: "Back to top"
-# # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
-# footer_content: "Copyright &copy; 2015-2025 Laboratory of Lean Satellite Enterprises and In-Orbit Experiment <a href=\"https://kyutech-laseine.net/english/\">(LaSeine), Kyutech.</a> <br/> <br/>
-# Contribute to Docs <br/>
-# - <a href=\"https://birdsopensource.github.io/contribute\">Learn more</a> about how to get involved. <br/>
-# - <a href=\"https://github.com/orgs/BIRDSOpenSource/discussions/categories/general\">Submit feedback</a> to let us know how we can improve BIRDS Docs. <br/> <br/>
-# Join the Community <br/>
-# - <a href=\"{{site.telegram}}\">Chat With Us On Telegram</a>  <br/>
-# - <a href=\"{{site.youtube}}\">Watch Us On YouTube</a>  <br/>
-# - <a href=\"{{site.mailing_list}}\">Join Our Monthly Webinars</a>"
-
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
-# gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
+nav_enabled: false
 
 # Color scheme supports "light" (default) and "dark"
 color_schemes:
@@ -122,15 +94,7 @@ collections:
   resources:
     permalink: "/:collection/:path/"
     output: true
-  # adcs-members:
-  #   permalink: "/:collection/:path/"
-  #   output: true
-  # eps-members:
-  #   permalink: "/:collection/:path/"
-  #   output: true
-  # structure-members:
-  #   permalink: "/:collection/:path/"
-  #   output: true
+    nav_fold: false
 
 
 just_the_docs:
@@ -138,19 +102,7 @@ just_the_docs:
   collections:
     resources:
       name: Resources
-      nav_fold: true  
-    # # Reference the "eps-members" collection
-    # eps-members:
-    #   name: For EPS Team Members
-    #   nav_fold: true  
-    # # # Reference the "adcs-members" collection
-    # adcs-members:
-    #   name: For ADCS Team Members
-    #   nav_fold: true
-    # # Reference the "structure-members" collection
-    # structure-members:
-    #   name: For Structure Team Members
-    #   nav_fold: true  
+      nav_fold: false
 
 callouts_opacity: 0.3
 callouts:
@@ -170,16 +122,15 @@ callouts:
     opacity: 0.7
 
 # l10n
-
-languages: ["en", "jp"]
-default_lang: "en"
-exclude_from_localization: ["assets/diagrams", "assets/images"]
-parallel_localization: true
-language_labels:
-  en: English
-  jp: 日本語
-sass:
-  sourcemap: never
+# languages: ["en", "jp"]
+# default_lang: "en"
+# exclude_from_localization: ["assets/diagrams", "assets/images"]
+# parallel_localization: true
+# language_labels:
+#   en: English
+#   jp: 日本語
+# sass:
+#   sourcemap: never
 
 
 plugins:
