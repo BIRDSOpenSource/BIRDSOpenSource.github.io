@@ -4,7 +4,7 @@ title: Software guides
 has_children: true
 has_toc: false
 layout: default
-permalink: "/software"
+permalink: "/software/"
 lang: en
 ---
 

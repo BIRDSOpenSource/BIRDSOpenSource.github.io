@@ -2,7 +2,7 @@
 title: Webinars
 layout: default
 has_children: true
-permalink: "/webinars"
+permalink: "/webinars/"
 lang: en
 has_toc: false
 

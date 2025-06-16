@@ -1,7 +1,7 @@
 ---
 title: How to Write Board-Specific Code
 nav_order: 
-parent: Hardware
+parent: Software
 layout: default
 lang: en
 ---

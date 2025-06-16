@@ -4,7 +4,7 @@ title: Hardware guides
 has_children: true
 has_toc: false
 layout: default
-permalink: "/hardware"
+permalink: "/hardware/"
 lang: en
 ---
 
