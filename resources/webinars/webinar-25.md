@@ -9,13 +9,13 @@ lang: en
 ## (Two presentations of UiTM ASEANSAT Imaging System and Space Program) Jan 29, 2025
 
 {: .label .label-yellow .text-grey-dk-300}
-industry partner
+capacity development
 
 {: .label .label-yellow .text-grey-dk-300}
-operations
+mission
 
 {: .label .label-yellow .text-grey-dk-300}
-curtis
+aseansat
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
   <!-- Video Section -->
@@ -40,7 +40,7 @@ curtis
 <!-- Download Presentation  -->
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #25 presentation (Crafting Indigenous Space Program In Malaysia Through Multination Collaboration Project, ASEANSAT) Jan 29, 2025](https://birds-project.com/open-source/pdf/birds_bus_opensource_webinar_25_1.pdf){: .btn .btn-outline .text-grey-dk-300}
 
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #25 presentation (Low Ground Sampling Distance (GSD) Imaging System Payload For ASEANSAT 1U-Sized Cubesat Application) Jan 29, 2025](https://birds-project.com/open-source/pdf/birds_bus_opensource_webinar_25_2.pd){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #25 presentation (Low Ground Sampling Distance (GSD) Imaging System Payload For ASEANSAT 1U-Sized Cubesat Application) Jan 29, 2025](https://birds-project.com/open-source/pdf/birds_bus_opensource_webinar_25_2.pdf){: .btn .btn-outline .text-grey-dk-300}
 
 <details markdown="block">
 <summary>Speaker Information</summary>
