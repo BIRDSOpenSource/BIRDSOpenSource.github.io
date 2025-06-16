@@ -45,15 +45,22 @@ kashiwa
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-XXX  talked about implementation of CPLD in his presentation titled "XXX".
+2010 ISU SSP10 in Strasburg.
+2011 graduated master course from Cho-lab as OBC of HORYU1
+2011 to 2021 MELOS (Mitsubishi Electric Logistics system)
+Many satellite experiences such as ISS/GEO/LEO satellite system engineering.
+Also, LIB/RF export project management and business development.
+2021 to current, Chiba Institute of technology(CIT) PERC as a researcher.
+</details>
+
+<details markdown="block">
+<summary>Details</summary>
+“KASHIWA” was deployed from ISS on 11th Apr 2024. Until receiving a signal, it took one week. In
+this webinar, HK, photos, APRS of “KASHIWA” will be presented.
 </details>
 
 Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
 
-<details markdown="block">
-<summary>Details</summary>
-XXX  talked about implementation of CPLD in his presentation titled "XXX".
-</details>
 
 [Previous]({{site.url}}/resources/webinars/webinar-21/){: .btn .btn-purple }
 [Next]({{site.url}}/resources/webinars/webinar-23/){: .btn}

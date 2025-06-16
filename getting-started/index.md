@@ -5,7 +5,7 @@ parent: Getting Started
 has_children: true  
 has_toc: false
 layout: default  
-permalink: /about/  
+permalink: /get-started/  
 lang: en  
 ---
 

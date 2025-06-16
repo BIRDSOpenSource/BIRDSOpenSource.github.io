@@ -43,7 +43,7 @@ Explore the BIRDS bus and start building:
       <h3 style="margin: 0;">Hardware Guide</h3>
     </div>
     <p>In-depth documentation of physical components in the BIRDS bus with technical background and usage tips.</p>
-    <a href="{{site.url}}/hardware-guide" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
+    <a href="{{site.url}}/hardware" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
       Open the Hardware Guide
     </a>
   </div>
@@ -55,7 +55,7 @@ Explore the BIRDS bus and start building:
       <h3 style="margin: 0;">Software Guide</h3>
     </div>
     <p>Understand the software powering the BIRDS system, including coding guidelines, examples, and architecture.</p>
-    <a href="{{site.url}}/software-guide" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
+    <a href="{{site.url}}/software" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
       Explore the Software Guide
     </a>
   </div>
@@ -67,7 +67,7 @@ Explore the BIRDS bus and start building:
       <h3 style="margin: 0;">Contributor's Guide</h3>
     </div>
     <p>Found a typo? Have ideas for improvement? Learn how to contribute to the BIRDS Open Source ecosystem.</p>
-    <a href="{{site.url}}/contributing" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
+    <a href="{{site.url}}/contribute" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
       Contribute to the Project
     </a>
   </div>
@@ -79,7 +79,7 @@ Explore the BIRDS bus and start building:
       <h3 style="margin: 0;">Project Details</h3>
     </div>
     <p>See what's new in the latest release, track changelog updates, and view overall project roadmap.</p>
-    <a href="{{site.url}}/project-details" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
+    <a href="{{site.url}}/details" style="display: block; margin-top: 5px; padding: 10px 0; background-color:#000; color: #fff; text-align: center; border-radius: 3px; font-size: 12px; text-decoration: none;">
       View Project Details
     </a>
   </div>
