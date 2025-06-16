@@ -1,12 +1,12 @@
 ---
-title: Webinar-08 (07-13-22)
+title: 08 Configurable Backplane
 parent: Webinars
 layout: default
 lang: en
 ---
 
 # Webinar #8 
-## (Backplane) July 13, 2022
+## (Configurable Backplane) July 13, 2022
 
 {: .label .label-yellow .text-grey-dk-300}
 Backplane
@@ -38,7 +38,7 @@ Backplane
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-1. Marloun Sejera in Kyushu Institute of Technology (Kyutech)
+Marloun Sejera in Kyushu Institute of Technology (Kyutech)
 </details>
 
 Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
@@ -54,13 +54,5 @@ Note: The presentation starts at 09:15
 [Next]({{site.url}}/resources/webinars/webinar-09/){: .btn}
 
 
-### Contribute to Docs
-- [Learn more] about how to get involved.
-- [Edit this page] on GitHub to fix an error or make an improvement.
-- [Submit feedback] to let us know how we can improve Docs.
-
-
-[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
-[Learn more]: {{site.url}}/contribute.hmtl
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
 

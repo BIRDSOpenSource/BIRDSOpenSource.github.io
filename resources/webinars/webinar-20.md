@@ -1,5 +1,5 @@
 ---
-title: Webinar-20 (02-14-24)
+title: 20 The Any% Method
 parent: Webinars
 layout: default
 lang: en
@@ -49,12 +49,5 @@ XXX  talked about implementation of CPLD in his presentation titled "XXX".
 [Previous]({{site.url}}/resources/webinars/webinar-19/){: .btn .btn-purple }
 [Next]({{site.url}}/resources/webinars/webinar-21/){: .btn}
 
-### Contribute to Docs
-- [Learn more] about how to get involved.
-- [Edit this page] on GitHub to fix an error or make an improvement.
-- [Submit feedback] to let us know how we can improve Docs.
 
-
-[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
-[Learn more]: {{site.url}}/contribute.hmtl
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

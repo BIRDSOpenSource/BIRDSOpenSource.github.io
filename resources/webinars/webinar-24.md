@@ -1,5 +1,5 @@
 ---
-title: Webinar-24 (10-10-24)
+title: 24 Development and Operational Insights from the CURTIS CubeSat
 parent: Webinars
 layout: default
 lang: en
@@ -83,7 +83,7 @@ development milestones, and operational results of CURTIS, highlighting the pote
 CubeSat development using the Kyutech BUS platform..
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-22){: .btn .btn-purple }
-[Next]({{site.url}}/resources/webinars/webinar-24){: .btn}
+[Previous]({{site.url}}//resources/webinars/webinar-23){: .btn .btn-purple }
+[Next]({{site.url}}/resources/webinars/webinar-25){: .btn}
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

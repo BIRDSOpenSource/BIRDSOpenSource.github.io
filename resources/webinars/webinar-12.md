@@ -1,5 +1,5 @@
 ---
-title: Webinar-12 (12-07-22)
+title: 12 MicroOrbiter-1 Satellite Bus System Overview) 
 parent: Webinars
 layout: default
 lang: en
@@ -61,13 +61,5 @@ Note: Actual presentation starts at 12 minutes
 [Next]({{site.url}}/resources/webinars/webinar-13/){: .btn}
 
 
-### Contribute to Docs
-- [Learn more] about how to get involved.
-- [Edit this page] on GitHub to fix an error or make an improvement.
-- [Submit feedback] to let us know how we can improve Docs.
-
-
-[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
-[Learn more]: {{site.url}}/contribute.hmtl
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
 

@@ -1,5 +1,5 @@
 ---
-title: Webinar-13 (02-08-23)
+title: 13 BIRDS-X Project Overview
 parent: Webinars
 layout: default
 lang: en
@@ -54,12 +54,5 @@ XXX  talked about XXX in his presentation titled "XXX".
 [Previous]({{site.url}}/resources/webinars/webinar-12/){: .btn .btn-purple }
 [Next]({{site.url}}/resources/webinars/webinar-14/){: .btn}
 
-### Contribute to Docs
-- [Learn more] about how to get involved.
-- [Edit this page] on GitHub to fix an error or make an improvement.
-- [Submit feedback] to let us know how we can improve Docs.
 
-
-[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
-[Learn more]: {{site.url}}/contribute.hmtl
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

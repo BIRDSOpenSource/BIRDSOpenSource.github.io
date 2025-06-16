@@ -1,12 +1,12 @@
 ---
-title: Webinar-07 (06-08-22)
+title: 07 Clark Sat-1 Project 
 parent: Webinars
 layout: default
 lang: en
 ---
 
 # Webinar #7
-## (Clark sat-1 project presentation) June 8, 2022
+## (Clark Sat-1 Project presentation) June 8, 2022
 
 {: .label .label-yellow .text-grey-dk-300}
 bus changes
@@ -64,12 +64,4 @@ Keywords: International Collaboration, Project Management, Small Space Project, 
 [Next]({{site.url}}/resources/webinars/webinar-08/){: .btn}
 
 
-### Contribute to Docs
-- [Learn more] about how to get involved.
-- [Edit this page] on GitHub to fix an error or make an improvement.
-- [Submit feedback] to let us know how we can improve Docs.
-
-
-[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
-[Learn more]: {{site.url}}/contribute.hmtl
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

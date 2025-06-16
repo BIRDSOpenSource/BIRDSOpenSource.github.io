@@ -1,5 +1,5 @@
 ---
-title: Webinar-23 (07-31-24)
+title: 23 MicroOrbiter-1 Operation Report
 parent: Webinars
 layout: default
 lang: en
@@ -43,26 +43,35 @@ microorbiter-1
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-Fahd Moumni talked about XXX in his presentation titled "MicroOrbiter-1 Operation Report".
+Fahd MOUMNI (MicroOrbiter Inc.)
+MOUMNI Fahd, from Morocco, holds a double Master’s degree in
+Materials Sciences (EEIGM - Université de Lorraine) and Mechanical &
+Space Systems Engineering (Kyushu Institute of Technology, IWATA Lab).
+Thanks to his experience as the structure team leader of the BIRDS-5
+CubeSat Project in Cho Lab (Japan, Uganda, Zimbabwe), he was selected
+by Mr. Yoji HIRAKATA (CEO, MicroOrbiter Inc.) to become the Chief
+Technology Officer of the MicroOrbiter Inc., along with Dr. Yasir ABBAS as
+Chief Development Officer. Fahd is the Project Manager of MicroOrbiter-1
+(aka MO-1), IoT satellite project which is the fruit of the collaboration
+between MicroOrbiter Inc. and Kyutech. (Please check the website :
+https://microorbiter.com/ )
 </details>
 
 Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
 
 <details markdown="block">
 <summary>Details</summary>
-Fahd Moumni talked about XXX in his presentation titled "MicroOrbiter-1 Operation Report".
+The MicroOrbiter-1 satellite is a 1U CubeSat jointly developed with a hybrid team of professionals
+from MicroOrbiter Inc., students, and staff members from the Kyushu Institute of Technology. The
+payload focuses on the Internet of Things technology and more precisely, the LoRa (Long Range)
+modulation. Two main missions are at the core of the satellite: The LoRa 920 MHz and the LoRa 400
+MHz missions. Since its deployment on April 11th, the satellite has been providing mission data as well
+as HouseKeeping data related to its health. The presentation will be a report on the operation results of
+the MicroOrbiter-1 satellite.
 </details>
 
 [Previous]({{site.url}}//resources/webinars/webinar-22){: .btn .btn-purple }
 [Next]({{site.url}}/resources/webinars/webinar-24){: .btn}
 
 
-### Contribute to Docs
-- [Learn more] about how to get involved.
-- [Edit this page] on GitHub to fix an error or make an improvement.
-- [Submit feedback] to let us know how we can improve Docs.
-
-
-[Submit feedback]: https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io/issues/new?template=Blank+issue
-[Learn more]: {{site.url}}/contribute.hmtl
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
