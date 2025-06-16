@@ -5,6 +5,7 @@ nav_order: 8
 layout: default
 permalink: "/bpb/guide"
 lang: en
+nav_exclude: true
 ---
 
 # Guide for BPB Team Members

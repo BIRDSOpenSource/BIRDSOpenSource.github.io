@@ -5,6 +5,7 @@ has_children: true
 permalink: 'pm/guide'
 layout: default
 lang: en
+nav_exclude: true
 ---
 
 # Guide for Project Managers
