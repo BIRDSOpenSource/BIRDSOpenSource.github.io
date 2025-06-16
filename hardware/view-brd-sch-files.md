@@ -1,6 +1,6 @@
 ---
 title: How to View .brd and .sch files using altium online viewer and kicad
-parent: How-to guides
+parent: Hardware
 layout: default
 lang: en
 ---

@@ -1,7 +1,7 @@
 ---
 title: FAQ
 layout: default
-permalink: "/resources/faq"
+permalink: "/faq"
 lang: en
 ---
 

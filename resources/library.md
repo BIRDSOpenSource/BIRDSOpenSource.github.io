@@ -1,7 +1,7 @@
 ---
 title: Library
 layout: default
-permalink: "/resources/library"
+permalink: "/library"
 lang: en
 ---
 

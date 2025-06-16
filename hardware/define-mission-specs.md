@@ -1,7 +1,7 @@
 ---
 title: How to Define Mission Specifications
-nav_order: 2
-# parent: How-to guides
+# nav_order: 2
+# parent: Hardware
 layout: default
 lang: en
 ---

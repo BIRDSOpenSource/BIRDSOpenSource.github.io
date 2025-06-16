@@ -1,7 +1,7 @@
 ---
 title: Glossary 
 layout: default
-permalink: "/resources/glossary"
+permalink: "/glossary"
 lang: en
 ---
 
