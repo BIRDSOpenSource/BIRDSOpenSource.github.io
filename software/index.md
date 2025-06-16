@@ -12,6 +12,43 @@ lang: en
 
 Welcome to the step-by-step guides for assembling hardware and setting up software for the system. These tutorials will help you with assembling the necessary boards, preparing cables, writing software, compiling code, and flashing it onto the microcontroller.  
 
+---
+title: Software Guide
+nav_order: 3
+has_children: true
+description: "Understand the BIRDS bus software stack, architecture, and how to use it."
+---
+
+# 💻 BIRDS Software Guide
+
+This guide walks you through the software that powers BIRDS CubeSats — from low-level microcontroller code to high-level mission logic.
+
+You'll find architecture diagrams, programming conventions, examples, and testing tools that help you work with or build upon the flight software.
+
+---
+
+## 🧠 What's Inside
+
+- Bootloader and initialization routines
+- Communication protocols (e.g., AX.25)
+- Housekeeping and telemetry handling
+- Payload command/control logic
+- Sample ground station scripts
+
+---
+
+## 🧰 Development Workflow
+
+The BIRDS software follows modular principles to support mission-specific customization while keeping a clean baseline. Key topics include:
+
+- How to set up your development environment
+- Coding standards and directory structure
+- Simulating subsystems
+- Flashing firmware and debugging
+
+> 📦 Example: See our [Hello World example](../software/examples/hello-world.md) for a minimal startup app.
+
+
 ## Software Development Guides
 
 Learn how to configure, compile, and flash software onto the system:
