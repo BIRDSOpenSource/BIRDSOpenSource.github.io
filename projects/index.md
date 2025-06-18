@@ -1,59 +1,68 @@
 ---
-title: GSoC 
+title: Contributor's Guide
 nav_order: 9
-has_children: true
-has_toc: false
+has_children: true 
 layout: default
-nav_exclude: true
-permalink: "/gsoc"
+permalink: "/contribute"
 lang: en
 ---
 
 
-# 🚀 Google Summer of Code (GSoC) with BIRDS Open Source  
+# 📖 Contributor's Guide
 
-## 🌍 Contributors: Get Paid to Work on Open Source Projects!  
-Are you a student passionate about **space technology and open source software**? Join us for GSoC and work on real-world **CubeSat development projects** while getting **paid to learn and contribute**!  
+Found a typo? Have ideas for improvement? Learn how to contribute to the BIRDS Open Source ecosystem.
 
-## 👩‍🏫 Mentors: Help Shape the Next Generation of Space Developers!  
-If you're an experienced developer, researcher, or engineer, become a **mentor** to guide students, grow the open-source ecosystem, and bring fresh ideas into BIRDS Open Source!  
 
----
-
-## 📌 What is BIRDS Open Source & GSoC?  
-BIRDS Open Source is a **collaborative CubeSat development community** that emerged from the **Kyutech BIRDS program**. Our mission is to make **satellite technology more accessible** by sharing software, hardware designs, and documentation openly.  
-
-**Google Summer of Code (GSoC)** is a global program that allows **students** to contribute to open-source projects while earning a stipend. This is a great opportunity to:  
-✅ **Gain real-world experience** in space systems development  
-✅ **Collaborate with experts** and open-source enthusiasts  
-✅ **Improve your technical and problem-solving skills**  
-✅ **Make a lasting impact** in the space industry  
-
-👉 Learn more about GSoC: [Google Summer of Code](https://summerofcode.withgoogle.com)  
+We have a project list already and [you can find it here]({{site.url}}/project-list).
 
 ---
 
-## 🚀 How to Get Started  
-🔹 **Explore Project Ideas** – Check out our [GSoC 2025 Project Ideas List]({{site.url}}/gsoc-ideas-2025)
-🔹 **Join the Community** – Engage with mentors and past contributors in our forums and chat groups  
-🔹 **Set Up Your Dev Environment** – Clone our repositories and try building our software  
-🔹 **Start Contributing** – Submit a small pull request to familiarize yourself with our workflow  
+## ✍️ **How to Propose Projects to contribute to**  
 
-> **💡 Pro Tip:** The best way to stand out is by actively contributing **before applications open!**  
+### **Things to consider**  
+
+
+### 1️⃣  **Synopsis**  
+- **What is your project about?** (1-2 sentences)  
+- **Why is it important?**  
+- **What problem does it solve?**  
+
+### 2️⃣**Benefits to the Community**  
+- How will this project **help BIRDS Open Source**?  
+- How will it **benefit the open-source space community**?  
+- How will the final output be **used after GSoC**?  
+
+### 3️⃣ **Deliverables & Milestones**  
+- **List the key goals and features** you aim to complete  
+- **Break your timeline into 3 phases**:  
+  - **Community Bonding Period**: Research, setup, first contributions  
+  - **Phase 1**: Develop core functionality, initial testing  
+  - **Phase 2**: Expand features, refine implementation  
+  - **Final Phase**: Complete, test, and document  
+
+### 4️⃣ **Technical Details**  
+- **What technologies will you use?** (Languages, frameworks, tools)  
+- **How will you implement your solution?**  
+- **Any potential challenges, and how will you overcome them?**  
+
+### 5️⃣ **Previous Experience**  
+- **Have you contributed to open source before?** (Not mandatory but helpful)  
+- **Relevant projects you've worked on** (GitHub links if possible)  
+- **Why are you interested in BIRDS Open Source & space projects?**  
+
+### 6️⃣ **Commitment & Availability**  
+- How many hours per week can you dedicate?  
+- Do you have any **other commitments** during GSoC?  
 
 ---
 
-## 📝 How to Apply  
-📅 **GSoC 2025 Applications Open: March [TBA], 2025**  
+## 📅 **Next Steps**  
+📌 **Join Our Community** – Ask mentors for feedback on your draft  
+📌 **Submit Early** – Avoid last-minute issues!  
+📌 **Follow Up** – Stay engaged and show your enthusiasm  
 
-1️⃣ **Choose a project** from our [GSoC Project Ideas List]({{site.url}}/gsoc-ideas-2025)  
-2️⃣ **Talk to Mentors** – Ask questions and get feedback on your proposal  
-3️⃣ **Draft Your Proposal** – Explain your project plan, timeline, and motivation  
-4️⃣ **Submit Your Application** on the GSoC portal  
+📨 **Need Help? [Contact Us!]({{site.telegram}})**  
+📌 **GitHub Discussions:** [BIRDS Open Source](https://github.com/orgs/BIRDSOpenSource/discussions)  
+📌 **Email:** {{site.email}} 
 
-🔗 Check out our **[Application Guide]({{site.url}}/gsoc-application-guide)** for tips on writing a strong proposal!  
-
----
-
-## [📩 Get in Touch!](mailto:{{site.email}})
-Have questions? We're happy to help!  
+🚀 **We look forward to your application! Good luck!**

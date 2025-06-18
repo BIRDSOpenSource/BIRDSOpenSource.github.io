@@ -1,7 +1,7 @@
 ---
 title: Contributor Project List
 nav_order: 
-parent: Contributing
+parent: Contributor's Guide
 layout: default
 permalink: "/project-list"
 lang: en
