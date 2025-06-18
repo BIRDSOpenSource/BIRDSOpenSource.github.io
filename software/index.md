@@ -71,4 +71,4 @@ For troubleshooting, reference documentation, and best practices, refer to:
 
 If you encounter issues or need further clarification, feel free to reach out to the development team.  
 
-[Next]({{site.url}}/how-tos/flash_microcontroller.html)  {: .btn}
+[Next]({{site.url}}/how-tos/flash_microcontroller.html){: .btn}

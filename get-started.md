@@ -19,11 +19,11 @@ Welcome to the **BIRDS Open Source** project — your entry point into learning,
 | Section | Description |
 |--------|-------------|
 | [About](../about) | Learn about the goals, origins, and structure of the BIRDS Open Source platform. |
-| [For Project Managers](../for-project-managers) | Guidance for coordinating your team, documentation practices, and planning. |
-| [OBC / COM / EPS Guides](../for-obc-team-members) | Role-specific tasks, wiring, and software responsibilities. |
-| [Hardware Guides](../hardware-guides) | Learn how to assemble, test, and debug hardware. |
-| [Software Guides](../software-guides) | Understand the software stack, workflows, and key tools. |
-| [Templates & Checklists](../templates-and-checklists) | Practical documents to ensure quality, consistency, and traceability. |
+| [For Project Managers](../pm) | Guidance for coordinating your team, documentation practices, and planning. |
+| [OBC](../obc) [COM](../com) [EPS ](../eps) Guides | Role-specific tasks, wiring, and software responsibilities. |
+| [Hardware Guides](../hardware) | Learn how to assemble, test, and debug hardware. |
+| [Software Guides](../software) | Understand the software stack, workflows, and key tools. |
+| [Templates & Checklists](../templates) | Practical documents to ensure quality, consistency, and traceability. |
 | [Webinars](../webinars) | Recordings and announcements of community learning sessions. |
 
 ---
@@ -35,13 +35,13 @@ Welcome to the **BIRDS Open Source** project — your entry point into learning,
    - Explore [Launch](../launch) to see what the end goal looks like.
 
 2. **Identify Your Role**
-   - Go to your team-specific guide: [OBC](../for-obc-team-members), [COM](../for-com-team-members), or [EPS](../for-eps-team-members).
+   - Go to your team-specific guide: [OBC](../obc), [COM](../com), or [EPS](../eps).
 
 3. **Set Up Your Environment**
-   - Follow the instructions in the [Software Guides](../software-guides) for installing dependencies, flashing firmware, and simulating satellite behavior.
+   - Follow the instructions in the [Software Guides](../software) for installing dependencies, flashing firmware, and simulating satellite behavior.
 
 4. **Practice with Templates**
-   - Use the [Templates and Checklists](../templates-and-checklists) to track your progress and ensure best practices.
+   - Use the [Templates and Checklists](../templates) to track your progress and ensure best practices.
 
 5. **Join a Webinar**
    - Attend live sessions or watch past [Webinars](../webinars) to stay updated and learn from others.
@@ -59,12 +59,6 @@ Visit our [FAQ](../faq), check the [Glossary](../glossary), or explore the [Libr
 Want to contribute, translate, or test? Contact us via the [project repository](https://github.com/...) or join our next [Webinar](../webinars) to meet the community!
 
 ---
-
-<footer class="text-sm text-gray-500 mt-12">
-Last updated: June 2025 · Maintained by the BIRDS Open Source Community
-</footer>
-
-
 
 [About BIRDS]({{site.url}}/about){: .btn .btn-purple }
 [Next]({{site.url}}/){: .btn}

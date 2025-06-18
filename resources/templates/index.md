@@ -4,6 +4,7 @@ has_children: true
 nav_enabled: false
 layout: default
 lang: en
+permalink: "/templates/"
 ---
 
 # Templates and Checklists 
