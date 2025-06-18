@@ -16,7 +16,9 @@ The On-Board Computer (OBC) is the central processing unit of a CubeSat, respons
 
 This is the OBC used in BIRDS 3 and 4. It has three microcontrollers: Main, Reset and Com, all 8 bit PICs. The Main PIC is a PIC18F67J94 and the Reset and Com PICs are PIC16F1789. They are connected as showed in the following diagram:
 
-**Block Diagram of the OBC in the BIRDS Bus** 
+--- 
+
+**Block Diagram of the OBC in the BIRDS-3 Bus** 
 
 ![On Board Computer Interface Diagram](/assets/images/OBC-diagram.png) 
 *A visual representation of the OBC's architecture, showing its connections to other subsystems such as power, communication, and payload.*
@@ -29,7 +31,74 @@ For the documentation and files related to the OBC itself, please see [**this re
 
 If you want to purchase the commercial version of FAB/OBC/EPS, please contact SAGAMI Electronics Industry Ltd.  
 The contact address is **takei@sagami-net.co.jp**.
+
 ---
+
+## OBC Board Block Diagram (includes Start PIC)
+{:toc}
+
+```mermaid
+flowchart LR
+
+  subgraph Power_Lines
+    RAW[RAW POWER]
+    DCDC1[DC/DC → 3.3V #1]
+    DCDC2[DC/DC → 3.3V #2]
+    DCDC3[DC/DC → 5.0V]
+    DCDC4[DC/DC → Unreg #1]
+    DCDC5[DC/DC → Unreg #2]
+    RAW --> DCDC1 --> MAIN_PIC
+    RAW --> DCDC2 --> COM_PIC
+    RAW --> DCDC3 --> RESET_PIC
+    RAW --> DCDC4 --> START_PIC
+    RAW --> DCDC5 --> BURNER
+  end
+
+  subgraph OBC_Module
+    MAIN_PIC[MAIN PIC]
+    COM_PIC[COM PIC]
+    RESET_PIC[RESET PIC]
+    START_PIC[START PIC]
+    MAIN_FM[MAIN FM]
+    COM_FM[Shared COM FM]
+    MSN_FM[Shared MSN FM]
+    MUX1[MUX 1]
+    MUX2[MUX 2]
+  end
+
+  MAIN_PIC -- SPI --> MUX1
+  MUX1 -- SPI --> MAIN_FM
+
+  COM_PIC -- SPI --> MUX2
+  MUX2 -- SPI --> COM_FM
+
+  MAIN_PIC -- UART --> COM_PIC
+  MAIN_PIC -- UART --> RESET_PIC
+  COM_PIC -- UART --> START_PIC
+  RESET_PIC -- UART --> START_PIC
+
+  MAIN_PIC -- SPI --> MSN_FM
+  COM_PIC -- UART --> OLD_TRX
+  COM_PIC -- UART --> NEW_TRX
+
+  subgraph External_Components
+    CPLD[CPLD]
+    FAB_PIC[FAB PIC]
+    MSN_BOSS[MSN BOSS]
+    BURNER[BURNER CCT]
+    UHF[UHF TRX]
+    OLD_TRX[OLD TRX - ADDNICS]
+    NEW_TRX[NEW TRX]
+  end
+
+  MSN_BOSS -- UART --> MAIN_PIC
+  CPLD -- UART --> MSN_BOSS
+  FAB_PIC -- UART --> MAIN_PIC
+  MAIN_PIC -- UART --> BURNER
+  BURNER -- Power --> UHF
+```
+
+--- 
 
 ## Background
 

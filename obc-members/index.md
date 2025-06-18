@@ -9,52 +9,130 @@ nav_fold: false
 # nav_exclude: true
 ---
 
-# Guide for OBC Team Members
-{: .no_toc .text-purple-200}
+# Getting Started for OBC Team Members
 
-<details markdown="block">
-<summary>Table of Contents</summary>
+Welcome to the Onboard Computer (OBC) team! This page will guide you through the first steps to begin working with the BIRDS OBC subsystem using the available open-source resources.
 
-- Table of Contents
-{:toc}
+> 🔧 **Note:** Some elements like board files are currently proprietary. However, [we're building an open version]({{site.url}}//project-list.html#3-kicad-design-of-an-open-source-cubesat-onboard-computer-obc), and your contributions are welcome.
 
-</details>
+---
 
-### **Tutorial Series Titles for OBC Members**
-#### **1. Introduction and Fundamentals**
-1. **Overview of CubeSat Onboard Computer (OBC) Systems**
-   - Role of the OBC in CubeSat subsystems.
-   - Interfaces with payloads, communication, ADCS, and EPS.
+## 1. Clone the Repository
 
-2. **Evolution of OBC Design in BIRDS Projects**
-   - Lessons learned from BIRDS-X, BIRDS-5, and BIRDS-4 OBC designs.
-   - Comparisons of architectures and technologies used.
+First, clone the OBC hardware and firmware repositories to your local machine:
 
-## Introduction
-{:toc}
-This guide provides foundational knowledge of CubeSat system architecture and software, tailored for new OBC team members.
+```bash
+git clone https://github.com/BIRDSOpenSource/BIRDS3-OBC.git
+```
+
+Make sure you have `git` [installed](https://git-scm.com/downloads). If not, you can download the repository as a ZIP file from GitHub.
+
+![Github ZIP download Diagram](/assets/images/github-zip.png) 
+---
+
+## 2. Open the OBC Schematics
+
+- In the folder you have downloaded or cloned, navigate to the `OBC_Schematic.pdf` file. 
+- Since the board files (`.sch`, `.brd`) are proprietary, only pdf schematics are available at this time for all editions of the BIRDS series.
+
+![BIRDS3 OBC Folder explorer](/assets/images/birds3-obc-folder-explorer.png) 
+
+> 📢 **Want to help?** We're building an open OBC board. Check out the [`obc-open-hardware`]({{site.url}}//project-list.html#3-kicad-design-of-an-open-source-cubesat-onboard-computer-obc) project in our Project List to contribute.
+
+---
+
+## 3. PCB Layout & Export (Using Antenna Board as Example)
+
+While the OBC board files aren’t public yet, we recommend trying the antenna panel as a practice project.
+
+Steps:
+
+1. Go to the [`BIRDS3 Antenna Panel`](https://github.com/BIRDSOpenSource/BIRDS3-AntennaPanel) Github page and download the `.brd` and `.sch` files.
+
+  ![BIRDS3 github antenna panel folder](/assets/images/birds3-github-antenna-panel-folder.png)
+
+2. Open your PCB designer of choice e.g  [KiCad](https://www.kicad.org), [Fusion 360 Electronics](https://www.autodesk.com/products/fusion-360/electronics-engineer), etc.
+3. Open the `.sch` and `.brd` files in the PCB designer.
 
 
-## Role and Responsibilities of the OBC Team
-{:toc}
-The Onboard Computer (OBC) serves as the CubeSat’s central command center, coordinating subsystems, managing mission-critical tasks, and ensuring seamless data flow throughout the satellite. 
-- It processes attitude data from the Attitude Determination and Control System (ADCS) and issues control commands to maintain and adjust the CubeSat’s orientation. 
-- The OBC is responsible for controlling deployment mechanisms, including antennas and burner circuits for solar panel deployment, ensuring the satellite’s functionality post-launch. 
-- It manages power line regulation and protection by controlling Digital Input/Outputs (DIOs) and Overcurrent Protection Systems (OCPS) and 
-- handles connections to communication transceivers to facilitate telemetry, command, and mission data exchange between the CubeSat and the ground station. 
 
-Additionally, the OBC oversees mission routing, ensuring that tasks like data acquisition, storage, and downlink operations occur according to mission schedules, making it an indispensable component of CubeSat operations.
+4. Export Gerber files via **File → Plot**, and generate drill files via **File → Fabrication Outputs**.
+
+> 🔍 Although we use **Fusion 360**, the antenna panel is fully accessible in **KiCad** for open testing.
+>
+> Troubleshooting? Try [working with .brd files guide](https://www.linkedin.com/pulse/guide-working-brd-files-best-practices-insights-shirley-leung-a3llc/).
+>
+> You can view the file online [here first](https://www.altium365.com/viewer/).
+
+---
+
+## 4. Open the Bill of Materials (BOM)
+
+You can find the OBC parts list (`OBC_BOM.xlsx`) in the hardware repo.
+
+- It includes current and obsolete components.
+- We’re developing a **solution mapping sheet** that suggests updated, drop-in replacements.
+
+> 🔄 This is a living document. If you find alternatives, please submit a pull request or open an issue.
+
+---
+
+## 5. Explore the Firmware
+
+Explore the structure of the PIC firmware in the `OBC-Firmware` repo.
+
+- Each subsystem has its own folder.
+- Code comments and function headers guide you through main functionalities.
+- The [Software Developers Manual (in development)](https://github.com/BIRDSOpenSource/docs/blob/main/software_manual.md) will help clarify more advanced logic.
+
+---
+
+## 6. Build and Flash the PIC Microcontroller
+
+You will need:
+
+- MPLAB IPE v6.00 or later (Free to download from Microchip)
+- PICkit 3.5 debugger/programmer (since PICkit 3 is obsolete)
+- HEX firmware file (typically in the `dist/` folder)
+
+### Flashing Steps:
+
+1. Open **MPLAB IPE** and select your device (e.g., PIC18F series).
+2. Choose the PICkit 3.5 as your tool.
+3. Browse for your `.hex` file.
+4. Click *"Connect"*, then *"Program"*.
+
+> 🛑 Always verify power and orientation before flashing to avoid damaging your board.
+
+---
+
+## 7. Troubleshooting Tips
+
+- If MPLAB fails to connect: check USB cable, driver, and power source.
+- Ensure that the MCU is not in reset mode or receiving unstable power.
+- Cross-check your configuration bits (sometimes mismatches cause boot issues).
+- Check if a watchdog timer is unintentionally enabled.
+
+---
+
+## ✅ Getting Started Checklist
+
+- [ ] Clone the OBC repositories
+- [ ] Open the schematics in Fusion 360 Electronics
+- [ ] Review and explore the firmware repository
+- [ ] Test PCB export using antenna panel in KiCad
+- [ ] Review the BOM and suggest replacements if possible
+- [ ] Flash the MCU using MPLAB IPE + PICkit 3.5
+- [ ] Browse the troubleshooting section and keep notes of your setup
+
+---
+
+> 💡 Need help or want to contribute improvements to this guide? Join the discussion on [GitHub Discussions](https://github.com/orgs/BIRDSOpenSource/discussions).
 
 
-## Key Systems and Architectures
-{:toc}
-  <p>
-    <img alt="OBC-detailed-block-diagram" src="https://github.com/BIRDSOpenSource/BIRDSRP-OBC/blob/main/Diagrams/obc-detailed-block-diagram.png">
-  </p> 
 
 
-6. Documentation and Best Practices
-Writing OBC Design Documentation
+6. Documentation and Best Practices Writing OBC Design Documentation
 
 Templates and examples from BIRDS missions.
 Tips for documenting hardware, software, and interfaces.
