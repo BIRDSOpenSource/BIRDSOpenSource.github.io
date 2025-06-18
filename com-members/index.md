@@ -6,7 +6,7 @@ permalink: 'com/guide'
 layout: default
 lang: en
 nav_fold: false
-nav_exclude: true
+# nav_exclude: true
 ---
 
 # Guide for COM Team Members

@@ -1,6 +1,7 @@
 ---
 title: How to make a schedule
 # nav_order: 2
+parent: 
 layout: default
 lang: en
 ---

@@ -1,21 +1,11 @@
 ---
-title: Software guides
+title: Software Guides
 # nav_order: 4
 has_children: true
 has_toc: false
 layout: default
 permalink: "/software/"
 lang: en
----
-
-# How-To Guides 
-
-Welcome to the step-by-step guides for assembling hardware and setting up software for the system. These tutorials will help you with assembling the necessary boards, preparing cables, writing software, compiling code, and flashing it onto the microcontroller.  
-
----
-title: Software Guide
-nav_order: 3
-has_children: true
 description: "Understand the BIRDS bus software stack, architecture, and how to use it."
 ---
 
@@ -48,6 +38,13 @@ The BIRDS software follows modular principles to support mission-specific custom
 
 > 📦 Example: See our [Hello World example](../software/examples/hello-world.md) for a minimal startup app.
 
+## What tools do we use in development?
+   - **Computer Aided Design (CAD) tools for Design**: Fusion 360
+   - **Simulation Tools**: Thermal desktop, STK for mission analysis
+   - **Programming Languages**: C/C++, Python 
+   - **Programming Environment**: CCS Compiler, MPLAB IDE
+   - **Communication Protocols**: UART, SPI
+   - **Version Control**: Git/ [GitHub] 
 
 ## Software Development Guides
 

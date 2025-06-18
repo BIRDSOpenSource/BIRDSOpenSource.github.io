@@ -1,6 +1,6 @@
 ---
 title: How to Find Funding for a CubeSat Mission  
-# parent: Hardware
+# parent: Hardware guides
 layout: default
 lang: en
 ---

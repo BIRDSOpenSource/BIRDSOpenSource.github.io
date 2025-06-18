@@ -5,7 +5,8 @@ nav_order: 6
 layout: default
 permalink: "/obc/guide"
 lang: en
-nav_exclude: true
+nav_fold: false
+# nav_exclude: true
 ---
 
 # Guide for OBC Team Members

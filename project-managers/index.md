@@ -2,10 +2,11 @@
 title: For Project Managers
 nav_order: 5
 has_children: true
-permalink: 'pm/guide'
+permalink: '/pm/'
 layout: default
 lang: en
-nav_exclude: true
+nav_fold: false
+# nav_exclude: true
 ---
 
 # Guide for Project Managers
@@ -46,3 +47,6 @@ Some of the responsibilities of a project manager include:
 ---
 
 [![homepage](/assets/images/birds-textbook-cover.png)](https://birds-project.com/mext/pdf/Digital_Textbook_G_2021JUL06.pdf "BIRDS Digital Textbook")
+
+[Previous]({{site.url}}/about/){: .btn .btn-purple }
+[Next]({{site.url}}/overview/birds/obc-page){: .btn}

@@ -1,7 +1,7 @@
 ---
 title: How to Assemble the Programming Board
 # nav_order: 
-# parent: Hardware
+parent: Hardware guides
 layout: default
 lang: en
 ---

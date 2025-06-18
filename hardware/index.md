@@ -1,5 +1,5 @@
 ---
-title: Hardware guides
+title: Hardware Guides
 # nav_order: 4
 has_children: true
 has_toc: false
@@ -34,6 +34,13 @@ description: "Technical reference for the BIRDS CubeSat hardware subsystems."
 This section provides detailed documentation on the physical components that make up the BIRDS CubeSat bus.
 
 From power systems to communication boards, sensors to solar panels, you'll find background explanations, electrical schematics, usage notes, and assembly tips to support both education and implementation.
+
+---
+
+## What tools do we use in development?
+   - **Microcontrollers/Boards**: PIC MCUs, custom PCBs
+   - **Power Systems**: Solar panels, battery packs
+   - **Sensing Devices**: Magnetometers, gyroscopes for ADCS
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: How to Assemble the Access Cable
 # nav_order: 
-# parent: Hardware
+parent: Hardware Guides
 layout: default
 lang: en
 ---

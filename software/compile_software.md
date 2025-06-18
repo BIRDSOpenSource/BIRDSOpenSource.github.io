@@ -1,7 +1,7 @@
 ---
 title: How to Compile the Software
 # nav_order: 
-# parent: Hardware
+parent: Software Guides
 layout: default
 lang: en
 ---
