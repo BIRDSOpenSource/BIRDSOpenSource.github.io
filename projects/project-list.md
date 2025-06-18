@@ -1,5 +1,5 @@
 ---
-title: Contributor Project List
+title: Project List
 nav_order: 
 parent: Contributor's Guide
 layout: default
@@ -8,7 +8,7 @@ lang: en
 ---
 
 
-# 🚀 Project Ideas List
+# 🚀 Project List
 
 📝: The standard coding period for these projects is 12 weeks, but given the complexity and learning curve, we recommend 18 or 22 weeks depending on the background of the contributor.
 {: .note .text-grey-dk-300}
