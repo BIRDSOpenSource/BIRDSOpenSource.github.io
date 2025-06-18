@@ -47,22 +47,23 @@ While the OBC board files aren’t public yet, we recommend trying the antenna p
 
 Steps:
 
-1. Go to the [`BIRDS3 Antenna Panel`](https://github.com/BIRDSOpenSource/BIRDS3-AntennaPanel) Github page and download the `.brd` and `.sch` files.
+ 1. Go to the [`BIRDS3 Antenna Panel`](https://github.com/BIRDSOpenSource/BIRDS3-AntennaPanel) Github page and download the `.brd` and `.sch` files.
 
   ![BIRDS3 github antenna panel folder](/assets/images/birds3-github-antenna-panel-folder.png)
 
-2. Open your PCB designer of choice e.g  [KiCad](https://www.kicad.org), [Fusion 360 Electronics](https://www.autodesk.com/products/fusion-360/electronics-engineer), etc.
-3. Open the `.sch` and `.brd` files in the PCB designer.
+ 2. Open your PCB designer of choice e.g  [KiCad](https://www.kicad.org), [Fusion 360/ Eagle](https://www.autodesk.com/products/fusion-360/electronics-engineer), etc.
+ 
+ 3. Open the `.sch` and `.brd` files in the PCB designer.
 
 
 
-4. Export Gerber files via **File → Plot**, and generate drill files via **File → Fabrication Outputs**.
+ 4. Export Gerber files via **File → Plot**, and generate drill files via **File → Fabrication Outputs**.
 
-> 🔍 Although we use **Fusion 360**, the antenna panel is fully accessible in **KiCad** for open testing.
+> 🔍 Although we use **Fusion 360/ Eagle**, the antenna panel is fully accessible in **KiCad** for open testing.
 >
 > Troubleshooting? Try [working with .brd files guide](https://www.linkedin.com/pulse/guide-working-brd-files-best-practices-insights-shirley-leung-a3llc/).
 >
-> You can view the file online [here first](https://www.altium365.com/viewer/).
+> You can view the files online [here first](https://www.altium365.com/viewer/).
 
 ---
 

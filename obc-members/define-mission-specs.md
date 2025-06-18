@@ -4,6 +4,7 @@ title: How to Define Mission Specifications
 parent: For OBC Team Members
 layout: default
 lang: en
+nav_exclude: true
 ---
 
 # How to Define Mission Specifications (Template Included)

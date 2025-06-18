@@ -4,6 +4,7 @@ title: How to make a requirement allocation sheet
 parent: For OBC Team Members
 layout: default
 lang: en
+nav_exclude: true
 ---
 
 # How to Create a Requirements Allocation Sheet
