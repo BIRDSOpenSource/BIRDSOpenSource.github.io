@@ -2,6 +2,7 @@
 title: For EPS Team Members
 layout: default
 has_children: true
+nav_order: 7
 permalink: "/eps/"
 lang: en
 nav_fold: false

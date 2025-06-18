@@ -1,7 +1,7 @@
 ---
 title: How to make a requirement allocation sheet
 # nav_order: 
-# parent: Hardware
+parent: For OBC Team Members
 layout: default
 lang: en
 ---

@@ -8,17 +8,35 @@ permalink: /about/
 lang: en  
 ---
 
-# **BIRDS Open Source: Begin your satellite development**  
-{: .text-purple-200 .lh-tight}  
+## 🧭 What Is This Project?
 
-BIRDS Open Source offers a library of resources to guide your satellite mission from start to finish, with workflows and open-source tools you can trust.
-
-**The BIRDS Open Source includes the following:**  
-- **Software Catalog:** Allows you to manage all your software in one place including microservices, libraries and data pipelines.
-- **Software Templates:** Quickly start projects and standardize tools with best practices  
-- **TechDocs:** Easily create and maintain technical documentation using a "docs like code" approach  
+BIRDS Open Source is an educational satellite development platform based on the **Kyutech BIRDS model**, now made openly accessible for learning and collaboration. It includes software, hardware, documentation, and team workflows to help you simulate or build a real CubeSat. 
 
 ---
+
+## 🛠️ Who Is This For?
+
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
+  <div class="p-4 border rounded bg-[#f9f9f9]">
+    <strong>👩‍🏫 Educators & Students</strong><br/>
+    Learn-by-doing through real-world satellite design tasks.
+  </div>
+  <div class="p-4 border rounded bg-[#f9f9f9]">
+    <strong>🛰️ Project Teams</strong><br/>
+    Apply guides and workflows to your actual or simulated satellite missions.
+  </div>
+  <div class="p-4 border rounded bg-[#f9f9f9]">
+    <strong>🔧 Engineers</strong><br/>
+    Contribute to or adapt systems like the OBC, COM, EPS and test them.
+  </div>
+  <div class="p-4 border rounded bg-[#f9f9f9]">
+    <strong>🌐 Collaborators</strong><br/>
+    Translate, document, or localize content to your region.
+  </div>
+</div>
+
+---
+
 ## Benefits of the BIRDS Open Source
 
 * **For engineering managers:** It simplifies the process of maintaining standards and managing your interconnected tech network.
@@ -28,17 +46,6 @@ BIRDS Open Source offers a library of resources to guide your satellite mission 
 
 ---
 
-## Key Features of the BIRDS Bus
-**Modular Design**
-The BIRDS Bus is designed with modularity in mind, allowing teams to easily integrate and replace subsystems as needed. This flexibility is particularly useful for CubeSat missions with varying requirements.
-
-**Proven Reliability**
-The BIRDS Bus has been used in multiple missions, including BIRDS3 and BIRDS4, demonstrating its reliability and effectiveness in space.
-
-**Open-Source Documentation**
-The BIRDS Project provides extensive documentation, including schematics, firmware, and interface control documents (ICDs), to support teams in implementing the bus. The general documentation can be found here.
-
----
 ## **Explore the BIRDS Series**  
 {: .lh-tight}  
 
@@ -65,5 +72,5 @@ Kyutech's fellowship programs (PNST) and Space Engineering International Course 
 
 
 
-[Previous]({{site.url}}/get-started){: .btn .btn-purple }
-[Next]({{site.url}}/get-started/reference.html){: .btn}
+[BIRDS Bus]({{site.url}}/about/bus-page.html){: .btn .btn-purple }
+[Systems Engineering Approach]({{site.url}}/about/systems-engineering.html){: .btn}

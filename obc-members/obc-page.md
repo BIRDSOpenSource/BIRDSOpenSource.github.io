@@ -1,8 +1,7 @@
 ---
 title: On Board Computer Board
-parent: What is BIRDS?
+parent: For OBC Team Members
 nav_order: 2
-grand_parent: Getting Started
 layout: default
 lang: en
 ---

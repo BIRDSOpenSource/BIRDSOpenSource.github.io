@@ -75,5 +75,22 @@ These phases create a structured pathway from conceptualization to launch, with 
 
 With this foundational knowledge, you’ll be better equipped to dive into the satellite-building process. The next step is to select the path that best fits your experience level and start building!
 
+## Other resources
+- [Engineer Me This](https://www.youtube.com/@EngineerMeThis/videos)
+- [Build A Cubesat](https://www.youtube.com/@buildacubesat)
+- [RG Sat](https://www.youtube.com/@RGSAT)
+- [Kyutech SEIC](https://www.youtube.com/@kyutechseic4187)
+- [Systems Engineering Body of Knowledge (SEBoK)](https://sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK))
+
+[GitHub Issues.]: https://github.com/BIRDSOpenSource/Build-A-Satellite/issues
+[GitHub]: https://github.com/BIRDSOpenSource
+[our Discussions channel on Github]: https://github.com/orgs/BIRDSOpenSource/discussions/categories/ideas
+[BIRDS]: https://birds-project.com/
+[get in touch with us.]: info@kyutech-laseine.net
+[Mission Definition Review (MDR)]: {{site.url}}/project-managers/milestones/pm-mdr.html
+[Preliminary Design Review (PDR)]: {{site.url}}/project-managers/milestones/pm-pdr.html
+[Critical Design Review (CDR)]: {{site.url}}/project-managers/milestones/pm-cdr.html
+[Flight Readiness Review (FRR)]: {{site.url}}/project-managers/milestones/pm-frr.html
+
 [Previous]({{site.url}}/about/bus-page.html){: .btn .btn-purple }
 [Next]({{site.url}}/overview/birds/obc-page){: .btn}

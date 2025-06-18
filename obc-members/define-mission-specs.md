@@ -1,7 +1,7 @@
 ---
 title: How to Define Mission Specifications
 # nav_order: 2
-parent: Hardware guides
+parent: For OBC Team Members
 layout: default
 lang: en
 ---
