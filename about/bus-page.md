@@ -73,6 +73,13 @@ The BPB integrates all subsystems, allowing the transfer of power and data betwe
   </p>
 </center>
 
+## [Ground Station Software]({{site.url}}/overview/birds/GS-software.html).
+The BIRDS Project provides ground station software for communicating with the satellite. Documentation and links to the software can be found here.
+
+
+## [General documentation](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation):
+While this website does contain information regarding the program and the BIRDSBus, the main explanations and documentation is contained in the Program Textbook and the Interface Control Document.
+
 ---
 
 ## Organizational Chart
@@ -92,24 +99,6 @@ flowchart TD
     E --> |Member 5| M[OBC]
     E --> |Member 6| N[BPB]
 ```
-
-## 3D Models and CAD Files
-The 3D models for the BIRDS3 and BIRDS4 buses, as well as the stand, are available for download:
-
-BIRDS3 CAD Models: [Download here](https://github.com/BIRDSOpenSource/BIRDS3-CAD)
-
-BIRDS4 CAD Models: [Download here](https://github.com/BIRDSOpenSource/BIRDS4-CAD)
-
-## [Ground Station Software]({{site.url}}/overview/birds/GS-software.html).
-The BIRDS Project provides ground station software for communicating with the satellite. Documentation and links to the software can be found here.
-
-## Recent Updates
-Radiometrix HX1 COMS Module: A team presented their use of the Radiometrix HX1 communication module with the BIRDS platform during the March 2022 BIRDS meeting. The module's datasheet has been added to the COMS repositories.
-
-Battery Testing and Screening Procedures: Detailed procedures for battery testing and screening have been added to the procedures repository. Please check these new documents for updated guidelines.
-
-## [General documentation](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation):
-While this website does contain information regarding the program and the BIRDSBus, the main explanations and documentation is contained in the Program Textbook and the Interface Control Document.
 
 
 ## See also

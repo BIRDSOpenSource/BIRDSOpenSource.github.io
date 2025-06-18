@@ -2,7 +2,7 @@
 title: For EPS Team Members
 layout: default
 has_children: true
-permalink: "/eps/guide"
+permalink: "/eps/"
 lang: en
 nav_fold: false
 ---
@@ -69,3 +69,10 @@ This introduction is an overview of the project, how it is organised, and how it
 
 ## Tools and Resources for EPS Teams
 {:toc}
+
+## Recent Updates
+Battery Testing and Screening Procedures: Detailed procedures for battery testing and screening have been added to the procedures repository. Please check these new documents for updated guidelines.
+
+
+[Previous]({{site.url}}/about/){: .btn .btn-purple }
+[Next]({{site.url}}/overview/birds/obc-page){: .btn}

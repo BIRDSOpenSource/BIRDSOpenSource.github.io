@@ -1,9 +1,9 @@
 ---
 title: For OBC Team Members
 has_children: true
-nav_order: 6
+nav_order: 5
 layout: default
-permalink: "/obc/guide"
+permalink: "/obc/"
 lang: en
 nav_fold: false
 # nav_exclude: true

@@ -75,5 +75,5 @@ These phases create a structured pathway from conceptualization to launch, with 
 
 With this foundational knowledge, you’ll be better equipped to dive into the satellite-building process. The next step is to select the path that best fits your experience level and start building!
 
-[Previous]({{site.url}}/about/){: .btn .btn-purple }
+[Previous]({{site.url}}/about/bus-page.html){: .btn .btn-purple }
 [Next]({{site.url}}/overview/birds/obc-page){: .btn}

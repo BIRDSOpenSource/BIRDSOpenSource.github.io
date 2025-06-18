@@ -1,37 +1,17 @@
 ---
 title: Hardware Guides
-# nav_order: 4
+nav_order: 7
 has_children: true
 has_toc: false
 layout: default
 permalink: "/hardware/"
 lang: en
----
-
-# How-To Guides 
-
-Welcome to the step-by-step guides for assembling hardware and setting up software for the system. These tutorials will help you with assembling the necessary boards, preparing cables, writing software, compiling code, and flashing it onto the microcontroller.
-
-## Hardware Assembly Guides
-
-Follow these guides to assemble the necessary hardware components:
-
-- [Assembling the Access Board]({{site.url}}/how-tos/assemble_access_board.html)  
-- [Assembling the Programming Board]({{site.url}}/how-tos/assemble_programming_board.html)  
-- [Assembling the Access Cable]({{site.url}}/how-tos/assemble_access_cable.html)  
-
-If you encounter issues or need further clarification, feel free to reach out to the development team.  
-
----
-title: Hardware Guide
-nav_order: 2
-has_children: true
 description: "Technical reference for the BIRDS CubeSat hardware subsystems."
 ---
 
 # 🔩 BIRDS Hardware Guide
 
-This section provides detailed documentation on the physical components that make up the BIRDS CubeSat bus.
+This section provides detailed documentation on the physical components that make up the BIRDS CubeSat bus. With step-by-step guides for designing and assembling hardware for the system. These tutorials will help you with assembling the necessary boards, preparing cables, and setting up for integration.
 
 From power systems to communication boards, sensors to solar panels, you'll find background explanations, electrical schematics, usage notes, and assembly tips to support both education and implementation.
 
@@ -64,5 +44,13 @@ Each section contains:
 - Recommendations for testing and integration
 
 > 💡 Tip: When modifying hardware, always cross-check connector types and thermal constraints.
+
+Follow these guides to assemble the necessary hardware components:
+
+- [Assembling the Access Board]({{site.url}}/how-tos/assemble_access_board.html)  
+- [Assembling the Programming Board]({{site.url}}/how-tos/assemble_programming_board.html)  
+- [Assembling the Access Cable]({{site.url}}/how-tos/assemble_access_cable.html)  
+
+If you encounter issues or need further clarification, feel free to reach out to the development team.  
 
 [Next]({{site.url}}/how-tos/flash_microcontroller.html)  {: .btn}

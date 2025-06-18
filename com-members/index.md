@@ -1,8 +1,8 @@
 ---
 title: For COM Team Members
 has_children: true
-nav_order: 7
-permalink: 'com/guide'
+nav_order: 6
+permalink: 'com/'
 layout: default
 lang: en
 nav_fold: false
@@ -153,6 +153,9 @@ Tutorials and Online Resources:
 
 BIRDS project repositories and wikis.
 Tutorials on antenna design, RF testing, and ground station setup.
+
+## Recent Updates
+Radiometrix HX1 COMS Module: A team presented their use of the Radiometrix HX1 communication module with the BIRDS platform during the March 2022 BIRDS meeting. The module's datasheet has been added to the COMS repositories.
 
 -----
 
