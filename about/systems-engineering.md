@@ -25,6 +25,28 @@ Building a satellite involves complex systems that need careful planning and int
    - Identify potential risks early in the development process and implement strategies to mitigate them.
    - Regular testing, reviews, and simulations help identify weak points and prevent system failures.
 
+
+```mermaid
+flowchart TD
+    A["Mission Planning\n(Objectives, Roles, Timeline)"] --> B["System Design\n(Subsystem Specs, Interface Definitions)"]
+    B --> C["Hardware Development\n(PCBs, Integration)"]
+    B --> D["Software Development\n(OBC, COM, EPS Logic)"]
+    C --> E["Testing\n(Unit, Functional, Integration)"]
+    D --> E
+    E --> F["Simulation & Verification\n(In-lab Testing, Ground Station Link)"]
+    F --> G["Launch Preparation\n(Docs, Reviews, Approval)"]
+    G --> H["Launch & Operations\n(Data Collection, Monitoring)"]
+
+    style A fill:#c3e5ff,stroke:#005596,stroke-width:2px
+    style B fill:#e8f5ff,stroke:#0077b6,stroke-width:1.5px
+    style C fill:#f5faff,stroke:#0096c7
+    style D fill:#f5faff,stroke:#00b4d8
+    style E fill:#e0fbfc,stroke:#0077b6
+    style F fill:#d0f0ff,stroke:#005596
+    style G fill:#caf0f8,stroke:#0077b6
+    style H fill:#ade8f4,stroke:#023e8a
+```
+
 ---
 
 ##  What are the phases of a satellite?
