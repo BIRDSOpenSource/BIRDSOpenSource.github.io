@@ -52,9 +52,8 @@ Steps:
   ![BIRDS3 github antenna panel folder](/assets/images/birds3-github-antenna-panel-folder.png)
 
  2. Open your PCB designer of choice e.g  [KiCad](https://www.kicad.org), [Fusion 360/ Eagle](https://www.autodesk.com/products/fusion-360/electronics-engineer), etc.
- 
- 3. Open the `.sch` and `.brd` files in the PCB designer.
 
+ 3. Open the `.sch` and `.brd` files in the PCB designer. Follow [this tutorial]({{site.url}}/open-schematics-with-kicad.html) if using Kicad.
 
 
  4. Export Gerber files via **File → Plot**, and generate drill files via **File → Fabrication Outputs**.
