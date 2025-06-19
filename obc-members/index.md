@@ -30,7 +30,7 @@ This includes:
 - Subsystem interfaces and integration parameters
 
 🧰 **Helpful Resources:**
-- [Requirements Template (Google Docs)]({{site.url}}/resources/templates/requirements-template)
+- [Requirements Template]({{site.url}}/obc-members/define-mission-specs.html)
 - [OBC Subsystem Interface Document Template]({{site.url}}/templates/icd-template)
 - [Mission Planning Checklist]({{site.url}}/resources/templates/mission-checklist)
 - [Requirements Allocation Sheet Template]({{site.url}}/resources/templates/obc-ras.html)

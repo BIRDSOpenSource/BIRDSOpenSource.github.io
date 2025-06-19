@@ -9,7 +9,7 @@ nav_exclude: true
 
 # How to Define Mission Specifications (Template Included)
 
-> After reading this guide you can find the accompanying template to fill [here]({{site.url}}/resources/templates/define-mission-specs).
+> After reading this guide you can find the [accompanying template to fill here](https://birds-project.com/open-source/pdf/template_mission-req.docx) and an [example document here](https://birds-project.com/open-source/pdf/example_mission-req.docx).
 >
 
 ## Overview
