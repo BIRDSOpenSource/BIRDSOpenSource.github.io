@@ -17,6 +17,31 @@ Welcome to the Onboard Computer (OBC) team! This page will guide you through the
 
 ---
 
+## 📋 Define All Requirements
+
+Before jumping into hardware or firmware development, it's critical to define your mission’s technical and operational requirements.
+
+This includes:
+- Mission objectives and timeline
+- Data throughput, storage, and communication needs
+- Power budget and thermal constraints
+- Ground station compatibility
+- Fault tolerance and reset logic
+- Subsystem interfaces and integration parameters
+
+🧰 **Helpful Resources:**
+- [Requirements Template (Google Docs)]({{site.url}}/resources/templates/requirements-template)
+- [OBC Subsystem Interface Document Template]({{site.url}}/templates/icd-template)
+- [Mission Planning Checklist]({{site.url}}/resources/templates/mission-checklist)
+- [Requirements Allocation Sheet Template]({{site.url}}/resources/templates/obc-ras.html)
+
+> 📌 Defining clear and traceable requirements upfront will guide decisions across hardware selection, firmware structure, and testing phases.
+
+
+---
+
+## Setting Up Hardware and Software
+
 ## 1. Clone the Repository
 
 First, clone the OBC hardware and firmware repositories to your local machine:
@@ -68,7 +93,7 @@ Steps:
 
 ## 4. Open the Bill of Materials (BOM)
 
-You can find the OBC parts list (`OBC_BOM.xlsx`) in the hardware repo.
+You can find the OBC parts list (`OBC_Partslist.xlsx`) in the BIRDS3-OBC folder you cloned earlier.
 
 - It includes current and obsolete components.
 - We’re developing a **solution mapping sheet** that suggests updated, drop-in replacements.
@@ -79,11 +104,13 @@ You can find the OBC parts list (`OBC_BOM.xlsx`) in the hardware repo.
 
 ## 5. Explore the Firmware
 
-Explore the structure of the PIC firmware in the `OBC-Firmware` repo.
+Explore the structure of the PIC firmware in the `BIRDS3_MainPIC_Firmware` folder.
+
+![birds3-github-view-main-firmware](/assets/images/birds3-github-view-main-firmware.png)
 
 - Each subsystem has its own folder.
 - Code comments and function headers guide you through main functionalities.
-- The [Software Developers Manual (in development)](https://github.com/BIRDSOpenSource/docs/blob/main/software_manual.md) will help clarify more advanced logic.
+- The [Software Developers Manual (in development)](https://github.com/BIRDSOpenSource/BIRDSX-OBC-FAB/blob/main/BIRDS-X_SOFTWARE_DEVELOPER_MANUAL.md) will help clarify more advanced logic.
 
 ---
 
