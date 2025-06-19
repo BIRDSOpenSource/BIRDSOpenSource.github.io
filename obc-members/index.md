@@ -30,9 +30,9 @@ This includes:
 - Subsystem interfaces and integration parameters
 
 🧰 **Helpful Resources:**
-- [Requirements Template]({{site.url}}/obc-members/define-mission-specs.html)
-- [OBC Subsystem Interface Document Template]({{site.url}}/templates/icd-template)
-- [Mission Planning Checklist]({{site.url}}/resources/templates/mission-checklist)
+- [Requirements Guide (Template Included)]({{site.url}}/obc-members/define-mission-specs.html)
+- [OBC Subsystem Interface Document Template (coming soon)]({{site.url}}/templates/icd-template)
+- [Mission Planning Checklist (coming soon)]({{site.url}}/resources/templates/mission-checklist)
 - [Requirements Allocation Sheet Template]({{site.url}}/resources/templates/obc-ras.html)
 
 > 📌 Defining clear and traceable requirements upfront will guide decisions across hardware selection, firmware structure, and testing phases.
