@@ -8,7 +8,7 @@ lang: en
 ---
 
 ### **{{site.tagline}}**
-{: .lh-0 .text-purple-200}
+{: .lh-0 .text-blue-000}
 
 # Everything you need to build a satellite 
 
@@ -25,7 +25,7 @@ Explore the BIRDS bus and start building:
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
 
   <!-- Getting Started -->
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #005596; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
     <div style="display: flex; align-items: center; gap: 10px;">
     <img src="https://www.svgrepo.com/show/9108/running-stick-figure.svg" width="40" height="40">
     <h3 style="margin: 0;">Getting Started</h3>
@@ -36,8 +36,8 @@ Explore the BIRDS bus and start building:
     </a>
   </div>
 
-  <!-- Hardware Guide -->
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+  <!-- Hardware Guide light-bg: #f4f6fa -->
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #005596; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
     <div style="display: flex; align-items: center; gap: 10px;">
       <img src="https://www.svgrepo.com/show/326665/hardware-chip-outline.svg" width="40" height="40">
       <h3 style="margin: 0;">Hardware Guide</h3>
@@ -48,8 +48,8 @@ Explore the BIRDS bus and start building:
     </a>
   </div>
 
-  <!-- Software Guide -->
- <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+  <!-- Software Guide light-bg: #f4f6fa -->
+ <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #005596; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
     <div style="display: flex; align-items: center; gap: 10px;">
       <img src="https://www.svgrepo.com/show/525688/book-bookmark-minimalistic.svg" width="40" height="40">
       <h3 style="margin: 0;">Software Guide</h3>
@@ -60,8 +60,8 @@ Explore the BIRDS bus and start building:
     </a>
   </div>
 
-  <!-- Contributor Guide -->
-  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #f4f6fa; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+  <!-- Contributor Guide light-bg: #f4f6fa -->
+  <div style="flex: 1 1 calc(50% - 10px); margin: 5px 0; padding: 10px; background-color: #005596; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
     <div style="display: flex; align-items: center; gap: 10px;">
       <img src="https://www.svgrepo.com/show/525586/user-plus.svg" width="40" height="40">
       <h3 style="margin: 0;">Contributor's Guide</h3>
@@ -72,8 +72,8 @@ Explore the BIRDS bus and start building:
     </a>
   </div>
 
-  <!-- Project Details -->
-  <div style="flex: 1 1 100%; margin: 5px 0; padding: 10px; background-color: #f4f6fa; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+  <!-- Project Details light-bg: #f4f6fa -->
+  <div style="flex: 1 1 100%; margin: 5px 0; padding: 10px; background-color: #005596; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
     <div style="display: flex; align-items: center; gap: 10px;">
       <img src="https://www.svgrepo.com/show/486630/details.svg" width="40" height="40">
       <h3 style="margin: 0;">Project Details</h3>

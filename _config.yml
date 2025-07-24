@@ -84,7 +84,7 @@ color_schemes:
   - light
   - dark
   
-color_scheme: light
+color_scheme: dark
 
 # # Define Jekyll collections
 # collections:
