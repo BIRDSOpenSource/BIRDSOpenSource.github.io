@@ -1,5 +1,6 @@
 ---
 title: EPS Troubleshoot
+parent: For EPS Team Members
 layout: default
 # permalink: "/faq"
 lang: en

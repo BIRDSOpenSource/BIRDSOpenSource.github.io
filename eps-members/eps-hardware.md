@@ -1,5 +1,6 @@
 ---
 title: EPS Hardware
+parent: For EPS Team Members
 layout: default
 # permalink: "/faq"
 lang: en
