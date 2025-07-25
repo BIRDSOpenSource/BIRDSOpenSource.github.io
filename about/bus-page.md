@@ -36,16 +36,16 @@ The BIRDS Bus includes the following key components:
 
 ![BIRDS Bus Exploded View](/assets/images/BIRDSBus-exploded.png)
 
-### [On-Board Computer (OBC)]({{site.url}}/overview/birds/obc-page.html)
+### [On-Board Computer (OBC)]({{site.url}}/obc/)
 The OBC is the brain of the satellite, handling core computing tasks such as command execution, data management, and subsystem coordination. It uses a PIC microcontroller for reliable and efficient operation.
 
-### [Electrical Power System (EPS)]({{site.url}}/overview/birds/fab-page.html)
+### [Electrical Power System (EPS)]({{site.url}}/eps/)
 The EPS manages power generation, storage, and distribution. It ensures that all subsystems receive adequate power and that the battery is charged efficiently. The main board that drives this is the FAB on a 1U and 2U configuration and the EPS board on a 3U+ confuguration. the [Rear Access Board (RAB)]({{site.url}}/overview/birds/rab-page.html) and the [Solar Panel board]({{site.url}}/overview/birds/solar-page.html) are also a part of this system in the BIRDS Bus. 
 
 ### Attitude Determination and Control System (ADCS)
 The ADCS controls the satellite's orientation and stability, ensuring that it maintains the correct position for mission operations.
 
-### [Communications (COM)]({{site.url}}/overview/birds/com-page.html)
+### [Communications (COM)]({{site.url}}/com/)
 The COM subsystem oversees data transmission to and from the satellite. It uses UHF/VHF communication for reliable telemetry and command handling. The [antenna board]({{site.url}}/overview/birds/antenna-page.html) carries the COM, APRS and GPS antennas as well as their release mechanism.
 
 <center>  
@@ -65,7 +65,7 @@ The structure provides the physical framework for the satellite, ensuring durabi
 ### **Payload**
 The payload includes mission-specific instruments or sensors, enabling the satellite to perform its primary objectives.
 
-### [Backplane Board (BPB)]({{site.url}}/overview/birds/bpb-page.html)
+### [Backplane Board (BPB)]
 The BPB integrates all subsystems, allowing the transfer of power and data between them. It serves as the central hub for the satellite's electrical and data connections.
 <center>         
   <p>

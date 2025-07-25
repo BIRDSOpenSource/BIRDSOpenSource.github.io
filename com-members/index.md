@@ -2,7 +2,7 @@
 title: For COM Team Members
 has_children: true
 nav_order: 6
-permalink: 'com/'
+permalink: '/com/'
 layout: default
 lang: en
 nav_fold: false
