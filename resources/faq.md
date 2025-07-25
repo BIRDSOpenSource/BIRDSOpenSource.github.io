@@ -1133,3 +1133,64 @@ Licensing
 
 Awaiting follow-up for frequency application and countermeasures.
 
+---
+
+### **121.** I have heard that the integrated development environment for handling ground station programs is Visual Studio. Are you using the free version, Visual Studio Community, or the paid version, Visual Studio Professional?
+
+{: .label}
+Ground Station
+
+It seems that development can be done without any issues using Visual Studio Community.
+
+---
+
+### **122.** When checking commands, I heard that you are testing by placing the antenna inside an aluminum box. Could you share which box you purchased, or provide a photo if available?
+
+{: .label}
+integration-test
+
+---
+
+### **123.** The BIRDS platform states that "ResetPIC and COMPIC communicate via UART." In fact, the circuit diagram for BIRDS5 also shows a UART connection between the two PICs. However, the UART for COMPIC is not defined in ResetPIC, and the code does not include any communication between ResetPIC and COMPIC via UART. Could you please explain this difference?
+
+{: .label}
+obc
+
+Regarding the UART between COM PIC and Reset PIC:
+First, the UART communication between COM PIC and Reset PIC is just included as a feature. It is not used in the current design. Therefore, while it is marked as UART in the circuit diagram, it is not included in the program.
+
+Regarding the definition of RB6 and RB7 as UART lines in Reset PIC:
+The purpose of defining RB6 and RB7 as UART lines is likely to enable direct debugging and program verification during the construction of the Reset PIC program. When performing debugging through the access ports on the FAB, it is necessary to go through the Main PIC. However, in case of debugging failure, it is unclear whether the issue is with the Main PIC or with the Reset PIC not functioning as expected. Therefore, it is believed that the goal was to allow data to be sent directly from the Reset PIC to the PC.
+
+---
+
+### **124.** Regarding the battery heater section: Is my understanding correct that RD0 = 1 turns the battery heater ON and RD0 = 0 turns it OFF?
+Does the voltage output from the temperature sensor inside the battery box decrease as the temperature increases?
+
+{: .label}
+obc
+
+
+---
+
+### **125.** As seen in the attached schematic, the DEPSW4 signal is interrupted at J15 within the FAB, and it seems that the signal does not reach Q9 and Q10. Is this intentional, or did Kyushu Institute of Technology later solder connections to ensure continuity?
+
+{: .label}
+obc
+
+This is part of the specification.
+A jumper pin has been installed.
+Reference:
+*87\_BIRDS BUS Board\_Jumper Pin.png*
+
+---
+
+### **126.** How were software updates and patches handled for BIRDS satellites after launch?
+
+{: .label}
+software
+
+Software updates were not possible after launch due to hardware constraints. Therefore, robust testing of the satellite software was performed prior to launch to ensure reliability and minimize potential issues in orbit.
+
+
+
