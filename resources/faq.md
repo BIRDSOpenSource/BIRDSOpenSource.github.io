@@ -1328,6 +1328,59 @@ Refer to:
 
 ---
 
+### 141. In designing the mission circuit of the Birds system, what are the conditions for the supplied voltages and signal inputs and outputs?
+{: .label}
+eps
+
+Depending on the design of the BUS system, the BIRDS satellite can use 3.3 V, 5 V and Battery line for the mission system, while the Battery line voltage will vary between 3.8 V and 4.2 V, depending on the satellite. The maximum current value that can be used by the mission system depends on the design of the satellite.
+
+### 142. What is the degree of fluctuation in the 5V power bus?
+{: .label}
+eps
+
+There is no specific information available about fluctuations in the 5V power bus.
+
+### 143. Does the mission board need an A/D converter for digital output? Is an analogue output of the measurement results sufficient?
+{: .label}
+eps
+
+In the case of BIRDS, two methods are used: digital data is sent from the Mission system via UART or to the Flash Memory on the OBC board using SPI.
+
+### 144. How is the discharge test conducted, and are there other ground tests necessary for the EPS system?
+{: .label}
+eps
+
+The battery is the most critical component for satellite safety. Testing the battery and verifying the operation of the deployment switch after satellite assembly are key ground tests for the EPS system. However, safety reviews may result in changes, so specific test items need to be confirmed in consultation with JAXA. Attached are materials summarizing the types and flow of battery tests conducted at Kyushu University.
+
+### 145. How is the electronic load used in the cell screening test? Should CV mode be used to prevent overcharging above 1.6V? Why does the voltage in the attached graph change above 1.6V when using CV mode?
+{: .label}
+eps
+
+Battery screening requires an electronic load, multi-range power supply, data acquisition system, LabVIEW-based test control software, and test batteries. The electronic load is used in CC mode during battery discharge and is controlled by LabVIEW software. The program also controls the DC power supply. For NiMH batteries, the -dv/dt method is used to safely end charging, taking 10 minutes to detect full charge and stop. Screening tests at room temperature in CC mode are recommended. The maximum voltage can be controlled at 1.6V. Conduct charge/discharge tests at a rate of 1C.
+
+### 146. Was the digital conversion module of the DAQ used in the LabVIEW diagram for the battery screening test of BIRDS-III?
+{: .label}
+eps
+
+Instead of using a digital conversion module, the electronic load device was controlled via VISA communication from LabVIEW. This method was used in the past at Kyutech using Kikusui's electronic load device.
+
+### 147. What types of batteries were used in the BIRDS-III satellite, and how was their performance monitored?
+{: .label}
+eps
+
+The BIRDS-III satellite used lithium-ion batteries. The battery performance was monitored in orbit using telemetry data, which included voltage, current, and temperature measurements.
+
+### 148. Where can I find information about solar cells and batteries?
+{: .label}
+eps
+
+Check the BIRDS GitHub: https://github.com/BIRDSOpenSource
+
+### 149. What is a bypass diode for a solar panel, and how is inhibition handled for a solar cell with no bypass diode?
+{: .label}
+eps
+
+To prevent over-discharge, blocking diodes are considered on the solar cell side. While solar cells have built-in bypass diodes, these are not intended for the solar cell itself. The internal bypass diode is used when two solar cells are connected in series. For the lower solar cells, at least one external bypass diode must be attached to the panel board. In some panel boards, the direction of series connection is reversed, and internal bypass diodes cannot be used. In such cases, two bypass diodes must be attached to the panel board. External bypass diodes can be confirmed in the circuit diagrams of the panel boards for the BIRDS project.
 
 
 
