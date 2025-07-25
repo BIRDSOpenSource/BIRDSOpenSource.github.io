@@ -28,14 +28,14 @@ Building a satellite involves complex systems that need careful planning and int
 
 ```mermaid
 flowchart TD
-    A["Mission Planning\n(Objectives, Roles, Timeline)"] --> B["System Design\n(Subsystem Specs, Interface Definitions)"]
-    B --> C["Hardware Development\n(PCBs, Integration)"]
-    B --> D["Software Development\n(OBC, COM, EPS Logic)"]
-    C --> E["Testing\n(Unit, Functional, Integration)"]
+    A["Mission Planning (Objectives, Roles, Timeline)"] --> B["System Design (Subsystem Specs, Interface Definitions)"]
+    B --> C["Hardware Development (PCBs, Integration)"]
+    B --> D["Software Development (OBC, COM, EPS Logic)"]
+    C --> E["Testing (Unit, Functional, Integration)"]
     D --> E
-    E --> F["Simulation & Verification\n(In-lab Testing, Ground Station Link)"]
-    F --> G["Launch Preparation\n(Docs, Reviews, Approval)"]
-    G --> H["Launch & Operations\n(Data Collection, Monitoring)"]
+    E --> F["Simulation & Verification (In-lab Testing, Ground Station Link)"]
+    F --> G["Launch Preparation (Docs, Reviews, Approval)"]
+    G --> H["Launch & Operations (Data Collection, Monitoring)"]
 
     style A fill:#c3e5ff,stroke:#005596,stroke-width:2px
     style B fill:#e8f5ff,stroke:#0077b6,stroke-width:1.5px

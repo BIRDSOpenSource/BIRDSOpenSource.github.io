@@ -51,7 +51,7 @@ flowchart TD
     REG --> BAT[Batteries]
     REG --> DIST[Power Distribution Module]
     BAT --> DIST
-    DIST --> LOADS[Subsystem Loads 'OBC, COM, Sensors']
+    DIST --> LOADS["Subsystem Loads (OBC, COM, Sensors)"]
 ```
 
 The typical EPS architecture includes:
