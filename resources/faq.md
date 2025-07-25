@@ -1192,5 +1192,142 @@ software
 
 Software updates were not possible after launch due to hardware constraints. Therefore, robust testing of the satellite software was performed prior to launch to ensure reliability and minimize potential issues in orbit.
 
+---
+
+### 127. There is a suggestion that it might be good to set multiple uplink detection codes. If it is possible to set multiple uplink detection codes, I would like to know how to control and differentiate between them. If you have any information regarding this, I would appreciate it.
+
+{: .label}
+com
+
+It is possible, but I believe the current setup is sufficient.
+
+---
+
+### 128. Regarding the wire connecting the antenna element to the SMA connector on the board’s back, what material was used? How was the wire connected to the element? Was the element’s surface processed (e.g., sanding)?
+
+{: .label}
+com
+
+The wiring was done using the leads of DIP resistors.
+The element surface was sanded with sandpaper. For connections, the resistor lead was routed from the board and temporarily fixed to a bolt, leaving a 2mm gap. The lead was wrapped 1.5 times clockwise around the bolt, which was then tightened.
+
+---
+
+### 129. For the PhotoMOS used in the nichrome wire heating circuit, what was the part number and how was it mounted?
+
+{: .label}
+com
+
+The part number is AQZ102. Although it is currently out of stock, this DIP component was modified by bending its leads for SMD mounting before assembly.
+[Digikey Product Page for AQZ102](https://www.digikey.jp/en/products/detail/panasonic-electric-works/AQZ102/1198086)
+
+---
+
+### 130. Are there any recommended processing companies for the antenna fixture?
+
+{: .label}
+com
+
+These were likely created in the Kyushu University workshop. Since it is not particularly difficult to process, you can also commission companies that manufacture metal structures.
+
+---
+
+### 131. For the antenna wire, should hole drilling be requested from Osaka Heat Treatment Co., Ltd., or should it be commissioned to another company?
+
+{: .label}
+com
+
+For BIRDS-4, only materials were purchased, and hole drilling was done in the laboratory. However, this process is labor-intensive and not recommended (wires often break). It's better to contact a company specializing in metal structure manufacturing.
+
+---
+
+### 132. Is outsourcing necessary for processing the nichrome wire into a coil, or can it be done in the university?
+
+{: .label}
+com
+
+Nichrome wire coil processing does not require outsourcing; it can be done in the laboratory.
+
+---
+
+### 133. What types of antennas were used for communication in the BIRDS project, and what were their specifications?
+
+{: .label}
+com
+
+The BIRDS satellites typically used monopole or dipole antennas for communication in the UHF and VHF frequency bands. Detailed specifications are available in the communications subsystem design document.
+
+---
+
+### 134. Adnics said the BIRDS project uses 180 mm cables, but it seems there is excess length. How was the excess cable stored?
+
+{: .label}
+com
+
+The excess coaxial cable was stored between the antenna board and the RAB.
+
+---
+
+### 135. How was the SMA cable routed from the COMM board to the antenna board? Was the cable fixed along the way?
+
+{: .label}
+com
+
+The SMA cable is soldered to the Addnics COMM board (UHF TRX). Normally, the cable is routed on the top side (+Z direction) of the board to the antenna board. The cable was taped to suppress vibrations. During final FM assembly, the SMA connector was torqued to 56 N·cm, and Araldite was applied to prevent loosening.
+
+---
+
+### 136. The element material is slippery and difficult to drill. How was positioning handled?
+
+{: .label}
+com
+
+Positioning was done by scribing. Wood was placed underneath the antenna during drilling. A standard drill press was used with a sharp, rust-free drill bit. Fixtures and templates were created for precision.
+
+---
+
+### 137. What precautions are taken regarding uplink encryption and disclosure of uplink frequency in the BIRDS satellites?
+
+{: .label}
+com
+
+Uplink frequencies are not disclosed externally and are displayed as placeholders like "430.XXX \[MHz]" in internal docs. Although encryption of commands is technically used, fully encrypted communication is not permitted in amateur radio bands. Pseudo-encryption is used and accepted during frequency coordination.
+
+---
+
+### 138. I would like to request the Excel file or guide related to the BIRDS link budget calculation if available.
+
+{: .label}
+com
+
+The link budget Excel for BIRDS-5 is available. Input the frequency in row 3 and device sensitivity data in row 31.
+Reference: `119_120_121_BIRDS-5 LinkMargin.xlsx`
+
+---
+
+### 139. Is it acceptable to modify the BIRDS link budget Excel file to include the ground station’s 31 dB preamp?
+
+{: .label}
+com
+
+Yes. The preamp amplifies both signal and noise, so link margin improvement is about 3 dB. Adjust cable loss and noise temp in rows 29 and 30 respectively.
+Reference: `119_120_121_BIRDS-5 LinkMargin.xlsx`
+
+---
+
+### 140. How should I calculate the noise temperature from the preamp’s noise figure (NF), and what value should be input in the Excel file?
+
+{: .label}
+com
+
+For NF of 0.2 dB, the noise temp is \~14 K. Use 290K as room temperature. The Excel sheet expects Kelvin in row 30.
+Refer to:
+
+* [Pasternack Noise Temp Calculator](https://www.pasternack.jp/t-calculatornoisefigure)
+* [Galactic Noise Reference (JSTAGE)](https://www.jstage.jst.go.jp/article/nictkenkyuhoukoku/6/22/6_23/_pdf)
+
+---
+
+
 
 
