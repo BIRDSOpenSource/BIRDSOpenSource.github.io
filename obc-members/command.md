@@ -8,8 +8,6 @@ layout: default
 lang: en
 ---
 
----
-
 ## 🛰️ Mission Command List Guide 
 
 This guide explains how to structure and use UART commands sent to the COM PIC, which forwards them to the Main PIC. These commands are used for simulation and control during testing. While the actual command is **14 bytes**, the simulator expects **25 bytes**.
@@ -87,5 +85,3 @@ To allow downloading of the `.c` file (e.g., command handler or reset script) fr
 * CRC must be valid to accept command
 
 ---
-
-Let me know if you want a Markdown or downloadable PDF version of this guide—or help with the actual `.c` file content.
