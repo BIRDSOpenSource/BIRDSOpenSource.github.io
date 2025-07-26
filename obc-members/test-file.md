@@ -35,12 +35,21 @@ This file helps catch software logic issues before they affect the satellite har
 
 | Component               | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
-| `test_obc_main.c`      | Main test runner that initializes the OBC environment and simulates execution |
-| `mock_uart.c/h`        | Simulated UART communication layer with buffers to emulate data exchange     |
-| `mock_flash.c/h`       | Emulated flash memory to verify write and read operations                    |
-| `test_commands.c/h`    | Functions for creating and dispatching test commands                         |
-| `assert_utils.c/h`     | Custom assert functions for validating results                               |
-| `test_data/test_cases.txt` | List of binary or ASCII commands for test input                             |
+| [`test_obc_main.c`](/assets/code/test_obc_main.c)      | Main test runner that initializes the OBC environment and simulates execution |
+| [`mock_uart.c`  ](/assets/code/mock_uart.c)      | Simulated UART communication layer with buffers to emulate data exchange     |
+| [`mock_uart.h`  ](/assets/code/mock_uart.h)      | Simulated UART communication layer with buffers to emulate data exchange     |
+| [`mock_flash.c`  ](/assets/code/mock_flash.c)     | Emulated flash memory to verify write and read operations                    |
+| [`mock_flash.h`  ](/assets/code/mock_flash.h)     | Emulated flash memory to verify write and read operations                    |
+| [`test_commands.c` ](/assets/code/test_commands.c)   | Functions for creating and dispatching test commands                         |
+| [`test_commands.h` ](/assets/code/test_commands.h)   | Functions for creating and dispatching test commands                         |
+| [`assert_utils.c`  ](/assets/code/assert_utils.c)   | Custom assert functions for validating results                               |
+| [`assert_utils.h`  ](/assets/code/assert_utils.h)   | Custom assert functions for validating results                               |
+| `test_data/test_cases.txt`| List of binary or ASCII commands for test input                          |
+
+## Download Test File
+
+To access the test file used for MAIN PIC validation, click the links above.
+
 
 ---
 
