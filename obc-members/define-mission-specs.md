@@ -1,6 +1,6 @@
 ---
-title: How to Define Mission Specifications
-# nav_order: 2
+title: How to Define Mission Specifications (Template Included)
+nav_order: 2
 parent: For OBC Team Members
 layout: default
 lang: en
@@ -8,6 +8,9 @@ nav_exclude: true
 ---
 
 # How to Define Mission Specifications (Template Included)
+
+**Estimated time to complete:** 7 minutes
+{: .label}
 
 > After reading this guide you can find the [accompanying template to fill here](https://birds-project.com/open-source/pdf/template_mission-req.docx) and an [example document here](https://birds-project.com/open-source/pdf/example_mission-req.docx).
 >

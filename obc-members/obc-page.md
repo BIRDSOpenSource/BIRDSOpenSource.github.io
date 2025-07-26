@@ -2,6 +2,7 @@
 title: On Board Computer Board
 parent: For OBC Team Members
 nav_order: 2
+# permalink: "/obc/overview"
 layout: default
 lang: en
 ---
@@ -14,7 +15,17 @@ This article explains the basics of the On-Board Computer (OBC) and how it is de
 
 The On-Board Computer (OBC) is the central processing unit of a CubeSat, responsible for executing commands, managing data, and ensuring the proper functioning of all subsystems. In the BIRDS bus, the OBC is designed to handle tasks such as telemetry collection, command execution, power management, and communication with ground stations. The PIC microcontroller, specifically selected for its robustness and efficiency, serves as the core of the OBC, enabling it to perform these tasks effectively in the harsh environment of space.
 
-This is the OBC used in BIRDS 3 and 4. It has three microcontrollers: Main, Reset and Com, all 8 bit PICs. The Main PIC is a PIC18F67J94 and the Reset and Com PICs are PIC16F1789. They are connected as showed in the following diagram:
+This is the OBC used in BIRDS 3 and 4. It has three microcontrollers: Main, Reset and Com, all 8 bit PICs. The Main PIC is a PIC18F67J94 and the Reset and Com PICs are PIC16F1789. 
+
+| Microcontroller   | PIC Model    |  
+|-------------------|--------------|
+| Main              | PIC18F67J94  | 
+| Com               | PIC18F67J94  | 
+| Reset             | PIC16F1789   | 
+| Start**           | PIC16F1789   | 
+
+**The Start PIC (PIC16F1789) was introduced in BIRDS-5 as a redundancy for the Reset PIC. 
+All microcontrollers are connected in BIRDS-3 OBC board as shown in the following diagram:
 
 --- 
 
@@ -25,9 +36,9 @@ This is the OBC used in BIRDS 3 and 4. It has three microcontrollers: Main, Rese
 
 All PICs (including the one in the FAB) are connected to the Main PIC through UART. The Main PIC is in charge of mission execution (connected through UART, SPI, and general IO), voltage regulation, and coordinating with the Com PIC when sending and receiving messages. The Reset PIC acts as a dedicated watchdog, listening for answers from the other PICs and resetting them if needed. Finally, the Com PIC is in charge of managing the radio transceiver. This division might seem unnecessary to a point; however, it allows easier distribution of work for the team working on a satellite, especially since this bus is meant for didactic use.
 
-An in-depth explanation of the functions of this board can be found in the general documentation repo, [***here***](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation).
+An in-depth explanation of the functions of this board can be found in the general documentation repository, [***here***](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation).
 
-For the documentation and files related to the OBC itself, please see [**this repo**](https://github.com/BIRDSOpenSource/BIRDS3-OBC) for **BIRDS3** and [**this repo**](https://github.com/BIRDSOpenSource/BIRDS4-OBC) for BIRDS4. Inside, you can find the schematic (not the PCB since it's a proprietary design from Sagami Tsushin), firmware for the three microcontrollers, and other files.
+For the documentation and files related to the OBC itself, please see [**this repository**](https://github.com/BIRDSOpenSource/BIRDS3-OBC) for **BIRDS3** and [**this repository**](https://github.com/BIRDSOpenSource/BIRDS4-OBC) for BIRDS4. Inside, you can find the schematic (not the PCB since it's a proprietary design from Sagami Tsushin), firmware for the three microcontrollers, and other files.
 
 If you want to purchase the commercial version of FAB/OBC/EPS, please contact SAGAMI Electronics Industry Ltd.  
 The contact address is **takei@sagami-net.co.jp**.
@@ -163,13 +174,11 @@ If you would like to dive deeper or start implementing the OBC for your CubeSat,
 By understanding the role and design of the OBC in the BIRDS bus, you can effectively implement this critical subsystem in your CubeSat mission.
 
 
-
-
 In short, all PICs (including the one in the FAB) are connected to the main PIC through UART. The Main PIC is in charge of the mission execution (connected through UART, SPI and general IO), voltage regulation and coordinating with the Com PIC when sending and receiving messages. The Reset PIC acts as a dedicated watchdog, listening for answers from the other PICs and resetting them if needed. Finally, the Com PIC is in charge of managing the radio transceiver. This division might seem unnecessary to a point, however it allows easier distribution of work for the team working on a satellite, specially since this bus is meant for didactic use.
 
-An in depth explanation of the functions of this board can be found in the general documentation repo, [***here***](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation).
+An in depth explanation of the functions of this board can be found in the general documentation repository, [***here***](https://github.com/BIRDSOpenSource/BIRDS-GeneralDocumentation).
 
-For the documentation and files related to the OBC itself, please see [**this repo**](https://github.com/BIRDSOpenSource/BIRDS3-OBC) for **BIRDS3** and [**this repo**](https://github.com/BIRDSOpenSource/BIRDS4-OBC) for BIRDS4. Inside you can find the schematic (not the PCB since it's a proprietary design from Sagami Tsushin), firmware for the three microcontrollers and other files.
+For the documentation and files related to the OBC itself, please see [**this repository**](https://github.com/BIRDSOpenSource/BIRDS3-OBC) for **BIRDS3** and [**this repository**](https://github.com/BIRDSOpenSource/BIRDS4-OBC) for BIRDS4. Inside you can find the schematic (not the PCB since it's a proprietary design from Sagami Tsushin), firmware for the three microcontrollers and other files.
 
 If you want to purchase the commercial version of FAB/OBC/EPS, please contact SAGAMI Electronics Industry Ltd.
 The contact address is takei@sagami-net.co.jp

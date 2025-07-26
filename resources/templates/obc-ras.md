@@ -1,13 +1,13 @@
 ---
-title: How to make a requirement allocation sheet
-# nav_order: 
+title: How to make a requirement allocation sheet (Template Included)
+nav_order: 3
 parent: For OBC Team Members
 layout: default
 lang: en
 nav_exclude: true
 ---
 
-# How to Create a Requirements Allocation Sheet
+# How to Create a Requirements Allocation Sheet (Template Included)
 
 ## Overview
 
@@ -20,6 +20,21 @@ This guide explains how to:
 4. Choose appropriate **Verification Methods (VMs)**.
 
 ## Step 1: Define System Requirements (SRs)
+
+📋 Define All Requirements
+Before diving into hardware or firmware development, it’s essential to clearly define your mission’s technical and operational requirements. This foundational step ensures all subsequent design and development activities are aligned with mission goals.
+
+Key areas to specify include:
+
+- Mission objectives and timeline
+- Data throughput, storage, and communication needs
+- Power budget and thermal constraints
+- Ground station compatibility
+- Fault tolerance and reset logic
+- Subsystem interfaces and integration parameters
+
+
+> 📌 Defining clear and traceable requirements upfront will guide decisions across hardware selection, firmware structure, and testing phases.
 
 **System Requirements (SRs)** describe what the CubeSat system must accomplish at a high level. These requirements originate from the mission objectives and constraints.  
 
