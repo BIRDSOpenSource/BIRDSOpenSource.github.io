@@ -3,7 +3,7 @@ title: Reset & Start PIC
 parent: For OBC Team Members
 nav_order: 5
 layout: default
-nav_exclude: true
+# nav_exclude: true
 lang: en
 ---
 
