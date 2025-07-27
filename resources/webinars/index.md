@@ -13,20 +13,32 @@ description: "Join monthly webinars to learn about CubeSat engineering, missions
 Join our monthly webinars and connect with engineers, researchers, and educators working on lean satellite development and open-source CubeSat technology.
 ---
 ## 📅 Upcoming Webinar
-
-<div class="border-2 border-[#005596] bg-[#eaf5fc] p-6 rounded-lg shadow-sm mb-12">
-  <h2 class="text-xl font-semibold mb-2">BIRDS Open Source Updates & Research Insights</h2>
-  <span class="text-gray-600 text-sm block mb-4">June 11, 2025</span>
+### Overview of the BIRDS Satellite Communication Subsystem, Design of a Low-Cost UHF Transceiver, and Proposal for a Simplified OBC Architecture
+  <span class="text-gray-600 text-sm block mb-4">6th August(Wed) 22:00(JST)</span>
   <p class="mb-4">
-    Husseinat Etti-Balogun presents an update on recent improvements to the BIRDS Open Source community pages and documentation website, highlighting new features and navigation aids designed to support users and contributors. A live demonstration will showcase how users can now more easily find information, contribute, and engage with the project’s resources.
+    Tharindu Dayarathna presents an overview of the BIRDS UHF communication system, including uplink, telemetry, and CW beacon functions. It will explain packet and CW formats, and introduce a new low-cost UHF transceiver with system design and integration details. The session concludes with updates on the EPS/OBC PCB layout and a simplified OBC architecture that reduces microcontroller usage.
   </p>
-  <a href="https://lean-sat.org/opensource/" class="text-blue-700 underline">Register Now →</a>
-</div>
+  <div id="subscribe" class="bg-white py-3 px-2 text-center border border-gray-200 rounded mt-12">
+    <h3 class="text-2xl font-bold mb-4">📬 Stay in the loop</h3>
+    <p class="mb-6 text-gray-700">Get notified when a new webinar is announced.</p>
+      <a href="https://lean-sat.org/opensource/" target="_blank" rel="noopener"
+        class="btn bg-[#e6e1e7] text-white px-6 py-2 rounded hover:bg-[#003f73] transition inline-block">
+        Join Monthly Webinars
+      </a>
+  </div>
 
 ---
 ## 🎥 Past Webinars
-
 <div style="display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; background-color: #005596; box-shadow: 0 2px 5px rgba(0,0,0,0.08);">
+    <a href="{{site.url}}/resources/webinars/webinar-22" style="text-decoration: none; color: inherit; display: block;">
+      <h3 style="margin-top: 0; font-size: 1.1rem;">BIRDS Open Source Updates & Research Insights</h3>
+      <span style="font-size: 0.9rem; color: #e6e1e7;">June 11, 2025</span>
+      <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #e6e1e7;">
+        Husseinat Etti-Balogun presents an update on recent improvements to the BIRDS Open Source community pages and documentation website, highlighting new features and navigation aids designed to support users and contributors. A live demonstration will showcase how users can now more easily find information, contribute, and engage with the project’s resources.
+      </p>
+    </a>
+  </div>
 
   <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; background-color: #005596; box-shadow: 0 2px 5px rgba(73, 72, 72, 0.08);">
     <a href="{{site.url}}/resources/webinars/webinar-25.html" style="text-decoration: none; color: inherit; display: block;">
@@ -58,28 +70,5 @@ Join our monthly webinars and connect with engineers, researchers, and educators
     </a>
   </div>
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; background-color: #005596; box-shadow: 0 2px 5px rgba(0,0,0,0.08);">
-    <a href="{{site.url}}/resources/webinars/webinar-22" style="text-decoration: none; color: inherit; display: block;">
-      <h3 style="margin-top: 0; font-size: 1.1rem;">KASHIWA initial operation report</h3>
-      <span style="font-size: 0.9rem; color: #e6e1e7;">June 12, 2024</span>
-      <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #e6e1e7;">
-        “KASHIWA” was deployed from ISS on 11th Apr 2024. Until receiving a signal, it took one week. In this webinar, HK, photos, APRS of “KASHIWA” will be presented.
-      </p>
-    </a>
-  </div>
 </div>
 
----
-
-<div id="subscribe" class="bg-white py-10 px-4 text-center border border-gray-200 rounded mt-12">
-  <h3 class="text-2xl font-bold mb-4">📬 Stay in the loop</h3>
-  <p class="mb-6 text-gray-700">Get notified when a new webinar is announced.</p>
-
-  <form action="https://lean-sat.org/opensource/" method="POST" class="flex flex-col sm:flex-row gap-4 justify-center max-w-xl mx-auto">
-    <input type="email" name="email" required placeholder="your@email.com"
-           class="px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400 w-full sm:w-auto" />
-    <button type="submit" class="bg-[#005596] text-white px-6 py-2 rounded hover:bg-[#003f73] transition">
-      Subscribe
-    </button>
-  </form>
-</div>
