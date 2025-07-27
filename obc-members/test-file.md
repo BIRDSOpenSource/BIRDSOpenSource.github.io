@@ -35,16 +35,16 @@ This file helps catch software logic issues before they affect the satellite har
 
 | Component               | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
-| [`test_obc_main.c`](/assets/code/test_obc_main.c)      | Main test runner that initializes the OBC environment and simulates execution |
-| [`mock_uart.c`  ](/assets/code/mock_uart.c)      | Simulated UART communication layer with buffers to emulate data exchange     |
-| [`mock_uart.h`  ](/assets/code/mock_uart.h)      | Simulated UART communication layer with buffers to emulate data exchange     |
-| `mock_flash.c`     | Emulated flash memory to verify write and read operations                    |
-| `mock_flash.h`     | Emulated flash memory to verify write and read operations                    |
-| [`test_commands.c` ](/assets/code/test_commands.c)   | Functions for creating and dispatching test commands                         |
-| [`test_commands.h` ](/assets/code/test_commands.h)   | Functions for creating and dispatching test commands                         |
-| [`assert_utils.c`  ](/assets/code/assert_utils.c)   | Custom assert functions for validating results                               |
-| [`assert_utils.h`  ](/assets/code/assert_utils.h)   | Custom assert functions for validating results                               |
-| `test_data/test_cases.txt`| List of binary or ASCII commands for test input                          |
+| <a href="/assets/code/test_obc_main.c" download>test_obc_main.c</a> | Main test runner that initializes the OBC environment and simulates execution |
+| <a href="/assets/code/mock_uart.c" download>mock_uart.c</a>         | Simulated UART communication layer with buffers to emulate data exchange     |
+| <a href="/assets/code/mock_uart.h" download>mock_uart.h</a>         | Simulated UART communication layer with buffers to emulate data exchange     |
+| `mock_flash.c`          | Emulated flash memory to verify write and read operations                    |
+| `mock_flash.h`          | Emulated flash memory to verify write and read operations                    |
+| <a href="/assets/code/test_commands.c" download>test_commands.c</a> | Functions for creating and dispatching test commands                         |
+| <a href="/assets/code/test_commands.h" download>test_commands.h</a> | Functions for creating and dispatching test commands                         |
+| <a href="/assets/code/assert_utils.c" download>assert_utils.c</a>   | Custom assert functions for validating results                               |
+| <a href="/assets/code/assert_utils.h" download>assert_utils.h</a>   | Custom assert functions for validating results                               |
+| <a href="/assets/code/test_data/test_cases.txt" download>test_cases.txt</a> | List of binary or ASCII commands for test input                          |
 
 ## Download Test File
 

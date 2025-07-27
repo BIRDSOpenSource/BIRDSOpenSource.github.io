@@ -64,18 +64,6 @@ Use CRC-16-CCITT (or your protocol-specific CRC) on the first 12 bytes (`[0]` to
 
 ---
 
-### 📁 Add File Download
-
-To allow downloading of the `.c` file (e.g., command handler or reset script) from your website:
-
-```html
-<a href="/files/reset_pic_command.c" download>Download Reset PIC Command Code</a>
-```
-
-> ✅ Ensure the file `reset_pic_command.c` is stored in the correct `/files/` directory on your web server.
-
----
-
 ### 📘 Summary
 
 * Actual command = 14 bytes (Header + Payload + CRC)
@@ -84,4 +72,3 @@ To allow downloading of the `.c` file (e.g., command handler or reset script) fr
 * Command ID1 and payload define the operation
 * CRC must be valid to accept command
 
----
