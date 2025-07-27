@@ -171,4 +171,4 @@ Join communities that announce launch calls:
 
 ---
 
-[🛰️ Back to Getting Started]({{site.url}}/getting-started/)
+[🛰️ Back to Getting Started]({{site.url}}/get-started/)
