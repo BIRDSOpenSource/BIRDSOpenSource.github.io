@@ -40,9 +40,9 @@ open source
 
 <!-- Download Presentation -->
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #21 presentation (Dragonfly: Unveiling the BIRDS-X 2U CubeSat, its Advancements and Flight Readiness.) Apr 10, 2024
- ](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_21_Jorge.pdf){: .btn .btn-outline .text-grey-dk-300}
+ ](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_21_Jorge.pdf){: .btn .btn-outline .text-grey-lt-000}
 [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #21 presentation (Developing a Versatile Plug-and-Play Software Solution for CubeSat Bus Systems: Insights from Expert Interviews) Apr 10, 2024
- ](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_21_Husseinat.pdf){: .btn .btn-outline .text-grey-dk-300}
+ ](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_21_Husseinat.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 <details markdown="block">
 <summary>Speaker Information</summary>

@@ -38,8 +38,8 @@ safety review
 </div>
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #19 presentation (Simplified Safety Review Process for Cubesats utilizing BIRDS Bus by JAMSS) Dec 13, 2023](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_19_JAMSS.pdf){: .btn .btn-outline .text-grey-dk-300}
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #19 presentation (Simplified Safety Review Process for Cubesats utilizing BIRDS Bus by JAXA) Dec 13, 2023](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_19_JAXA.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #19 presentation (Simplified Safety Review Process for Cubesats utilizing BIRDS Bus by JAMSS) Dec 13, 2023](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_19_JAMSS.pdf){: .btn .btn-outline .text-grey-lt-000}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #19 presentation (Simplified Safety Review Process for Cubesats utilizing BIRDS Bus by JAXA) Dec 13, 2023](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_19_JAXA.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 
 <details markdown="block">

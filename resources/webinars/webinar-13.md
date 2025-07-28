@@ -36,7 +36,7 @@ birds-x
 
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #13 presentation (BIRDS-X Project Overview) Feb 08, 2023](https://birds-project.com/open-source/pdf/20230208_Birds-X_project_OpenSourceWebinar.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #13 presentation (BIRDS-X Project Overview) Feb 08, 2023](https://birds-project.com/open-source/pdf/20230208_Birds-X_project_OpenSourceWebinar.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 
 <details markdown="block">

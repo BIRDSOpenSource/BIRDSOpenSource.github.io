@@ -38,7 +38,7 @@ microorbiter-1
 </div>
 
 <!-- Download Presentation  -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #23 presentation (MicroOrbiter-1 Operation Report) July 31, 2024](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_23.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #23 presentation (MicroOrbiter-1 Operation Report) July 31, 2024](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_23.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 
 <details markdown="block">

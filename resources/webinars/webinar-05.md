@@ -32,6 +32,7 @@ BIRDS-5
 
 <details markdown="block">
 <summary>Speaker Information</summary>
+
 1. Victor Mukungunugwa in Kyutech (from Zimbabwe).  
 
 2. Otani Yukihisa, an OBC and BPB member of the BIRDS-5 project.  
@@ -43,6 +44,7 @@ BIRDS-5
 
 <details markdown="block">
 <summary>Details</summary>
+
 * **Victor Mukungunugwa** talked about BIRDS-5 in his presentation as the project manager.
 
 * **Otani Yukihisa** discussed his responsibilities as an OBC and BPB member of the BIRDS-5 project.

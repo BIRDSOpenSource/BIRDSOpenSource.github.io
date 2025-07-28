@@ -39,7 +39,7 @@ engagement
 </div>
 
 <!-- Download Presentation  -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #26 presentation (BIRDS Open Source Updates & Research Insights) Jun 11, 2025](https://birds-project.com/open-source/pdf/birds_bus_opensource_webinar_26.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #26 presentation (BIRDS Open Source Updates & Research Insights) Jun 11, 2025](https://birds-project.com/open-source/pdf/birds_bus_opensource_webinar_26.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 <details markdown="block">
 <summary>Speaker Information</summary>

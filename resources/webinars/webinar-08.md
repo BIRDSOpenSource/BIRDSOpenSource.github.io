@@ -33,19 +33,20 @@ Backplane
 
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #8 presentation (Backplane) July 13, 2022](https://birds-project.com/open-source/pdf/20220713_BIRDS_OpenSource_Backplane.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #8 presentation (Backplane) July 13, 2022](https://birds-project.com/open-source/pdf/20220713_BIRDS_OpenSource_Backplane.pdf){: .btn .btn-outline .text-grey-lt-000}
 
+>Note: The presentation starts at 09:15
 
 <details markdown="block">
 <summary>Speaker Information</summary>
+
 Marloun Sejera in Kyushu Institute of Technology (Kyutech)
 </details>
 
 <details markdown="block">
 <summary>Details</summary>
-**Marloun Sejera** discussed the BIRDS 1U standard Bus in his presentation titled "Configurable Backplane"
 
-Note: The presentation starts at 09:15
+**Marloun Sejera** discussed the BIRDS 1U standard Bus in his presentation titled "Configurable Backplane"
 </details>
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

@@ -42,7 +42,7 @@ operations
 
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #17 presentation (Maya CubeSats Catch Up: An Overview of Maya-7 and Operations Status of Maya-5 & Maya-6) Sep 13, 2023](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_17.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #17 presentation (Maya CubeSats Catch Up: An Overview of Maya-7 and Operations Status of Maya-5 & Maya-6) Sep 13, 2023](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_17.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 
 <details markdown="block">

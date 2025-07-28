@@ -32,7 +32,7 @@ lessons learned
 </div>
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #20 presentation (The Any% Method. A Lessons Learned on Designing and Executing LeanSatMissions Quickly and Affordably ) Feb 14, 2024 ](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_20.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #20 presentation (The Any% Method. A Lessons Learned on Designing and Executing LeanSatMissions Quickly and Affordably ) Feb 14, 2024 ](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_20.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 <details markdown="block">
 <summary>Speaker Information</summary>

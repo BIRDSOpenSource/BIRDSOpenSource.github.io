@@ -36,7 +36,7 @@ kitsune
 
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #11 presentation (KITSUNE Satellite Bus System Overview) Oct 12, 2022](https://birds-project.com/open-source/pdf/20221012_BIRDS_BUS_Open-Source_Webinar_KITSUNE_overview.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #11 presentation (KITSUNE Satellite Bus System Overview) Oct 12, 2022](https://birds-project.com/open-source/pdf/20221012_BIRDS_BUS_Open-Source_Webinar_KITSUNE_overview.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 
 <details markdown="block">

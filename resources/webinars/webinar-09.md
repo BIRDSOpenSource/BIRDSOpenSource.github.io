@@ -39,19 +39,18 @@ obc
 
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #9 presentation (BIRDS5 OBC) Aug 10, 2022](https://birds-project.com/open-source/pdf/20220810_BIRDS_Open_Source_Webinar-OBC.pdf){: .btn .btn-outline .text-grey-dk-300}
-
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #9 presentation (BIRDS5 OBC) Aug 10, 2022](https://birds-project.com/open-source/pdf/20220810_BIRDS_Open_Source_Webinar-OBC.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-Keeman Chatar in Kyushu Institute of Technology
 
+Keenan Chatar in Kyushu Institute of Technology
 </details>
 
 <details markdown="block">
 <summary>Details</summary>
-Keeman Chatar gave a detailed prsentation on the OBC and the satellite operation of the BIRDS-5 project, in his presenta6tion titled **"BIRDS-5 OBC"**
 
+Keeman Chatar gave a detailed prsentation on the OBC and the satellite operation of the BIRDS-5 project, in his presenta6tion titled **"BIRDS-5 OBC"**
 </details>
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

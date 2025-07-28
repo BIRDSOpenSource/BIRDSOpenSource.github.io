@@ -36,7 +36,7 @@ guaranisat-2
 
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #16 presentation (An Overview of the GuaraniSat 2 Project) July 12, 2023](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_16.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #16 presentation (An Overview of the GuaraniSat 2 Project) July 12, 2023](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_16.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 
 <details markdown="block">

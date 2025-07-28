@@ -40,7 +40,7 @@ kashiwa
 
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #22 presentation (KASHIWA initial operation report) June 12, 2024](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_22.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #22 presentation (KASHIWA initial operation report) June 12, 2024](https://birds-project.com/open-source/pdf/BIRDS_BUS_OpensourceWebinar_22.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 
 <details markdown="block">

@@ -38,7 +38,7 @@ curtis
 </div>
 
 <!-- Download Presentation  -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #24 presentation (Development and Operational Insights from the CURTIS CubeSat) Oct 10, 2024](https://birds-project.com/open-source/pdf/birds_bus_opensource_webinar_24.pdf){: .btn .btn-outline .text-grey-dk-300}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #24 presentation (Development and Operational Insights from the CURTIS CubeSat) Oct 10, 2024](https://birds-project.com/open-source/pdf/birds_bus_opensource_webinar_24.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 
 <details markdown="block">

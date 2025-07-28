@@ -38,11 +38,10 @@ aprs
 <!-- Download Presentation -->
 ### No presentation files available for this webinar.
 
-<br>
+>Note: Video starts at 11 minutes.
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-
 
 Edgar Mujuni in Kyushu Institute of Technology (Kyutech)
 
@@ -56,7 +55,6 @@ Kudakwashe Jeje
 Automatic Packet Reporting System (APRS) was originally called Automatic Position Reporting System.  
 
 
-Note: Presentation starts at 11 minutes.
 </details>
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork, APRS
