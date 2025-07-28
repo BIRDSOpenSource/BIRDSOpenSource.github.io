@@ -51,8 +51,6 @@ Clark Sat-1
 2. Kent Nakazawa from ArkEdgeSpace 
 </details>
 
-Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
-
 <details markdown="block">
 <summary>Details</summary>
 * **Masanobu Tsuji** talked about the changes from BIRDS to the Clark Sat-1 project in his presentation titled "Outline of Clark Sat-1 and changed from BIRDS original design".
@@ -60,8 +58,6 @@ Keywords: International Collaboration, Project Management, Small Space Project, 
 * **Kent Nakazawa** discussed the hardware PCB changes from BIRDS to the Clark Sat-1 project.
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-06){: .btn .btn-purple }
-[Next]({{site.url}}/resources/webinars/webinar-08/){: .btn}
-
+**Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

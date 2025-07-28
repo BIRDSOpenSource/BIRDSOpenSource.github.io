@@ -45,11 +45,12 @@ kashiwa
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-2010 ISU SSP10 in Strasburg.
-2011 graduated master course from Cho-lab as OBC of HORYU1
-2011 to 2021 MELOS (Mitsubishi Electric Logistics system)
-Many satellite experiences such as ISS/GEO/LEO satellite system engineering.
-Also, LIB/RF export project management and business development.
+Tetsuro Harada CV <br>
+2010 ISU SSP10 in Strasburg. <br>
+2011 graduated master course from Cho-lab as OBC of HORYU1.<br>
+2011 to 2021 MELOS (Mitsubishi Electric Logistics system).<br>
+Many satellite experiences such as ISS/GEO/LEO satellite system engineering.<br>
+Also, LIB/RF export project management and business development.<br>
 2021 to current, Chiba Institute of technology(CIT) PERC as a researcher.
 </details>
 
@@ -59,12 +60,7 @@ Also, LIB/RF export project management and business development.
 this webinar, HK, photos, APRS of “KASHIWA” will be presented.
 </details>
 
-Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
-
-
-[Previous]({{site.url}}/resources/webinars/webinar-21/){: .btn .btn-purple }
-[Next]({{site.url}}/resources/webinars/webinar-23/){: .btn}
-
+**Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
 

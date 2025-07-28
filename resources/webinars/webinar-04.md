@@ -39,9 +39,9 @@ BIRDS-4
 </div>
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #4 presentation (Chiba Tech) March 12, 2022](XXX){: .btn .btn-outline .text-grey-dk-300}
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #4 presentation (BIRDS-4) March 12, 2022](XXX){: .btn .btn-outline .text-grey-dk-300}
+### No presentation files available for this webinar.
 
+<br>
 
 <details markdown="block">
 <summary>Speaker Information</summary>
@@ -67,9 +67,8 @@ Tetsuro Harada's presentation was titled: **YOMOGI: A BIRDS satellite**
 **Adolfo Jara** in Kyutech (from Paraguay) talked about changes from BIRDS-3 to BIRDS-4. His presentation title: "BIRDS-4 SAtellites: One Year Operation Results Utilizing the BIRDS Standardized Bus"
 
 </details>
+
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 
-[Previous]({{site.url}}//resources/webinars){: .btn .btn-purple }
-[Next]({{site.url}}/resources/webinars/webinar-05/){: .btn}
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

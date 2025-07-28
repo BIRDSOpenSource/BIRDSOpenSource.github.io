@@ -41,8 +41,6 @@ Backplane
 Marloun Sejera in Kyushu Institute of Technology (Kyutech)
 </details>
 
-Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
-
 <details markdown="block">
 <summary>Details</summary>
 **Marloun Sejera** discussed the BIRDS 1U standard Bus in his presentation titled "Configurable Backplane"
@@ -50,9 +48,7 @@ Keywords: International Collaboration, Project Management, Small Space Project, 
 Note: The presentation starts at 09:15
 </details>
 
-[Previous]({{site.url}}/resources/webinars/webinar-07/){: .btn .btn-purple }
-[Next]({{site.url}}/resources/webinars/webinar-09/){: .btn}
-
+**Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
 

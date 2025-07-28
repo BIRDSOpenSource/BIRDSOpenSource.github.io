@@ -36,24 +36,22 @@ aprs
 
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #10 presentation (APRS Mission in BIRDS Satellites) Sep 14, 2022](XXX){: .btn .btn-outline .text-grey-dk-300}
+### No presentation files available for this webinar.
 
+<br>
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-XXX  talked about XXX in his presentation titled "XXX".
+
 
 Edgar Mujuni in Kyushu Institute of Technology (Kyutech)
-
 
 Kudakwashe Jeje
 </details>
 
-Keywords: International Collaboration, Project Management, Small Space Project, Teamwork, APRS
-
 <details markdown="block">
 <summary>Details</summary>
-XXX  talked about XXX in his presentation titled "XXX".
+
 **Edgar Mujuni** gave in-depth explanations on the APRS in his presentation titled **"APRS MIssion in BIRDS satellite.""**
 Automatic Packet Reporting System (APRS) was originally called Automatic Position Reporting System.  
 
@@ -61,9 +59,7 @@ Automatic Packet Reporting System (APRS) was originally called Automatic Positio
 Note: Presentation starts at 11 minutes.
 </details>
 
-[Previous]({{site.url}}/resources/webinars/webinar-09/){: .btn .btn-purple }
-[Next]({{site.url}}/resources/webinars/webinar-11/){: .btn}
-
+**Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork, APRS
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
 

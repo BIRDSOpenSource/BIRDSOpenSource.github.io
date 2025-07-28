@@ -41,18 +41,17 @@ birds-x
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-XXX  talked about XXX in his presentation titled "XXX".
+
+
 </details>
 
-Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
 
 <details markdown="block">
 <summary>Details</summary>
-XXX  talked about XXX in his presentation titled "XXX".
+
+
 </details>
 
-[Previous]({{site.url}}/resources/webinars/webinar-12/){: .btn .btn-purple }
-[Next]({{site.url}}/resources/webinars/webinar-14/){: .btn}
-
+**Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

@@ -26,8 +26,9 @@ BIRDS-5
 
 
 <!-- Download Presentation -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #5 presentation (BIRDS-5) April 9, 2022](XXX){: .btn .btn-outline .text-grey-dk-300}
+### No presentation files available for this webinar.
 
+<br>
 
 <details markdown="block">
 <summary>Speaker Information</summary>
@@ -40,8 +41,6 @@ BIRDS-5
 4. Edgar Mujuni, a COM member.
 </details>
 
-Keywords: International collaboration, Project management, small space Project, teamwork, cubesat
-
 <details markdown="block">
 <summary>Details</summary>
 * **Victor Mukungunugwa** talked about BIRDS-5 in his presentation as the project manager.
@@ -53,8 +52,6 @@ Keywords: International collaboration, Project management, small space Project, 
 * **Edgar Mujuni** discussed his key roles as a COM member.
 </details>
 
-[Previous]({{site.url}}/resources/webinars/webinar-04/){: .btn .btn-purple }
-[Next]({{site.url}}/resources/webinars/webinar-06/){: .btn}
-
+**Keywords:**  International collaboration, Project management, small space Project, teamwork, cubesat
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

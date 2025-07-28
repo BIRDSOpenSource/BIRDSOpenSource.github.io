@@ -44,46 +44,44 @@ curtis
 <details markdown="block">
 <summary>Speaker Information</summary>
 Dr. José Rodrigo Córdova Alarcón (Kyutech)
-José Rodrigo Córdova-Alarcón was born in Mexico City in August 1982. He earned
-his B.Eng. and M.Eng. degrees from the National Autonomous University of Mexico
+José Rodrigo Córdova-Alarcón was born in Mexico City in August 1982. <br>
+He earned his B.Eng. and M.Eng. degrees from the National Autonomous University of Mexico
 in 2008 and 2011, respectively, and completed his Ph.D. in space engineering at the
-Kyushu Institute of Technology, Japan, in 2019. During his studies, he interned at
+Kyushu Institute of Technology, Japan, in 2019. <br>
+During his studies, he interned at
 the University of Stuttgart's Institute of Space Systems in 2009, contributing to the
-Flying Laptop microsatellite project.
+Flying Laptop microsatellite project. <br>
 From 2013 to 2015, Rodrigo worked as a researcher at the Center for Aerospace
 Development at the National Polytechnic Institute (IPN), where he supported
 various satellite projects. Since 2018, he has been a Postdoctoral Researcher at
 Kyushu Institute of Technology's Laboratory of Lean Satellite Enterprises and InOrbit Experiments, where he specializes in developing Attitude and Orbit Control
-Systems (ADCS) for nanosatellites.
+Systems (ADCS) for nanosatellites. <br>
 Rodrigo has played key roles in several satellite missions, including Aoba VELOX IV
 (launched in 2019), KITSUNE (launched in 2022), CURTIS (launched in 2024), and
 LEOPARD (to be launched by 2025). He is currently leading ADCS development for
 the VERTECS satellite project and providing technical guidance on system
-engineering. His research interests include satellite attitude determination and
+engineering. <br> His research interests include satellite attitude determination and
 control, orbital dynamics, space systems engineering, and the development of
 embedded systems for space applications.
 </details>
 
-Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
-
 <details markdown="block">
 <summary>Details</summary>
 This presentation covers the development, integration, and early operations of the CURTIS (Compact
-Utility Research and Technology Integration Satellite) project. CURTIS is a 3U CubeSat developed by
-Kyushu Institute of Technology in collaboration with Panasonic Holdings Corporation. The satellite’s
+Utility Research and Technology Integration Satellite) project. <br> CURTIS is a 3U CubeSat developed by
+Kyushu Institute of Technology in collaboration with Panasonic Holdings Corporation. <br> The satellite’s
 BUS evolved from previous BIRDS projects and was designed for efficient subsystem integration,
 featuring a slot-type structure to support mass production and simplify assembly. CURTIS carries three
 payloads developed by Panasonic: a thermal experiment using surface-coated graphite for heat
 management, an highly integrated onboard computer, power system and UHF transceiver (Panasonic
-BUS), and an in-vehicle analog camera for Earth observation. These payloads were integrated into the
-Kyutech BUS, which also includes UHF and S-band communication systems. The satellite uses the
-Infostellar ground station network for S-band communication. CURTIS was successfully launched from
-the International Space Station’s Kibo module in April 2024.This presentation will discuss the design,
+BUS), and an in-vehicle analog camera for Earth observation. <br> These payloads were integrated into the
+Kyutech BUS, which also includes UHF and S-band communication systems. <br> The satellite uses the
+Infostellar ground station network for S-band communication. <br> CURTIS was successfully launched from
+the International Space Station’s Kibo module in April 2024. <br> This presentation will discuss the design,
 development milestones, and operational results of CURTIS, highlighting the potential for streamlined
 CubeSat development using the Kyutech BUS platform..
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-23){: .btn .btn-purple }
-[Next]({{site.url}}/resources/webinars/webinar-25){: .btn}
+**Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
