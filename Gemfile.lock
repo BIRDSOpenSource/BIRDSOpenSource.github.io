@@ -7,6 +7,7 @@ GEM
     bigdecimal (3.2.2)
     colorator (1.1.0)
     concurrent-ruby (1.3.5)
+    csv (3.3.5)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -102,8 +103,6 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.89.2-arm64-darwin)
       google-protobuf (~> 4.31)
-    sass-embedded (1.89.2-x64-mingw-ucrt)
-      google-protobuf (~> 4.31)
     sass-embedded (1.89.2-x86_64-darwin)
       google-protobuf (~> 4.31)
     sass-embedded (1.89.2-x86_64-linux-gnu)
@@ -125,6 +124,7 @@ PLATFORMS
 
 DEPENDENCIES
   base64 (~> 0.2.0)
+  csv
   faraday-retry
   jekyll (~> 4.3.2)
   jekyll-github-metadata (>= 2.15)
