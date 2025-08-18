@@ -8,13 +8,15 @@ lang: en
 ---
 
 ### **{{site.tagline}}**
-{: .lh-0 .text-blue-000}
 
-# Everything you need to build a satellite 
+<!-- {: .lh-0 .text-blue-000} -->
+
+# Everything you need to build a satellite
 
 {{site.description}}
 
 Explore the BIRDS bus and start building:
+
 - [x] Learn the basics and architecture
 - [x] Get started with guides and tools
 - [x] Deep-dive into hardware and software
