@@ -69,6 +69,9 @@
   <style>
     * {
       font-family: "DM Sans", sans-serif;
+      scrollbar-width: thin;
+      scrollbar-color: #eaeaea transparent;
+      scrollbar-gutter: stable;
       font-optical-sizing: auto;
     }
 
@@ -84,7 +87,7 @@
       }
       .main {
         margin-left: 0px;
-        max-width: none !important;
+        max-width: calc(100% - 264px) !important;
         height: 100%;
       }
       .main-content-wrap {
@@ -126,9 +129,6 @@
     }
     .site-nav {
       color: #ededed !important;
-      scrollbar-width: thin;
-      scrollbar-color: #eaeaea transparent;
-      scrollbar-gutter: stable;
     }
 
     .nav-list-link {

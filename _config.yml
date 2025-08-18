@@ -69,7 +69,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "BIRDSOpenSource on GitHub":
+  "GitHub":
     - "https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io"
 
 # Makes Aux links open in a new tab. Default is false
