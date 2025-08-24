@@ -71,7 +71,7 @@ heading_anchors: true
 aux_links:
   "Go to GitHub":
     - "https://github.com/BIRDSOpenSource"
-  "BIRDSOpenSource Homepage":
+  "BIRDS Bus Homepage":
     - "https://birds-project.com/open-source/"
 
 # Makes Aux links open in a new tab. Default is false
