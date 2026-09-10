@@ -803,7 +803,10 @@ a:hover {
 
   line-height: 1;
 
-  transform: translateY(-1px);
+  // transform: translateY(-1px);
+
+  transform: scale(2.5, 2.5) rotate(270deg);
+  // transform: none;
 }
 
 
