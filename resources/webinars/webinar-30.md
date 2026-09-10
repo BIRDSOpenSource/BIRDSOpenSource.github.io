@@ -1,11 +1,18 @@
 ---
-title: 27 BIRDS Open Source Updates & Research Insights
+title: 2
 parent: Webinars
 layout: default
 lang: en
 ---
 
-# Webinar #27
+
+
+
+18(Wed) February 2026
+SkySat Training Program developed by KS4E (Kyutech Space Solutions for Emergings)(Raihana Shams Islam Antara, Abdulla Hil Kafi,(Kyutech))
+EduSat – Educational CubeSat Platform (Edgar Mujuni (Kyutech), Zamba Leonel (National Communication Authority, Republic of Szouth Sudan))
+
+# Webinar #28
 ## (BIRDS Open Source Updates & Research Insights) Jun 11, 2025
 
 {: .label .label-yellow .text-grey-dk-300}

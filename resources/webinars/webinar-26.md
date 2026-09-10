@@ -3,7 +3,6 @@ title: 26 BIRDS Open Source Updates & Research Insights
 parent: Webinars
 layout: default
 lang: en
-nav_exclude: true
 ---
 
 # Webinar #26
