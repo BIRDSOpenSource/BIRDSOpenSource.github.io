@@ -5,7 +5,7 @@ layout: default
 lang: en
 ---
 
-# Webinar #28
+# Webinar #29
 ## (Overview of the BIRDS-X Satellite and key lessons learned for future BIRDS missions.) Dec 10, 2025
 
 {: .label .label-yellow .text-grey-dk-300}
@@ -42,16 +42,19 @@ engagement
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-
-</details>
-
 1. Jorge Rubén Casir Ricaño Ph.D.
 2. Sirash Sayanju
+</details>
+
+
 
 <details markdown="block">
 <summary>Details</summary>
 
 </details>
+
+[Previous]({{site.url}}//resources/webinars/webinar-28){: .btn .btn-purple }
+[Next]({{site.url}}/resources/webinars/webinar-30){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 

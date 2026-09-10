@@ -45,8 +45,6 @@ engagement
 Tetsuro Harada
 </details>
 
-Keywords: International Collaboration, Project Management, Small Space Project, Teamwork
-
 <details markdown="block">
 <summary>Details</summary>
 
@@ -54,5 +52,7 @@ Keywords: International Collaboration, Project Management, Small Space Project, 
 
 [Previous]({{site.url}}//resources/webinars/webinar-25){: .btn .btn-purple }
 [Next]({{site.url}}/resources/webinars/webinar-27){: .btn}
+
+**Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

@@ -69,6 +69,8 @@ Tetsuro Harada's presentation was titled: **YOMOGI: A BIRDS satellite**
 **Adolfo Jara** in Kyutech (from Paraguay) talked about changes from BIRDS-3 to BIRDS-4. His presentation title: "BIRDS-4 SAtellites: One Year Operation Results Utilizing the BIRDS Standardized Bus"
 </details>
 
+[Next]({{site.url}}/resources/webinars/webinar-05){: .btn}
+
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 
 

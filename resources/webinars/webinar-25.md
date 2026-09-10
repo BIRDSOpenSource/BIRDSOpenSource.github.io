@@ -29,10 +29,10 @@ aseansat
   <!-- Chat Section -->
   <div style="flex: 1; max-width: 33%;">
     <object 
-      data="https://birds-project.com/open-source/pdf/BIRDS_BUS_Opensource_24_chat.pdf" 
+      data="https://birds-project.com/open-source/pdf/BIRDS_BUS_Opensource_25_chat.pdf" 
       width="100%" 
       height="275px">
-      <p>Your browser does not support PDFs. <a href="https://birds-project.com/open-source/pdf/BIRDS_BUS_Opensource_24_chat.pdf">Download the PDF</a>.</p>
+      <p>Your browser does not support PDFs. <a href="https://birds-project.com/open-source/pdf/BIRDS_BUS_Opensource_25_chat.pdf">Download the PDF</a>.</p>
     </object>
   </div>
 </div>
@@ -96,6 +96,9 @@ Prof. Ir. Dr. Mohamad Huzaimy Jusoh presents Malaysia’s approach to developing
 Dr. Fatimah Zaharah Ali discusses the design of a low Ground Sampling Distance (GSD) imaging payload for 1U-sized CubeSat applications.
 Together, they highlight regional cooperation and innovative imaging solutions for small satellites.
 </details>
+
+[Previous]({{site.url}}//resources/webinars/webinar-24){: .btn .btn-purple }
+[Next]({{site.url}}/resources/webinars/webinar-26){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 

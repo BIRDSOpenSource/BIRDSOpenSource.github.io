@@ -38,19 +38,22 @@ engagement
 </div>
 
 <!-- Download Presentation  -->
-[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #31 presentation (Introduction to BIRDS-RPM Project) Apr 08, 2026](https://birds-project.com/open-source/pdf/birds_bus_opensource_webinar_26.pdf){: .btn .btn-outline .text-grey-lt-000}
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/circle-down.svg" width="15" height="15"> Webinar #31 presentation (Introduction to BIRDS-RPM Project) Apr 08, 2026](https://birds-project.com/open-source/pdf/birds_bus_opensource_webinar_31.pdf){: .btn .btn-outline .text-grey-lt-000}
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-
+Ernesto Cortés 
 </details>
 
-Ernesto Cortés 
 
 <details markdown="block">
 <summary>Details</summary>
 
 </details>
+
+
+[Previous]({{site.url}}//resources/webinars/webinar-30){: .btn .btn-purple }
+[Next]({{site.url}}/resources/webinars/webinar-32){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 

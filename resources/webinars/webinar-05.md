@@ -54,6 +54,10 @@ BIRDS-5
 * **Edgar Mujuni** discussed his key roles as a COM member.
 </details>
 
+
+[Previous]({{site.url}}//resources/webinars/webinar-04){: .btn .btn-purple }
+[Next]({{site.url}}/resources/webinars/webinar-06){: .btn}
+
 **Keywords:**  International collaboration, Project management, small space Project, teamwork, cubesat
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}

@@ -56,6 +56,9 @@ MicroOrbiter Inc. was established in May, 2021 as a space startup that aims to u
 Note: Actual presentation starts at 12 minutes
 </details>
 
+[Previous]({{site.url}}//resources/webinars/webinar-11){: .btn .btn-purple }
+[Next]({{site.url}}/resources/webinars/webinar-13){: .btn}
+
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork
 
 [Edit this page]:  {{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ site.gh_edit_source }}/{{ site.collections_dir }}/{{ page.path }}
