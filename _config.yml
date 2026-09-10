@@ -1,5 +1,5 @@
 # site settings
-title: BIRDS Bus Open Source | Docs
+title: BIRDS Bus Open Source
 tagline: An Open Source Bus System for Academic Satellites
 description: The BIRDSOpenSource release is a comprehensive open source guide for designing, building, testing, and launching a small satellite. Whether you’re a beginner or an experienced developer, our resources are structured to assist you at every stage of the satellite development process.
 email: birds_opensource@lean-sat.org
@@ -9,8 +9,8 @@ youtube: https://www.youtube.com/@kyutechseic4187
 github_org: https://github.com/BIRDSOpenSource
 
 # theme
-# theme: just-the-docs
-theme: birds
+theme: just-the-docs
+# theme: birds
 
 # urls
 repository: BIRDSOpenSource/BIRDSOpenSource.github.io/ # for github-metadata
@@ -69,11 +69,11 @@ mermaid:
 heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "Go to GitHub":
-    - "https://github.com/BIRDSOpenSource"
-  "BIRDS Bus Homepage":
-    - "https://birds-project.com/open-source/"
+# aux_links:
+#   "Go to GitHub":
+#     - "https://github.com/BIRDSOpenSource"
+#   "BIRDS Bus Homepage":
+#     - "https://birds-project.com/open-source/"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -87,7 +87,7 @@ color_schemes:
   - light
   - dark
   
-color_scheme: dark
+color_scheme: light
 
 # # Define Jekyll collections
 # collections:

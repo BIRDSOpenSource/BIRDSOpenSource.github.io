@@ -1,0 +1,160 @@
+<header class="birds-header">
+
+  <!-- =============================================== -->
+  <!-- TOP HEADER                                      -->
+  <!-- =============================================== -->
+
+  <div class="birds-header-main">
+
+    <a
+      href="https://birds-project.com/open-source/"
+      class="birds-brand"
+    >
+
+      <img
+        src="{{ '/assets/images/birds-logo-light.png' | relative_url }}"
+        alt="BIRDS"
+      >
+
+      <span>BIRDS BUS OPEN SOURCE</span>
+
+    </a>
+
+
+    <!-- SEARCH -->
+
+    {% if site.search_enabled != false %}
+
+      <div class="birds-search">
+
+        <label
+          class="search-label"
+          for="search-input"
+        >
+          Search our tutorials...
+        </label>
+
+        <input
+          type="text"
+          id="search-input"
+          class="search-input"
+          tabindex="0"
+          placeholder="Search our tutorials..."
+          aria-label="Search"
+        >
+
+        <button
+          type="button"
+          class="birds-search-button"
+          aria-label="Search"
+        >
+          <span>⌕</span>
+        </button>
+
+      </div>
+
+    {% endif %}
+
+
+    <!-- TOP LINKS -->
+
+    <nav class="birds-main-links">
+
+      <a href="https://birds-project.com/open-source/">
+        About
+      </a>
+
+      <a href="{{ '/' | relative_url }}">
+        Docs
+      </a>
+
+      <a href="{{ '/library/' | relative_url }}">
+        Library
+      </a>
+
+      <a href="{{ '/webinars/' | relative_url }}">
+        Webinars
+      </a>
+
+      <a href="https://lean-sat.org/opensource/">
+        Newsletter
+      </a>
+
+      <a href="https://github.com/BIRDSOpenSource">
+        Github
+      </a>
+
+    </nav>
+
+  </div>
+
+
+  <!-- =============================================== -->
+  <!-- BIRDS BUS SYSTEM NAVIGATION                    -->
+  <!-- =============================================== -->
+
+  <nav class="birds-system-nav">
+
+    <a href="{{ '/project-management/' | relative_url }}">
+      PROJECT MANAGEMENT
+    </a>
+
+    <a href="{{ '/obc/' | relative_url }}">
+      OBC
+    </a>
+
+    <a href="{{ '/eps/' | relative_url }}">
+      EPS
+    </a>
+
+    <a class="inactive" href="#">
+      ADCS
+    </a>
+
+    <a class="inactive" href="#">
+      COMMS
+    </a>
+
+    <a class="inactive" href="#">
+      STRUCTURE
+    </a>
+
+    <a class="inactive" href="#">
+      PAYLOAD
+    </a>
+
+    <a class="inactive" href="#">
+      GROUND SEGMENT
+    </a>
+
+    <a class="inactive" href="#">
+      APRS MISSION
+    </a>
+
+    <a class="inactive" href="#">
+      CAMERA MISSION
+    </a>
+
+    <a href="{{ '/hardware/' | relative_url }}">
+      HARDWARE
+    </a>
+
+    <a href="{{ '/software/' | relative_url }}">
+      SOFTWARE
+    </a>
+
+    <a href="{{ '/launch/' | relative_url }}">
+      LAUNCH
+    </a>
+
+    <a class="inactive" href="#">
+      EDUCATION
+    </a>
+
+    <a href="{{ '/faq/' | relative_url }}">
+      FAQ
+    </a>
+
+  </nav>
+
+</header>

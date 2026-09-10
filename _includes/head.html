@@ -2,19 +2,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <!-- <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}"> -->
-  <link rel="stylesheet" href="{{ '/assets/css/custom.scss' | relative_url }}">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <!-- Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- BIRDS custom stylesheet -->
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/custom.css' | relative_url }}"
+  >
 
   {% if site.ga_tracking != nil %}
     {% assign ga_tracking_ids = site.ga_tracking | split: "," %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_tracking_ids.first }}"></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id={{ ga_tracking_ids.first }}">
+    </script>
+
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+
+      function gtag(){
+        dataLayer.push(arguments);
+      }
+
       gtag('js', new Date());
 
       {% for ga_property in ga_tracking_ids %}
-        gtag('config', '{{ ga_property }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
+        gtag(
+          'config',
+          '{{ ga_property }}'
+          {% unless site.ga_tracking_anonymize_ip == nil %}
+            , { 'anonymize_ip': true }
+          {% endunless %}
+        );
       {% endfor %}
     </script>
   {% endif %}
@@ -25,29 +57,46 @@
 
   <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   {% for file in site.static_files %}
     {% if file.path == site.favicon_ico or file.path == '/favicon.ico' %}
       {% assign favicon = true %}
     {% endif %}
   {% endfor %}
+
   {% if favicon %}
-    <link rel="icon" href="{{ site.favicon_ico | default: '/favicon.ico' | relative_url }}" type="image/x-icon">
+    <link
+      rel="icon"
+      href="{{ site.favicon_ico | default: '/favicon.ico' | relative_url }}"
+      type="image/x-icon"
+    >
   {% endif %}
-  
+
   <script>
     window.MathJax = {
-      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
-      svg: { fontCache: 'global' }
+      tex: {
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ]
+      },
+      svg: {
+        fontCache: 'global'
+      }
     };
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    async>
+  </script>
 
   {%- seo title=false -%}
-  <title>{{ site.data.l10n.title }}</title>
 
-  {% include header.html %}
-  <!-- {% include head_custom.html %} -->
+  <title>
+    {% if page.title %}
+      {{ page.title }} |
+    {% endif %}
+    {{ site.title }}
+  </title>
 
 </head>

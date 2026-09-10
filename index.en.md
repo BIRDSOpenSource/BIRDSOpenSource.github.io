@@ -1,7 +1,7 @@
 ---
 title: Docs Home
 nav_order: 1
-layout: home
+layout: default
 has_toc: false
 permalink: "/"
 lang: en

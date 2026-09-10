@@ -1,226 +1,764 @@
 ---
 ---
-@import "birds"; // Replace "minima" with your specific theme name
 
-/* Your custom CSS rules go below this line */
+/* =========================================================
+   BIRDS BUS OPEN SOURCE
+   Global Design System
+   ========================================================= */
 
 :root {
-    --birds-blue: #005596;
-    --birds-light-blue: #c3e5ff;
 
-    --birds-black: #000000;
-    --birds-white: #ffffff;
+  --birds-blue: #005596;
+  --birds-light-blue: #c3e5ff;
 
-    --birds-border: 2px solid var(--birds-blue);
-}
-* {
-    box-sizing: border-box;
+  --birds-black: #000000;
+  --birds-white: #ffffff;
+
+  --birds-gray: #aaaaaa;
+  --birds-dark-gray: #111111;
+
+  --birds-header-height: 116px;
 }
 
-html {
-    background: #000;
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+html,
+body {
+
+  margin: 0;
+  padding: 0;
+
+  background: var(--birds-black);
+
+  color: var(--birds-white);
+
+  font-family: "Roboto", sans-serif;
+
 }
+
 
 body {
-    margin: 0;
-    background: #000;
-    color: #fff;
 
-    font-family: "Roboto", sans-serif;
+  font-size: 16px;
+
 }
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a {
+
+  color: var(--birds-light-blue);
+
+}
+
+a:hover {
+
+  color: var(--birds-white);
+
+}
+
+
+/* =========================================================
+   BIRDS HEADER
+   ========================================================= */
+
 .birds-header {
-    position: fixed;
 
-    top: 0;
-    left: 0;
+  position: fixed;
 
-    width: 100%;
+  top: 0;
+  left: 0;
 
-    z-index: 1000;
+  width: 100%;
+
+  z-index: 9999;
+
 }
+
+
+/* =========================================================
+   TOP HEADER
+   ========================================================= */
 
 .birds-header-main {
-    min-height: 72px;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  min-height: 72px;
 
-    gap: 24px;
+  display: flex;
 
-    padding: 16px 24px;
+  align-items: center;
 
-    background: rgba(0, 0, 0, 0.5);
+  gap: 24px;
 
-    border-bottom: 2px solid var(--birds-blue);
+  padding: 10px 24px;
+
+  background: rgba(0, 0, 0, 0.72);
+
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+
 }
+
+
+/* =========================================================
+   BRAND
+   ========================================================= */
+
 .birds-brand {
-    display: flex;
 
-    align-items: center;
+  display: flex;
 
-    gap: 10px;
+  align-items: center;
 
-    color: white;
+  gap: 10px;
 
-    text-decoration: none;
+  flex-shrink: 0;
 
-    font-size: 18px;
-    font-weight: 700;
+  color: white;
 
-    white-space: nowrap;
+  text-decoration: none;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  white-space: nowrap;
+
 }
+
+
+.birds-brand:hover {
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
 
 .birds-brand img {
-    height: 32px;
-    width: auto;
+
+  display: block;
+
+  width: auto;
+
+  height: 34px;
+
 }
+
+
+/* =========================================================
+   SEARCH
+   ========================================================= */
+
+.birds-search {
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  flex: 1;
+
+  max-width: 320px;
+
+  margin-left: auto;
+
+}
+
+
+.birds-search .search-label {
+
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+
+  overflow: hidden;
+
+  clip: rect(0,0,0,0);
+
+}
+
+
+.birds-search .search-input {
+
+  width: 100%;
+
+  height: 38px;
+
+  padding: 0 48px 0 16px;
+
+  border: none;
+
+  border-radius: 20px;
+
+  background: white;
+
+  color: #222;
+
+  font-family: inherit;
+
+  font-size: 14px;
+
+  outline: none;
+
+}
+
+
+.birds-search .search-input::placeholder {
+
+  color: #777;
+
+}
+
+
+.birds-search-button {
+
+  position: absolute;
+
+  right: 0;
+
+  top: 0;
+
+  width: 48px;
+
+  height: 38px;
+
+  border: none;
+
+  border-radius: 0 20px 20px 0;
+
+  background: var(--birds-blue);
+
+  color: white;
+
+  font-size: 22px;
+
+  cursor: pointer;
+
+}
+
+
+/* =========================================================
+   TOP LINKS
+   ========================================================= */
+
+.birds-main-links {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+  flex-shrink: 0;
+
+}
+
+
+.birds-main-links a {
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 500;
+
+  white-space: nowrap;
+
+}
+
+
+.birds-main-links a:hover {
+
+  text-decoration: underline;
+
+}
+
+
+/* =========================================================
+   SYSTEM NAV
+   ========================================================= */
 
 .birds-system-nav {
-    display: flex;
 
-    align-items: center;
+  display: flex;
 
-    justify-content: center;
+  align-items: center;
 
-    gap: 20px;
+  gap: 20px;
 
-    width: 100%;
+  width: 100%;
 
-    padding: 9px 16px;
+  min-height: 42px;
 
-    background: var(--birds-blue);
+  padding: 0 16px;
 
-    color: white;
+  box-sizing: border-box;
 
-    overflow-x: auto;
+  overflow-x: auto;
 
-    white-space: nowrap;
+  white-space: nowrap;
+
+  background: var(--birds-blue);
+
 }
+
+
+.birds-system-nav::-webkit-scrollbar {
+
+  height: 0;
+
+}
+
 
 .birds-system-nav a {
-    color: white;
 
-    text-decoration: none;
+  flex-shrink: 0;
 
-    font-size: 14px;
+  color: white;
 
-    font-weight: 500;
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 500;
+
 }
+
 
 .birds-system-nav a:hover {
-    text-decoration: underline;
+
+  color: white;
+
+  text-decoration: underline;
+
 }
+
 
 .birds-system-nav a.inactive {
-    color: #9ca3af;
+
+  color: rgba(255,255,255,0.45);
+
 }
 
-.docs-layout {
-    display: grid;
 
-    grid-template-columns: 260px minmax(0, 1fr);
+/* =========================================================
+   DOCUMENTATION LAYOUT
+   ========================================================= */
 
-    min-height: 100vh;
+.birds-docs-layout {
 
-    padding-top: 115px;
+  min-height: 100vh;
+
+  padding-top: var(--birds-header-height);
+
+  background: var(--birds-black);
+
 }
 
-.docs-sidebar {
-    border-right: 2px solid var(--birds-blue);
 
-    padding: 32px 24px;
+/* =========================================================
+   JUST THE DOCS SIDEBAR
+   ========================================================= */
 
-    background: #050505;
+.birds-docs-layout .side-bar {
+
+  position: fixed;
+
+  top: var(--birds-header-height);
+
+  left: 0;
+
+  height: calc(100vh - var(--birds-header-height));
+
+  width: 260px;
+
+  box-sizing: border-box;
+
+  background: #050505;
+
+  border-right: 2px solid var(--birds-blue);
+
 }
 
-.docs-content {
-    width: 100%;
 
-    max-width: 1000px;
+.birds-docs-layout .site-nav {
 
-    padding: 60px 84px;
-}
-.docs-content h1 {
-    margin-bottom: 24px;
+  padding-top: 20px;
 
-    font-size: clamp(2.5rem, 5vw, 4rem);
-
-    line-height: 1;
-
-    font-weight: 400;
 }
 
-.docs-content h2 {
-    margin-top: 64px;
 
-    font-size: 2rem;
+.birds-docs-layout .site-nav a {
 
-    font-weight: 500;
+  color: #d0d0d0;
 
-    border-bottom: 2px solid var(--birds-blue);
-
-    padding-bottom: 12px;
 }
 
-.docs-content h3 {
-    font-size: 1.4rem;
 
-    margin-top: 40px;
-}
-.guide-grid {
-    display: grid;
+.birds-docs-layout .site-nav a:hover {
 
-    grid-template-columns:
-        repeat(auto-fit, minmax(280px, 1fr));
+  color: white;
 
-    gap: 8px;
-
-    margin-top: 40px;
 }
 
-.guide-card {
-    padding: 28px;
 
-    min-height: 220px;
+.birds-docs-layout .nav-list .nav-list-item > .nav-list-link.active {
 
-    background: rgba(255,255,255,0.08);
+  color: white;
 
-    border: 2px solid rgba(255,255,255,0.15);
+  border-left: 3px solid var(--birds-blue);
 
-    transition: 0.2s ease;
+  background: rgba(0,85,150,0.15);
+
 }
 
-.guide-card:hover {
-    border-color: var(--birds-blue);
 
-    background: rgba(0,85,150,0.15);
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+.birds-docs-layout .main {
+
+  margin-left: 260px;
+
+  min-width: 0;
+
 }
 
-.guide-card h2 {
-    margin: 0 0 16px;
 
-    border: none;
+.birds-docs-layout .main-content-wrap {
 
-    font-size: 1.5rem;
+  padding-top: 0;
+
 }
 
-.guide-card a {
-    display: inline-block;
 
-    margin-top: 20px;
+.birds-docs-layout .main-content {
 
-    padding: 10px 16px;
+  max-width: 1100px;
 
-    border: 1px solid var(--birds-light-blue);
+  margin: 0 auto;
 
-    color: var(--birds-light-blue);
+  padding: 56px 84px 80px;
 
-    text-decoration: none;
 }
 
-.guide-card a:hover {
-    background: var(--birds-light-blue);
 
-    color: #000;
+/* =========================================================
+   BREADCRUMBS
+   ========================================================= */
+
+.birds-docs-layout .breadcrumb-nav {
+
+  color: #999;
+
+  margin-bottom: 30px;
+
+}
+
+
+.birds-docs-layout .breadcrumb-nav a {
+
+  color: var(--birds-light-blue);
+
+}
+
+
+/* =========================================================
+   HEADINGS
+   ========================================================= */
+
+.birds-docs-layout h1 {
+
+  margin-top: 0;
+
+  margin-bottom: 28px;
+
+  color: white;
+
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+
+  line-height: 1;
+
+  font-weight: 400;
+
+}
+
+
+.birds-docs-layout h2 {
+
+  margin-top: 64px;
+
+  padding-bottom: 12px;
+
+  border-bottom: 2px solid var(--birds-blue);
+
+  color: white;
+
+  font-size: 2rem;
+
+  font-weight: 500;
+
+}
+
+
+.birds-docs-layout h3 {
+
+  margin-top: 40px;
+
+  color: white;
+
+  font-size: 1.4rem;
+
+}
+
+
+/* =========================================================
+   BODY TEXT
+   ========================================================= */
+
+.birds-docs-layout p {
+
+  color: #d4d4d4;
+
+  line-height: 1.7;
+
+}
+
+
+.birds-docs-layout li {
+
+  color: #d4d4d4;
+
+  line-height: 1.7;
+
+}
+
+
+/* =========================================================
+   TABLES
+   ========================================================= */
+
+.birds-docs-layout table {
+
+  width: 100%;
+
+  background: #080808;
+
+  border-collapse: collapse;
+
+}
+
+
+.birds-docs-layout th {
+
+  background: var(--birds-blue);
+
+  color: white;
+
+}
+
+
+.birds-docs-layout th,
+.birds-docs-layout td {
+
+  padding: 12px 16px;
+
+  border: 1px solid rgba(255,255,255,0.15);
+
+}
+
+
+/* =========================================================
+   CODE
+   ========================================================= */
+
+.birds-docs-layout code {
+
+  background: rgba(255,255,255,0.08);
+
+  color: var(--birds-light-blue);
+
+}
+
+
+.birds-docs-layout pre {
+
+  background: #080808;
+
+  border: 1px solid rgba(255,255,255,0.15);
+
+}
+
+
+/* =========================================================
+   BLOCKQUOTES
+   ========================================================= */
+
+.birds-docs-layout blockquote {
+
+  margin-left: 0;
+
+  padding: 16px 24px;
+
+  border-left: 4px solid var(--birds-blue);
+
+  background: rgba(0,85,150,0.12);
+
+}
+
+
+/* =========================================================
+   HORIZONTAL RULE
+   ========================================================= */
+
+.birds-docs-layout hr {
+
+  border: 0;
+
+  border-top: 2px solid var(--birds-blue);
+
+  margin: 48px 0;
+
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.birds-docs-layout .site-footer {
+
+  border-top: 2px solid var(--birds-blue);
+
+  color: #888;
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 1000px) {
+
+  .birds-header-main {
+
+    gap: 12px;
+
+  }
+
+  .birds-main-links {
+
+    display: none;
+
+  }
+
+  .birds-search {
+
+    max-width: none;
+
+  }
+
+}
+
+
+@media (max-width: 800px) {
+
+  :root {
+
+    --birds-header-height: 110px;
+
+  }
+
+  .birds-brand span {
+
+    display: none;
+
+  }
+
+  .birds-header-main {
+
+    min-height: 60px;
+
+  }
+
+  .birds-brand img {
+
+    height: 32px;
+
+  }
+
+  .birds-system-nav {
+
+    gap: 16px;
+
+  }
+
+  .birds-system-nav a {
+
+    font-size: 12px;
+
+  }
+
+  .birds-docs-layout .side-bar {
+
+    top: var(--birds-header-height);
+
+    height: calc(100vh - var(--birds-header-height));
+
+  }
+
+  .birds-docs-layout .main {
+
+    margin-left: 0;
+
+  }
+
+  .birds-docs-layout .main-content {
+
+    padding: 40px 24px 60px;
+
+  }
+
+  .birds-docs-layout h1 {
+
+    font-size: 2.8rem;
+
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .birds-search {
+
+    margin-left: 0;
+
+  }
+
+  .birds-header-main {
+
+    padding: 8px 12px;
+
+  }
+
+  .birds-docs-layout .main-content {
+
+    padding: 32px 18px 50px;
+
+  }
+
 }
