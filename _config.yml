@@ -9,7 +9,8 @@ youtube: https://www.youtube.com/@kyutechseic4187
 github_org: https://github.com/BIRDSOpenSource
 
 # theme
-theme: just-the-docs
+# theme: just-the-docs
+theme: birds
 
 # urls
 repository: BIRDSOpenSource/BIRDSOpenSource.github.io/ # for github-metadata
