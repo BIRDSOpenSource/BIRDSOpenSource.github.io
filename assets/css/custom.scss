@@ -855,3 +855,256 @@ a:hover {
   max-width: none !important;
   margin: 0 !important;
 }
+
+
+/* =========================================================
+   LIBRARY
+   ========================================================= */
+
+.library-page {
+  width: 100%;
+  color: #ffffff;
+}
+
+.library-intro {
+  margin-bottom: 50px;
+}
+
+.library-intro h1 {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.library-intro p {
+  max-width: 900px;
+  margin: 0;
+}
+
+
+/* ---------------------------------------------------------
+   Library sections
+   --------------------------------------------------------- */
+
+.library-section {
+  width: 100%;
+  margin: 0 0 70px;
+}
+
+.library-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+
+  border-bottom: 2px solid var(--birds-blue);
+}
+
+.library-section-header h2 {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+
+  color: #ffffff;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.library-section-header a {
+  flex-shrink: 0;
+
+  color: var(--birds-light-blue);
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.library-section-header a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+/* ---------------------------------------------------------
+   Horizontal library rows
+   --------------------------------------------------------- */
+
+.library-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+
+  width: 100%;
+  overflow-x: auto;
+
+  padding: 12px 6px 18px;
+
+  box-sizing: border-box;
+}
+
+.library-row::-webkit-scrollbar {
+  height: 6px;
+}
+
+.library-row::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+.library-row::-webkit-scrollbar-thumb {
+  background: #555555;
+  border-radius: 10px;
+}
+
+
+/* ---------------------------------------------------------
+   Individual covers
+   --------------------------------------------------------- */
+
+.library-item {
+  position: relative;
+
+  display: block;
+  flex: 0 0 auto;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.18s ease,
+    filter 0.18s ease;
+}
+
+.library-item img {
+  display: block;
+
+  width: 170px;
+  height: 240px;
+
+  object-fit: contain;
+
+  background: #080808;
+
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.library-item:hover img {
+  transform: translateY(-7px);
+
+  box-shadow:
+    0 8px 16px rgba(0, 0, 0, 0.55);
+}
+
+
+/* ---------------------------------------------------------
+   Cursor title tooltip
+   --------------------------------------------------------- */
+
+#library-tooltip {
+  position: fixed;
+
+  z-index: 10000;
+
+  max-width: 320px;
+
+  padding: 8px 12px;
+
+  background: #111111;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  color: #ffffff;
+
+  font-size: 13px;
+  line-height: 1.4;
+
+  pointer-events: none;
+
+  opacity: 0;
+
+  transform: translateY(3px);
+
+  transition:
+    opacity 0.12s ease,
+    transform 0.12s ease;
+}
+
+#library-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* ---------------------------------------------------------
+   All-items pages
+   --------------------------------------------------------- */
+
+.library-all-page .library-intro {
+  margin-bottom: 40px;
+}
+
+.library-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fill, minmax(170px, 1fr));
+
+  gap: 42px 24px;
+
+  width: 100%;
+}
+
+.library-grid .library-item {
+  display: flex;
+  justify-content: center;
+}
+
+.library-grid .library-item img {
+  width: 170px;
+  height: 240px;
+}
+
+
+/* ---------------------------------------------------------
+   Mobile
+   --------------------------------------------------------- */
+
+@media (max-width: 800px) {
+
+  .library-section {
+    margin-bottom: 55px;
+  }
+
+  .library-section-header {
+    align-items: center;
+  }
+
+  .library-section-header h2 {
+    font-size: 1.45rem;
+  }
+
+  .library-section-header a {
+    font-size: 0.85rem;
+  }
+
+  .library-row {
+    gap: 16px;
+  }
+
+  .library-item img {
+    width: 140px;
+    height: 200px;
+  }
+
+  .library-grid {
+    grid-template-columns:
+      repeat(auto-fill, minmax(140px, 1fr));
+
+    gap: 30px 15px;
+  }
+
+  .library-grid .library-item img {
+    width: 140px;
+    height: 200px;
+  }
+}
