@@ -2,18 +2,25 @@
 ---
 
 /* =========================================================
-   BIRDS BUS OPEN SOURCE
-   Global Design System
+  BIRDS BUS OPEN SOURCE
+  Global Design System
    ========================================================= */
+
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 
    /* LIGHT MODE */
 :root {
   --birds-blue: #005596;
-  --birds-light-blue: #c3e5ff;
-  // --birds-black: #000000;
-  // --birds-white: #ffffff;
-  // --birds-gray: #aaaaaa;
-  // --birds-dark-gray: #111111;
+  --birds-light-blue: #63b7f7;
+  --birds-black: #000000;
+  --birds-white: #ffffff;
+  --birds-gray: #aaaaaa;
+  --birds-footer: #888888;
+  --birds-dark-gray: #111111;
+  --birds-layout: #d4d4d4;
+  --birds-layout-breadcrumb: #999999;
+  --birds-layout-sitenav: #d0d0d0;
 
   --birds-bg: #ffffff;
   --birds-text: #222222;
@@ -21,16 +28,33 @@
   --birds-border: #dddddd;
   --birds-card-bg: #ffffff;
 
+  --birds-table-hover: #f3f7fb;
+
+  --birds-search-bg: #ffffff;
+  --birds-search-text: #222222;
+  --birds-search-placeholder: #777777;
+  --birds-search-hover: #f3f7fb;
+
   --birds-header-height: 115px;
 }
 
 /* DARK MODE */
 [data-theme="dark"] {
+  --birds-blue: #005596;
+  --birds-light-blue: #c3e5ff;
+
   --birds-bg: #000000;
   --birds-text: #ffffff;
   --birds-sidebar-bg: #111111;
   --birds-border: rgba(255,255,255,0.15);
   --birds-card-bg: #080808;
+
+  --birds-table-hover: #111111;
+  
+  --birds-search-bg: #111111;
+  --birds-search-text: #ffffff;
+  --birds-search-placeholder: #888888;
+  --birds-search-hover: #1a1a1a;
 }
 
 *,
@@ -53,7 +77,7 @@ body {
 
   color: var(--birds-text);
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 
 }
 
@@ -77,7 +101,7 @@ a {
 
 a:hover {
 
-  color: var(--birds-white);
+  color: var(--birds-light-blue);
 
 }
 
@@ -235,9 +259,9 @@ a:hover {
   border: none;
   border-radius: 20px;
 
-  background: white;
+  background: var(--birds-card-bg);
 
-  color: #222;
+  color: var(--birds-text);
 
   font-family: inherit;
   font-size: 14px;
@@ -249,7 +273,7 @@ a:hover {
 
 .birds-search .search-input::placeholder {
 
-  color: #777;
+  color: var(--birds-search-placeholder);
 
 }
 
@@ -286,6 +310,8 @@ a:hover {
   cursor: pointer;
 
 }
+
+
 
 
 /* =========================================================
@@ -443,7 +469,7 @@ a:hover {
 
 .birds-docs-layout .site-nav a {
 
-  color: #d0d0d0;
+  color: var(--birds-layout-sitenav);
 
 }
 
@@ -508,7 +534,7 @@ a:hover {
 
 .birds-docs-layout .breadcrumb-nav {
 
-  color: #999;
+  color: var(--birds-layout-breadcrumb);
 
   margin-bottom: 30px;
 
@@ -577,7 +603,7 @@ a:hover {
 
 .birds-docs-layout p {
 
-  color: #d4d4d4;
+  color: var(--birds-layout);
 
   line-height: 1.7;
 
@@ -586,7 +612,7 @@ a:hover {
 
 .birds-docs-layout li {
 
-  color: #d4d4d4;
+  color: var(--birds-layout);
 
   line-height: 1.7;
 
@@ -601,7 +627,7 @@ a:hover {
 
   width: 100%;
 
-  background: #080808;
+  background: var(--birds-card-bg);
 
   border-collapse: collapse;
 
@@ -611,21 +637,44 @@ a:hover {
 .birds-docs-layout th {
 
   background: var(--birds-blue);
-
-  color: white;
+  color: var(--birds-white);
 
 }
 
 
-.birds-docs-layout th,
 .birds-docs-layout td {
 
   padding: 12px 16px;
-
+  background-color: var(--birds-card-bg);
+  color: var(--birds-text);
   border: 1px solid rgba(255,255,255,0.15);
 
 }
 
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.birds-docs-layout btn {
+
+  display: inline-block;
+
+  padding: 8px 16px;
+
+  border: none;
+  border-radius: 4px;
+
+  background: var(--birds-blue);
+
+  color: var(--birds-white);
+
+  font-size: 14px;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+}
 
 /* =========================================================
    CODE
@@ -689,7 +738,7 @@ a:hover {
 
   border-top: 2px solid var(--birds-blue);
 
-  color: #888;
+  color: var(--birds-footer);
 
 }
 
@@ -934,7 +983,7 @@ a:hover {
 }
 
 .library-section-header a:hover {
-  color: #ffffff;
+  color: var(--birds-border);
   text-decoration: underline;
 }
 
@@ -1196,7 +1245,7 @@ body {
 }
 
 .birds-docs-layout th {
-  color: #ffffff !important;
+  color: var(--birds-white) !important;
 }
 
 
@@ -1257,7 +1306,7 @@ body {
   border-radius: 50%;
 
   background: rgba(0,0,0,0.35);
-  color: #ffffff;
+  color: var(--birds-card-bg);
 
   font-size: 20px;
   line-height: 1;
@@ -1272,7 +1321,7 @@ body {
 
 .theme-toggle:hover {
   background: rgba(255,255,255,0.15);
-  border-color: #ffffff;
+  border-color: var(--birds-border);
   transform: scale(1.05);
 }
 
