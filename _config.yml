@@ -86,8 +86,9 @@ nav_enabled: true
 color_schemes:
   - light
   - dark
-  
-color_scheme: dark
+
+color_scheme: light
+color_scheme_toggle: true
 
 # # Define Jekyll collections
 # collections:

@@ -6,18 +6,31 @@
    Global Design System
    ========================================================= */
 
+   /* LIGHT MODE */
 :root {
-
   --birds-blue: #005596;
   --birds-light-blue: #c3e5ff;
+  // --birds-black: #000000;
+  // --birds-white: #ffffff;
+  // --birds-gray: #aaaaaa;
+  // --birds-dark-gray: #111111;
 
-  --birds-black: #000000;
-  --birds-white: #ffffff;
-
-  --birds-gray: #aaaaaa;
-  --birds-dark-gray: #111111;
+  --birds-bg: #ffffff;
+  --birds-text: #222222;
+  --birds-sidebar-bg: #f5f5f5;
+  --birds-border: #dddddd;
+  --birds-card-bg: #ffffff;
 
   --birds-header-height: 115px;
+}
+
+/* DARK MODE */
+[data-theme="dark"] {
+  --birds-bg: #000000;
+  --birds-text: #ffffff;
+  --birds-sidebar-bg: #111111;
+  --birds-border: rgba(255,255,255,0.15);
+  --birds-card-bg: #080808;
 }
 
 *,
@@ -36,9 +49,9 @@ body {
   margin: 0;
   padding: 0;
 
-  background: var(--birds-black);
+  background: var(--birds-bg);
 
-  color: var(--birds-white);
+  color: var(--birds-text);
 
   font-family: "Roboto", sans-serif;
 
@@ -391,7 +404,7 @@ a:hover {
 
   padding-top: var(--birds-header-height);
 
-  background: var(--birds-black);
+  background: var(--birds-bg);
 
 }
 
@@ -414,7 +427,7 @@ a:hover {
 
   box-sizing: border-box;
 
-  background: #050505;
+  background: var(--birds-sidebar-bg);
 
   border-right: 2px solid var(--birds-blue);
 
@@ -863,7 +876,7 @@ a:hover {
 
 .library-page {
   width: 100%;
-  color: #ffffff;
+  color: var(--birds-text);
 }
 
 .library-intro {
@@ -907,7 +920,7 @@ a:hover {
   padding: 0 !important;
   border: 0 !important;
 
-  color: #ffffff;
+  color: var(--birds-text);
   font-size: 1.7rem;
   font-weight: 500;
 }
@@ -982,7 +995,8 @@ a:hover {
 
   object-fit: contain;
 
-  background: #080808;
+  
+  background: var(--birds-card-bg);
 
   transition:
     transform 0.18s ease,
@@ -1010,10 +1024,9 @@ a:hover {
 
   padding: 8px 12px;
 
-  background: #111111;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-
-  color: #ffffff;
+  background: var(--birds-card-bg);
+  border: 1px solid var(--birds-border);
+  color: var(--birds-text);
 
   font-size: 13px;
   line-height: 1.4;
@@ -1107,4 +1120,163 @@ a:hover {
     width: 140px;
     height: 200px;
   }
+}
+
+/* ===============================================================================================
+  LIGHT / DARK MODE OVERRIDES
+   ================================================================================================= */
+
+
+
+
+/* PAGE */
+html,
+body {
+  background: var(--birds-bg) !important;
+  color: var(--birds-text) !important;
+}
+
+
+/* DOCUMENTATION AREA */
+.birds-docs-layout {
+  background: var(--birds-bg) !important;
+  color: var(--birds-text) !important;
+}
+
+
+/* SIDEBAR */
+.birds-docs-layout .side-bar {
+  background: var(--birds-sidebar-bg) !important;
+  border-right-color: var(--birds-blue);
+}
+
+.birds-docs-layout .site-nav a {
+  color: var(--birds-text) !important;
+}
+
+.birds-docs-layout .site-nav a:hover {
+  color: var(--birds-blue) !important;
+}
+
+
+/* MAIN CONTENT */
+.birds-docs-layout .main-content {
+  background: var(--birds-bg) !important;
+  color: var(--birds-text) !important;
+}
+
+
+/* HEADINGS */
+.birds-docs-layout h1,
+.birds-docs-layout h2,
+.birds-docs-layout h3,
+.birds-docs-layout h4,
+.birds-docs-layout h5,
+.birds-docs-layout h6 {
+  color: var(--birds-text) !important;
+}
+
+
+/* BODY TEXT */
+.birds-docs-layout p,
+.birds-docs-layout li {
+  color: var(--birds-text) !important;
+}
+
+
+/* TABLES */
+.birds-docs-layout table {
+  background: var(--birds-card-bg) !important;
+  color: var(--birds-text) !important;
+}
+
+.birds-docs-layout td {
+  color: var(--birds-text) !important;
+  border-color: var(--birds-border) !important;
+}
+
+.birds-docs-layout th {
+  color: #ffffff !important;
+}
+
+
+/* CODE */
+.birds-docs-layout pre {
+  background: var(--birds-card-bg) !important;
+  border-color: var(--birds-border) !important;
+}
+
+.birds-docs-layout code {
+  color: var(--birds-text);
+}
+
+
+/* BLOCKQUOTES */
+.birds-docs-layout blockquote {
+  color: var(--birds-text);
+}
+
+
+/* FOOTER */
+.birds-docs-layout .site-footer {
+  color: var(--birds-text);
+  border-color: var(--birds-blue);
+}
+
+/* SIDEBAR ARROWS / CHEVRONS */
+.birds-docs-layout .nav-list-expander,
+.birds-docs-layout .nav-list-expander::before,
+.birds-docs-layout .nav-list-expander::after {
+  color: var(--birds-blue) !important;
+  fill: var(--birds-blue) !important;
+}
+
+.birds-docs-layout .nav-list-expander svg {
+  color: var(--birds-blue) !important;
+  fill: var(--birds-blue) !important;
+  stroke: var(--birds-blue) !important;
+}
+
+/* =========================================================
+   LIGHT / DARK MODE TOGGLE
+   ========================================================= */
+
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  padding: 0;
+
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 50%;
+
+  background: rgba(0,0,0,0.35);
+  color: #ffffff;
+
+  font-size: 20px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: #ffffff;
+  transform: scale(1.05);
+}
+
+.theme-icon {
+  display: block;
+  line-height: 1;
 }

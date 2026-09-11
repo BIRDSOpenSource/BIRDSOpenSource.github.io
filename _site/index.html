@@ -221,6 +221,18 @@
     
 
 
+    <!-- THEME TOGGLE -->
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-label="Toggle light and dark mode"
+      title="Toggle light/dark mode"
+      >
+      <span class="theme-icon">☾</span>
+    </button>
+
+
     <!-- TOP LINKS -->
 
     <nav class="birds-main-links">
@@ -323,6 +335,54 @@
   </nav>
 
 </header>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const toggle = document.getElementById("theme-toggle");
+  const icon = toggle.querySelector(".theme-icon");
+
+  if (!toggle) return;
+
+  function updateThemeIcon() {
+    const theme = document.documentElement.getAttribute("data-theme");
+
+    if (theme === "dark") {
+      icon.textContent = "☀";
+      toggle.setAttribute("aria-label", "Switch to light mode");
+      toggle.setAttribute("title", "Switch to light mode");
+    } else {
+      icon.textContent = "☾";
+      toggle.setAttribute("aria-label", "Switch to dark mode");
+      toggle.setAttribute("title", "Switch to dark mode");
+    }
+  }
+
+  toggle.addEventListener("click", function () {
+
+    const currentTheme =
+      document.documentElement.getAttribute("data-theme");
+
+    const newTheme =
+      currentTheme === "dark" ? "light" : "dark";
+
+    document.documentElement.setAttribute("data-theme", newTheme);
+
+    localStorage.setItem("birds-theme", newTheme);
+
+    updateThemeIcon();
+  });
+
+  const savedTheme = localStorage.getItem("birds-theme");
+
+  if (savedTheme) {
+    document.documentElement.setAttribute("data-theme", savedTheme);
+  }
+
+  updateThemeIcon();
+
+});
+</script>
 
 
   <!-- DOCUMENTATION AREA -->
