@@ -42,13 +42,34 @@ engagement
 
 <details markdown="block">
 <summary>Speaker Information</summary>
-Ernesto Cortés 
+Ernesto Cortés is a PhD candidate in Space Systems Engineering from Tumaco, 
+Colombia, currently serving as Project Manager of the BIRDS-RPM satellite mission at 
+the Kyushu Institute of Technology (Kyutech), Japan. His work focuses on the design, 
+integration, and testing of the Lean Satellite KUMO, with particular focus in Attitude 
+Determination and Control Systems (ADCS), including ADCS Simulation, subsystem 
+integration and hardware-in-the-loop testing.
+Ernesto holds a Bachelor’s degree in Mechatronics Engineering from the National 
+University of Colombia and a Master’s degree in Aerospace Engineering from the 
+University of Valle. Prior to joining Kyutech, he worked with the Colombian Air Force, 
+contributing to the design and development of two satellite missions.
+His technical interests include subsystem integration for nanosatellites, ADCS design and 
+development, and mission design.
 </details>
 
 
 <details markdown="block">
 <summary>Details</summary>
-
+The BIRDS-RPM project is a 3U CubeSat mission developed at the Kyushu Institute 
+of Technology (Kyutech). The project is part of the BIRDS program and is being 
+developed with multiple collaborations. The main objectives of the project are 
+capacity building on satellite development and demonstration of new technologies. 
+The collaborating parties in this project are Rwanda Space Agency, Paraguay Space 
+Agency, Technical University of Moldova, and ASPINA Co., LTD (Shinano Kenshi). 
+The BIRDS-RPM Satellite hosts seven payloads, which include the following: APRS 
+mission, camera mission, Radiation sensor module, New UHF transceiver, and other 
+missions. 
+In this presentation, the speaker will present an overview of the BIRDS-RPM project 
+system architecture and its current development status.
 </details>
 
 
