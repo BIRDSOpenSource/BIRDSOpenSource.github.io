@@ -36,6 +36,8 @@
   --birds-search-hover: #f3f7fb;
 
   --birds-header-height: 115px;
+  --birds-footer-bg: #f8f9fb;
+  --birds-footer-text: #626069;
 }
 
 /* DARK MODE */
@@ -55,6 +57,9 @@
   --birds-search-text: #ffffff;
   --birds-search-placeholder: #888888;
   --birds-search-hover: #1a1a1a;
+
+  --birds-footer-bg: #27262b;
+  --birds-footer-text: #e6e1e7;
 }
 
 *,
@@ -523,7 +528,7 @@ a:hover {
 
   margin: 0;
 
-  padding: 48px 5vw 80px;
+  padding: 28px 5vw 60px;
 }
 
 
@@ -676,7 +681,7 @@ a:hover {
 
 }
 
-
+/* Override Just the Docs button with BIRDS styles */
 .btn {
   background-color: var(--birds-blue) !important;
   color: #ffffff !important;
@@ -852,7 +857,7 @@ a:hover {
 
   .birds-docs-layout .main-content {
 
-    padding: 40px 24px 60px;
+    padding: 28px 5px 60px;
 
   }
 
@@ -881,7 +886,7 @@ a:hover {
 
   .birds-docs-layout .main-content {
 
-    padding: 32px 18px 50px;
+    padding: 28px 5px 60px;
 
   }
 
@@ -937,7 +942,7 @@ a:hover {
   max-width: none !important;
   margin: 0 !important;
   box-sizing: border-box;
-  padding: 48px 5vw 80px !important;
+  padding: 28px 5vw 60px !important;
 }
 
 .birds-docs-layout .main-content > main {
@@ -1356,4 +1361,97 @@ body {
 .theme-icon {
   display: block;
   line-height: 1;
+}
+
+/* =========================================================
+   BIRDS FOOTER
+   ========================================================= */
+
+/* Remove the default Just the Docs footer from the sidebar */
+.birds-docs-layout .side-bar .site-footer {
+  display: none !important;
+}
+
+.birds-docs-layout .side-bar footer {
+  display: none !important;
+}
+
+.birds-docs-layout .main-content .site-footer {
+  width: 100%;
+  margin: 80px 0 0;
+  padding: 32px 0 0;
+
+  border-top: 2px solid var(--birds-blue);
+  background: transparent;
+
+  color: var(--birds-text);
+}
+
+/* =========================================================
+   BIRDS FOOTER
+   ========================================================= */
+
+.birds-footer {
+  width: calc(100% + 10vw);
+  margin-left: -5vw;
+  margin-top: 80px;
+
+  padding: 2rem 5vw;
+
+  box-sizing: border-box;
+
+  background: var(--birds-footer-bg);
+  color: var(--birds-footer-text);
+
+  border-top: 2px solid var(--birds-blue);
+}
+
+.birds-footer-inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.birds-footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.birds-footer p {
+  margin: 0.4rem 0;
+  color: var(--birds-footer-text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.birds-footer p:first-child {
+  margin-top: 0;
+}
+
+.birds-footer-title {
+  margin-bottom: 0.7rem !important;
+  font-weight: 700;
+}
+
+.birds-footer a {
+  color: var(--birds-footer-text);
+  text-decoration: none;
+}
+
+.birds-footer a:hover {
+  color: var(--birds-blue);
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .birds-footer {
+    width: calc(100% + 48px);
+    margin-left: -24px;
+    padding: 2rem 24px;
+  }
+
+  .birds-footer-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }

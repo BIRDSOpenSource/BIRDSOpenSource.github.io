@@ -488,24 +488,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   
   
-    <span class="fs-2" align="right">Oct 18, 2026 BIRDS Bus Open Source | Docs
-    <div>
-        <p style="margin-bottom: 0.3rem; ">
-            Using Just the Docs
-        </p>
-        <p style="margin: 0.4rem 0">
-            <a
-                href="https://birdsopensource.github.io/contribute"
-                target="_blank"
-                style="color: #e6e1e7; text-decoration: none"></a>
-            Built with ❤️ by Kyutech LaSEINE 
-        </a>
-        </p>
-    </div>
-</span>
-
-<!--  #e6e1e7 Font color when using dark theme // #626069 Font color when using light theme --> 
-<!-- #27262b Background color when using dark theme // #f8f9fb Background color when using light theme -->
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
   
 </div>
 
@@ -668,36 +653,18 @@ document.addEventListener("DOMContentLoaded", function () {
   <footer>
     
 
-    <!-- Footer Starts light-bg: #f8f9fb -->
-<!--  #e6e1e7 Font color when using dark theme // #626069 Font color when using light theme --> 
-<!-- #27262b footer Background color when using dark theme // #f8f9fb footer Background color when using light theme -->
-<footer
-  class="site-footer"
-  style="
-    background-color: #27262b;
-    color: #e6e1e7;
-    font-size: 14px;
-    padding: 2rem 1rem;
-    width: 100%;
-  "
->
-  <div style="max-width: 100%; margin: 0 auto">
-    <div
-      style="
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));
-        gap: 2rem;
-      "
-    >
-      <!-- Column 1: Copyright font-in-dark-theme #e6e1e7 ; font-in-light-theme: #333-->
+    <footer class="birds-footer">
+  <div class="birds-footer-inner">
+    <div class="birds-footer-grid">
+
+      <!-- Copyright -->
       <div>
-        <p style="margin-bottom: 0.5rem">
-          &copy; 2015–2025 <br />
+        <p>
+          &copy; 2015–2026 LaSEINE, Kyutech<br />
           <a
             href="https://kyutech-laseine.net/english/"
             target="_blank"
             rel="noopener noreferrer"
-            style="color: #e6e1e7; text-decoration: none"
           >
             Laboratory of Lean Satellite Enterprises and In-Orbit Experiment
             (LaSEINE), Kyutech
@@ -705,41 +672,37 @@ document.addEventListener("DOMContentLoaded", function () {
         </p>
       </div>
 
-      <!-- Column 2: Contribute -->
+      <!-- Contribute -->
       <div>
-        <p style="margin-bottom: 0.3rem; font-weight: bold">
-          Contribute to Docs
-        </p>
-        <p style="margin: 0.4rem 0">
+        <p class="birds-footer-title">Contribute to Docs</p>
+
+        <p>
           🛠️
           <a
             href="https://birdsopensource.github.io/contribute"
             target="_blank"
-            style="color: #e6e1e7; text-decoration: none"
           >
             Learn how to get involved
           </a>
         </p>
-        <p style="margin: 0.4rem 0">
+
+        <p>
           💬
           <a
             href="https://github.com/orgs/BIRDSOpenSource/discussions/categories/general"
             target="_blank"
-            style="color: #e6e1e7; text-decoration: none"
           >
             Submit feedback
           </a>
         </p>
       </div>
 
-      <!-- Column 3: Community -->
+      <!-- Community -->
       <div>
-        <p style="margin-bottom: 0.3rem; font-weight: bold">
-          Join the Community
-        </p>
+        <p class="birds-footer-title">Join the Community</p>
 
         <!-- Telegram -->
-        <p style="margin: 0.4rem 0">
+        <p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 240 240"
@@ -751,16 +714,14 @@ document.addEventListener("DOMContentLoaded", function () {
               d="M120 0C53.73 0 0 53.73 0 120s53.73 120 120 120 120-53.73 120-120S186.27 0 120 0zm56.07 82.72l-18.73 88.27c-1.42 6.3-5.2 7.84-10.53 4.88l-29.12-21.46-14.04 13.52c-1.55 1.54-2.85 2.85-5.83 2.85l2.08-29.5 53.64-48.45c2.33-2.05-.51-3.2-3.6-1.15l-66.3 41.73-28.54-8.92c-6.2-1.94-6.3-6.2 1.29-9.17l111.65-43.06c5.2-1.93 9.74 1.28 8.07 9.46z"
             />
           </svg>
-          <a
-            href="https://t.me/+D3BCqCmceQ41ZGFl"
-            target="_blank"
-            style="color: #e6e1e7; text-decoration: none"
-            >Chat on Telegram</a
-          >
+
+          <a href="https://t.me/+D3BCqCmceQ41ZGFl" target="_blank">
+            Chat on Telegram
+          </a>
         </p>
 
         <!-- YouTube -->
-        <p style="margin: 0.4rem 0">
+        <p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -772,39 +733,35 @@ document.addEventListener("DOMContentLoaded", function () {
               d="M23.498 6.186a2.897 2.897 0 0 0-2.038-2.049C19.663 3.5 12 3.5 12 3.5s-7.662 0-9.46.637a2.897 2.897 0 0 0-2.038 2.049C.5 8.02.5 12 .5 12s0 3.98.637 5.814a2.897 2.897 0 0 0 2.038 2.049C4.338 20.5 12 20.5 12 20.5s7.663 0 9.46-.637a2.897 2.897 0 0 0 2.038-2.049C23.5 15.98 23.5 12 23.5 12s0-3.98-.002-5.814zM9.75 15.568V8.432L15.818 12 9.75 15.568z"
             />
           </svg>
-          <a
-            href="https://www.youtube.com/@kyutechseic4187"
-            target="_blank"
-            style="color: #e6e1e7; text-decoration: none"
-            >Watch on YouTube</a
-          >
+
+          <a href="https://www.youtube.com/@kyutechseic4187" target="_blank">
+            Watch on YouTube
+          </a>
         </p>
 
         <!-- Webinars -->
-        <p style="margin: 0.4rem 0">
+        <p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             width="16"
             height="16"
-            style="vertical-align: middle; margin-right: 6px; fill: #e6e1e7"
+            style="vertical-align: middle; margin-right: 6px; fill: currentColor"
           >
             <path
               d="M21 4H3C1.9 4 1 4.9 1 6v9c0 1.1.9 2 2 2h4v2H5a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2h-2v-2h4c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2ZM3 15V6h18v9H3Zm10 2v2h-2v-2h2Zm-6-6h2v2H7v-2Zm3 0h2v2h-2v-2Zm3 0h2v2h-2v-2Z"
             />
           </svg>
-          <a
-            href="https://lean-sat.org/opensource/"
-            target="_blank"
-            style="color: #e6e1e7; text-decoration: none"
-            >Subscribe to newsletter for monthly webinar updates</a
-          >
+
+          <a href="https://lean-sat.org/opensource/" target="_blank">
+            Subscribe to newsletter for monthly webinar updates
+          </a>
         </p>
       </div>
+
     </div>
   </div>
 </footer>
-
 
     
   </footer>
