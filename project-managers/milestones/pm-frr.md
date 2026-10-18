@@ -31,5 +31,5 @@ lang: en
 Testing and integration
 
 
-[Risk management plan]({{site.url}}/project-managers/pm-risk-mgmt-plan/){: .btn .btn-purple }
+[Risk management plan]({{site.url}}/project-managers/pm-risk-mgmt-plan/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

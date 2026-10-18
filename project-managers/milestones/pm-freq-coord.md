@@ -23,5 +23,5 @@ Because of the diffderence in process lenght per country it is best to start thi
 
 
 
-[Preliminary Design Review]({{site.url}}/project-managers/pm-pdr/){: .btn .btn-purple }
+[Preliminary Design Review]({{site.url}}/project-managers/pm-pdr/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

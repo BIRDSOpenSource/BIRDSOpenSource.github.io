@@ -68,5 +68,5 @@ This guide provides a structured approach to defining mission specifications for
 
 Now that you have a better idea of the mission your satellite wants to accomplish and the technical specifications of it, you need to create a [requirements allocation sheet]({{site.url}}/how-tos/requirement-allocation-sheet) for each subsytems depending on how they relate with your mission objectives. 
 
-[Previous]({{site.url}}/get-started/github-account.html){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started/github-account.html){: .btn .btn }
 [Next]({{site.url}}/how-tos/requirement-allocation-sheet){: .btn}

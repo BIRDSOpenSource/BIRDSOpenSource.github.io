@@ -54,7 +54,7 @@ safety review
 
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-18){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-18){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-20){: .btn}
 
 

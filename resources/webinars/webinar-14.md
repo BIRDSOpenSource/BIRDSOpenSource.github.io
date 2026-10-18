@@ -57,7 +57,7 @@ fault tree analysis
 
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-13){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-13){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-15){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

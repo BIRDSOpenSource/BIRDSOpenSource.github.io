@@ -50,7 +50,7 @@ Tetsuro Harada
 
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-25){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-25){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-27){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

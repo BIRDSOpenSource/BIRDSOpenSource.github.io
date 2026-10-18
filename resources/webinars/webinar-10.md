@@ -57,7 +57,7 @@ Automatic Packet Reporting System (APRS) was originally called Automatic Positio
 
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-09){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-09){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-11){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork, APRS

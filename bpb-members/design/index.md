@@ -26,5 +26,5 @@ Connector Selection and Placement
 Types of connectors for CubeSat BPBs (e.g., Hirose, Samtec).
 Strategies for minimizing failures during vibration and thermal testing.
 
-[Previous]({{site.url}}/get-started){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started){: .btn .btn }
 [Next]({{site.url}}/get-started/reference.html){: .btn}

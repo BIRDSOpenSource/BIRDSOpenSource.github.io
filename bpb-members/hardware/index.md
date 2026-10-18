@@ -25,5 +25,5 @@ Designing Fault-Tolerant Backplane Boards
 Redundancy in power and data lines.
 Implementing bypass options for critical paths.
 
-[Previous]({{site.url}}/get-started){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started){: .btn .btn }
 [Next]({{site.url}}/get-started/reference.html){: .btn}

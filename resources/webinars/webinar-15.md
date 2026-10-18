@@ -61,7 +61,7 @@ Antarikchya Pratisthan Nepal translates to Space Foundation, Nepal.
 **Trishna Shrestha** presented on **"Use of BIRDS Open-Source Standardized BUS in Munal, Danfe and Danfe-2"** discussed the technical side and how they have leveraged the BIRDS Open Source
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-14){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-14){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-16){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

@@ -97,7 +97,7 @@ Dr. Fatimah Zaharah Ali discusses the design of a low Ground Sampling Distance (
 Together, they highlight regional cooperation and innovative imaging solutions for small satellites.
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-24){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-24){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-26){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

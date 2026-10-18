@@ -60,7 +60,7 @@ Also, LIB/RF export project management and business development.<br>
 this webinar, HK, photos, APRS of “KASHIWA” will be presented.
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-21){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-21){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-23){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

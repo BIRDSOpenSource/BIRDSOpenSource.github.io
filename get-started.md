@@ -60,5 +60,5 @@ Want to contribute, translate, or test? Contact us via the [project repository](
 
 ---
 
-[About BIRDS]({{site.url}}/about){: .btn .btn-purple }
+[About BIRDS]({{site.url}}/about){: .btn .btn }
 [Next]({{site.url}}/){: .btn}

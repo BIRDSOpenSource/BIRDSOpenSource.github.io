@@ -75,7 +75,7 @@ The presentation will be a report on the operation results of
 the MicroOrbiter-1 satellite.
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-22){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-22){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-24){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

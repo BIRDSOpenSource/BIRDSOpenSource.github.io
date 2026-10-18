@@ -82,7 +82,7 @@ development milestones, and operational results of CURTIS, highlighting the pote
 CubeSat development using the Kyutech BUS platform..
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-23){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-23){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-25){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

@@ -23,5 +23,5 @@ lang: en
 ## Organise social events for your team
 
 
-[Choose a DMS]({{site.url}}/project-managers/pm-choose-a-dms/){: .btn .btn-purple }
+[Choose a DMS]({{site.url}}/project-managers/pm-choose-a-dms/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

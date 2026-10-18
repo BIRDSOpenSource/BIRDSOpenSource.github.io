@@ -63,7 +63,7 @@ EduSat – Educational CubeSat Platform
 </details>
 
 
-[Previous]({{site.url}}//resources/webinars/webinar-29){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-29){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-31){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

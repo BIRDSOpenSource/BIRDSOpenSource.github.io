@@ -15,5 +15,5 @@ The documentation for the BIRDS**4** version of this board can be found [***here
 
 now that you know all you need to know about the subsystems, find out what elese is important to note before you start designing and building.
 
-[Previous]({{site.url}}/overview/birds/rab-page){: .btn .btn-purple }
+[Previous]({{site.url}}/overview/birds/rab-page){: .btn .btn }
 [Next]({{site.url}}/overview/before-you-start){: .btn}

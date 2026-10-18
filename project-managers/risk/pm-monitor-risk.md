@@ -32,5 +32,5 @@ Prepare for milestones
 
 
 
-[Mission Definition Review]({{site.url}}/project-managers/pm-mdr/){: .btn .btn-purple }
+[Mission Definition Review]({{site.url}}/project-managers/pm-mdr/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

@@ -53,7 +53,7 @@ birds-x
 </details>
 
 
-[Previous]({{site.url}}//resources/webinars/webinar-12){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-12){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-14){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

@@ -94,5 +94,5 @@ If you would like to dive deeper or start implementing the BPB for your CubeSat,
 By understanding the role and design of the Backplane Board in the BIRDS bus, you can effectively implement this critical component in your CubeSat mission.
 
 
-[Previous]({{site.url}}/overview/birds/com-page){: .btn .btn-purple }
+[Previous]({{site.url}}/overview/birds/com-page){: .btn .btn }
 [Next]({{site.url}}/overview/birds/fab-page){: .btn}

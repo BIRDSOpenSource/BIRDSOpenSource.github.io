@@ -56,7 +56,7 @@ The KITSUNE Satellite is a 6U satellite. It has two key segments:
 
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-10){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-10){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-12){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork, radio frequency

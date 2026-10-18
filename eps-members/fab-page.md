@@ -17,5 +17,5 @@ The contact address is takei@sagami-net.co.jp
 The documentation for the BIRDS**3** version of this board can be found  [***here***](https://github.com/BIRDSOpenSource/BIRDS3-FAB).
 The documentation for the BIRDS**4** version of this board can be found  [***here***](https://github.com/BIRDSOpenSource/BIRDS4-FAB).
 
-[Previous]({{site.url}}/overview/birds/bpb-page){: .btn .btn-purple }
+[Previous]({{site.url}}/overview/birds/bpb-page){: .btn .btn }
 [Next]({{site.url}}/overview/birds/antenna-page){: .btn}

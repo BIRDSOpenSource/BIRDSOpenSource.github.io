@@ -56,7 +56,7 @@ open source
 
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-20){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-20){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-22){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

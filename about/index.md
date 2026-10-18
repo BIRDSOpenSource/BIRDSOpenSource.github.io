@@ -72,5 +72,5 @@ Kyutech's fellowship programs (PNST) and Space Engineering International Course 
 
 
 
-[BIRDS Bus]({{site.url}}/about/bus-page.html){: .btn .btn-purple }
+[BIRDS Bus]({{site.url}}/about/bus-page.html){: .btn .btn }
 [Systems Engineering Approach]({{site.url}}/about/systems-engineering.html){: .btn}

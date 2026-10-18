@@ -20,5 +20,5 @@ The repository for the Open Birds Operation (Ground Station) Software can be fou
 
 _Note: software is untested by repository authors._
 
-[Previous]({{site.url}}/overview/birds/antenna-page){: .btn .btn-purple }
+[Previous]({{site.url}}/overview/birds/antenna-page){: .btn .btn }
 [Next]({{site.url}}/overview/birds/rab-page){: .btn}

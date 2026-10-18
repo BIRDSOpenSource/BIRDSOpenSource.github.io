@@ -55,7 +55,7 @@ BIRDS-5
 </details>
 
 
-[Previous]({{site.url}}//resources/webinars/webinar-04){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-04){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-06){: .btn}
 
 **Keywords:**  International collaboration, Project management, small space Project, teamwork, cubesat

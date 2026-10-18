@@ -50,7 +50,7 @@ Marloun Sejera in Kyushu Institute of Technology (Kyutech)
 </details>
 
 
-[Previous]({{site.url}}//resources/webinars/webinar-07){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-07){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-09){: .btn}
 
 

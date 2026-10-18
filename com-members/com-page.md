@@ -98,5 +98,5 @@ If you would like to dive deeper or start implementing the Communication Board f
 By understanding the role and design of the Communication Board in the BIRDS bus, you can effectively implement this critical subsystem in your CubeSat mission.
 
 
-[Previous]({{site.url}}/overview/birds/obc-page){: .btn .btn-purple }
+[Previous]({{site.url}}/overview/birds/obc-page){: .btn .btn }
 [Next]({{site.url}}/overview/birds/bpb-page){: .btn}

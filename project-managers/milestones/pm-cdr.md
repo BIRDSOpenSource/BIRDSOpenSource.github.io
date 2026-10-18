@@ -102,5 +102,5 @@ If you are preparing for a CDR or want to learn more about the satellite develop
 By understanding the purpose and process of the Critical Design Review, project managers and teams can ensure that their satellite designs are ready for production and assembly, setting the stage for a successful mission.
 
 
-[Safety Review]({{site.url}}/project-managers/pm-safety-review/){: .btn .btn-purple }
+[Safety Review]({{site.url}}/project-managers/pm-safety-review/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

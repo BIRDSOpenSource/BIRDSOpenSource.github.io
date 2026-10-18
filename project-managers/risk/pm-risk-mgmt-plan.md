@@ -30,5 +30,5 @@ A document that tracks risks before they escalate, making it easier to find solu
 
 
 
-[Communicate & monitor risk]({{site.url}}/project-managers/pm-monitor-risk/){: .btn .btn-purple }
+[Communicate & monitor risk]({{site.url}}/project-managers/pm-monitor-risk/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

@@ -34,5 +34,5 @@ this is the opportunity for the whole team to gather and share updates on their 
 on a student it is safe to assume most members have no prior experience. this is an opportunity before or after the weekly meeting to check in on subteams and assess how well the members are managing their tasks, ask them if they need any help or have found any difficulties, and reiterate their deliverables for the next milestone review.
 
 
-[Encourage yor team]({{site.url}}/project-managers/pm-encourage-team/){: .btn .btn-purple }
+[Encourage yor team]({{site.url}}/project-managers/pm-encourage-team/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

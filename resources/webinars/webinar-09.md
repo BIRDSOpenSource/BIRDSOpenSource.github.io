@@ -53,7 +53,7 @@ Keenan Chatar in Kyushu Institute of Technology
 Keeman Chatar gave a detailed prsentation on the OBC and the satellite operation of the BIRDS-5 project, in his presenta6tion titled **"BIRDS-5 OBC"**
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-08){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-08){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-10){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

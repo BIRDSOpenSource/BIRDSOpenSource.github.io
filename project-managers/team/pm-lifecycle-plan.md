@@ -246,5 +246,5 @@ In project management, schedules are used to manage and track time, resources, a
   Combine multiple schedules into one interactive view.  
 
 
-[Organise Meetings]({{site.url}}/project-managers/pm-org-meetings/){: .btn .btn-purple }
+[Organise Meetings]({{site.url}}/project-managers/pm-org-meetings/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

@@ -56,7 +56,7 @@ lessons learned
 
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-17){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-17){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-19){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

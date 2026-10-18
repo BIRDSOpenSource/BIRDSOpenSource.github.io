@@ -60,7 +60,7 @@ Clark Sat-1
 * **Kent Nakazawa** discussed the hardware PCB changes from BIRDS to the Clark Sat-1 project.
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-06){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-06){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-08){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

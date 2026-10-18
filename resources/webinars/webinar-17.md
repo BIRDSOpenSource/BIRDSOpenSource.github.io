@@ -57,7 +57,7 @@ operations
 
 </details>
 
-[Previous]({{site.url}}//resources/webinars/webinar-16){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-16){: .btn .btn }
 [Next]({{site.url}}/resources/webinars/webinar-18){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

@@ -214,7 +214,7 @@ If the requirements process is complex, you can divide the task into smaller par
 - [NASA Systems Engineering Handbook](https://www.nasa.gov/seh)  
 - [ECSS Standards for Space Systems](https://ecss.nl/)
 
-[Previous]({{site.url}}/get-started/reference.html){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started/reference.html){: .btn .btn }
 [Next]({{site.url}}/get-started/download-files.html){: .btn}
 
 
@@ -225,5 +225,5 @@ If the requirements process is complex, you can divide the task into smaller par
 - [ECSS Standards for Space Systems](https://ecss.nl/)
 
 
-[Previous]({{site.url}}/get-started/reference.html){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started/reference.html){: .btn .btn }
 [Next]({{site.url}}/get-started/download-files.html){: .btn}

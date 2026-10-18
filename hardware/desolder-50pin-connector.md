@@ -123,5 +123,5 @@ Here are some resources to assist you in desoldering a 50-pin connector:
 
 These resources should provide you with comprehensive guidance on desoldering a 50-pin connector. 
 
-[Previous]({{site.url}}/get-started/clone-repo.html){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started/clone-repo.html){: .btn .btn }
 [Next]({{site.url}}/get-started){: .btn}

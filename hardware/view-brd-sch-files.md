@@ -8,5 +8,5 @@ lang: en
 
 
 
-[Previous]({{site.url}}/get-started){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started){: .btn .btn }
 [Next]({{site.url}}/get-started/reference.html){: .btn}

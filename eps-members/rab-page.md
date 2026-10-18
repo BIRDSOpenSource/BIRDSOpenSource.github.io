@@ -13,5 +13,5 @@ The documentation for the BIRDS**3** version of this board can be found [**here*
 The documentation for the BIRDS**4** version of this board can be found [**here**](https://github.com/BIRDSOpenSource/BIRDS4-RAB).
 
 
-[Previous]({{site.url}}/overview/birds/GS-software){: .btn .btn-purple }
+[Previous]({{site.url}}/overview/birds/GS-software){: .btn .btn }
 [Next]({{site.url}}/overview/birds/solar-page){: .btn}

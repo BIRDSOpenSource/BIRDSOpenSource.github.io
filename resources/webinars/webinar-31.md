@@ -73,7 +73,7 @@ system architecture and its current development status.
 </details>
 
 
-[Previous]({{site.url}}//resources/webinars/webinar-30){: .btn .btn-purple }
+[Previous]({{site.url}}//resources/webinars/webinar-30){: .btn .btn-birds-blue }
 [Next]({{site.url}}/resources/webinars/webinar-32){: .btn}
 
 **Keywords:** International Collaboration, Project Management, Small Space Project, Teamwork

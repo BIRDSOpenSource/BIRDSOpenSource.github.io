@@ -20,5 +20,5 @@ lang: en
 
 
 
-[Flight readiness review]({{site.url}}/project-managers/pm-frr/){: .btn .btn-purple }
+[Flight readiness review]({{site.url}}/project-managers/pm-frr/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

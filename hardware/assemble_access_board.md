@@ -74,5 +74,5 @@ Before assembling the Access Board, ensure you have:
 * [Assembling the Access Cable](assembling_access_cable.md)
 * [Flashing the Firmware](flashing_firmware.md)
 
-[Previous]({{site.url}}/how-tos){: .btn .btn-purple }
+[Previous]({{site.url}}/how-tos){: .btn .btn }
 [Next]({{site.url}}/how-tos){: .btn}

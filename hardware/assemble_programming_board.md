@@ -47,5 +47,5 @@ Before assembling the programming board, ensure you have the following:
 * [Troubleshooting Guide](#)
 * [Software Flashing Guide](#)
 
-[Previous]({{site.url}}/how-tos){: .btn .btn-purple }
+[Previous]({{site.url}}/how-tos){: .btn .btn }
 [Next]({{site.url}}/how-tos){: .btn}

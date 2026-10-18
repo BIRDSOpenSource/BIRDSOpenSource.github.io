@@ -676,6 +676,34 @@ a:hover {
 
 }
 
+
+.btn {
+  background-color: var(--birds-blue) !important;
+  color: #ffffff !important;
+  border: 1px solid var(--birds-blue) !important;
+
+  &:hover,
+  &:focus {
+    background-color: var(--birds-light-blue) !important;
+    color: var(--birds-text) !important;
+    border-color: var(--birds-light-blue) !important;
+  }
+}
+
+/* Override Just the Docs purple button */
+.btn-birds-blue {
+  background-color: var(--birds-blue) !important;
+  color: #ffffff !important;
+  border-color: var(--birds-blue) !important;
+
+  &:hover,
+  &:focus {
+    background-color: var(--birds-light-blue) !important;
+    color: var(--birds-text) !important;
+    border-color: var(--birds-light-blue) !important;
+  }
+}
+
 /* =========================================================
    CODE
    ========================================================= */

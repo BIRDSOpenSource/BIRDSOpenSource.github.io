@@ -11,5 +11,5 @@ lang: en
 
 
 
-[Previous]({{site.url}}/get-started/github-account.html){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started/github-account.html){: .btn .btn }
 [Next]({{site.url}}/get-started/clone-repo.html){: .btn}

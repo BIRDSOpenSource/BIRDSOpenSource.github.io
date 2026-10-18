@@ -115,5 +115,5 @@ Selecting a launch provider involves **matching mission requirements with availa
 
 
 
-[Previous]({{site.url}}/get-started/clone-repo.html){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started/clone-repo.html){: .btn .btn }
 [Next]({{site.url}}/get-started){: .btn}

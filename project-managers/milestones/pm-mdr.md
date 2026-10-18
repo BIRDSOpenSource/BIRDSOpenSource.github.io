@@ -91,5 +91,5 @@ If you are preparing for an MDR or want to learn more about the satellite develo
 
 By understanding the purpose and process of the Mission Definition Review, project managers and teams can set their satellite missions up for success from the very beginning.
 
-[Frequency Coordination]({{site.url}}/project-managers/pm-freq-coord/){: .btn .btn-purple }
+[Frequency Coordination]({{site.url}}/project-managers/pm-freq-coord/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

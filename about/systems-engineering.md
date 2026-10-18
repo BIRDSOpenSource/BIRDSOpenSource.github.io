@@ -114,5 +114,5 @@ With this foundational knowledge, you’ll be better equipped to dive into the s
 [Critical Design Review (CDR)]: {{site.url}}/project-managers/milestones/pm-cdr.html
 [Flight Readiness Review (FRR)]: {{site.url}}/project-managers/milestones/pm-frr.html
 
-[Previous]({{site.url}}/about/bus-page.html){: .btn .btn-purple }
+[Previous]({{site.url}}/about/bus-page.html){: .btn .btn }
 [Next]({{site.url}}/overview/birds/obc-page){: .btn}

@@ -106,5 +106,5 @@ flowchart TD
 - [1U – 12U CubeSat Design Specifications](https://www3.nasa.gov/sites/default/files/atoms/files/cubesatdesignspecificationrev14_12022-02-09.pdf)
 
 
-[Previous]({{site.url}}/about/){: .btn .btn-purple }
+[Previous]({{site.url}}/about/){: .btn .btn }
 [Next]({{site.url}}/overview/birds/obc-page){: .btn}

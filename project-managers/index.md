@@ -38,15 +38,15 @@ Some of the responsibilities of a project manager include:
 
 ---
 
-[Manage <br /> Risk]({{site.url}}/project-managers/risk/index.html){: .btn .btn-purple}
-[Manage <br /> Documentation ]({{site.url}}/project-managers/documentation/index.html){: .btn .btn-purple}
-[Manage <br /> your team]({{site.url}}/project-managers/team/index.html){: .btn .btn-purple}
-[Prepare <br /> for milestones]({{site.url}}/project-managers/milestones/index.html){: .btn .btn-purple}
-[Testing <br /> and Integration]({{site.url}}/project-managers/testing/index.html){: .btn .btn-purple}
+[Manage <br /> Risk]({{site.url}}/project-managers/risk/index.html){: .btn .btn}
+[Manage <br /> Documentation ]({{site.url}}/project-managers/documentation/index.html){: .btn .btn}
+[Manage <br /> your team]({{site.url}}/project-managers/team/index.html){: .btn .btn}
+[Prepare <br /> for milestones]({{site.url}}/project-managers/milestones/index.html){: .btn .btn}
+[Testing <br /> and Integration]({{site.url}}/project-managers/testing/index.html){: .btn .btn}
 
 ---
 
 [![homepage](/assets/images/birds-textbook-cover.png)](https://birds-project.com/mext/pdf/Digital_Textbook_G_2021JUL06.pdf "BIRDS Digital Textbook")
 
-[Previous]({{site.url}}/about/){: .btn .btn-purple }
+[Previous]({{site.url}}/about/){: .btn .btn }
 [Next]({{site.url}}/overview/birds/obc-page){: .btn}

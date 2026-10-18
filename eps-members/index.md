@@ -177,7 +177,7 @@ Tools and Resources for EPS Teams:
 Battery Testing and Screening Procedures: Detailed procedures for battery testing and screening have been added to the procedures repository. Please check these new documents for updated guidelines.
 
 
-[Previous]({{site.url}}/about/){: .btn .btn-purple }
+[Previous]({{site.url}}/about/){: .btn .btn }
 [Next]({{site.url}}/overview/birds/obc-page){: .btn}
 
 

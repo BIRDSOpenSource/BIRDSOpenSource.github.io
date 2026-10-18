@@ -9,5 +9,5 @@ lang: en
 #  Mission Boss
 
 
-[Previous]({{site.url}}/get-started){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started){: .btn .btn }
 [Next]({{site.url}}/get-started/reference.html){: .btn}

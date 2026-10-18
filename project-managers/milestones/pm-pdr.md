@@ -101,5 +101,5 @@ If you are preparing for a PDR or want to learn more about the satellite develop
 
 By understanding the purpose and process of the Preliminary Design Review, project managers and teams can ensure that their satellite designs are on the right track, setting the stage for a successful mission.
 
-[Critical Design Review]({{site.url}}/project-managers/pm-cdr/){: .btn .btn-purple }
+[Critical Design Review]({{site.url}}/project-managers/pm-cdr/){: .btn .btn }
 [Back to guide]({{site.url}}//pm/guide#how-to){: .btn}

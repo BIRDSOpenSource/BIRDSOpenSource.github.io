@@ -25,5 +25,5 @@ Vibration and Shock Testing for CubeSat BPBs
 Designing for mechanical robustness.
 Case studies from BIRDS missions.
 
-[Previous]({{site.url}}/get-started){: .btn .btn-purple }
+[Previous]({{site.url}}/get-started){: .btn .btn }
 [Next]({{site.url}}/get-started/reference.html){: .btn}
