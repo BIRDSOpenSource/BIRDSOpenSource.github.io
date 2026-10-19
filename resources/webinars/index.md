@@ -69,7 +69,7 @@ Join our monthly webinars and connect with engineers, researchers, and educators
         color: #e6e1e7;
         margin-bottom: 8px;
       ">
-        WEBINAR
+        View Webinar →
       </div>
 
       <h3 style="
@@ -128,7 +128,6 @@ Join our monthly webinars and connect with engineers, researchers, and educators
         font-weight: 600;
         color: white;
       ">
-        Click the Title to View Webinar → 
       </div>
 
     </a>
