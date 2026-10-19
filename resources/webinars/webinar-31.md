@@ -3,6 +3,12 @@ title: 31 Introduction to BIRDS-RPM Project
 parent: Webinars
 layout: default
 lang: en
+date: 2026-04-08
+description: "In this presentation, the speaker will present an overview of the BIRDS-RPM project system architecture and its current development status."
+tags:
+  - student satellite
+  - 3U
+  - introduction
 ---
 
 # Webinar #31

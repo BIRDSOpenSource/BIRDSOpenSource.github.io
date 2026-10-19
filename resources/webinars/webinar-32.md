@@ -3,6 +3,12 @@ title: 32 Introduction of CubeLander and Apophis Landing mission
 parent: Webinars
 layout: default
 lang: en
+date: 2026-10-14
+description: "In this presentation, the speaker will present an overview Birds bus will be application to an asteroid lander called CubeLander."
+tags:
+  - student satellite
+  - 6U
+  - introduction
 ---
 
 # Webinar #32
