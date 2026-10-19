@@ -3,6 +3,12 @@ title: 04 Chiba Tech, BIRDS-4
 parent:  Webinars
 layout: default
 lang: en
+date: 2022-03-12
+description: "In this presentation, the speakers will present an overview Birds4 and Yomogi satellites.."
+tags:
+  - BIRDS-4
+  - ChibaTech
+  - introduction
 ---
 
 # Webinar #4 
