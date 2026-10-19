@@ -29,7 +29,7 @@ Join our monthly webinars and connect with engineers, researchers, and educators
   <h3 class="text-2xl font-bold mb-4">📬 Stay in the loop</h3>
   <p class="mb-6 text-gray-700">Get notified when a new webinar is announced.</p>
 
-  <a href="{{site.url}}/opensource/"
+  <a href="https://lean-sat.org/opensource/"
      target="_blank"
      rel="noopener"
      class="btn bg-[#e6e1e7] text-white px-6 py-2 rounded hover:bg-[#003f73] transition inline-block">
