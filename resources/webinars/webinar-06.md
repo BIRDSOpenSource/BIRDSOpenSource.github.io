@@ -3,6 +3,12 @@ title: 06 Power Budget, Ground Station Software
 parent:  Webinars
 layout: default
 lang: en
+date: 2022-05-14
+description: " "
+tags:
+  - eps
+  - ground station
+  - power budget
 ---
 
 # Webinar #6 

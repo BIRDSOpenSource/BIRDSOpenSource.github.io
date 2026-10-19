@@ -3,6 +3,12 @@ title: 09 BIRDS5 OBC
 parent: Webinars
 layout: default
 lang: en
+date: 2022-08-10
+description: " "
+tags:
+  - birds bus
+  - obc
+  - birds5
 ---
 
 # Webinar #9

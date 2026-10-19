@@ -3,6 +3,12 @@ title: 07 Clark Sat-1 Project
 parent: Webinars
 layout: default
 lang: en
+date: 2022-06-08
+description: " "
+tags:
+  - clarksat
+  - highschool
+  - 
 ---
 
 # Webinar #7

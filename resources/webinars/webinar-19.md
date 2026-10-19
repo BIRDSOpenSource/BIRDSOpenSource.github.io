@@ -3,6 +3,12 @@ title: 19 Simplified Safety Review Process for Cubesats
 parent: Webinars
 layout: default
 lang: en
+date: 2023-12-13
+description: " "
+tags:
+  - safety review
+  - jaxa
+  - jamss
 ---
 
 # Webinar #19

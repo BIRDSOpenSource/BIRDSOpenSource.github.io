@@ -3,6 +3,12 @@ title: 28 Proposal for a Simplified OBC Architecture
 parent: Webinars
 layout: default
 lang: en
+date: 2025-08-06
+description: " "
+tags:
+  - communications
+  - uhf
+  - obc
 ---
 
 # Webinar #28

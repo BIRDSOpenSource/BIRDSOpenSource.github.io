@@ -3,6 +3,12 @@ title: 05 BIRDS-5
 parent:  Webinars
 layout: default
 lang: en
+date: 2022-04-09
+description: "In this presentation, the speakers will present an overview Birds5 satellites."
+tags:
+  - birds5
+  - introduction
+  - 
 ---
 
 # Webinar #5 

@@ -3,6 +3,12 @@ title: 17 Maya CubeSats Catch Up
 parent: Webinars
 layout: default
 lang: en
+date: 2023-09-13
+description: " "
+tags:
+  - maya
+  - operations
+  - overview
 ---
 
 # Webinar #17

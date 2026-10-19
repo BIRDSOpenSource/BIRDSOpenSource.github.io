@@ -3,6 +3,12 @@ title: 14 BIRDS5 Project FTA Overview
 parent: Webinars
 layout: default
 lang: en
+date: 2023-05-08
+description: " "
+tags:
+  - fault tree analysis
+  - birds5
+  - 
 ---
 
 # Webinar #14

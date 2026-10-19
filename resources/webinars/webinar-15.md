@@ -3,6 +3,12 @@ title: 15 Use of BIRDS BUS in Munal, Danfe and Danfe-2
 parent: Webinars
 layout: default
 lang: en
+date: 2023-05-10
+description: " "
+tags:
+  - open source
+  - munal
+  - danfe
 ---
 
 # Webinar #15

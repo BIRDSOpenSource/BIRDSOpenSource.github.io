@@ -3,6 +3,12 @@ title: 25 Two presentations of UiTM ASEANSAT Imaging System and Space Program
 parent: Webinars
 layout: default
 lang: en
+date: 2025-01-29
+description: " "
+tags:
+  - aseansat
+  - uitm
+  - capacity building
 ---
 
 # Webinar #25

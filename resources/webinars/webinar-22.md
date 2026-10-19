@@ -3,6 +3,12 @@ title: 22 KASHIWA initial operation report
 parent: Webinars
 layout: default
 lang: en
+date: 2024-06-12
+description: " "
+tags:
+  - chibatech
+  - kashiwa
+  - operations
 ---
 
 # Webinar #22

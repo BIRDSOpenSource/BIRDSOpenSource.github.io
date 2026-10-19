@@ -3,6 +3,12 @@ title: 10 APRS Mission in BIRDS Satellites
 parent: Webinars
 layout: default
 lang: en
+date: 2022-09-14
+description: " "
+tags:
+  - aprs
+  - birds bus
+  - 
 ---
 
 # Webinar #10

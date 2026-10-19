@@ -3,6 +3,12 @@ title: 18 Lesson learned from manufacturing of 1st to 3rd CIT Birds satellite
 parent: Webinars
 layout: default
 lang: en
+date: 2023-11-09
+description: " "
+tags:
+  - chibatech
+  - lessons learned
+  - bus changes
 ---
 
 # Webinar #18

@@ -3,6 +3,12 @@ title: 11 KITSUNE Satellite Bus System Overview
 parent: Webinars
 layout: default
 lang: en
+date: 2022-10-12
+description: " "
+tags:
+  - kitsune
+  - birds bus
+  - overview
 ---
 
 # Webinar #11

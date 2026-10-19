@@ -3,6 +3,12 @@ title: 08 Configurable Backplane
 parent: Webinars
 layout: default
 lang: en
+date: 2022-07-13
+description: " "
+tags:
+  - birds bus
+  - backplane
+  - 
 ---
 
 # Webinar #8 

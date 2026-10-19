@@ -3,6 +3,12 @@ title: 26 Comparison between Gardens and BIRDS
 parent: Webinars
 layout: default
 lang: en
+date: 2025-03-12
+description: " "
+tags:
+  - chibatech
+  - birds bus
+  - comparison
 ---
 
 # Webinar #26

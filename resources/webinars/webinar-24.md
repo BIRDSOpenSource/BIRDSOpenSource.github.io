@@ -3,6 +3,12 @@ title: 24 Development and Operational Insights from the CURTIS CubeSat
 parent: Webinars
 layout: default
 lang: en
+date: 2024-10-10
+description: " "
+tags:
+  - operations
+  - curtis
+  - 
 ---
 
 # Webinar #24

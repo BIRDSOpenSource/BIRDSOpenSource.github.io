@@ -3,6 +3,12 @@ title: 29 Overview of the BIRDS-X Satellite
 parent: Webinars
 layout: default
 lang: en
+date: 2025-12-10
+description: " "
+tags:
+  - birds-x
+  - student satellite
+  - lessons learned
 ---
 
 # Webinar #29

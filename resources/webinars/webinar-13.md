@@ -3,6 +3,12 @@ title: 13 BIRDS-X Project Overview
 parent: Webinars
 layout: default
 lang: en
+date: 2023-02-08
+description: " "
+tags:
+  - birdsx
+  - overview
+  - 
 ---
 
 # Webinar #13

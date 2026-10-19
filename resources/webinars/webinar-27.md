@@ -3,6 +3,12 @@ title: 27 BIRDS Open Source Updates & Research Insights
 parent: Webinars
 layout: default
 lang: en
+date: 2025-06-11
+description: " "
+tags:
+  - open source
+  - birds bus
+  - research
 ---
 
 # Webinar #27

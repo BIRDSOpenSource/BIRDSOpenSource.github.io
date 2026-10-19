@@ -3,6 +3,12 @@ title: 21 Two presentations of BIRDS-X and BIRDS Bus Open-source
 parent: Webinars
 layout: default
 lang: en
+date: 2024-04-10
+description: " "
+tags:
+  - open source
+  - birdsx
+  - birds bus
 ---
 
 # Webinar #21

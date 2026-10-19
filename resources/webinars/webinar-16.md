@@ -3,6 +3,12 @@ title: 16 An Overview of the GuaraniSat 2 Project
 parent: Webinars
 layout: default
 lang: en
+date: 2023-07-12
+description: " "
+tags:
+  - guaranisat
+  - overview
+  - 
 ---
 
 # Webinar #16

@@ -3,6 +3,12 @@ title: 30 SkySat Training Program & EduSat
 parent: Webinars
 layout: default
 lang: en
+date: 2026-02-18
+description: " "
+tags:
+  - edusat
+  - ks4e
+  - training
 ---
 
 # Webinar #30
