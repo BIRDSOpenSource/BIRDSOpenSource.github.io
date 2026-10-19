@@ -43,6 +43,13 @@ chibatech
 <details markdown="block">
 <summary>Speaker Information</summary>
 Tetsuro Harada from Chiba Institute of Technology (CIT)
+2010 ISU SSP10 in strasburg.
+2011 graduated master course from cholab as OBC of HORYU1
+2011 to 2021 MELOS (Mitsubishi Electric Logistics system)
+Many satellite experiences such as ISS/GEO/LEO satellite system engineering.
+Also, LIB/RF export project management and business development.
+2021 to current, Chiba Institute of technology PERC as a researcher.
+
 </details>
 
 
