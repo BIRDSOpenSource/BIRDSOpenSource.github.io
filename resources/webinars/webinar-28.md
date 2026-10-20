@@ -4,7 +4,7 @@ parent: Webinars
 layout: default
 lang: en
 date: 2025-08-06
-description: " "
+description: "Tharindu Dayarathna presents an overview of the BIRDS UHF communication system, including uplink, telemetry, and CW beacon functions. It will explain packet and CW formats, and introduce a new low-cost UHF transceiver with system design and integration details. The session concludes with updates on the EPS/OBC PCB layout and a simplified OBC architecture that reduces microcontroller usage."
 tags:
   - communications
   - uhf
