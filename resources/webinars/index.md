@@ -40,7 +40,6 @@ Earth-orbiting CubeSats.
   </a>
 </div>
 
----
 
 ## 🎥 Past Webinars
 
