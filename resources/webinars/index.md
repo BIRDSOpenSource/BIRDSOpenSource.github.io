@@ -13,16 +13,15 @@ description: "Join monthly webinars to learn about CubeSat engineering, missions
 
 Join our monthly webinars and connect with engineers, researchers, and educators working on lean satellite development and open-source CubeSat technology.
 
----
 
 ## 📅 Upcoming Webinar
 
-### Overview of the BIRDS Satellite Communication Subsystem, Design of a Low-Cost UHF Transceiver, and Proposal for a Simplified OBC Architecture
+### Introduction to the CubeLander and Apophis Landing mission
 
-<span class="text-gray-600 text-sm block mb-4">6th August (Wed) 22:00 (JST)</span>
+<span class="text-gray-600 text-sm block mb-4">14th October (Wed) 22:00 (JST)</span>
 
 <p class="mb-4">
-  Tharindu Dayarathna presents an overview of the BIRDS UHF communication system, including uplink, telemetry, and CW beacon functions. It will explain packet and CW formats, and introduce a new low-cost UHF transceiver with system design and integration details. The session concludes with updates on the EPS/OBC PCB layout and a simplified OBC architecture that reduces microcontroller usage.
+  Tetsuro Harada presents an introduction to the CubeLander and Apophis Landing mission.
 </p>
 
 <div id="subscribe" class="bg-white py-3 px-2 text-center border border-gray-200 rounded mt-12">
