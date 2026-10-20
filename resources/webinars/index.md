@@ -18,10 +18,14 @@ Join our monthly webinars and connect with engineers, researchers, and educators
 
 ### Introduction to the CubeLander and Apophis Landing mission
 
-<span class="text-gray-600 text-sm block mb-4">14th October (Wed) 22:00 (JST)</span>
+<span class="text-gray-600 text-sm block mb-4">14th October 2026 (Wed) 22:00 (JST)</span>
 
 <p class="mb-4">
-  Tetsuro Harada presents an introduction to the CubeLander and Apophis Landing mission.
+  Tetsuro Harada presents an introduction to the CubeLander and Apophis Landing mission. Birds bus will be applied to an asteroid lander called CubeLander. A target asteroid is 
+Apophis, which will make a close approach to Earth on April 13, 2029, passing 
+approximately 36,000 km above the Earth’s surface. The CubeLander will be 
+developed primarily by students of ChibaTech who had developed and operated 
+Earth-orbiting CubeSats.
 </p>
 
 <div id="subscribe" class="bg-white py-3 px-2 text-center border border-gray-200 rounded mt-12">
